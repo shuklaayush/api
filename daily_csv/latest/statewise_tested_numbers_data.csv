@@ -2,7 +2,7 @@ Updated On,State,Total Tested,Positive,Negative,Unconfirmed,Total People In Quar
 01/04/2020,Delhi,2621,,,2621,,,,,,,http://health.delhigovt.nic.in/wps/wcm/connect/068e55804dc3527fb23cf7982ee7a5c7/HB01A.pdf?MOD=AJPERES&lmod=908572962&CACHEID=068e55804dc3527fb23cf7982ee7a5c7,,,,
 01/04/2020,West Bengal,659,37,568,54,,,,,,,https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_01.04_.2020_.pdf,,,,
 01/04/2020,Kerala,7965,265,7256,444,622,,,,,,https://dashboard.kerala.gov.in/testing-view-public.php,,,,https://dashboard.kerala.gov.in/quarantine-view-public.php
-01/04/2020,Kerala,8456,286,7622,548,643,,,,,,https://dashboard.kerala.gov.in/testing-view-public.php,,,,https://dashboard.kerala.gov.in/quarantine-view-public.php
+02/04/2020,Kerala,8456,286,7622,548,643,,,,,,https://dashboard.kerala.gov.in/testing-view-public.php,,,,https://dashboard.kerala.gov.in/quarantine-view-public.php
 02/04/2020,Andhra Pradesh,1800,132,1175,493,179,,23479,2680,330,,https://twitter.com/ArogyaAndhra/status/1245580598938198016?s=20,,,,
 02/04/2020,Assam,962,16,819,127,,,,,,,https://twitter.com/nhm_assam/status/1245742375319691264/photo/1,,,,
 02/04/2020,Chandigarh,124,18,98,8,,,,,,,http://chdcovid19.in/,,,,
@@ -10,14 +10,14 @@ Updated On,State,Total Tested,Positive,Negative,Unconfirmed,Total People In Quar
 02/04/2020,Goa,220,5,197,18,,,,,,,https://www.goa.gov.in/wp-content/uploads/2020/04/Media-Bulletin-02.04.2020.pdf,,,,
 02/04/2020,Punjab,1434,37,1236,161,,,,,,,https://twitter.com/kbssidhu1961/status/1245680244658339841/photo/1,,,,
 02/04/2020,Uttarakhand,678,7,554,117,,,,,,,https://www.facebook.com/UKMedicalHealth/photos/a.1666257713623931/2556543367928690/?type=3&theater,,,,
-02/04/2020,Haryana,1325,44,938,343,,,,,,,http://www.nhmharyana.gov.in/WriteReadData/userfiles/file/CoronaVirus/BULLETIN%20EVENING03042020.pdf,,,,
+03/04/2020,Haryana,1325,44,938,343,,,,,,,http://www.nhmharyana.gov.in/WriteReadData/userfiles/file/CoronaVirus/BULLETIN%20EVENING03042020.pdf,,,,
 03/04/2020,Karnataka,4587,128,4281,178,219,,,,,,https://karunadu.karnataka.gov.in/hfw/kannada/nCovDocs/03-04-2020(English).pdf,,,,
 03/04/2020,Kerala,9139,295,8126,718,706,,,,,,https://dashboard.kerala.gov.in/,,,,https://dashboard.kerala.gov.in/quarantine-view-public.php
 03/04/2020,Odisha,1395,20,1108,267,,,,,,,https://twitter.com/HFWOdisha/status/1246135145230303232,,,,
 03/04/2020,Tamil Nadu,3684,411,2789,484,284,,13323,,3044,,https://stopcorona.tn.gov.in/wp-content/uploads/2020/03/Media-Bulletin-03-04-20-COVID-19-6-PM.pdf,,,,
-03/04/2020,West Bengal,1042,,,,1125,786,,,,,,,,,
-04/04/2020,Kerala,9744,306,8586,852,734,,,,,,https://dashboard.kerala.gov.in/testing-view-public.php,,,,https://dashboard.kerala.gov.in/quarantine-view-public.php
-04/02/2020,Madhya Pradesh,2812,193,1954,665,,,,,,,https://twitter.com/JansamparkMP/status/1246841187073273857,,,,
+04/04/2020,West Bengal,1042,,,,1125,786,,,,,,,,,
+04/02/2020,Kerala,9744,306,8586,852,734,,,,,,https://dashboard.kerala.gov.in/testing-view-public.php,,,,https://dashboard.kerala.gov.in/quarantine-view-public.php
+05/04/2020,Madhya Pradesh,2812,193,1954,665,,,,,,,https://twitter.com/JansamparkMP/status/1246841187073273857,,,,
 05/04/2020,Uttar Pradesh,5255,278,4796,181,,,,,,,WA circular :/,,,,
 05/04/2020,Bihar,3037,32,2299,706,,,,,,,https://twitter.com/sanjayjavin/status/1246667952054665216,,,,
 05/04/2020,Jammu and Kashmir,1551,106,1429,16,,,,,,,https://twitter.com/diprjk/status/1246764514135040000,,,,
@@ -29,12 +29,12 @@ Updated On,State,Total Tested,Positive,Negative,Unconfirmed,Total People In Quar
 05/04/2020,Uttar Pradesh,5255,278,4796,179,3927,,,,,,,,,,
 05/04/2020,Uttarakhand,,,,,,,,,,,,,,,
 05/04/2020,Maharashtra,16008,,14837,,3122,,,,,,,,,,
-05/04/2020,Maharashtra,17563,868,15808,,3498,,,,,,https://www.cnbctv18.com/healthcare/maharashtra-covid-19-tally-mounts-to-868-with-7-fresh-deaths-5634351.htm,,,,
+06/04/2020,Maharashtra,17563,868,15808,,3498,,,,,,https://www.cnbctv18.com/healthcare/maharashtra-covid-19-tally-mounts-to-868-with-7-fresh-deaths-5634351.htm,,,,
 06/04/2020,Nagaland,60,0,47,13,,,489,,70,,http://morungexpress.com/nagaland-covid-19-update-2,,,,
 06/04/2020,Kerala,10716,327,9607,782,795,,,,,,https://dashboard.kerala.gov.in/testing-view-public.php,,,,https://dashboard.kerala.gov.in/quarantine-view-public.php
 06/04/2020,Mizoram,58,1,0,0,207,,,,,,https://health.mizoram.gov.in/post/covid-19-bulletin-date-642020,,,,
 06/04/2020,West Bengal,1301,,,,246,,,,,,https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_06.04_.2020(1)_.pdf,,,,
-06/04/2020,Madhya Pradesh,3770,290,3125,355,,,9492,1598,993,,https://twitter.com/JansamparkMP/status/1247554866043473920,,,,
+07/04/2020,Madhya Pradesh,3770,290,3125,355,,,9492,1598,993,,https://twitter.com/JansamparkMP/status/1247554866043473920,,,,
 07/04/2020,Odisha,2190,40,,,,,,,,,https://twitter.com/HFWOdisha/status/1247579939206909953,,,,
 07/04/2020,Haryana,2520,141,1821,558,687,,,,,,http://www.nhmharyana.gov.in/WriteReadData/userfiles/file/CoronaVirus/bulletin%2008042020Morning.pdf,,,,
 07/04/2020,Uttarakhand,1289,32,1092,165,176,,,,,,,,,,
@@ -46,7 +46,7 @@ Updated On,State,Total Tested,Positive,Negative,Unconfirmed,Total People In Quar
 07/04/2020,Odisha,2441,42,,,,,,,,,https://twitter.com/HFWOdisha/status/1247579939206909953,,,,
 07/04/2020,Delhi,9041,576,7308,1157,3120,,,,,,http://health.delhigovt.nic.in/wps/wcm/connect/ed4d3d804dd60b488b60ff982ee7a5c7/HB07A.pdf?MOD=AJPERES&lmod=1435478287&CACHEID=ed4d3d804dd60b488b60ff982ee7a5c7,,,,
 07/04/2020,Karnataka,6580,175,5942,,,,1540,250,130,,https://karunadu.karnataka.gov.in/hfw/kannada/nCovDocs/07-04-2020(English).pdf,,,,
-07/04/2020,Gujarat,4224,186,3905,133,12299,,,,1761,,https://t.me/indiacovid/1850?single,,,,
+08/04/2020,Gujarat,4224,186,3905,133,12299,,,,1761,,https://t.me/indiacovid/1850?single,,,,
 08/04/2020,Tamil Nadu,5305,690,4414,201,1864,,22049,,3371,,https://stopcorona.tn.gov.in/,,,,
 08/04/2020,Bihar,4596,38,,465,,,,,,,https://twitter.com/sanjayjavin/status/1247762894063677440,,,,
 08/04/2020,Punjab,2937,106,2614,217,,,,,,,https://twitter.com/kbssidhu1961/status/1247878360966901763/photo/1,,,,
@@ -58,7 +58,7 @@ Updated On,State,Total Tested,Positive,Negative,Unconfirmed,Total People In Quar
 08/04/2020,Haryana,2650,153,1885,612,545,,8649,,,,http://www.nhmharyana.gov.in/WriteReadData/userfiles/file/CoronaVirus/bulletin%2008042020%20evening.pdf,,,,
 08/04/2020,Chandigarh,184,18,162,,,,,,,,http://chdcovid19.in/,,,,
 08/04/2020,Karnataka,6967,181,6473,,,,,,,,https://karunadu.karnataka.gov.in/hfw/kannada/nCovDocs/08-04-2020(English).pdf,,,,
-08/04/2020,Rajasthan,19107,463,17851,793,,,,,,,http://www.rajswasthya.nic.in/,,,,https://twitter.com/TabeenahAnjum/status/1248310723882536960?s=09
+09/04/2020,Rajasthan,19107,463,17851,793,,,,,,,http://www.rajswasthya.nic.in/,,,,https://twitter.com/TabeenahAnjum/status/1248310723882536960?s=09
 09/04/2020,Arunachal Pradesh,206,1,185,20,,,,,,,https://twitter.com/PemaKhanduBJP/status/1248269356070363136?s=19,,,,
 09/04/2020,West Bengal,1889,,,,1723,1345,,,,26025,https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_09.04_.2020_.pdf,,,,
 09/04/2020,Uttar Pradesh,8402,410,7898,94,8671,,,,,,https://t.me/c/1428198946/1789,,,,
@@ -77,7 +77,7 @@ Updated On,State,Total Tested,Positive,Negative,Unconfirmed,Total People In Quar
 09/04/2020,Tamil Nadu,7267,834,5824,485,2042,,29074,,3371,,https://stopcorona.tn.gov.in/wp-content/uploads/2020/03/Media-Bulletin09.04.20-5-Pages-English-173-KB.pdf,,,,
 09/04/2020,Kerala,12710,357,11469,884,723,,,,,,https://twitter.com/vijayanpinarayi/status/1248267225825308677,,,,https://dashboard.kerala.gov.in/
 09/04/2020,Delhi,9968,720,8643,605,2664,,,,,,http://health.delhigovt.nic.in/wps/wcm/connect/doit_health/Health/Home/Covid19/Health+Bulletin,,,,http://health.delhigovt.nic.in/wps/wcm/connect/22522a804ddd430195f5f7d194e333e1/HB09A.pdf
-09/04/2020,Andhra Pradesh,6374,365,6009,,,,,,,,http://hmfw.ap.gov.in/covid_dashboard.aspx,,,,
+10/04/2020,Andhra Pradesh,6374,365,6009,,,,,,,,http://hmfw.ap.gov.in/covid_dashboard.aspx,,,,
 10/04/2020,Assam,2863,29,2685,,,,3212,440,240,9245,https://t.me/indiacovid/2003?single,,,,
 10/04/2020,Bihar,5457,60,,673,,,,,,,https://twitter.com/BiharHealthDept/status/1248494623409885184/photo/1,,,,
 10/04/2020,Chandigarh,223,19,199,4,,,,,,,http://chdcovid19.in/,,,,
@@ -102,7 +102,7 @@ Updated On,State,Total Tested,Positive,Negative,Unconfirmed,Total People In Quar
 10/04/2020,Uttarakhand,1688,35,1320,333,3770,,,,,478,http://health.uk.gov.in/files/Health_Bulletin__Uttarakhand_Novel_Corona_Virus_10_April_2020__5_PM.pdf,,,,http://health.uk.gov.in/pages/display/140-novel-corona-virus-guidelines-and-advisory-
 10/04/2020,Uttar Pradesh,9332,433,8798,101,8771,,,,,,https://t.me/c/1428198946/1831,,,,
 10/04/2020,West Bengal,2095,,,,1840,1447,,,,27068,https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_10.04_.2020_.pdf,,,,
-10/04/2020,Andhra Pradesh,6958,381,6577,,,,,,,,http://hmfw.ap.gov.in/covid_dashboard.aspx,,,,
+11/04/2020,Andhra Pradesh,6958,381,6577,,,,,,,,http://hmfw.ap.gov.in/covid_dashboard.aspx,,,,
 11/04/2020,Assam,3011,29,2842,,,,3212,440,240,9514,https://t.me/indiacovid/2075?single,,,,
 11/04/2020,Bihar,6250,61,,,832,,2344,116,50,51075,https://twitter.com/BiharHealthDept/status/1248845966158905345?s=19,,,,https://twitter.com/BiharHealthDept/status/1248964845371674625?s=09
 11/04/2020,Chandigarh,264,19,223,21,,,,,,,http://chdcovid19.in,,,,
@@ -128,7 +128,7 @@ Updated On,State,Total Tested,Positive,Negative,Unconfirmed,Total People In Quar
 11/04/2020,Uttarakhand,1705,35,1340,330,2693,,,,,480,http://health.uk.gov.in/files/11.04.2020_Daily_Bulletin.pdf,,,,http://health.uk.gov.in/pages/display/140-novel-corona-virus-guidelines-and-advisory-
 11/04/2020,Uttar Pradesh,10595,452,10012,131,8084,,,,,,https://t.me/c/1428198946/1882,,,,
 11/04/2020,West Bengal,2286,126,,,,,,,,28021,https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_11.04_.2020_.pdf,,,,https://www.mohfw.gov.in/
-11/04/2020,Andhra Pradesh,6958,405,6553,,,,,,,,http://hmfw.ap.gov.in/covid_dashboard.aspx,,,,
+12/04/2020,Andhra Pradesh,6958,405,6553,,,,,,,,http://hmfw.ap.gov.in/covid_dashboard.aspx,,,,
 12/04/2020,Assam,3138,29,2973,194,,,3212,440,240,9845,https://t.me/indiacovid/2146?single,,,,
 12/04/2020,Bihar,6703,64,,618,,,,,,,https://twitter.com/sanjayjavin/status/1249203228178296832?s=20,,,,
 12/04/2020,Chandigarh,279,21,247,10,,,,,,,http://chdcovid19.in/,,,,
@@ -153,7 +153,7 @@ Updated On,State,Total Tested,Positive,Negative,Unconfirmed,Total People In Quar
 12/04/2020,Uttarakhand,1820,35,1452,333,,,,,,448,https://m.facebook.com/UKMedicalHealth/photos/pcb.2564454990470861/2564454917137535/?type=3&source=49,,,,
 12/04/2020,Uttar Pradesh,11855,483,11250,122,,,,,,,https://t.me/indiacovid/2132,,,,
 12/04/2020,West Bengal,2523,134,,,,,,,,29168,https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_12.04_.2020_.pdf,,,,https://www.mohfw.gov.in/
-12/04/2020,Andhra Pradesh,8755,432,8323,,,,,,,,http://hmfw.ap.gov.in/covid_dashboard.aspx,,,,
+13/04/2020,Andhra Pradesh,8755,432,8323,,,,,,,,http://hmfw.ap.gov.in/covid_dashboard.aspx,,,,
 13/04/2020,Assam,,,,,,,,,,,,,,,
 13/04/2020,Bihar,7263,65,,41,,,2344,116,50,,https://t.me/indiacovid/2178?single,,,,
 13/04/2020,Chandigarh,296,21,263,11,,,,,,,http://chdcovid19.in,,,,
@@ -179,7 +179,7 @@ Updated On,State,Total Tested,Positive,Negative,Unconfirmed,Total People In Quar
 13/04/2020,Uttarakhand,1998,35,1665,298,1814,,,,,,https://www.facebook.com/UKMedicalHealth/photos/a.1933022463614120/2565229507060076/?type=3&theater,,,,
 13/04/2020,Uttar Pradesh,13287,558,12542,177,,,,,,,https://t.me/indiacovid/2199,,,,
 13/04/2020,West Bengal,2793,152,,,,,,,,30221,https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_13.04_.2020_.pdf,,,,https://www.mohfw.gov.in/
-13/04/2020,Andhra Pradesh,10505,473,10032,,,,,,,,http://hmfw.ap.gov.in/covid_dashboard.aspx,,,,
+14/04/2020,Andhra Pradesh,10505,473,10032,,,,,,,,http://hmfw.ap.gov.in/covid_dashboard.aspx,,,,
 14/04/2020,Assam,3491,31,3267,193,10022,,3212,440,240,10615,https://twitter.com/nhm_assam/status/1250104916535726081/photo/1,,,,
 14/04/2020,Bihar,7727,62,,472,,,,,,,https://twitter.com/sanjayjavin/status/1249928292519432192?s=09,,,,
 14/04/2020,Chandigarh,309,21,285,2,,,,,,,http://chdcovid19.in,,,,
@@ -205,7 +205,7 @@ Updated On,State,Total Tested,Positive,Negative,Unconfirmed,Total People In Quar
 14/04/2020,Uttarakhand,2174,35,1838,305,,,,,,,https://www.facebook.com/UKMedicalHealth/photos/rpp.1665195163730186/2566043650311995/?type=3&theater,,,,
 14/04/2020,Uttar Pradesh,15914,660,15134,120,,,,,,,https://t.me/indiacovid/2294?single,,,,
 14/04/2020,West Bengal,3081,190,,,2395,1956,,,,31330,https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_14.04_.2020_.pdf,,,,https://www.mohfw.gov.in/
-14/04/2020,Andhra Pradesh,11613,525,11088,,,,,,,,http://hmfw.ap.gov.in/covid_dashboard.aspx,,,,
+15/04/2020,Andhra Pradesh,11613,525,11088,,,,,,,,http://hmfw.ap.gov.in/covid_dashboard.aspx,,,,
 15/04/2020,Assam,3613,32,3492,89,,,3212,440,240,10915,https://twitter.com/nhm_assam/status/1250441490418950148/photo/1,,https://twitter.com/nhm_assam/status/1250441490418950148/photo/2,,
 15/04/2020,Bihar,8263,66,,565,,,,,,40380,https://twitter.com/sanjayjavin/status/1250296101350957058?s=09,,,,https://twitter.com/SHSBihar/status/1250345699780096001?s=09
 15/04/2020,Chandigarh,317,21,293,2,,,,,,,http://chdcovid19.in,,,,
@@ -232,7 +232,7 @@ Updated On,State,Total Tested,Positive,Negative,Unconfirmed,Total People In Quar
 15/04/2020,Uttarakhand,2413,37,2022,354,,,,,,,http://health.uk.gov.in/files/Corrected-15-04-2020-Health-Bulletin.pdf,,,,
 15/04/2020,Uttar Pradesh,19506,727,18595,184,,,,,,,https://t.me/indiacovid/2356,,,,
 15/04/2020,West Bengal,3470,213,,,,,,,,32417,https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_15.04_.2020_.pdf,,,,https://www.mohfw.gov.in/
-15/04/2020,Andhra Pradesh,20235,534,19701,,,,,,,,http://hmfw.ap.gov.in/covid_dashboard.aspx,,,,
+16/04/2020,Andhra Pradesh,20235,534,19701,,,,,,,,http://hmfw.ap.gov.in/covid_dashboard.aspx,,,,
 16/04/2020,Assam,4108,34,3803,,,,3338,440,303,11248,https://twitter.com/nhm_assam/status/1250836057853067264?s=20,,,,
 16/04/2020,Bihar,8846,72,,607,,,,,,,https://twitter.com/BiharHealthDept/status/1250667064571785216?s=09,,,,
 16/04/2020,Chandigarh,337,21,315,0,,,,,,,https://twitter.com/ANI/status/1250765375874072578?s=09,,,,
@@ -249,8 +249,8 @@ Updated On,State,Total Tested,Positive,Negative,Unconfirmed,Total People In Quar
 16/04/2020,Ladakh,917,18,695,145,157,,,,,,https://twitter.com/ladags/status/1250757796007567360?s=19,,,,
 16/04/2020,Madhya Pradesh,17650,1164,12326,4158,,,,,,637288,https://twitter.com/JansamparkMP/status/1250813847650177024,,,,
 16/04/2020,Maharashtra,50882,2916,48198,,,,,,,,https://twitter.com/Maha_MEDD/status/1250659519840968704,,,,
-16/04/2020,Meghalaya,552,7,299,246,,,,,,,https://t.me/indiacovid/2463,,,,
-16/02/2020,Mizoram,94,1,,,,,,,,,https://health.mizoram.gov.in/post/covid-19-bulletin-date-1642020,,,,
+16/02/2020,Meghalaya,552,7,299,246,,,,,,,https://t.me/indiacovid/2463,,,,
+16/04/2020,Mizoram,94,1,,,,,,,,,https://health.mizoram.gov.in/post/covid-19-bulletin-date-1642020,,,,
 16/04/2020,Nagaland,,,,,,,,,,,,,,,
 16/04/2020,Odisha,6734,60,6674,,,,,,,,https://health.odisha.gov.in/pdf/covid-19-Analysis-Report-16042020.pdf,,,,https://health.odisha.gov.in/
 16/04/2020,Punjab,5524,197,4727,600,,,,,,,http://pbhealth.gov.in/Media%20Bulletin%20COVID-19%2016-04-2020.pdf,,,,
@@ -260,7 +260,7 @@ Updated On,State,Total Tested,Positive,Negative,Unconfirmed,Total People In Quar
 16/04/2020,Uttarakhand,2593,37,2210,346,,,,,,353,https://m.facebook.com/UKMedicalHealth/photos/a.1933022463614120/2567811600135200/?type=3&source=48&__tn__=EH-R,,,,
 16/04/2020,Uttar Pradesh,21384,805,20374,205,,,,,,,https://t.me/indiacovid/2448,,,,
 16/04/2020,West Bengal,3811,231,,,,,,,,33400,https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_16.04_.2020_.pdf,,,,https://www.mohfw.gov.in/
-16/04/2020,Andhra Pradesh,,,,,,,,,,,,,,,
+17/04/2020,Andhra Pradesh,,,,,,,,,,,,,,,
 17/04/2020,Assam,4236,34,4024,,,,3338,440,303,11561,https://t.me/indiacovid/2511,,,,
 17/04/2020,Bihar,9486,83,,510,,,,,,,https://twitter.com/sanjayjavin/status/1251023696354881537,,,,
 17/04/2020,Chandigarh,358,21,335,1,,,,,,,http://chdcovid19.in/,,,,
