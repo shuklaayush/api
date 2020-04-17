@@ -705,23 +705,23 @@
 		{
 			"dailyconfirmed": "916",
 			"dailydeceased": "38",
-			"dailyrecovered": "269",
+			"dailyrecovered": "273",
 			"date": "17 April ",
 			"totalconfirmed": "14350",
 			"totaldeceased": "489",
-			"totalrecovered": "2037"
+			"totalrecovered": "2041"
 		}
 	],
 	"statewise": [
 		{
-			"active": "11825",
+			"active": "11821",
 			"confirmed": "14348",
 			"deaths": "486",
 			"deltaconfirmed": "916",
 			"deltadeaths": "38",
-			"deltarecovered": "269",
-			"lastupdatedtime": "17/04/2020 23:45:05",
-			"recovered": "2037",
+			"deltarecovered": "273",
+			"lastupdatedtime": "18/04/2020 00:24:05",
+			"recovered": "2041",
 			"state": "Total",
 			"statecode": "TT",
 			"statenotes": ""
@@ -987,14 +987,14 @@
 			"statenotes": "Death of Tibetan refugee included"
 		},
 		{
-			"active": "28",
+			"active": "24",
 			"confirmed": "34",
 			"deaths": "1",
 			"deltaconfirmed": "0",
 			"deltadeaths": "0",
-			"deltarecovered": "0",
-			"lastupdatedtime": "16/04/2020 17:08:45",
-			"recovered": "5",
+			"deltarecovered": "4",
+			"lastupdatedtime": "18/04/2020 00:24:07",
+			"recovered": "9",
 			"state": "Assam",
 			"statecode": "AS",
 			"statenotes": ""
