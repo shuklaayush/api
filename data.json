@@ -1579,6 +1579,16 @@
 			"totalpositivecases": "12,581",
 			"totalsamplestested": "302956",
 			"updatetimestamp": "16/04/2020 21:00:00"
+		},
+		{
+			"positivecasesfromsamplesreported": "",
+			"samplereportedtoday": "31083",
+			"source": "",
+			"testsconductedbyprivatelabs": "",
+			"totalindividualstested": "318449",
+			"totalpositivecases": "14098",
+			"totalsamplestested": "335123",
+			"updatetimestamp": "17/04/2020 21:00:00"
 		}
 	]
 }
