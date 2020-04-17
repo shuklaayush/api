@@ -1,6 +1,7 @@
 {
 	"states_tested_data": [
 		{
+			"_cn6ca": "Updated On",
 			"negative": "",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -13,10 +14,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "2621",
-			"unconfirmed": "2621",
-			"updatedon": "01/04/2020"
+			"unconfirmed": "2621"
 		},
 		{
+			"_cn6ca": "01/04/2020",
 			"negative": "568",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -29,10 +30,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "659",
-			"unconfirmed": "54",
-			"updatedon": "01/04/2020"
+			"unconfirmed": "54"
 		},
 		{
+			"_cn6ca": "01/04/2020",
 			"negative": "7256",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -45,10 +46,10 @@
 			"totalpeopleinquarantine": "622",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "7965",
-			"unconfirmed": "444",
-			"updatedon": "01/04/2020"
+			"unconfirmed": "444"
 		},
 		{
+			"_cn6ca": "01/04/2020",
 			"negative": "7622",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -61,10 +62,10 @@
 			"totalpeopleinquarantine": "643",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "8456",
-			"unconfirmed": "548",
-			"updatedon": "02/04/2020"
+			"unconfirmed": "548"
 		},
 		{
+			"_cn6ca": "02/04/2020",
 			"negative": "1175",
 			"numcallsstatehelpline": "",
 			"numicubeds": "2680",
@@ -77,10 +78,10 @@
 			"totalpeopleinquarantine": "179",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "1800",
-			"unconfirmed": "493",
-			"updatedon": "02/04/2020"
+			"unconfirmed": "493"
 		},
 		{
+			"_cn6ca": "02/04/2020",
 			"negative": "819",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -93,10 +94,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "962",
-			"unconfirmed": "127",
-			"updatedon": "02/04/2020"
+			"unconfirmed": "127"
 		},
 		{
+			"_cn6ca": "02/04/2020",
 			"negative": "98",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -109,10 +110,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "124",
-			"unconfirmed": "8",
-			"updatedon": "02/04/2020"
+			"unconfirmed": "8"
 		},
 		{
+			"_cn6ca": "02/04/2020",
 			"negative": "921",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -125,10 +126,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "1232",
-			"unconfirmed": "302",
-			"updatedon": "02/04/2020"
+			"unconfirmed": "302"
 		},
 		{
+			"_cn6ca": "02/04/2020",
 			"negative": "197",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -141,10 +142,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "220",
-			"unconfirmed": "18",
-			"updatedon": "02/04/2020"
+			"unconfirmed": "18"
 		},
 		{
+			"_cn6ca": "02/04/2020",
 			"negative": "1236",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -157,10 +158,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "1434",
-			"unconfirmed": "161",
-			"updatedon": "02/04/2020"
+			"unconfirmed": "161"
 		},
 		{
+			"_cn6ca": "02/04/2020",
 			"negative": "554",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -173,10 +174,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "678",
-			"unconfirmed": "117",
-			"updatedon": "02/04/2020"
+			"unconfirmed": "117"
 		},
 		{
+			"_cn6ca": "02/04/2020",
 			"negative": "938",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -189,10 +190,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "1325",
-			"unconfirmed": "343",
-			"updatedon": "03/04/2020"
+			"unconfirmed": "343"
 		},
 		{
+			"_cn6ca": "03/04/2020",
 			"negative": "4281",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -205,10 +206,10 @@
 			"totalpeopleinquarantine": "219",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "4587",
-			"unconfirmed": "178",
-			"updatedon": "03/04/2020"
+			"unconfirmed": "178"
 		},
 		{
+			"_cn6ca": "03/04/2020",
 			"negative": "8126",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -221,10 +222,10 @@
 			"totalpeopleinquarantine": "706",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "9139",
-			"unconfirmed": "718",
-			"updatedon": "03/04/2020"
+			"unconfirmed": "718"
 		},
 		{
+			"_cn6ca": "03/04/2020",
 			"negative": "1108",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -237,10 +238,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "1395",
-			"unconfirmed": "267",
-			"updatedon": "03/04/2020"
+			"unconfirmed": "267"
 		},
 		{
+			"_cn6ca": "03/04/2020",
 			"negative": "2789",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -253,10 +254,10 @@
 			"totalpeopleinquarantine": "284",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "3684",
-			"unconfirmed": "484",
-			"updatedon": "03/04/2020"
+			"unconfirmed": "484"
 		},
 		{
+			"_cn6ca": "03/04/2020",
 			"negative": "",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -269,10 +270,10 @@
 			"totalpeopleinquarantine": "1125",
 			"totalpeoplereleasedfromquarantine": "786",
 			"totaltested": "1042",
-			"unconfirmed": "",
-			"updatedon": "04/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "04/04/2020",
 			"negative": "8586",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -285,10 +286,10 @@
 			"totalpeopleinquarantine": "734",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "9744",
-			"unconfirmed": "852",
-			"updatedon": "04/02/2020"
+			"unconfirmed": "852"
 		},
 		{
+			"_cn6ca": "04/02/2020",
 			"negative": "1954",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -301,10 +302,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "2812",
-			"unconfirmed": "665",
-			"updatedon": "05/04/2020"
+			"unconfirmed": "665"
 		},
 		{
+			"_cn6ca": "05/04/2020",
 			"negative": "4796",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -317,10 +318,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "5255",
-			"unconfirmed": "181",
-			"updatedon": "05/04/2020"
+			"unconfirmed": "181"
 		},
 		{
+			"_cn6ca": "05/04/2020",
 			"negative": "2299",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -333,10 +334,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "3037",
-			"unconfirmed": "706",
-			"updatedon": "05/04/2020"
+			"unconfirmed": "706"
 		},
 		{
+			"_cn6ca": "05/04/2020",
 			"negative": "1429",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -349,10 +350,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "1551",
-			"unconfirmed": "16",
-			"updatedon": "05/04/2020"
+			"unconfirmed": "16"
 		},
 		{
+			"_cn6ca": "05/04/2020",
 			"negative": "9300",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -365,10 +366,10 @@
 			"totalpeopleinquarantine": "776",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "10221",
-			"unconfirmed": "607",
-			"updatedon": "05/04/2020"
+			"unconfirmed": "607"
 		},
 		{
+			"_cn6ca": "05/04/2020",
 			"negative": "11439",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -381,10 +382,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "12279",
-			"unconfirmed": "580",
-			"updatedon": "05/04/2020"
+			"unconfirmed": "580"
 		},
 		{
+			"_cn6ca": "05/04/2020",
 			"negative": "",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -397,10 +398,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "",
-			"unconfirmed": "",
-			"updatedon": "05/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "05/04/2020",
 			"negative": "2299",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -413,10 +414,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "3037",
-			"unconfirmed": "706",
-			"updatedon": "05/04/2020"
+			"unconfirmed": "706"
 		},
 		{
+			"_cn6ca": "05/04/2020",
 			"negative": "4796",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -429,10 +430,10 @@
 			"totalpeopleinquarantine": "3927",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "5255",
-			"unconfirmed": "179",
-			"updatedon": "05/04/2020"
+			"unconfirmed": "179"
 		},
 		{
+			"_cn6ca": "05/04/2020",
 			"negative": "14837",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -445,10 +446,10 @@
 			"totalpeopleinquarantine": "3122",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "16008",
-			"unconfirmed": "",
-			"updatedon": "05/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "05/04/2020",
 			"negative": "15808",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -461,10 +462,10 @@
 			"totalpeopleinquarantine": "3498",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "17563",
-			"unconfirmed": "",
-			"updatedon": "06/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "06/04/2020",
 			"negative": "47",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -477,10 +478,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "60",
-			"unconfirmed": "13",
-			"updatedon": "06/04/2020"
+			"unconfirmed": "13"
 		},
 		{
+			"_cn6ca": "06/04/2020",
 			"negative": "9607",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -493,10 +494,10 @@
 			"totalpeopleinquarantine": "795",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "10716",
-			"unconfirmed": "782",
-			"updatedon": "06/04/2020"
+			"unconfirmed": "782"
 		},
 		{
+			"_cn6ca": "06/04/2020",
 			"negative": "0",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -509,10 +510,10 @@
 			"totalpeopleinquarantine": "207",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "58",
-			"unconfirmed": "0",
-			"updatedon": "06/04/2020"
+			"unconfirmed": "0"
 		},
 		{
+			"_cn6ca": "06/04/2020",
 			"negative": "",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -525,10 +526,10 @@
 			"totalpeopleinquarantine": "246",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "1301",
-			"unconfirmed": "",
-			"updatedon": "06/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "06/04/2020",
 			"negative": "3125",
 			"numcallsstatehelpline": "",
 			"numicubeds": "1598",
@@ -541,10 +542,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "3770",
-			"unconfirmed": "355",
-			"updatedon": "07/04/2020"
+			"unconfirmed": "355"
 		},
 		{
+			"_cn6ca": "07/04/2020",
 			"negative": "",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -557,10 +558,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "2190",
-			"unconfirmed": "",
-			"updatedon": "07/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "07/04/2020",
 			"negative": "1821",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -573,10 +574,10 @@
 			"totalpeopleinquarantine": "687",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "2520",
-			"unconfirmed": "558",
-			"updatedon": "07/04/2020"
+			"unconfirmed": "558"
 		},
 		{
+			"_cn6ca": "07/04/2020",
 			"negative": "1092",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -589,10 +590,10 @@
 			"totalpeopleinquarantine": "176",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "1289",
-			"unconfirmed": "165",
-			"updatedon": "07/04/2020"
+			"unconfirmed": "165"
 		},
 		{
+			"_cn6ca": "07/04/2020",
 			"negative": "16401",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -605,10 +606,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "17638",
-			"unconfirmed": "874",
-			"updatedon": "07/04/2020"
+			"unconfirmed": "874"
 		},
 		{
+			"_cn6ca": "07/04/2020",
 			"negative": "",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -621,10 +622,10 @@
 			"totalpeopleinquarantine": "262",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "1487",
-			"unconfirmed": "",
-			"updatedon": "07/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "07/04/2020",
 			"negative": "10250",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -637,10 +638,10 @@
 			"totalpeopleinquarantine": "752",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "11232",
-			"unconfirmed": "646",
-			"updatedon": "07/04/2020"
+			"unconfirmed": "646"
 		},
 		{
+			"_cn6ca": "07/04/2020",
 			"negative": "19290",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -653,10 +654,10 @@
 			"totalpeopleinquarantine": "38703",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "20877",
-			"unconfirmed": "569",
-			"updatedon": "07/04/2020"
+			"unconfirmed": "569"
 		},
 		{
+			"_cn6ca": "07/04/2020",
 			"negative": "0",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -669,10 +670,10 @@
 			"totalpeopleinquarantine": "207",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "58",
-			"unconfirmed": "0",
-			"updatedon": "07/04/2020"
+			"unconfirmed": "0"
 		},
 		{
+			"_cn6ca": "07/04/2020",
 			"negative": "",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -685,10 +686,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "2441",
-			"unconfirmed": "",
-			"updatedon": "07/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "07/04/2020",
 			"negative": "7308",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -701,10 +702,10 @@
 			"totalpeopleinquarantine": "3120",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "9041",
-			"unconfirmed": "1157",
-			"updatedon": "07/04/2020"
+			"unconfirmed": "1157"
 		},
 		{
+			"_cn6ca": "07/04/2020",
 			"negative": "5942",
 			"numcallsstatehelpline": "",
 			"numicubeds": "250",
@@ -717,10 +718,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "6580",
-			"unconfirmed": "",
-			"updatedon": "07/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "07/04/2020",
 			"negative": "3905",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -733,10 +734,10 @@
 			"totalpeopleinquarantine": "12299",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "4224",
-			"unconfirmed": "133",
-			"updatedon": "08/04/2020"
+			"unconfirmed": "133"
 		},
 		{
+			"_cn6ca": "08/04/2020",
 			"negative": "4414",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -749,10 +750,10 @@
 			"totalpeopleinquarantine": "1864",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "5305",
-			"unconfirmed": "201",
-			"updatedon": "08/04/2020"
+			"unconfirmed": "201"
 		},
 		{
+			"_cn6ca": "08/04/2020",
 			"negative": "",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -765,10 +766,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "4596",
-			"unconfirmed": "465",
-			"updatedon": "08/04/2020"
+			"unconfirmed": "465"
 		},
 		{
+			"_cn6ca": "08/04/2020",
 			"negative": "2614",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -781,10 +782,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "2937",
-			"unconfirmed": "217",
-			"updatedon": "08/04/2020"
+			"unconfirmed": "217"
 		},
 		{
+			"_cn6ca": "08/04/2020",
 			"negative": "10906",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -797,10 +798,10 @@
 			"totalpeopleinquarantine": "749",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "11986",
-			"unconfirmed": "735",
-			"updatedon": "08/04/2020"
+			"unconfirmed": "735"
 		},
 		{
+			"_cn6ca": "08/04/2020",
 			"negative": "2399",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -813,10 +814,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "2441",
-			"unconfirmed": "",
-			"updatedon": "08/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "08/04/2020",
 			"negative": "3443",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -829,10 +830,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "4056",
-			"unconfirmed": "272",
-			"updatedon": "08/04/2020"
+			"unconfirmed": "272"
 		},
 		{
+			"_cn6ca": "08/04/2020",
 			"negative": "",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -845,10 +846,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "74",
-			"unconfirmed": "0",
-			"updatedon": "08/04/2020"
+			"unconfirmed": "0"
 		},
 		{
+			"_cn6ca": "08/04/2020",
 			"negative": "16401",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -861,10 +862,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "17638",
-			"unconfirmed": "874",
-			"updatedon": "08/04/2020"
+			"unconfirmed": "874"
 		},
 		{
+			"_cn6ca": "08/04/2020",
 			"negative": "1885",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -877,10 +878,10 @@
 			"totalpeopleinquarantine": "545",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "2650",
-			"unconfirmed": "612",
-			"updatedon": "08/04/2020"
+			"unconfirmed": "612"
 		},
 		{
+			"_cn6ca": "08/04/2020",
 			"negative": "162",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -893,10 +894,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "184",
-			"unconfirmed": "",
-			"updatedon": "08/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "08/04/2020",
 			"negative": "6473",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -909,10 +910,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "6967",
-			"unconfirmed": "",
-			"updatedon": "08/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "08/04/2020",
 			"negative": "17851",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -925,10 +926,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "19107",
-			"unconfirmed": "793",
-			"updatedon": "09/04/2020"
+			"unconfirmed": "793"
 		},
 		{
+			"_cn6ca": "09/04/2020",
 			"negative": "185",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -941,10 +942,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "206",
-			"unconfirmed": "20",
-			"updatedon": "09/04/2020"
+			"unconfirmed": "20"
 		},
 		{
+			"_cn6ca": "09/04/2020",
 			"negative": "",
 			"numcallsstatehelpline": "26025",
 			"numicubeds": "",
@@ -957,10 +958,10 @@
 			"totalpeopleinquarantine": "1723",
 			"totalpeoplereleasedfromquarantine": "1345",
 			"totaltested": "1889",
-			"unconfirmed": "",
-			"updatedon": "09/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "09/04/2020",
 			"negative": "7898",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -973,10 +974,10 @@
 			"totalpeopleinquarantine": "8671",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "8402",
-			"unconfirmed": "94",
-			"updatedon": "09/04/2020"
+			"unconfirmed": "94"
 		},
 		{
+			"_cn6ca": "09/04/2020",
 			"negative": "1235",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -989,10 +990,10 @@
 			"totalpeopleinquarantine": "1637",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "1531",
-			"unconfirmed": "261",
-			"updatedon": "09/04/2020"
+			"unconfirmed": "261"
 		},
 		{
+			"_cn6ca": "09/04/2020",
 			"negative": "7176",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1005,10 +1006,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "7613",
-			"unconfirmed": "",
-			"updatedon": "09/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "09/04/2020",
 			"negative": "2017",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1021,10 +1022,10 @@
 			"totalpeopleinquarantine": "799",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "2964",
-			"unconfirmed": "719",
-			"updatedon": "09/04/2020"
+			"unconfirmed": "719"
 		},
 		{
+			"_cn6ca": "09/04/2020",
 			"negative": "3989",
 			"numcallsstatehelpline": "",
 			"numicubeds": "1598",
@@ -1037,10 +1038,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "5135",
-			"unconfirmed": "",
-			"updatedon": "09/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "09/04/2020",
 			"negative": "",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1053,10 +1054,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "344",
-			"unconfirmed": "",
-			"updatedon": "09/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "09/04/2020",
 			"negative": "19290",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1069,10 +1070,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "20877",
-			"unconfirmed": "715",
-			"updatedon": "09/04/2020"
+			"unconfirmed": "715"
 		},
 		{
+			"_cn6ca": "09/04/2020",
 			"negative": "",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1085,10 +1086,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "84",
-			"unconfirmed": "",
-			"updatedon": "09/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "09/04/2020",
 			"negative": "3201",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1101,10 +1102,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "3249",
-			"unconfirmed": "",
-			"updatedon": "09/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "09/04/2020",
 			"negative": "11469",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1117,10 +1118,10 @@
 			"totalpeopleinquarantine": "723",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "12710",
-			"unconfirmed": "884",
-			"updatedon": "09/04/2020"
+			"unconfirmed": "884"
 		},
 		{
+			"_cn6ca": "09/04/2020",
 			"negative": "2777",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1133,10 +1134,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "3192",
-			"unconfirmed": "285",
-			"updatedon": "09/04/2020"
+			"unconfirmed": "285"
 		},
 		{
+			"_cn6ca": "09/04/2020",
 			"negative": "",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1149,10 +1150,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "4991",
-			"unconfirmed": "394",
-			"updatedon": "09/04/2020"
+			"unconfirmed": "394"
 		},
 		{
+			"_cn6ca": "09/04/2020",
 			"negative": "5824",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1165,10 +1166,10 @@
 			"totalpeopleinquarantine": "2042",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "7267",
-			"unconfirmed": "485",
-			"updatedon": "09/04/2020"
+			"unconfirmed": "485"
 		},
 		{
+			"_cn6ca": "09/04/2020",
 			"negative": "11469",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1181,10 +1182,10 @@
 			"totalpeopleinquarantine": "723",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "12710",
-			"unconfirmed": "884",
-			"updatedon": "09/04/2020"
+			"unconfirmed": "884"
 		},
 		{
+			"_cn6ca": "09/04/2020",
 			"negative": "8643",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1197,10 +1198,10 @@
 			"totalpeopleinquarantine": "2664",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "9968",
-			"unconfirmed": "605",
-			"updatedon": "09/04/2020"
+			"unconfirmed": "605"
 		},
 		{
+			"_cn6ca": "09/04/2020",
 			"negative": "6009",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1213,10 +1214,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "6374",
-			"unconfirmed": "",
-			"updatedon": "10/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "10/04/2020",
 			"negative": "2685",
 			"numcallsstatehelpline": "9245",
 			"numicubeds": "440",
@@ -1229,10 +1230,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "2863",
-			"unconfirmed": "",
-			"updatedon": "10/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "10/04/2020",
 			"negative": "",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1245,10 +1246,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "5457",
-			"unconfirmed": "673",
-			"updatedon": "10/04/2020"
+			"unconfirmed": "673"
 		},
 		{
+			"_cn6ca": "10/04/2020",
 			"negative": "199",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1261,10 +1262,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "223",
-			"unconfirmed": "4",
-			"updatedon": "10/04/2020"
+			"unconfirmed": "4"
 		},
 		{
+			"_cn6ca": "10/04/2020",
 			"negative": "3322",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1277,10 +1278,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "3473",
-			"unconfirmed": "133",
-			"updatedon": "10/04/2020"
+			"unconfirmed": "133"
 		},
 		{
+			"_cn6ca": "10/04/2020",
 			"negative": "9662",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1293,10 +1294,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "11061",
-			"unconfirmed": "496",
-			"updatedon": "10/04/2020"
+			"unconfirmed": "496"
 		},
 		{
+			"_cn6ca": "10/04/2020",
 			"negative": "",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1309,10 +1310,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "354",
-			"unconfirmed": "",
-			"updatedon": "10/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "10/04/2020",
 			"negative": "7237",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1325,10 +1326,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "7718",
-			"unconfirmed": "103",
-			"updatedon": "10/04/2020"
+			"unconfirmed": "103"
 		},
 		{
+			"_cn6ca": "10/04/2020",
 			"negative": "2447",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1341,10 +1342,10 @@
 			"totalpeopleinquarantine": "914",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "3527",
-			"unconfirmed": "918",
-			"updatedon": "10/04/2020"
+			"unconfirmed": "918"
 		},
 		{
+			"_cn6ca": "10/04/2020",
 			"negative": "870",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1357,10 +1358,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "900",
-			"unconfirmed": "",
-			"updatedon": "10/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "10/04/2020",
 			"negative": "2754",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1373,10 +1374,10 @@
 			"totalpeopleinquarantine": "415",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "2961",
-			"unconfirmed": "",
-			"updatedon": "10/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "10/04/2020",
 			"negative": "1326",
 			"numcallsstatehelpline": "",
 			"numicubeds": "239",
@@ -1389,10 +1390,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "1681",
-			"unconfirmed": "",
-			"updatedon": "10/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "10/04/2020",
 			"negative": "7673",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1405,10 +1406,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "7975",
-			"unconfirmed": "",
-			"updatedon": "10/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "10/04/2020",
 			"negative": "12335",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1421,10 +1422,10 @@
 			"totalpeopleinquarantine": "730",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "13339",
-			"unconfirmed": "640",
-			"updatedon": "10/04/2020"
+			"unconfirmed": "640"
 		},
 		{
+			"_cn6ca": "10/04/2020",
 			"negative": "4840",
 			"numcallsstatehelpline": "",
 			"numicubeds": "1598",
@@ -1437,10 +1438,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "7049",
-			"unconfirmed": "",
-			"updatedon": "10/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "10/04/2020",
 			"negative": "28865",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1453,10 +1454,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "30000",
-			"unconfirmed": "",
-			"updatedon": "10/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "10/04/2020",
 			"negative": "69",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1469,10 +1470,10 @@
 			"totalpeopleinquarantine": "20",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "70",
-			"unconfirmed": "1",
-			"updatedon": "10/04/2020"
+			"unconfirmed": "1"
 		},
 		{
+			"_cn6ca": "10/04/2020",
 			"negative": "3497",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1485,10 +1486,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "3547",
-			"unconfirmed": "",
-			"updatedon": "10/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "10/04/2020",
 			"negative": "2972",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1501,10 +1502,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "3461",
-			"unconfirmed": "338",
-			"updatedon": "10/04/2020"
+			"unconfirmed": "338"
 		},
 		{
+			"_cn6ca": "10/04/2020",
 			"negative": "20698",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1517,10 +1518,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "22349",
-			"unconfirmed": "1090",
-			"updatedon": "10/04/2020"
+			"unconfirmed": "1090"
 		},
 		{
+			"_cn6ca": "10/04/2020",
 			"negative": "6838",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1533,10 +1534,10 @@
 			"totalpeopleinquarantine": "1987",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "8410",
-			"unconfirmed": "661",
-			"updatedon": "10/04/2020"
+			"unconfirmed": "661"
 		},
 		{
+			"_cn6ca": "10/04/2020",
 			"negative": "1320",
 			"numcallsstatehelpline": "478",
 			"numicubeds": "",
@@ -1549,10 +1550,10 @@
 			"totalpeopleinquarantine": "3770",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "1688",
-			"unconfirmed": "333",
-			"updatedon": "10/04/2020"
+			"unconfirmed": "333"
 		},
 		{
+			"_cn6ca": "10/04/2020",
 			"negative": "8798",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1565,10 +1566,10 @@
 			"totalpeopleinquarantine": "8771",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "9332",
-			"unconfirmed": "101",
-			"updatedon": "10/04/2020"
+			"unconfirmed": "101"
 		},
 		{
+			"_cn6ca": "10/04/2020",
 			"negative": "",
 			"numcallsstatehelpline": "27068",
 			"numicubeds": "",
@@ -1581,10 +1582,10 @@
 			"totalpeopleinquarantine": "1840",
 			"totalpeoplereleasedfromquarantine": "1447",
 			"totaltested": "2095",
-			"unconfirmed": "",
-			"updatedon": "10/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "10/04/2020",
 			"negative": "6577",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1597,10 +1598,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "6958",
-			"unconfirmed": "",
-			"updatedon": "11/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "11/04/2020",
 			"negative": "2842",
 			"numcallsstatehelpline": "9514",
 			"numicubeds": "440",
@@ -1613,10 +1614,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "3011",
-			"unconfirmed": "",
-			"updatedon": "11/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "11/04/2020",
 			"negative": "",
 			"numcallsstatehelpline": "51075",
 			"numicubeds": "116",
@@ -1629,10 +1630,10 @@
 			"totalpeopleinquarantine": "832",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "6250",
-			"unconfirmed": "",
-			"updatedon": "11/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "11/04/2020",
 			"negative": "223",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1645,10 +1646,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "264",
-			"unconfirmed": "21",
-			"updatedon": "11/04/2020"
+			"unconfirmed": "21"
 		},
 		{
+			"_cn6ca": "11/04/2020",
 			"negative": "3503",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1661,10 +1662,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "3858",
-			"unconfirmed": "337",
-			"updatedon": "11/04/2020"
+			"unconfirmed": "337"
 		},
 		{
+			"_cn6ca": "11/04/2020",
 			"negative": "10218",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1677,10 +1678,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "11709",
-			"unconfirmed": "464",
-			"updatedon": "11/04/2020"
+			"unconfirmed": "464"
 		},
 		{
+			"_cn6ca": "11/04/2020",
 			"negative": "8888",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1693,10 +1694,10 @@
 			"totalpeopleinquarantine": "12042",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "9763",
-			"unconfirmed": "407",
-			"updatedon": "11/04/2020"
+			"unconfirmed": "407"
 		},
 		{
+			"_cn6ca": "11/04/2020",
 			"negative": "2472",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1709,10 +1710,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "3663",
-			"unconfirmed": "1026",
-			"updatedon": "11/04/2020"
+			"unconfirmed": "1026"
 		},
 		{
+			"_cn6ca": "11/04/2020",
 			"negative": "870",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1725,10 +1726,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "900",
-			"unconfirmed": "0",
-			"updatedon": "11/04/2020"
+			"unconfirmed": "0"
 		},
 		{
+			"_cn6ca": "11/04/2020",
 			"negative": "2982",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1741,10 +1742,10 @@
 			"totalpeopleinquarantine": "422",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "3206",
-			"unconfirmed": "",
-			"updatedon": "11/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "11/04/2020",
 			"negative": "1529",
 			"numcallsstatehelpline": "",
 			"numicubeds": "239",
@@ -1757,10 +1758,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "1912",
-			"unconfirmed": "366",
-			"updatedon": "11/04/2020"
+			"unconfirmed": "366"
 		},
 		{
+			"_cn6ca": "11/04/2020",
 			"negative": "8231",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1773,10 +1774,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "8560",
-			"unconfirmed": "",
-			"updatedon": "11/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "11/04/2020",
 			"negative": "12818",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1789,10 +1790,10 @@
 			"totalpeopleinquarantine": "814",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "14163",
-			"unconfirmed": "972",
-			"updatedon": "11/04/2020"
+			"unconfirmed": "972"
 		},
 		{
+			"_cn6ca": "11/04/2020",
 			"negative": "5790",
 			"numcallsstatehelpline": "",
 			"numicubeds": "1598",
@@ -1805,10 +1806,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "8516",
-			"unconfirmed": "",
-			"updatedon": "11/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "11/04/2020",
 			"negative": "30477",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1821,10 +1822,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "31841",
-			"unconfirmed": "",
-			"updatedon": "11/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "11/04/2020",
 			"negative": "70",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1837,10 +1838,10 @@
 			"totalpeopleinquarantine": "22",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "70",
-			"unconfirmed": "",
-			"updatedon": "11/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "11/04/2020",
 			"negative": "3497",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1853,10 +1854,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "3551",
-			"unconfirmed": "",
-			"updatedon": "11/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "11/04/2020",
 			"negative": "3249",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1869,10 +1870,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "3909",
-			"unconfirmed": "502",
-			"updatedon": "11/04/2020"
+			"unconfirmed": "502"
 		},
 		{
+			"_cn6ca": "11/04/2020",
 			"negative": "22583",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1885,10 +1886,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "24857",
-			"unconfirmed": "1586",
-			"updatedon": "11/04/2020"
+			"unconfirmed": "1586"
 		},
 		{
+			"_cn6ca": "11/04/2020",
 			"negative": "7779",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1901,10 +1902,10 @@
 			"totalpeopleinquarantine": "1884",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "9842",
-			"unconfirmed": "1094",
-			"updatedon": "11/04/2020"
+			"unconfirmed": "1094"
 		},
 		{
+			"_cn6ca": "11/04/2020",
 			"negative": "335",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1917,10 +1918,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "337",
-			"unconfirmed": "",
-			"updatedon": "11/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "11/04/2020",
 			"negative": "1340",
 			"numcallsstatehelpline": "480",
 			"numicubeds": "",
@@ -1933,10 +1934,10 @@
 			"totalpeopleinquarantine": "2693",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "1705",
-			"unconfirmed": "330",
-			"updatedon": "11/04/2020"
+			"unconfirmed": "330"
 		},
 		{
+			"_cn6ca": "11/04/2020",
 			"negative": "10012",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1949,10 +1950,10 @@
 			"totalpeopleinquarantine": "8084",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "10595",
-			"unconfirmed": "131",
-			"updatedon": "11/04/2020"
+			"unconfirmed": "131"
 		},
 		{
+			"_cn6ca": "11/04/2020",
 			"negative": "",
 			"numcallsstatehelpline": "28021",
 			"numicubeds": "",
@@ -1965,10 +1966,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "2286",
-			"unconfirmed": "",
-			"updatedon": "11/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "11/04/2020",
 			"negative": "6553",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1981,10 +1982,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "6958",
-			"unconfirmed": "",
-			"updatedon": "12/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "12/04/2020",
 			"negative": "2973",
 			"numcallsstatehelpline": "9845",
 			"numicubeds": "440",
@@ -1997,10 +1998,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "3138",
-			"unconfirmed": "194",
-			"updatedon": "12/04/2020"
+			"unconfirmed": "194"
 		},
 		{
+			"_cn6ca": "12/04/2020",
 			"negative": "",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2013,10 +2014,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "6703",
-			"unconfirmed": "618",
-			"updatedon": "12/04/2020"
+			"unconfirmed": "618"
 		},
 		{
+			"_cn6ca": "12/04/2020",
 			"negative": "247",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2029,10 +2030,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "279",
-			"unconfirmed": "10",
-			"updatedon": "12/04/2020"
+			"unconfirmed": "10"
 		},
 		{
+			"_cn6ca": "12/04/2020",
 			"negative": "3856",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2045,10 +2046,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "3945",
-			"unconfirmed": "58",
-			"updatedon": "12/04/2020"
+			"unconfirmed": "58"
 		},
 		{
+			"_cn6ca": "12/04/2020",
 			"negative": "11748",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2061,10 +2062,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "14036",
-			"unconfirmed": "984",
-			"updatedon": "12/04/2020"
+			"unconfirmed": "984"
 		},
 		{
+			"_cn6ca": "12/04/2020",
 			"negative": "",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2077,10 +2078,10 @@
 			"totalpeopleinquarantine": "141",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "406",
-			"unconfirmed": "",
-			"updatedon": "12/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "12/04/2020",
 			"negative": "10867",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2093,10 +2094,10 @@
 			"totalpeopleinquarantine": "14013",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "11715",
-			"unconfirmed": "332",
-			"updatedon": "12/04/2020"
+			"unconfirmed": "332"
 		},
 		{
+			"_cn6ca": "12/04/2020",
 			"negative": "2513",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2109,10 +2110,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "3903",
-			"unconfirmed": "1209",
-			"updatedon": "12/04/2020"
+			"unconfirmed": "1209"
 		},
 		{
+			"_cn6ca": "12/04/2020",
 			"negative": "944",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2125,10 +2126,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "1113",
-			"unconfirmed": "137",
-			"updatedon": "12/04/2020"
+			"unconfirmed": "137"
 		},
 		{
+			"_cn6ca": "12/04/2020",
 			"negative": "3355",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2141,10 +2142,10 @@
 			"totalpeopleinquarantine": "433",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "3600",
-			"unconfirmed": "",
-			"updatedon": "12/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "12/04/2020",
 			"negative": "1666",
 			"numcallsstatehelpline": "",
 			"numicubeds": "239",
@@ -2157,10 +2158,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "2117",
-			"unconfirmed": "434",
-			"updatedon": "12/04/2020"
+			"unconfirmed": "434"
 		},
 		{
+			"_cn6ca": "12/04/2020",
 			"negative": "8831",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2173,10 +2174,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "9251",
-			"unconfirmed": "",
-			"updatedon": "12/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "12/04/2020",
 			"negative": "13802",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2189,10 +2190,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "14989",
-			"unconfirmed": "",
-			"updatedon": "12/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "12/04/2020",
 			"negative": "6875",
 			"numcallsstatehelpline": "",
 			"numicubeds": "1598",
@@ -2205,10 +2206,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "10481",
-			"unconfirmed": "",
-			"updatedon": "12/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "12/04/2020",
 			"negative": "34094",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2221,10 +2222,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "35668",
-			"unconfirmed": "",
-			"updatedon": "12/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "12/04/2020",
 			"negative": "",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2237,10 +2238,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "87",
-			"unconfirmed": "",
-			"updatedon": "12/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "12/04/2020",
 			"negative": "70",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2253,10 +2254,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "74",
-			"unconfirmed": "4",
-			"updatedon": "12/04/2020"
+			"unconfirmed": "4"
 		},
 		{
+			"_cn6ca": "12/04/2020",
 			"negative": "3808",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2269,10 +2270,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "3862",
-			"unconfirmed": "",
-			"updatedon": "12/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "12/04/2020",
 			"negative": "3590",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2285,10 +2286,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "4281",
-			"unconfirmed": "521",
-			"updatedon": "12/04/2020"
+			"unconfirmed": "521"
 		},
 		{
+			"_cn6ca": "12/04/2020",
 			"negative": "25105",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2301,10 +2302,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "28505",
-			"unconfirmed": "2559",
-			"updatedon": "12/04/2020"
+			"unconfirmed": "2559"
 		},
 		{
+			"_cn6ca": "12/04/2020",
 			"negative": "",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2317,10 +2318,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "10655",
-			"unconfirmed": "",
-			"updatedon": "12/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "12/04/2020",
 			"negative": "1452",
 			"numcallsstatehelpline": "448",
 			"numicubeds": "",
@@ -2333,10 +2334,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "1820",
-			"unconfirmed": "333",
-			"updatedon": "12/04/2020"
+			"unconfirmed": "333"
 		},
 		{
+			"_cn6ca": "12/04/2020",
 			"negative": "11250",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2349,10 +2350,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "11855",
-			"unconfirmed": "122",
-			"updatedon": "12/04/2020"
+			"unconfirmed": "122"
 		},
 		{
+			"_cn6ca": "12/04/2020",
 			"negative": "",
 			"numcallsstatehelpline": "29168",
 			"numicubeds": "",
@@ -2365,10 +2366,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "2523",
-			"unconfirmed": "",
-			"updatedon": "12/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "12/04/2020",
 			"negative": "8323",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2381,10 +2382,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "8755",
-			"unconfirmed": "",
-			"updatedon": "13/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "13/04/2020",
 			"negative": "",
 			"numcallsstatehelpline": "",
 			"numicubeds": "116",
@@ -2397,10 +2398,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "7263",
-			"unconfirmed": "41",
-			"updatedon": "13/04/2020"
+			"unconfirmed": "41"
 		},
 		{
+			"_cn6ca": "13/04/2020",
 			"negative": "263",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2413,10 +2414,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "296",
-			"unconfirmed": "11",
-			"updatedon": "13/04/2020"
+			"unconfirmed": "11"
 		},
 		{
+			"_cn6ca": "13/04/2020",
 			"negative": "3969",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2429,10 +2430,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "4377",
-			"unconfirmed": "377",
-			"updatedon": "13/04/2020"
+			"unconfirmed": "377"
 		},
 		{
+			"_cn6ca": "13/04/2020",
 			"negative": "12283",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2445,10 +2446,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "15032",
-			"unconfirmed": "1008",
-			"updatedon": "13/04/2020"
+			"unconfirmed": "1008"
 		},
 		{
+			"_cn6ca": "13/04/2020",
 			"negative": "",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2461,10 +2462,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "440",
-			"unconfirmed": "",
-			"updatedon": "13/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "13/04/2020",
 			"negative": "12970",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2477,10 +2478,10 @@
 			"totalpeopleinquarantine": "14",
 			"totalpeoplereleasedfromquarantine": "14204",
 			"totaltested": "14251",
-			"unconfirmed": "709",
-			"updatedon": "13/04/2020"
+			"unconfirmed": "709"
 		},
 		{
+			"_cn6ca": "13/04/2020",
 			"negative": "2961",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2493,10 +2494,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "4489",
-			"unconfirmed": "1346",
-			"updatedon": "13/04/2020"
+			"unconfirmed": "1346"
 		},
 		{
+			"_cn6ca": "13/04/2020",
 			"negative": "1109",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2509,10 +2510,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "1210",
-			"unconfirmed": "69",
-			"updatedon": "13/04/2020"
+			"unconfirmed": "69"
 		},
 		{
+			"_cn6ca": "13/04/2020",
 			"negative": "3795",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2525,10 +2526,10 @@
 			"totalpeopleinquarantine": "354",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "4065",
-			"unconfirmed": "",
-			"updatedon": "13/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "13/04/2020",
 			"negative": "1963",
 			"numcallsstatehelpline": "",
 			"numicubeds": "239",
@@ -2541,10 +2542,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "2523",
-			"unconfirmed": "541",
-			"updatedon": "13/04/2020"
+			"unconfirmed": "541"
 		},
 		{
+			"_cn6ca": "13/04/2020",
 			"negative": "9572",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2557,10 +2558,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "10017",
-			"unconfirmed": "",
-			"updatedon": "13/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "13/04/2020",
 			"negative": "14829",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2573,10 +2574,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "15683",
-			"unconfirmed": "476",
-			"updatedon": "13/04/2020"
+			"unconfirmed": "476"
 		},
 		{
+			"_cn6ca": "13/04/2020",
 			"negative": "",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2589,10 +2590,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "618",
-			"unconfirmed": "",
-			"updatedon": "13/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "13/04/2020",
 			"negative": "6875",
 			"numcallsstatehelpline": "548464",
 			"numicubeds": "716",
@@ -2605,10 +2606,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "10481",
-			"unconfirmed": "",
-			"updatedon": "13/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "13/04/2020",
 			"negative": "37964",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2621,10 +2622,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "39725",
-			"unconfirmed": "",
-			"updatedon": "13/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "13/04/2020",
 			"negative": "",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2637,10 +2638,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "89",
-			"unconfirmed": "",
-			"updatedon": "13/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "13/04/2020",
 			"negative": "4116",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2653,10 +2654,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "4170",
-			"unconfirmed": "",
-			"updatedon": "13/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "13/04/2020",
 			"negative": "3858",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2669,10 +2670,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "4480",
-			"unconfirmed": "446",
-			"updatedon": "13/04/2020"
+			"unconfirmed": "446"
 		},
 		{
+			"_cn6ca": "13/04/2020",
 			"negative": "28657",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2685,10 +2686,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "31804",
-			"unconfirmed": "2300",
-			"updatedon": "13/04/2020"
+			"unconfirmed": "2300"
 		},
 		{
+			"_cn6ca": "13/04/2020",
 			"negative": "",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2701,10 +2702,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "12746",
-			"unconfirmed": "",
-			"updatedon": "13/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "13/04/2020",
 			"negative": "1665",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2717,10 +2718,10 @@
 			"totalpeopleinquarantine": "1814",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "1998",
-			"unconfirmed": "298",
-			"updatedon": "13/04/2020"
+			"unconfirmed": "298"
 		},
 		{
+			"_cn6ca": "13/04/2020",
 			"negative": "12542",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2733,10 +2734,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "13287",
-			"unconfirmed": "177",
-			"updatedon": "13/04/2020"
+			"unconfirmed": "177"
 		},
 		{
+			"_cn6ca": "13/04/2020",
 			"negative": "",
 			"numcallsstatehelpline": "30221",
 			"numicubeds": "",
@@ -2749,10 +2750,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "2793",
-			"unconfirmed": "",
-			"updatedon": "13/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "13/04/2020",
 			"negative": "10032",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2765,10 +2766,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "10505",
-			"unconfirmed": "",
-			"updatedon": "14/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "14/04/2020",
 			"negative": "3267",
 			"numcallsstatehelpline": "10615",
 			"numicubeds": "440",
@@ -2781,10 +2782,10 @@
 			"totalpeopleinquarantine": "10022",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "3491",
-			"unconfirmed": "193",
-			"updatedon": "14/04/2020"
+			"unconfirmed": "193"
 		},
 		{
+			"_cn6ca": "14/04/2020",
 			"negative": "",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2797,10 +2798,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "7727",
-			"unconfirmed": "472",
-			"updatedon": "14/04/2020"
+			"unconfirmed": "472"
 		},
 		{
+			"_cn6ca": "14/04/2020",
 			"negative": "285",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2813,10 +2814,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "309",
-			"unconfirmed": "2",
-			"updatedon": "14/04/2020"
+			"unconfirmed": "2"
 		},
 		{
+			"_cn6ca": "14/04/2020",
 			"negative": "4319",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2829,10 +2830,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "4812",
-			"unconfirmed": "469",
-			"updatedon": "14/04/2020"
+			"unconfirmed": "469"
 		},
 		{
+			"_cn6ca": "14/04/2020",
 			"negative": "13748",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2845,10 +2846,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "16282",
-			"unconfirmed": "715",
-			"updatedon": "14/04/2020"
+			"unconfirmed": "715"
 		},
 		{
+			"_cn6ca": "14/04/2020",
 			"_cvlqs": "https://twitter.com/DHS_Goa/status/1250066344269185033",
 			"negative": "",
 			"numcallsstatehelpline": "",
@@ -2862,10 +2863,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "479",
-			"unconfirmed": "",
-			"updatedon": "14/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "14/04/2020",
 			"negative": "14363",
 			"numcallsstatehelpline": "41112",
 			"numicubeds": "",
@@ -2878,10 +2879,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "14980",
-			"unconfirmed": "",
-			"updatedon": "14/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "14/04/2020",
 			"negative": "3681",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2894,10 +2895,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "5210",
-			"unconfirmed": "1345",
-			"updatedon": "14/04/2020"
+			"unconfirmed": "1345"
 		},
 		{
+			"_cn6ca": "14/04/2020",
 			"negative": "1232",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2910,10 +2911,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "1311",
-			"unconfirmed": "47",
-			"updatedon": "14/04/2020"
+			"unconfirmed": "47"
 		},
 		{
+			"_cn6ca": "14/04/2020",
 			"negative": "4341",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2926,10 +2927,10 @@
 			"totalpeopleinquarantine": "365",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "4619",
-			"unconfirmed": "",
-			"updatedon": "14/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "14/04/2020",
 			"negative": "10554",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2942,10 +2943,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "11107",
-			"unconfirmed": "",
-			"updatedon": "14/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "14/04/2020",
 			"negative": "15488",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2958,10 +2959,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "16235",
-			"unconfirmed": "361",
-			"updatedon": "14/04/2020"
+			"unconfirmed": "361"
 		},
 		{
+			"_cn6ca": "14/04/2020",
 			"negative": "615",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2974,10 +2975,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "760",
-			"unconfirmed": "69",
-			"updatedon": "14/04/2020"
+			"unconfirmed": "69"
 		},
 		{
+			"_cn6ca": "14/04/2020",
 			"negative": "7103",
 			"numcallsstatehelpline": "578780",
 			"numicubeds": "783",
@@ -2990,10 +2991,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "12940",
-			"unconfirmed": "4835",
-			"updatedon": "14/04/2020"
+			"unconfirmed": "4835"
 		},
 		{
+			"_cn6ca": "14/04/2020",
 			"negative": "39089",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3006,10 +3007,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "41071",
-			"unconfirmed": "",
-			"updatedon": "14/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "14/04/2020",
 			"negative": "",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3022,10 +3023,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "91",
-			"unconfirmed": "",
-			"updatedon": "14/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "14/04/2020",
 			"negative": "97",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3038,10 +3039,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "174",
-			"unconfirmed": "77",
-			"updatedon": "14/04/2020"
+			"unconfirmed": "77"
 		},
 		{
+			"_cn6ca": "14/04/2020",
 			"negative": "4678",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3054,10 +3055,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "4734",
-			"unconfirmed": "",
-			"updatedon": "14/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "14/04/2020",
 			"negative": "4047",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3070,10 +3071,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "4844",
-			"unconfirmed": "613",
-			"updatedon": "14/04/2020"
+			"unconfirmed": "613"
 		},
 		{
+			"_cn6ca": "14/04/2020",
 			"negative": "29376",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3086,10 +3087,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "34928",
-			"unconfirmed": "4583",
-			"updatedon": "14/04/2020"
+			"unconfirmed": "4583"
 		},
 		{
+			"_cn6ca": "14/04/2020",
 			"negative": "13234",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3102,10 +3103,10 @@
 			"totalpeopleinquarantine": "1870",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "19255",
-			"unconfirmed": "13234",
-			"updatedon": "14/04/2020"
+			"unconfirmed": "13234"
 		},
 		{
+			"_cn6ca": "14/04/2020",
 			"negative": "1838",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3118,10 +3119,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "2174",
-			"unconfirmed": "305",
-			"updatedon": "14/04/2020"
+			"unconfirmed": "305"
 		},
 		{
+			"_cn6ca": "14/04/2020",
 			"negative": "15134",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3134,10 +3135,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "15914",
-			"unconfirmed": "120",
-			"updatedon": "14/04/2020"
+			"unconfirmed": "120"
 		},
 		{
+			"_cn6ca": "14/04/2020",
 			"negative": "",
 			"numcallsstatehelpline": "31330",
 			"numicubeds": "",
@@ -3150,10 +3151,10 @@
 			"totalpeopleinquarantine": "2395",
 			"totalpeoplereleasedfromquarantine": "1956",
 			"totaltested": "3081",
-			"unconfirmed": "",
-			"updatedon": "14/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "14/04/2020",
 			"negative": "11088",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3166,10 +3167,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "11613",
-			"unconfirmed": "",
-			"updatedon": "15/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "15/04/2020",
 			"_cvlqs": "https://twitter.com/nhm_assam/status/1250441490418950148/photo/2",
 			"negative": "3492",
 			"numcallsstatehelpline": "10915",
@@ -3183,10 +3184,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "3613",
-			"unconfirmed": "89",
-			"updatedon": "15/04/2020"
+			"unconfirmed": "89"
 		},
 		{
+			"_cn6ca": "15/04/2020",
 			"negative": "",
 			"numcallsstatehelpline": "40380",
 			"numicubeds": "",
@@ -3199,10 +3200,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "8263",
-			"unconfirmed": "565",
-			"updatedon": "15/04/2020"
+			"unconfirmed": "565"
 		},
 		{
+			"_cn6ca": "15/04/2020",
 			"negative": "293",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3215,10 +3216,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "317",
-			"unconfirmed": "2",
-			"updatedon": "15/04/2020"
+			"unconfirmed": "2"
 		},
 		{
+			"_cn6ca": "15/04/2020",
 			"negative": "4878",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3231,10 +3232,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "5122",
-			"unconfirmed": "211",
-			"updatedon": "15/04/2020"
+			"unconfirmed": "211"
 		},
 		{
+			"_cn6ca": "15/04/2020",
 			"negative": "13865",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3247,10 +3248,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "16605",
-			"unconfirmed": "956",
-			"updatedon": "15/04/2020"
+			"unconfirmed": "956"
 		},
 		{
+			"_cn6ca": "15/04/2020",
 			"negative": "",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3263,10 +3264,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "556",
-			"unconfirmed": "",
-			"updatedon": "15/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "15/04/2020",
 			"negative": "18431",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3279,10 +3280,10 @@
 			"totalpeopleinquarantine": "15147",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "19197",
-			"unconfirmed": "0",
-			"updatedon": "15/04/2020"
+			"unconfirmed": "0"
 		},
 		{
+			"_cn6ca": "15/04/2020",
 			"negative": "5581",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3295,10 +3296,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "7388",
-			"unconfirmed": "1617",
-			"updatedon": "15/04/2020"
+			"unconfirmed": "1617"
 		},
 		{
+			"_cn6ca": "15/04/2020",
 			"negative": "1391",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3311,10 +3312,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "1426",
-			"unconfirmed": "0",
-			"updatedon": "15/04/2020"
+			"unconfirmed": "0"
 		},
 		{
+			"_cn6ca": "15/04/2020",
 			"negative": "4871",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3327,10 +3328,10 @@
 			"totalpeopleinquarantine": "270",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "5171",
-			"unconfirmed": "",
-			"updatedon": "15/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "15/04/2020",
 			"negative": "11905",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3343,10 +3344,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "12483",
-			"unconfirmed": "",
-			"updatedon": "15/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "15/04/2020",
 			"negative": "16002",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3359,10 +3360,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "16475",
-			"unconfirmed": "86",
-			"updatedon": "15/04/2020"
+			"unconfirmed": "86"
 		},
 		{
+			"_cn6ca": "15/04/2020",
 			"negative": "657",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3375,10 +3376,10 @@
 			"totalpeopleinquarantine": "154",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "820",
-			"unconfirmed": "86",
-			"updatedon": "15/04/2020"
+			"unconfirmed": "86"
 		},
 		{
+			"_cn6ca": "15/04/2020",
 			"negative": "8658",
 			"numcallsstatehelpline": "607324",
 			"numicubeds": "840",
@@ -3391,10 +3392,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "14096",
-			"unconfirmed": "4501",
-			"updatedon": "15/04/2020"
+			"unconfirmed": "4501"
 		},
 		{
+			"_cn6ca": "15/04/2020",
 			"negative": "42808",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3407,10 +3408,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "45142",
-			"unconfirmed": "",
-			"updatedon": "15/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "15/04/2020",
 			"negative": "",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3423,10 +3424,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "94",
-			"unconfirmed": "",
-			"updatedon": "15/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "15/04/2020",
 			"negative": "174",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3439,10 +3440,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "184",
-			"unconfirmed": "10",
-			"updatedon": "15/04/2020"
+			"unconfirmed": "10"
 		},
 		{
+			"_cn6ca": "15/04/2020",
 			"negative": "5477",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3455,10 +3456,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "5537",
-			"unconfirmed": "",
-			"updatedon": "15/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "15/04/2020",
 			"negative": "4404",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3471,10 +3472,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "5193",
-			"unconfirmed": "603",
-			"updatedon": "15/04/2020"
+			"unconfirmed": "603"
 		},
 		{
+			"_cn6ca": "15/04/2020",
 			"negative": "31902",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3487,10 +3488,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "37860",
-			"unconfirmed": "4882",
-			"updatedon": "15/04/2020"
+			"unconfirmed": "4882"
 		},
 		{
+			"_cn6ca": "15/04/2020",
 			"negative": "15210",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3503,10 +3504,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "21994",
-			"unconfirmed": "1383",
-			"updatedon": "15/04/2020"
+			"unconfirmed": "1383"
 		},
 		{
+			"_cn6ca": "15/04/2020",
 			"negative": "",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3519,10 +3520,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "738",
-			"unconfirmed": "",
-			"updatedon": "15/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "15/04/2020",
 			"negative": "2022",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3535,10 +3536,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "2413",
-			"unconfirmed": "354",
-			"updatedon": "15/04/2020"
+			"unconfirmed": "354"
 		},
 		{
+			"_cn6ca": "15/04/2020",
 			"negative": "18595",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3551,10 +3552,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "19506",
-			"unconfirmed": "184",
-			"updatedon": "15/04/2020"
+			"unconfirmed": "184"
 		},
 		{
+			"_cn6ca": "15/04/2020",
 			"negative": "",
 			"numcallsstatehelpline": "32417",
 			"numicubeds": "",
@@ -3567,10 +3568,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "3470",
-			"unconfirmed": "",
-			"updatedon": "15/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "15/04/2020",
 			"negative": "19701",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3583,10 +3584,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "20235",
-			"unconfirmed": "",
-			"updatedon": "16/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "16/04/2020",
 			"negative": "3803",
 			"numcallsstatehelpline": "11248",
 			"numicubeds": "440",
@@ -3599,10 +3600,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "4108",
-			"unconfirmed": "",
-			"updatedon": "16/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "16/04/2020",
 			"negative": "",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3615,10 +3616,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "8846",
-			"unconfirmed": "607",
-			"updatedon": "16/04/2020"
+			"unconfirmed": "607"
 		},
 		{
+			"_cn6ca": "16/04/2020",
 			"negative": "315",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3631,10 +3632,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "337",
-			"unconfirmed": "0",
-			"updatedon": "16/04/2020"
+			"unconfirmed": "0"
 		},
 		{
+			"_cn6ca": "16/04/2020",
 			"negative": "5168",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3647,10 +3648,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "5519",
-			"unconfirmed": "318",
-			"updatedon": "16/04/2020"
+			"unconfirmed": "318"
 		},
 		{
+			"_cn6ca": "16/04/2020",
 			"negative": "14692",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3663,10 +3664,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "18784",
-			"unconfirmed": "2251",
-			"updatedon": "16/04/2020"
+			"unconfirmed": "2251"
 		},
 		{
+			"_cn6ca": "16/04/2020",
 			"negative": "",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3679,10 +3680,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "611",
-			"unconfirmed": "",
-			"updatedon": "16/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "16/04/2020",
 			"negative": "19974",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3695,10 +3696,10 @@
 			"totalpeopleinquarantine": "14906",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "20903",
-			"unconfirmed": "0",
-			"updatedon": "16/04/2020"
+			"unconfirmed": "0"
 		},
 		{
+			"_cn6ca": "16/04/2020",
 			"negative": "6465",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3711,10 +3712,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "8064",
-			"unconfirmed": "1408",
-			"updatedon": "16/04/2020"
+			"unconfirmed": "1408"
 		},
 		{
+			"_cn6ca": "16/04/2020",
 			"negative": "1559",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3727,10 +3728,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "1604",
-			"unconfirmed": "10",
-			"updatedon": "16/04/2020"
+			"unconfirmed": "10"
 		},
 		{
+			"_cn6ca": "16/04/2020",
 			"negative": "5366",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3743,10 +3744,10 @@
 			"totalpeopleinquarantine": "265",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "5680",
-			"unconfirmed": "",
-			"updatedon": "16/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "16/04/2020",
 			"negative": "13074",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3759,10 +3760,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "13724",
-			"unconfirmed": "",
-			"updatedon": "16/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "16/04/2020",
 			"negative": "16459",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3775,10 +3776,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "17400",
-			"unconfirmed": "547",
-			"updatedon": "16/04/2020"
+			"unconfirmed": "547"
 		},
 		{
+			"_cn6ca": "16/04/2020",
 			"negative": "695",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3791,10 +3792,10 @@
 			"totalpeopleinquarantine": "157",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "917",
-			"unconfirmed": "145",
-			"updatedon": "16/04/2020"
+			"unconfirmed": "145"
 		},
 		{
+			"_cn6ca": "16/04/2020",
 			"negative": "12326",
 			"numcallsstatehelpline": "637288",
 			"numicubeds": "",
@@ -3807,10 +3808,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "17650",
-			"unconfirmed": "4158",
-			"updatedon": "16/04/2020"
+			"unconfirmed": "4158"
 		},
 		{
+			"_cn6ca": "16/04/2020",
 			"negative": "48198",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3823,10 +3824,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "50882",
-			"unconfirmed": "",
-			"updatedon": "16/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "16/04/2020",
 			"negative": "299",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3839,10 +3840,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "552",
-			"unconfirmed": "246",
-			"updatedon": "16/02/2020"
+			"unconfirmed": "246"
 		},
 		{
+			"_cn6ca": "16/02/2020",
 			"negative": "",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3855,10 +3856,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "94",
-			"unconfirmed": "",
-			"updatedon": "16/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "16/04/2020",
 			"negative": "6674",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3871,10 +3872,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "6734",
-			"unconfirmed": "",
-			"updatedon": "16/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "16/04/2020",
 			"negative": "4727",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3887,10 +3888,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "5524",
-			"unconfirmed": "600",
-			"updatedon": "16/04/2020"
+			"unconfirmed": "600"
 		},
 		{
+			"_cn6ca": "16/04/2020",
 			"negative": "33739",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3903,10 +3904,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "40778",
-			"unconfirmed": "5938",
-			"updatedon": "16/04/2020"
+			"unconfirmed": "5938"
 		},
 		{
+			"_cn6ca": "16/04/2020",
 			"negative": "18743",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3919,10 +3920,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "26005",
-			"unconfirmed": "1400",
-			"updatedon": "16/04/2020"
+			"unconfirmed": "1400"
 		},
 		{
+			"_cn6ca": "16/04/2020",
 			"negative": "760",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3935,10 +3936,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "762",
-			"unconfirmed": "",
-			"updatedon": "16/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "16/04/2020",
 			"negative": "2210",
 			"numcallsstatehelpline": "353",
 			"numicubeds": "",
@@ -3951,10 +3952,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "2593",
-			"unconfirmed": "346",
-			"updatedon": "16/04/2020"
+			"unconfirmed": "346"
 		},
 		{
+			"_cn6ca": "16/04/2020",
 			"negative": "20374",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3967,10 +3968,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "21384",
-			"unconfirmed": "205",
-			"updatedon": "16/04/2020"
+			"unconfirmed": "205"
 		},
 		{
+			"_cn6ca": "16/04/2020",
 			"negative": "",
 			"numcallsstatehelpline": "33400",
 			"numicubeds": "",
@@ -3983,10 +3984,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "3811",
-			"unconfirmed": "",
-			"updatedon": "16/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "17/04/2020",
 			"negative": "4024",
 			"numcallsstatehelpline": "11561",
 			"numicubeds": "440",
@@ -3999,10 +4000,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "4236",
-			"unconfirmed": "",
-			"updatedon": "17/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "17/04/2020",
 			"negative": "",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -4015,10 +4016,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "9486",
-			"unconfirmed": "510",
-			"updatedon": "17/04/2020"
+			"unconfirmed": "510"
 		},
 		{
+			"_cn6ca": "17/04/2020",
 			"negative": "335",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -4031,10 +4032,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "358",
-			"unconfirmed": "1",
-			"updatedon": "17/04/2020"
+			"unconfirmed": "1"
 		},
 		{
+			"_cn6ca": "17/04/2020",
 			"negative": "16899",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -4047,10 +4048,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "21409",
-			"unconfirmed": "2674",
-			"updatedon": "17/04/2020"
+			"unconfirmed": "2674"
 		},
 		{
+			"_cn6ca": "17/04/2020",
 			"negative": "",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -4063,10 +4064,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "673",
-			"unconfirmed": "",
-			"updatedon": "17/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "17/04/2020",
 			"negative": "22339",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -4079,10 +4080,10 @@
 			"totalpeopleinquarantine": "15914",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "23483",
-			"unconfirmed": "45",
-			"updatedon": "17/04/2020"
+			"unconfirmed": "45"
 		},
 		{
+			"_cn6ca": "17/04/2020",
 			"negative": "7148",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -4095,10 +4096,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "8884",
-			"unconfirmed": "1527",
-			"updatedon": "17/04/2020"
+			"unconfirmed": "1527"
 		},
 		{
+			"_cn6ca": "17/04/2020",
 			"negative": "1740",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -4111,10 +4112,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "1992",
-			"unconfirmed": "216",
-			"updatedon": "17/04/2020"
+			"unconfirmed": "216"
 		},
 		{
+			"_cn6ca": "17/04/2020",
 			"negative": "6110",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -4127,10 +4128,10 @@
 			"totalpeopleinquarantine": "260",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "6438",
-			"unconfirmed": "",
-			"updatedon": "17/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "17/04/2020",
 			"negative": "3111",
 			"numcallsstatehelpline": "",
 			"numicubeds": "239",
@@ -4143,10 +4144,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "3751",
-			"unconfirmed": "",
-			"updatedon": "17/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "17/04/2020",
 			"negative": "14606",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -4159,10 +4160,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "17594",
-			"unconfirmed": "",
-			"updatedon": "17/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "17/04/2020",
 			"negative": "17279",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -4175,10 +4176,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "18029",
-			"unconfirmed": "355",
-			"updatedon": "17/04/2020"
+			"unconfirmed": "355"
 		},
 		{
+			"_cn6ca": "17/04/2020",
 			"negative": "13992",
 			"numcallsstatehelpline": "668994",
 			"numicubeds": "",
@@ -4191,10 +4192,26 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "20298",
-			"unconfirmed": "4996",
-			"updatedon": "17/04/2020"
+			"unconfirmed": "4996"
 		},
 		{
+			"_cn6ca": "17/04/2020",
+			"negative": "541",
+			"numcallsstatehelpline": "",
+			"numicubeds": "",
+			"numisolationbeds": "",
+			"numventilators": "",
+			"positive": "9",
+			"source": "http://meghalaya.gov.in/megcms/sites/default/files/press_release/CM%20Media%20Brief_0.pdf",
+			"source2": "",
+			"state": "Meghalaya",
+			"totalpeopleinquarantine": "105",
+			"totalpeoplereleasedfromquarantine": "",
+			"totaltested": "617",
+			"unconfirmed": ""
+		},
+		{
+			"_cn6ca": "17/04/2020",
 			"negative": "52762",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -4207,10 +4224,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "55678",
-			"unconfirmed": "",
-			"updatedon": "17/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "17/04/2020",
 			"negative": "",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -4223,10 +4240,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "",
-			"unconfirmed": "",
-			"updatedon": "17/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "17/04/2020",
 			"negative": "7517",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -4239,10 +4256,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "7577",
-			"unconfirmed": "",
-			"updatedon": "17/04/2020"
+			"unconfirmed": ""
 		},
 		{
+			"_cn6ca": "17/04/2020",
 			"negative": "5113",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -4255,10 +4272,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "5988",
-			"unconfirmed": "664",
-			"updatedon": "17/04/2020"
+			"unconfirmed": "664"
 		},
 		{
+			"_cn6ca": "17/04/2020",
 			"negative": "36153",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -4271,10 +4288,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "42847",
-			"unconfirmed": "5465",
-			"updatedon": "17/04/2020"
+			"unconfirmed": "5465"
 		},
 		{
+			"_cn6ca": "17/04/2020",
 			"negative": "21628",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -4287,10 +4304,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "29673",
-			"unconfirmed": "2023",
-			"updatedon": "17/04/2020"
+			"unconfirmed": "2023"
 		},
 		{
+			"_cn6ca": "17/04/2020",
 			"negative": "2420",
 			"numcallsstatehelpline": "420",
 			"numicubeds": "",
@@ -4303,10 +4320,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "2831",
-			"unconfirmed": "371",
-			"updatedon": "17/04/2020"
+			"unconfirmed": "371"
 		},
 		{
+			"_cn6ca": "17/04/2020",
 			"negative": "23648",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -4319,10 +4336,10 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "24643",
-			"unconfirmed": "146",
-			"updatedon": "17/04/2020"
+			"unconfirmed": "146"
 		},
 		{
+			"_cn6ca": "17/04/2020",
 			"negative": "",
 			"numcallsstatehelpline": "34424",
 			"numicubeds": "",
@@ -4335,8 +4352,7 @@
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "4212",
-			"unconfirmed": "",
-			"updatedon": "17/04/2020"
+			"unconfirmed": ""
 		}
 	]
 }
