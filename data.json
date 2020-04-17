@@ -701,6 +701,15 @@
 			"totalconfirmed": "13434",
 			"totaldeceased": "451",
 			"totalrecovered": "1768"
+		},
+		{
+			"dailyconfirmed": "916",
+			"dailydeceased": "31",
+			"dailyrecovered": "269",
+			"date": "17 April ",
+			"totalconfirmed": "14350",
+			"totaldeceased": "482",
+			"totalrecovered": "2037"
 		}
 	],
 	"statewise": [
@@ -711,7 +720,7 @@
 			"deltaconfirmed": "916",
 			"deltadeaths": "31",
 			"deltarecovered": "269",
-			"lastupdatedtime": "17/04/2020 23:23:05",
+			"lastupdatedtime": "17/04/2020 23:25:05",
 			"recovered": "2037",
 			"state": "Total",
 			"statecode": "TT",
@@ -724,7 +733,7 @@
 			"deltaconfirmed": "118",
 			"deltadeaths": "0",
 			"deltarecovered": "31",
-			"lastupdatedtime": "17/04/2020 23:23:06",
+			"lastupdatedtime": "17/04/2020 23:25:05",
 			"recovered": "331",
 			"state": "Maharashtra",
 			"statecode": "MH",
@@ -971,7 +980,7 @@
 			"deltaconfirmed": "1",
 			"deltadeaths": "0",
 			"deltarecovered": "0",
-			"lastupdatedtime": "17/04/2020 23:23:08",
+			"lastupdatedtime": "17/04/2020 23:25:06",
 			"recovered": "16",
 			"state": "Himachal Pradesh",
 			"statecode": "HP",

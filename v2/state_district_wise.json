@@ -198,10 +198,10 @@
     "districtData": [
       {
         "district": "Hyderabad",
-        "confirmed": 307,
+        "confirmed": 417,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 50
         }
       },
       {
@@ -222,14 +222,6 @@
       },
       {
         "district": "Ranga Reddy",
-        "confirmed": 34,
-        "lastupdatedtime": "",
-        "delta": {
-          "confirmed": 0
-        }
-      },
-      {
-        "district": "Medchal Malkajgiri",
         "confirmed": 23,
         "lastupdatedtime": "",
         "delta": {
@@ -237,11 +229,11 @@
         }
       },
       {
-        "district": "Unknown",
-        "confirmed": 99,
+        "district": "Medchal Malkajgiri",
+        "confirmed": 6,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 50
+          "confirmed": 0
         }
       },
       {
@@ -262,7 +254,15 @@
       },
       {
         "district": "Warangal Urban",
-        "confirmed": 25,
+        "confirmed": 21,
+        "lastupdatedtime": "",
+        "delta": {
+          "confirmed": 0
+        }
+      },
+      {
+        "district": "Unknown",
+        "confirmed": 22,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -310,7 +310,7 @@
       },
       {
         "district": "Medak",
-        "confirmed": 6,
+        "confirmed": 5,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0

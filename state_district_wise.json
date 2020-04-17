@@ -171,10 +171,10 @@
   "Telangana": {
     "districtData": {
       "Hyderabad": {
-        "confirmed": 307,
+        "confirmed": 417,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 50
         }
       },
       "Karimnagar": {
@@ -192,24 +192,17 @@
         }
       },
       "Ranga Reddy": {
-        "confirmed": 34,
-        "lastupdatedtime": "",
-        "delta": {
-          "confirmed": 0
-        }
-      },
-      "Medchal Malkajgiri": {
         "confirmed": 23,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
         }
       },
-      "Unknown": {
-        "confirmed": 99,
+      "Medchal Malkajgiri": {
+        "confirmed": 6,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 50
+          "confirmed": 0
         }
       },
       "Rajanna Sircilla": {
@@ -227,7 +220,14 @@
         }
       },
       "Warangal Urban": {
-        "confirmed": 25,
+        "confirmed": 21,
+        "lastupdatedtime": "",
+        "delta": {
+          "confirmed": 0
+        }
+      },
+      "Unknown": {
+        "confirmed": 22,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -269,7 +269,7 @@
         }
       },
       "Medak": {
-        "confirmed": 6,
+        "confirmed": 5,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
