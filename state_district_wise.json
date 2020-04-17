@@ -178,10 +178,10 @@
         }
       },
       "Karimnagar": {
-        "confirmed": 18,
+        "confirmed": 19,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "Bhadradri Kothagudem": {
@@ -206,10 +206,10 @@
         }
       },
       "Unknown": {
-        "confirmed": 132,
+        "confirmed": 99,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 66
+          "confirmed": 50
         }
       },
       "Rajanna Sircilla": {
@@ -234,17 +234,17 @@
         }
       },
       "Vikarabad": {
-        "confirmed": 29,
+        "confirmed": 33,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
         }
       },
       "Suryapet": {
-        "confirmed": 23,
+        "confirmed": 43,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 10
         }
       },
       "Siddipet": {
@@ -262,10 +262,10 @@
         }
       },
       "Nizamabad": {
-        "confirmed": 51,
+        "confirmed": 58,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 4
         }
       },
       "Medak": {
@@ -311,10 +311,10 @@
         }
       },
       "Jagitial": {
-        "confirmed": 2,
+        "confirmed": 3,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "Jogulamba Gadwal": {
@@ -715,10 +715,10 @@
   "Uttar Pradesh": {
     "districtData": {
       "Agra": {
-        "confirmed": 167,
+        "confirmed": 172,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 5
         }
       },
       "Ghaziabad": {
@@ -729,10 +729,10 @@
         }
       },
       "Lucknow": {
-        "confirmed": 97,
+        "confirmed": 104,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 7
         }
       },
       "Gautam Buddha Nagar": {
@@ -750,24 +750,24 @@
         }
       },
       "Moradabad": {
-        "confirmed": 21,
+        "confirmed": 33,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 12
         }
       },
       "Varanasi": {
-        "confirmed": 9,
+        "confirmed": 11,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       "Kanpur Nagar": {
-        "confirmed": 22,
+        "confirmed": 29,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 7
         }
       },
       "Pilibhit": {
@@ -813,10 +813,10 @@
         }
       },
       "Bulandshahr": {
-        "confirmed": 12,
+        "confirmed": 14,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       "Basti": {
@@ -869,10 +869,10 @@
         }
       },
       "Hapur": {
-        "confirmed": 15,
+        "confirmed": 16,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "Ghazipur": {
@@ -904,10 +904,10 @@
         }
       },
       "Mirzapur": {
-        "confirmed": 2,
+        "confirmed": 3,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "Rae Bareli": {
@@ -925,10 +925,10 @@
         }
       },
       "Auraiya": {
-        "confirmed": 5,
+        "confirmed": 6,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "Mathura": {
@@ -939,10 +939,10 @@
         }
       },
       "Budaun": {
-        "confirmed": 4,
+        "confirmed": 5,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "Kaushambi": {
@@ -1009,17 +1009,17 @@
         }
       },
       "Etawah": {
-        "confirmed": 1,
+        "confirmed": 2,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "Sambhal": {
-        "confirmed": 6,
+        "confirmed": 7,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "Unnao": {
@@ -1044,17 +1044,17 @@
         }
       },
       "Mainpuri": {
-        "confirmed": 2,
+        "confirmed": 4,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
-      "Unknown": {
-        "confirmed": 44,
+      "Gonda": {
+        "confirmed": 1,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 44
+          "confirmed": 1
         }
       }
     }
@@ -1781,7 +1781,7 @@
         "confirmed": 239,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 118
         }
       }
     }
@@ -2469,10 +2469,10 @@
         }
       },
       "Unknown": {
-        "confirmed": 2,
+        "confirmed": 3,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       }
     }
