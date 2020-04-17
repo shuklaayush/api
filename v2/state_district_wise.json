@@ -2038,7 +2038,7 @@
       },
       {
         "district": "Unknown",
-        "confirmed": 121,
+        "confirmed": 239,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -2853,26 +2853,26 @@
       },
       {
         "district": "Bhopal",
-        "confirmed": 196,
+        "confirmed": 197,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
         "district": "Indore",
-        "confirmed": 707,
+        "confirmed": 841,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 134
         }
       },
       {
         "district": "Ujjain",
-        "confirmed": 30,
+        "confirmed": 31,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
@@ -2925,10 +2925,10 @@
       },
       {
         "district": "Betul",
-        "confirmed": 1,
+        "confirmed": 2,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
@@ -2965,18 +2965,18 @@
       },
       {
         "district": "Dhar",
-        "confirmed": 6,
+        "confirmed": 10,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 4
         }
       },
       {
         "district": "Hoshangabad",
-        "confirmed": 16,
+        "confirmed": 19,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 3
         }
       },
       {
@@ -2989,10 +2989,10 @@
       },
       {
         "district": "Dewas",
-        "confirmed": 17,
+        "confirmed": 18,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
@@ -3021,10 +3021,10 @@
       },
       {
         "district": "Mandsaur",
-        "confirmed": 7,
+        "confirmed": 8,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
@@ -3057,14 +3057,6 @@
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
-        }
-      },
-      {
-        "district": "Unknown",
-        "confirmed": 146,
-        "lastupdatedtime": "",
-        "delta": {
-          "confirmed": 146
         }
       }
     ]

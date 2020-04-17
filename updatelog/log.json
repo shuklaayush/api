@@ -1,9 +1,5 @@
 [
   {
-    "update": "1 death in Uttar Pradesh\n",
-    "timestamp": 1587032660
-  },
-  {
     "update": "9 new cases in Andhra Pradesh\n1 recovery in Andaman and Nicobar Islands\n",
     "timestamp": 1587036241
   },
@@ -198,5 +194,9 @@
   {
     "update": "67 new cases, 34 recoveries and 4 deaths in Delhi\n36 new cases in Rajasthan\n",
     "timestamp": 1587140304
+  },
+  {
+    "update": "118 new cases in Maharashtra\n",
+    "timestamp": 1587144873
   }
 ]
