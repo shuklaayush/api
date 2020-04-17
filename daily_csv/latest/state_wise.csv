@@ -1,5 +1,5 @@
 State,Confirmed,Recovered,Deaths,Active,Last_Updated_Time,State_code,Delta_Confirmed,Delta_Recovered,Delta_Deaths,State_Notes
-Total,14348,2041,486,11821,18/04/2020 00:25:05,TT,916,273,38,
+Total,14352,2041,486,11825,18/04/2020 00:44:05,TT,920,273,38,
 Maharashtra,3320,331,201,2788,17/04/2020 23:45:05,MH,118,31,7,
 Delhi,1707,72,42,1593,17/04/2020 21:52:06,DL,67,20,4,
 Tamil Nadu,1323,283,15,1025,17/04/2020 18:55:06,TN,56,103,0,
@@ -15,11 +15,11 @@ Jammu and Kashmir,328,42,5,281,17/04/2020 20:04:08,JK,14,4,1,
 West Bengal,255,51,10,194,17/04/2020 08:43:06,WB,24,9,0,"As WB state bulletin only reports the number of active cases, the numbers for WB are currently updated according to https://www.mohfw.gov.in"
 Haryana,223,86,3,134,17/04/2020 19:25:09,HR,8,21,0,"14 recovered Italian tourists included in tally, 1 death in Ambala unaccounted."
 Punjab,211,30,14,167,17/04/2020 18:55:29,PB,14,1,0,
-Bihar,83,37,1,45,16/04/2020 23:13:07,BR,0,0,0,
+Bihar,85,37,1,47,18/04/2020 00:44:06,BR,2,0,0,
 Odisha,60,21,1,38,17/04/2020 20:37:11,OR,0,2,0,
 Uttarakhand,40,9,0,31,17/04/2020 17:46:07,UT,3,0,0,
 Chhattisgarh,36,24,0,12,17/04/2020 19:15:07,CT,0,1,0,
-Himachal Pradesh,36,16,2,18,17/04/2020 23:25:06,HP,1,0,0,Death of Tibetan refugee included
+Himachal Pradesh,38,16,2,20,18/04/2020 00:44:07,HP,3,0,0,Death of Tibetan refugee included
 Assam,34,9,1,24,18/04/2020 00:25:07,AS,0,4,0,
 Jharkhand,32,0,2,30,17/04/2020 21:09:07,JH,3,0,0,
 Chandigarh,21,9,0,12,15/04/2020 17:20:25,CH,0,0,0,

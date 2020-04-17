@@ -703,24 +703,24 @@
 			"totalrecovered": "1768"
 		},
 		{
-			"dailyconfirmed": "916",
+			"dailyconfirmed": "920",
 			"dailydeceased": "38",
 			"dailyrecovered": "273",
 			"date": "17 April ",
-			"totalconfirmed": "14350",
+			"totalconfirmed": "14354",
 			"totaldeceased": "489",
 			"totalrecovered": "2041"
 		}
 	],
 	"statewise": [
 		{
-			"active": "11821",
-			"confirmed": "14348",
+			"active": "11825",
+			"confirmed": "14352",
 			"deaths": "486",
-			"deltaconfirmed": "916",
+			"deltaconfirmed": "920",
 			"deltadeaths": "38",
 			"deltarecovered": "273",
-			"lastupdatedtime": "18/04/2020 00:25:05",
+			"lastupdatedtime": "18/04/2020 00:44:05",
 			"recovered": "2041",
 			"state": "Total",
 			"statecode": "TT",
@@ -922,13 +922,13 @@
 			"statenotes": ""
 		},
 		{
-			"active": "45",
-			"confirmed": "83",
+			"active": "47",
+			"confirmed": "85",
 			"deaths": "1",
-			"deltaconfirmed": "0",
+			"deltaconfirmed": "2",
 			"deltadeaths": "0",
 			"deltarecovered": "0",
-			"lastupdatedtime": "16/04/2020 23:13:07",
+			"lastupdatedtime": "18/04/2020 00:44:06",
 			"recovered": "37",
 			"state": "Bihar",
 			"statecode": "BR",
@@ -974,13 +974,13 @@
 			"statenotes": ""
 		},
 		{
-			"active": "18",
-			"confirmed": "36",
+			"active": "20",
+			"confirmed": "38",
 			"deaths": "2",
-			"deltaconfirmed": "1",
+			"deltaconfirmed": "3",
 			"deltadeaths": "0",
 			"deltarecovered": "0",
-			"lastupdatedtime": "17/04/2020 23:25:06",
+			"lastupdatedtime": "18/04/2020 00:44:07",
 			"recovered": "16",
 			"state": "Himachal Pradesh",
 			"statecode": "HP",

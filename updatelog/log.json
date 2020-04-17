@@ -1,9 +1,5 @@
 [
   {
-    "update": "135 new cases in Madhya Pradesh\n",
-    "timestamp": 1587038073
-  },
-  {
     "update": "2 new cases and 2 recoveries in Karnataka\n",
     "timestamp": 1587038820
   },
@@ -198,5 +194,9 @@
   {
     "update": "4 recoveries in Assam\n",
     "timestamp": 1587149657
+  },
+  {
+    "update": "2 new cases in Bihar\n2 new cases in Himachal Pradesh\n",
+    "timestamp": 1587150873
   }
 ]
