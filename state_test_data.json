@@ -4305,6 +4305,22 @@
 			"totaltested": "24643",
 			"unconfirmed": "146",
 			"updatedon": "17/04/2020"
+		},
+		{
+			"negative": "",
+			"numcallsstatehelpline": "34424",
+			"numicubeds": "",
+			"numisolationbeds": "",
+			"numventilators": "",
+			"positive": "",
+			"source": "https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_17.04_.2020_.pdf",
+			"source2": "",
+			"state": "West Bengal",
+			"totalpeopleinquarantine": "",
+			"totalpeoplereleasedfromquarantine": "",
+			"totaltested": "4212",
+			"unconfirmed": "",
+			"updatedon": "17/04/2020"
 		}
 	]
 }
