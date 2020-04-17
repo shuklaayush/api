@@ -2434,10 +2434,10 @@
   "Himachal Pradesh": {
     "districtData": {
       "Kangra": {
-        "confirmed": 4,
+        "confirmed": 5,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "Una": {
@@ -2455,7 +2455,7 @@
         }
       },
       "Chamba": {
-        "confirmed": 4,
+        "confirmed": 6,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -2466,13 +2466,6 @@
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
-        }
-      },
-      "Unknown": {
-        "confirmed": 3,
-        "lastupdatedtime": "",
-        "delta": {
-          "confirmed": 1
         }
       }
     }
@@ -2673,7 +2666,7 @@
   "Bihar": {
     "districtData": {
       "Munger": {
-        "confirmed": 14,
+        "confirmed": 17,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -2758,13 +2751,6 @@
       },
       "Buxar": {
         "confirmed": 2,
-        "lastupdatedtime": "",
-        "delta": {
-          "confirmed": 0
-        }
-      },
-      "Unknown": {
-        "confirmed": 3,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0

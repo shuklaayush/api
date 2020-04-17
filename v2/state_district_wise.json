@@ -2792,10 +2792,10 @@
     "districtData": [
       {
         "district": "Kangra",
-        "confirmed": 4,
+        "confirmed": 5,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
@@ -2816,7 +2816,7 @@
       },
       {
         "district": "Chamba",
-        "confirmed": 4,
+        "confirmed": 6,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -2828,14 +2828,6 @@
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
-        }
-      },
-      {
-        "district": "Unknown",
-        "confirmed": 3,
-        "lastupdatedtime": "",
-        "delta": {
-          "confirmed": 1
         }
       }
     ]
@@ -3066,7 +3058,7 @@
     "districtData": [
       {
         "district": "Munger",
-        "confirmed": 14,
+        "confirmed": 17,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -3163,14 +3155,6 @@
       {
         "district": "Buxar",
         "confirmed": 2,
-        "lastupdatedtime": "",
-        "delta": {
-          "confirmed": 0
-        }
-      },
-      {
-        "district": "Unknown",
-        "confirmed": 3,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
