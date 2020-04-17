@@ -1,5 +1,5 @@
-,State,Total Tested,Positive,Negative,Unconfirmed,Total People In Quarantine,Total People Released From Quarantine,Num Isolation Beds,Num ICU Beds,Num Ventilators,Num Calls State Helpline,Source,,,,Source2
-Updated On,Delhi,2621,,,2621,,,,,,,http://health.delhigovt.nic.in/wps/wcm/connect/068e55804dc3527fb23cf7982ee7a5c7/HB01A.pdf?MOD=AJPERES&lmod=908572962&CACHEID=068e55804dc3527fb23cf7982ee7a5c7,,,,
+Updated On,State,Total Tested,Positive,Negative,Unconfirmed,Total People In Quarantine,Total People Released From Quarantine,Num Isolation Beds,Num ICU Beds,Num Ventilators,Num Calls State Helpline,Source,,,,Source2
+01/04/2020,Delhi,2621,,,2621,,,,,,,http://health.delhigovt.nic.in/wps/wcm/connect/068e55804dc3527fb23cf7982ee7a5c7/HB01A.pdf?MOD=AJPERES&lmod=908572962&CACHEID=068e55804dc3527fb23cf7982ee7a5c7,,,,
 01/04/2020,West Bengal,659,37,568,54,,,,,,,https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_01.04_.2020_.pdf,,,,
 01/04/2020,Kerala,7965,265,7256,444,622,,,,,,https://dashboard.kerala.gov.in/testing-view-public.php,,,,https://dashboard.kerala.gov.in/quarantine-view-public.php
 01/04/2020,Kerala,8456,286,7622,548,643,,,,,,https://dashboard.kerala.gov.in/testing-view-public.php,,,,https://dashboard.kerala.gov.in/quarantine-view-public.php
@@ -288,4 +288,3 @@ Updated On,Delhi,2621,,,2621,,,,,,,http://health.delhigovt.nic.in/wps/wcm/connec
 17/04/2020,Uttarakhand,2831,40,2420,371,,,,,,420,https://m.facebook.com/story.php?story_fbid=2568731796709847&id=1665195163730186&__tn__=%2As%2As-R,,,,
 17/04/2020,Uttar Pradesh,24643,849,23648,146,,,,,,,https://t.me/indiacovid/2504?single,,,,
 17/04/2020,West Bengal,4212,255,,,,,,,,34424,https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_17.04_.2020_.pdf,,,,https://www.mohfw.gov.in/
-17/04/2020,,,,,,,,,,,,,,,,
