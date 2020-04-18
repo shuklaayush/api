@@ -163,7 +163,7 @@
 			"updatedon": "16/04/2020"
 		},
 		{
-			"negative": "",
+			"negative": "204",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
 			"numisolationbeds": "",
@@ -176,7 +176,7 @@
 			"testsperthousand": "",
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
-			"totaltested": "",
+			"totaltested": "21450",
 			"unconfirmed": "",
 			"updatedon": "18/04/2020"
 		},
@@ -1747,21 +1747,21 @@
 			"updatedon": "17/04/2020"
 		},
 		{
-			"negative": "7223",
+			"negative": "8093",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
 			"numisolationbeds": "",
 			"numventilators": "",
-			"positive": "227",
+			"positive": "232",
 			"positiveratebytests": "",
-			"source": "http://www.nhmharyana.gov.in/WriteReadData/userfiles/file/CoronaVirus/Bulletin%20-Morning-%2018-04-2020.pdf",
+			"source": "http://www.nhmharyana.gov.in/WriteReadData/userfiles/file/CoronaVirus/Bulletin%20-Morning-%2018-04-2020.pdfhttp://www.nhmharyana.gov.in/WriteReadData/userfiles/file/CoronaVirus/Bulletin%20Evening%2018-04-2020.pdf",
 			"source2": "",
 			"state": "Haryana",
 			"testsperthousand": "",
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
-			"totaltested": "8971",
-			"unconfirmed": "1535",
+			"totaltested": "10454",
+			"unconfirmed": "2143",
 			"updatedon": "18/04/2020"
 		},
 		{
@@ -4823,6 +4823,24 @@
 			"totaltested": "24643",
 			"unconfirmed": "146",
 			"updatedon": "17/04/2020"
+		},
+		{
+			"negative": "27262",
+			"numcallsstatehelpline": "",
+			"numicubeds": "",
+			"numisolationbeds": "",
+			"numventilators": "",
+			"positive": "974",
+			"positiveratebytests": "",
+			"source": "https://t.me/indiacovid/2588",
+			"source2": "",
+			"state": "Uttar Pradesh",
+			"testsperthousand": "",
+			"totalpeopleinquarantine": "",
+			"totalpeoplereleasedfromquarantine": "",
+			"totaltested": "28484",
+			"unconfirmed": "248",
+			"updatedon": "18/04/2020"
 		},
 		{
 			"negative": "554",
