@@ -385,10 +385,10 @@
         }
       },
       "Jaipur": {
-        "confirmed": 497,
+        "confirmed": 519,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 3
+          "confirmed": 25
         }
       },
       "Jhunjhunu": {
@@ -406,10 +406,10 @@
         }
       },
       "Jodhpur": {
-        "confirmed": 156,
+        "confirmed": 180,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 2
+          "confirmed": 26
         }
       },
       "Pali": {
@@ -469,10 +469,10 @@
         }
       },
       "Tonk": {
-        "confirmed": 93,
+        "confirmed": 95,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       "Dhaulpur": {
@@ -490,10 +490,10 @@
         }
       },
       "Bharatpur": {
-        "confirmed": 70,
+        "confirmed": 85,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 27
+          "confirmed": 42
         }
       },
       "Bikaner": {
@@ -525,10 +525,10 @@
         }
       },
       "Nagaur": {
-        "confirmed": 26,
+        "confirmed": 31,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 12
+          "confirmed": 17
         }
       },
       "Jaisalmer": {
@@ -564,13 +564,6 @@
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
-        }
-      },
-      "Unknown": {
-        "confirmed": 68,
-        "lastupdatedtime": "",
-        "delta": {
-          "confirmed": 68
         }
       }
     }
@@ -1989,14 +1982,14 @@
         }
       },
       "Guntur": {
-        "confirmed": 126,
+        "confirmed": 125,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
         }
       },
       "Kurnool": {
-        "confirmed": 131,
+        "confirmed": 132,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 6
