@@ -2296,10 +2296,10 @@
       },
       {
         "district": "Unknown",
-        "confirmed": 29,
+        "confirmed": 31,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 29
+          "confirmed": 31
         }
       }
     ]

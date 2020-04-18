@@ -1,9 +1,5 @@
 [
   {
-    "update": "2 recoveries in Jammu and Kashmir\n",
-    "timestamp": 1587042380
-  },
-  {
     "update": "11 new cases, 2 recoveries and 1 death in Punjab\n",
     "timestamp": 1587042843
   },
@@ -198,5 +194,9 @@
   {
     "update": "29 new cases in Andhra Pradesh\n",
     "timestamp": 1587187497
+  },
+  {
+    "update": "2 new cases, 7 recoveries and 1 death in Andhra Pradesh\n",
+    "timestamp": 1587188053
   }
 ]
