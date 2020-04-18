@@ -2849,7 +2849,6 @@
 			"updatedon": "14/04/2020"
 		},
 		{
-			"_cvlqs": "https://twitter.com/DHS_Goa/status/1250066344269185033",
 			"negative": "",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3170,7 +3169,6 @@
 			"updatedon": "15/04/2020"
 		},
 		{
-			"_cvlqs": "https://twitter.com/nhm_assam/status/1250441490418950148/photo/2",
 			"negative": "3492",
 			"numcallsstatehelpline": "10915",
 			"numicubeds": "440",
@@ -3178,7 +3176,7 @@
 			"numventilators": "240",
 			"positive": "32",
 			"source": "https://twitter.com/nhm_assam/status/1250441490418950148/photo/1",
-			"source2": "",
+			"source2": "https://twitter.com/nhm_assam/status/1250441490418950148/photo/2",
 			"state": "Assam",
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
