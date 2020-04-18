@@ -1513,21 +1513,21 @@
 			"updatedon": "17/04/2020"
 		},
 		{
-			"negative": "",
+			"negative": "24726",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
 			"numisolationbeds": "",
 			"numventilators": "",
-			"positive": "1272",
+			"positive": "1376",
 			"positiveratebytests": "",
-			"source": "https://gujcovid19.gujarat.gov.in/",
+			"source": "https://twitter.com/PIBAhmedabad/status/1251515915323289601",
 			"source2": "",
 			"state": "Gujarat",
 			"testsperthousand": "",
-			"totalpeopleinquarantine": "",
+			"totalpeopleinquarantine": "16925",
 			"totalpeoplereleasedfromquarantine": "",
-			"totaltested": "24614",
-			"unconfirmed": "",
+			"totaltested": "26102",
+			"unconfirmed": "0",
 			"updatedon": "18/04/2020"
 		},
 		{

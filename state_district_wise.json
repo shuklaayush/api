@@ -1056,6 +1056,13 @@
         "delta": {
           "confirmed": 0
         }
+      },
+      "Unknown": {
+        "confirmed": 125,
+        "lastupdatedtime": "",
+        "delta": {
+          "confirmed": 125
+        }
       }
     }
   },
@@ -1575,24 +1582,24 @@
   "Maharashtra": {
     "districtData": {
       "Pune": {
-        "confirmed": 430,
+        "confirmed": 509,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 79
         }
       },
       "Mumbai": {
-        "confirmed": 2003,
+        "confirmed": 2187,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 184
         }
       },
       "Nagpur": {
-        "confirmed": 66,
+        "confirmed": 69,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 3
         }
       },
       "Ahmadnagar": {
@@ -1603,17 +1610,17 @@
         }
       },
       "Thane": {
-        "confirmed": 295,
+        "confirmed": 325,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 30
         }
       },
       "Raigarh": {
-        "confirmed": 16,
+        "confirmed": 30,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 14
         }
       },
       "Yavatmal": {
@@ -1638,10 +1645,10 @@
         }
       },
       "Palghar": {
-        "confirmed": 39,
+        "confirmed": 47,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 8
         }
       },
       "Sangli": {
@@ -1652,10 +1659,10 @@
         }
       },
       "Satara": {
-        "confirmed": 6,
+        "confirmed": 10,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 4
         }
       },
       "Sindhudurg": {
@@ -1771,10 +1778,10 @@
         }
       },
       "Solapur": {
-        "confirmed": 2,
+        "confirmed": 4,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       "Chandrapur": {
@@ -1785,10 +1792,17 @@
         }
       },
       "Unknown": {
-        "confirmed": 564,
+        "confirmed": 239,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 325
+          "confirmed": 0
+        }
+      },
+      "Nandurbar": {
+        "confirmed": 1,
+        "lastupdatedtime": "",
+        "delta": {
+          "confirmed": 1
         }
       }
     }
@@ -2290,17 +2304,17 @@
         }
       },
       "Ahmadabad": {
-        "confirmed": 765,
+        "confirmed": 861,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 143
+          "confirmed": 239
         }
       },
       "Vadodara": {
-        "confirmed": 150,
+        "confirmed": 153,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 8
+          "confirmed": 11
         }
       },
       "Gandhinagar": {
@@ -2325,10 +2339,10 @@
         }
       },
       "Bhavnagar": {
-        "confirmed": 28,
+        "confirmed": 30,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 2
+          "confirmed": 4
         }
       },
       "Porbandar": {
@@ -2346,10 +2360,10 @@
         }
       },
       "Panch Mahals": {
-        "confirmed": 8,
+        "confirmed": 9,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "Patan": {
@@ -2388,10 +2402,10 @@
         }
       },
       "Sabar Kantha": {
-        "confirmed": 1,
+        "confirmed": 2,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "Dahod": {
@@ -2444,17 +2458,10 @@
         }
       },
       "Mahisagar": {
-        "confirmed": 1,
+        "confirmed": 2,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
-        }
-      },
-      "Unknown": {
-        "confirmed": 104,
-        "lastupdatedtime": "",
-        "delta": {
-          "confirmed": 104
+          "confirmed": 1
         }
       }
     }

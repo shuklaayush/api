@@ -1210,6 +1210,14 @@
         "delta": {
           "confirmed": 0
         }
+      },
+      {
+        "district": "Unknown",
+        "confirmed": 125,
+        "lastupdatedtime": "",
+        "delta": {
+          "confirmed": 125
+        }
       }
     ]
   },
@@ -1806,26 +1814,26 @@
     "districtData": [
       {
         "district": "Pune",
-        "confirmed": 430,
+        "confirmed": 509,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 79
         }
       },
       {
         "district": "Mumbai",
-        "confirmed": 2003,
+        "confirmed": 2187,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 184
         }
       },
       {
         "district": "Nagpur",
-        "confirmed": 66,
+        "confirmed": 69,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 3
         }
       },
       {
@@ -1838,18 +1846,18 @@
       },
       {
         "district": "Thane",
-        "confirmed": 295,
+        "confirmed": 325,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 30
         }
       },
       {
         "district": "Raigarh",
-        "confirmed": 16,
+        "confirmed": 30,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 14
         }
       },
       {
@@ -1878,10 +1886,10 @@
       },
       {
         "district": "Palghar",
-        "confirmed": 39,
+        "confirmed": 47,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 8
         }
       },
       {
@@ -1894,10 +1902,10 @@
       },
       {
         "district": "Satara",
-        "confirmed": 6,
+        "confirmed": 10,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 4
         }
       },
       {
@@ -2030,10 +2038,10 @@
       },
       {
         "district": "Solapur",
-        "confirmed": 2,
+        "confirmed": 4,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       {
@@ -2046,10 +2054,18 @@
       },
       {
         "district": "Unknown",
-        "confirmed": 564,
+        "confirmed": 239,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 325
+          "confirmed": 0
+        }
+      },
+      {
+        "district": "Nandurbar",
+        "confirmed": 1,
+        "lastupdatedtime": "",
+        "delta": {
+          "confirmed": 1
         }
       }
     ]
@@ -2627,18 +2643,18 @@
       },
       {
         "district": "Ahmadabad",
-        "confirmed": 765,
+        "confirmed": 861,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 143
+          "confirmed": 239
         }
       },
       {
         "district": "Vadodara",
-        "confirmed": 150,
+        "confirmed": 153,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 8
+          "confirmed": 11
         }
       },
       {
@@ -2667,10 +2683,10 @@
       },
       {
         "district": "Bhavnagar",
-        "confirmed": 28,
+        "confirmed": 30,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 2
+          "confirmed": 4
         }
       },
       {
@@ -2691,10 +2707,10 @@
       },
       {
         "district": "Panch Mahals",
-        "confirmed": 8,
+        "confirmed": 9,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
@@ -2739,10 +2755,10 @@
       },
       {
         "district": "Sabar Kantha",
-        "confirmed": 1,
+        "confirmed": 2,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
@@ -2803,18 +2819,10 @@
       },
       {
         "district": "Mahisagar",
-        "confirmed": 1,
+        "confirmed": 2,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
-        }
-      },
-      {
-        "district": "Unknown",
-        "confirmed": 104,
-        "lastupdatedtime": "",
-        "delta": {
-          "confirmed": 104
+          "confirmed": 1
         }
       }
     ]
