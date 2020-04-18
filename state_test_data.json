@@ -577,6 +577,24 @@
 			"updatedon": "17/04/2020"
 		},
 		{
+			"negative": "",
+			"numcallsstatehelpline": "",
+			"numicubeds": "",
+			"numisolationbeds": "",
+			"numventilators": "",
+			"positive": "85",
+			"positiveratebytests": "",
+			"source": "https://twitter.com/sanjayjavin/status/1251405484998848512",
+			"source2": "",
+			"state": "Bihar",
+			"testsperthousand": "",
+			"totalpeopleinquarantine": "",
+			"totalpeoplereleasedfromquarantine": "",
+			"totaltested": "10104",
+			"unconfirmed": "512",
+			"updatedon": "18/04/2020"
+		},
+		{
 			"negative": "98",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -899,6 +917,24 @@
 			"totaltested": "5519",
 			"unconfirmed": "318",
 			"updatedon": "16/04/2020"
+		},
+		{
+			"negative": "5484",
+			"numcallsstatehelpline": "",
+			"numicubeds": "",
+			"numisolationbeds": "",
+			"numventilators": "",
+			"positive": "36",
+			"positiveratebytests": "",
+			"source": "http://cghealth.nic.in/cghealth17/Information/content/CORONA/MediaBulletinHINDI_18042020.pdf",
+			"source2": "",
+			"state": "Chhattisgarh",
+			"testsperthousand": "",
+			"totalpeopleinquarantine": "",
+			"totalpeoplereleasedfromquarantine": "",
+			"totaltested": "5776",
+			"unconfirmed": "256",
+			"updatedon": "17/04/2020"
 		},
 		{
 			"negative": "",
