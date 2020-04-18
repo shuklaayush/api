@@ -2287,6 +2287,24 @@
 			"updatedon": "17/04/2020"
 		},
 		{
+			"negative": "",
+			"numcallsstatehelpline": "",
+			"numicubeds": "",
+			"numisolationbeds": "",
+			"numventilators": "",
+			"positive": "",
+			"positiveratebytests": "",
+			"source": "",
+			"source2": "",
+			"state": "Jharkhand",
+			"testsperthousand": "",
+			"totalpeopleinquarantine": "",
+			"totalpeoplereleasedfromquarantine": "",
+			"totaltested": "",
+			"unconfirmed": "",
+			"updatedon": "19/04/2020"
+		},
+		{
 			"negative": "4281",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -5165,6 +5183,24 @@
 			"totaltested": "2831",
 			"unconfirmed": "371",
 			"updatedon": "17/04/2020"
+		},
+		{
+			"negative": "2710",
+			"numcallsstatehelpline": "446",
+			"numicubeds": "",
+			"numisolationbeds": "",
+			"numventilators": "",
+			"positive": "42",
+			"positiveratebytests": "",
+			"source": "",
+			"source2": "",
+			"state": "Uttarakhand",
+			"testsperthousand": "",
+			"totalpeopleinquarantine": "604",
+			"totalpeoplereleasedfromquarantine": "",
+			"totaltested": "3158",
+			"unconfirmed": "406",
+			"updatedon": "18/04/2020"
 		},
 		{
 			"negative": "568",
