@@ -45408,21 +45408,21 @@
 			"statecode": "AP"
 		},
 		{
-			"agebracket": "",
+			"agebracket": "73",
 			"city": "",
-			"date": "",
+			"date": "18/04/2020",
 			"district": "",
 			"gender": "",
 			"nationality": "",
 			"notes": "",
 			"patientnumbercouldbemappedlater": "",
-			"patientstatus": "",
+			"patientstatus": "Recovered",
 			"slno": "2673",
-			"source1": "",
+			"source1": "https://www.wbhealth.gov.in/pages/corona/bulletin",
 			"source2": "",
 			"source3": "",
-			"state": "",
-			"statecode": ""
+			"state": "Chhattisgarh",
+			"statecode": "CT"
 		},
 		{
 			"agebracket": "",
