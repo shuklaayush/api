@@ -714,13 +714,13 @@
 	],
 	"statewise": [
 		{
-			"active": "11892",
-			"confirmed": "14425",
+			"active": "11921",
+			"confirmed": "14454",
 			"deaths": "488",
-			"deltaconfirmed": "73",
+			"deltaconfirmed": "102",
 			"deltadeaths": "2",
 			"deltarecovered": "4",
-			"lastupdatedtime": "18/04/2020 10:14:05",
+			"lastupdatedtime": "18/04/2020 10:54:48",
 			"recovered": "2045",
 			"state": "Total",
 			"statecode": "TT",
@@ -831,10 +831,10 @@
 			"statenotes": ""
 		},
 		{
-			"active": "523",
-			"confirmed": "572",
+			"active": "552",
+			"confirmed": "601",
 			"deaths": "14",
-			"deltaconfirmed": "0",
+			"deltaconfirmed": "29",
 			"deltadeaths": "0",
 			"deltarecovered": "0",
 			"lastupdatedtime": "17/04/2020 11:53:06",
