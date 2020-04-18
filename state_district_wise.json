@@ -160,10 +160,10 @@
         }
       },
       "Unknown": {
-        "confirmed": 1663,
+        "confirmed": 1849,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 186
         }
       }
     }

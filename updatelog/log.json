@@ -1,9 +1,5 @@
 [
   {
-    "update": "6 recoveries in Karnataka\n3 new cases in Uttarakhand\n",
-    "timestamp": 1587125721
-  },
-  {
     "update": "1 new case and 10 recoveries in Kerala\n",
     "timestamp": 1587127448
   },
@@ -198,5 +194,9 @@
   {
     "update": "160 new cases in Delhi\n",
     "timestamp": 1587230455
+  },
+  {
+    "update": "26 new cases and 135 recoveries in Delhi\n",
+    "timestamp": 1587230665
   }
 ]
