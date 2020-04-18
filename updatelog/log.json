@@ -1,9 +1,5 @@
 [
   {
-    "update": "7 new cases in Haryana\n",
-    "timestamp": 1587123303
-  },
-  {
     "update": "24 new cases, 19 recoveries and 6 deaths in Rajasthan\n17 recoveries in Haryana\n",
     "timestamp": 1587123865
   },
@@ -198,5 +194,9 @@
   {
     "update": "41 new cases in Telangana\n",
     "timestamp": 1587224069
+  },
+  {
+    "update": "2 new cases in Telangana\n",
+    "timestamp": 1587224681
   }
 ]

@@ -1,5 +1,6 @@
 Updated On,State,Total Tested,Positive,Negative,Unconfirmed,Total People In Quarantine,Total People Released From Quarantine,Num Isolation Beds,Num ICU Beds,Num Ventilators,Num Calls State Helpline,Source,Source2,Positive rate by tests,Tests per thousand
 17/04/2020,Andaman and Nicobar Islands,1403,12,1210,181,,,50,,,,https://t.me/indiacovid/2550,,,
+18/04/2020,Andaman and Nicobar Islands,,,,,,,,,,,,,,
 02/04/2020,Andhra Pradesh,1800,132,1175,493,179,,23479,2680,330,,https://twitter.com/ArogyaAndhra/status/1245580598938198016?s=20,,7.33%,
 10/04/2020,Andhra Pradesh,6374,365,6009,,,,,,,,http://hmfw.ap.gov.in/covid_dashboard.aspx,,,
 11/04/2020,Andhra Pradesh,6958,381,6577,,,,,,,,http://hmfw.ap.gov.in/covid_dashboard.aspx,,,
@@ -272,7 +273,7 @@ Updated On,State,Total Tested,Positive,Negative,Unconfirmed,Total People In Quar
 15/04/2020,Tamil Nadu,21994,1242,15210,1383,,,29074,,3371,,https://stopcorona.tn.gov.in/wp-content/uploads/2020/03/Media-Bulletin-15.04.2020.pdf,,,
 16/04/2020,Tamil Nadu,26005,1267,18743,1400,,,29074,,3371,,https://stopcorona.tn.gov.in/wp-content/uploads/2020/03/Media-Bulletin16.04.2020-4-Pages-English-174-KB.pdf,,,
 17/04/2020,Tamil Nadu,29673,1323,21628,2023,,,29074,,3371,,https://stopcorona.tn.gov.in/wp-content/uploads/2020/03/Media-Bulletin-17.04.2020.pdf,,,
-18/04/2020,Tamil Nadu,,,,,,,,,,,,,,
+18/04/2020,Tamil Nadu,35036,1372,27192,1433,,,29074,,3371,,https://stopcorona.tn.gov.in/wp-content/uploads/2020/03/Media-Bulletin-18.04.2020.pdf,,,
 11/04/2020,Tripura,337,2,335,,,,,,,,https://m.facebook.com/story.php?story_fbid=2415546905213637&id=632536300181382,,,
 15/04/2020,Tripura,738,2,,,,,,,,,https://www.facebook.com/bjpbiplab/posts/2424173307684330,,,
 16/04/2020,Tripura,762,2,760,,,,,,,,https://t.me/indiacovid/2466,,,
