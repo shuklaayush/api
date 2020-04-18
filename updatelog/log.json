@@ -1,9 +1,5 @@
 [
   {
-    "update": "2 deaths in West Bengal\n",
-    "timestamp": 1587045969
-  },
-  {
     "update": "1 death in West Bengal\n6 new cases in Bihar\n",
     "timestamp": 1587047056
   },
@@ -198,5 +194,9 @@
   {
     "update": "45 new cases in Madhya Pradesh\n",
     "timestamp": 1587192270
+  },
+  {
+    "update": "2 new cases in Meghalaya\n",
+    "timestamp": 1587193682
   }
 ]
