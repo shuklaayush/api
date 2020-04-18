@@ -1438,10 +1438,10 @@
         }
       },
       "Kalaburagi": {
-        "confirmed": 20,
+        "confirmed": 22,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       "Kodagu": {
@@ -1452,17 +1452,17 @@
         }
       },
       "Mysuru": {
-        "confirmed": 73,
+        "confirmed": 76,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 3
         }
       },
       "Dharwad": {
-        "confirmed": 6,
+        "confirmed": 7,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "Uttara Kannada": {
@@ -1522,17 +1522,17 @@
         }
       },
       "Bagalkote": {
-        "confirmed": 14,
+        "confirmed": 16,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       "Belagavi": {
-        "confirmed": 41,
+        "confirmed": 42,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "Bengaluru Rural": {
@@ -1543,17 +1543,17 @@
         }
       },
       "Gadag": {
-        "confirmed": 2,
+        "confirmed": 3,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "Mandya": {
-        "confirmed": 11,
+        "confirmed": 12,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "Vijayapura": {
@@ -1563,11 +1563,11 @@
           "confirmed": 0
         }
       },
-      "Unknown": {
-        "confirmed": 12,
+      "Bijapur": {
+        "confirmed": 1,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 12
+          "confirmed": 1
         }
       }
     }
@@ -2836,10 +2836,10 @@
   "Andaman and Nicobar Islands": {
     "districtData": {
       "South Andaman": {
-        "confirmed": 6,
+        "confirmed": 7,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "North and Middle Andaman": {

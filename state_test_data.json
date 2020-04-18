@@ -3187,6 +3187,24 @@
 			"updatedon": "17/04/2020"
 		},
 		{
+			"negative": "56964",
+			"numcallsstatehelpline": "",
+			"numicubeds": "",
+			"numisolationbeds": "",
+			"numventilators": "",
+			"positive": "3323",
+			"positiveratebytests": "",
+			"source": "https://twitter.com/Maha_MEDD/status/1251399078555947008",
+			"source2": "",
+			"state": "Maharashtra",
+			"testsperthousand": "",
+			"totalpeopleinquarantine": "",
+			"totalpeoplereleasedfromquarantine": "",
+			"totaltested": "60166",
+			"unconfirmed": "",
+			"updatedon": "18/04/2020"
+		},
+		{
 			"negative": "299",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3511,21 +3529,21 @@
 			"updatedon": "15/04/2020"
 		},
 		{
-			"negative": "",
+			"negative": "222",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
 			"numisolationbeds": "",
 			"numventilators": "",
-			"positive": "",
+			"positive": "0",
 			"positiveratebytests": "",
-			"source": "",
+			"source": "https://nagahealth.nagaland.gov.in/",
 			"source2": "",
 			"state": "Nagaland",
 			"testsperthousand": "",
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
-			"totaltested": "",
-			"unconfirmed": "",
+			"totaltested": "274",
+			"unconfirmed": "48",
 			"updatedon": "17/04/2020"
 		},
 		{
@@ -3761,6 +3779,24 @@
 			"totaltested": "7577",
 			"unconfirmed": "",
 			"updatedon": "17/04/2020"
+		},
+		{
+			"negative": "8559",
+			"numcallsstatehelpline": "",
+			"numicubeds": "",
+			"numisolationbeds": "",
+			"numventilators": "",
+			"positive": "60",
+			"positiveratebytests": "",
+			"source": "https://health.odisha.gov.in/pdf/covid-19-Analysis-Report-17042020.pdf",
+			"source2": "",
+			"state": "Odisha",
+			"testsperthousand": "",
+			"totalpeopleinquarantine": "",
+			"totalpeoplereleasedfromquarantine": "",
+			"totaltested": "8619",
+			"unconfirmed": "",
+			"updatedon": "18/04/2020"
 		},
 		{
 			"negative": "1236",
@@ -4177,6 +4213,24 @@
 			"updatedon": "17/04/2020"
 		},
 		{
+			"negative": "39092",
+			"numcallsstatehelpline": "",
+			"numicubeds": "",
+			"numisolationbeds": "",
+			"numventilators": "",
+			"positive": "1282",
+			"positiveratebytests": "",
+			"source": "https://t.me/indiacovid/2547",
+			"source2": "",
+			"state": "Rajasthan",
+			"testsperthousand": "",
+			"totalpeopleinquarantine": "",
+			"totalpeoplereleasedfromquarantine": "",
+			"totaltested": "47197",
+			"unconfirmed": "6823",
+			"updatedon": "18/04/2020"
+		},
+		{
 			"negative": "2789",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -4427,6 +4481,24 @@
 			"totaltested": "762",
 			"unconfirmed": "",
 			"updatedon": "16/04/2020"
+		},
+		{
+			"negative": "",
+			"numcallsstatehelpline": "",
+			"numicubeds": "",
+			"numisolationbeds": "",
+			"numventilators": "",
+			"positive": "",
+			"positiveratebytests": "",
+			"source": "",
+			"source2": "",
+			"state": "Tripura",
+			"testsperthousand": "",
+			"totalpeopleinquarantine": "",
+			"totalpeoplereleasedfromquarantine": "",
+			"totaltested": "",
+			"unconfirmed": "",
+			"updatedon": "18/04/2020"
 		},
 		{
 			"negative": "4796",

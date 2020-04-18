@@ -1649,10 +1649,10 @@
       },
       {
         "district": "Kalaburagi",
-        "confirmed": 20,
+        "confirmed": 22,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       {
@@ -1665,18 +1665,18 @@
       },
       {
         "district": "Mysuru",
-        "confirmed": 73,
+        "confirmed": 76,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 3
         }
       },
       {
         "district": "Dharwad",
-        "confirmed": 6,
+        "confirmed": 7,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
@@ -1745,18 +1745,18 @@
       },
       {
         "district": "Bagalkote",
-        "confirmed": 14,
+        "confirmed": 16,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       {
         "district": "Belagavi",
-        "confirmed": 41,
+        "confirmed": 42,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
@@ -1769,18 +1769,18 @@
       },
       {
         "district": "Gadag",
-        "confirmed": 2,
+        "confirmed": 3,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
         "district": "Mandya",
-        "confirmed": 11,
+        "confirmed": 12,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
@@ -1792,11 +1792,11 @@
         }
       },
       {
-        "district": "Unknown",
-        "confirmed": 12,
+        "district": "Bijapur",
+        "confirmed": 1,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 12
+          "confirmed": 1
         }
       }
     ]
@@ -3254,10 +3254,10 @@
     "districtData": [
       {
         "district": "South Andaman",
-        "confirmed": 6,
+        "confirmed": 7,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
