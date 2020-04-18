@@ -1,9 +1,5 @@
 [
   {
-    "update": "38 new cases in Karnataka\n",
-    "timestamp": 1587110167
-  },
-  {
     "update": "7 new cases in Haryana\n",
     "timestamp": 1587123303
   },
@@ -198,5 +194,9 @@
   {
     "update": "10 deaths in Maharashtra\n47 new cases in Madhya Pradesh\n2 deaths in West Bengal\n15 new cases in Punjab\n",
     "timestamp": 1587223486
+  },
+  {
+    "update": "41 new cases in Telangana\n",
+    "timestamp": 1587224069
   }
 ]

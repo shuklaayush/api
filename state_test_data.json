@@ -163,14 +163,14 @@
 			"updatedon": "16/04/2020"
 		},
 		{
-			"negative": "204",
+			"negative": "20487",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
 			"numisolationbeds": "",
 			"numventilators": "",
-			"positive": "",
+			"positive": "603",
 			"positiveratebytests": "",
-			"source": "",
+			"source": "http://hmfw.ap.gov.in/covid_dashboard.aspx",
 			"source2": "",
 			"state": "Andhra Pradesh",
 			"testsperthousand": "",

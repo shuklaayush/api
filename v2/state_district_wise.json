@@ -262,7 +262,7 @@
       },
       {
         "district": "Unknown",
-        "confirmed": 22,
+        "confirmed": 63,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -2115,10 +2115,10 @@
       },
       {
         "district": "Patiala",
-        "confirmed": 11,
+        "confirmed": 26,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 15
         }
       },
       {
@@ -2215,14 +2215,6 @@
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
-        }
-      },
-      {
-        "district": "Unknown",
-        "confirmed": 15,
-        "lastupdatedtime": "",
-        "delta": {
-          "confirmed": 15
         }
       }
     ]
