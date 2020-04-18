@@ -1,6 +1,24 @@
 {
 	"states_tested_data": [
 		{
+			"negative": "1210",
+			"numcallsstatehelpline": "",
+			"numicubeds": "",
+			"numisolationbeds": "50",
+			"numventilators": "",
+			"positive": "12",
+			"positiveratebytests": "",
+			"source": "https://t.me/indiacovid/2550",
+			"source2": "",
+			"state": "Andaman and Nicobar Islands",
+			"testsperthousand": "",
+			"totalpeopleinquarantine": "",
+			"totalpeoplereleasedfromquarantine": "",
+			"totaltested": "1403",
+			"unconfirmed": "181",
+			"updatedon": "17/04/2020"
+		},
+		{
 			"negative": "1175",
 			"numcallsstatehelpline": "",
 			"numicubeds": "2680",
@@ -590,7 +608,7 @@
 			"testsperthousand": "",
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
-			"totaltested": "10104",
+			"totaltested": "10130",
 			"unconfirmed": "512",
 			"updatedon": "18/04/2020"
 		},
@@ -2339,6 +2357,24 @@
 			"totaltested": "17594",
 			"unconfirmed": "",
 			"updatedon": "17/04/2020"
+		},
+		{
+			"negative": "15658",
+			"numcallsstatehelpline": "",
+			"numicubeds": "",
+			"numisolationbeds": "",
+			"numventilators": "",
+			"positive": "384",
+			"positiveratebytests": "",
+			"source": "https://covid19.karnataka.gov.in/storage/pdf-files/Media-Bulletin/18-04-2020-05-00PM-English.pdf",
+			"source2": "",
+			"state": "Karnataka",
+			"testsperthousand": "",
+			"totalpeopleinquarantine": "",
+			"totalpeoplereleasedfromquarantine": "",
+			"totaltested": "19186",
+			"unconfirmed": "",
+			"updatedon": "18/04/2020"
 		},
 		{
 			"negative": "8586",
