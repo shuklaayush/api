@@ -604,20 +604,20 @@
 			"totalrecovered": "329"
 		},
 		{
-			"dailyconfirmed": "485",
+			"dailyconfirmed": "484",
 			"dailydeceased": "16",
 			"dailyrecovered": "65",
 			"date": "06 April ",
-			"totalconfirmed": "4778",
+			"totalconfirmed": "4777",
 			"totaldeceased": "137",
 			"totalrecovered": "394"
 		},
 		{
-			"dailyconfirmed": "573",
+			"dailyconfirmed": "572",
 			"dailydeceased": "27",
 			"dailyrecovered": "75",
 			"date": "07 April ",
-			"totalconfirmed": "5351",
+			"totalconfirmed": "5349",
 			"totaldeceased": "164",
 			"totalrecovered": "469"
 		},
@@ -626,7 +626,7 @@
 			"dailydeceased": "20",
 			"dailyrecovered": "96",
 			"date": "08 April ",
-			"totalconfirmed": "5916",
+			"totalconfirmed": "5914",
 			"totaldeceased": "184",
 			"totalrecovered": "565"
 		},
@@ -635,7 +635,7 @@
 			"dailydeceased": "46",
 			"dailyrecovered": "70",
 			"date": "09 April ",
-			"totalconfirmed": "6729",
+			"totalconfirmed": "6727",
 			"totaldeceased": "230",
 			"totalrecovered": "635"
 		},
@@ -644,7 +644,7 @@
 			"dailydeceased": "22",
 			"dailyrecovered": "151",
 			"date": "10 April ",
-			"totalconfirmed": "7600",
+			"totalconfirmed": "7598",
 			"totaldeceased": "252",
 			"totalrecovered": "786"
 		},
@@ -653,7 +653,7 @@
 			"dailydeceased": "40",
 			"dailyrecovered": "186",
 			"date": "11 April ",
-			"totalconfirmed": "8454",
+			"totalconfirmed": "8452",
 			"totaldeceased": "292",
 			"totalrecovered": "972"
 		},
@@ -662,7 +662,7 @@
 			"dailydeceased": "42",
 			"dailyrecovered": "114",
 			"date": "12 April ",
-			"totalconfirmed": "9212",
+			"totalconfirmed": "9210",
 			"totaldeceased": "334",
 			"totalrecovered": "1086"
 		},
@@ -671,7 +671,7 @@
 			"dailydeceased": "27",
 			"dailyrecovered": "112",
 			"date": "13 April ",
-			"totalconfirmed": "10455",
+			"totalconfirmed": "10453",
 			"totaldeceased": "361",
 			"totalrecovered": "1198"
 		},
@@ -680,7 +680,7 @@
 			"dailydeceased": "37",
 			"dailyrecovered": "167",
 			"date": "14 April ",
-			"totalconfirmed": "11490",
+			"totalconfirmed": "11488",
 			"totaldeceased": "398",
 			"totalrecovered": "1365"
 		},
@@ -689,39 +689,39 @@
 			"dailydeceased": "27",
 			"dailyrecovered": "144",
 			"date": "15 April ",
-			"totalconfirmed": "12372",
+			"totalconfirmed": "12370",
 			"totaldeceased": "425",
 			"totalrecovered": "1509"
 		},
 		{
 			"dailyconfirmed": "1062",
 			"dailydeceased": "26",
-			"dailyrecovered": "259",
+			"dailyrecovered": "258",
 			"date": "16 April ",
-			"totalconfirmed": "13434",
+			"totalconfirmed": "13432",
 			"totaldeceased": "451",
-			"totalrecovered": "1768"
+			"totalrecovered": "1767"
 		},
 		{
 			"dailyconfirmed": "920",
 			"dailydeceased": "38",
 			"dailyrecovered": "273",
 			"date": "17 April ",
-			"totalconfirmed": "14354",
+			"totalconfirmed": "14352",
 			"totaldeceased": "489",
-			"totalrecovered": "2041"
+			"totalrecovered": "2040"
 		}
 	],
 	"statewise": [
 		{
-			"active": "12131",
-			"confirmed": "14799",
+			"active": "12133",
+			"confirmed": "14800",
 			"deaths": "500",
-			"deltaconfirmed": "447",
+			"deltaconfirmed": "448",
 			"deltadeaths": "14",
 			"deltarecovered": "127",
-			"lastupdatedtime": "18/04/2020 19:13:05",
-			"recovered": "2168",
+			"lastupdatedtime": "18/04/2020 19:24:05",
+			"recovered": "2167",
 			"state": "Total",
 			"statecode": "TT",
 			"statenotes": ""
@@ -818,14 +818,14 @@
 			"statenotes": ""
 		},
 		{
-			"active": "561",
+			"active": "562",
 			"confirmed": "766",
 			"deaths": "18",
 			"deltaconfirmed": "0",
 			"deltadeaths": "0",
 			"deltarecovered": "0",
-			"lastupdatedtime": "17/04/2020 20:15:12",
-			"recovered": "187",
+			"lastupdatedtime": "18/04/2020 19:24:06",
+			"recovered": "186",
 			"state": "Telangana",
 			"statecode": "TG",
 			"statenotes": ""
@@ -837,7 +837,7 @@
 			"deltaconfirmed": "31",
 			"deltadeaths": "2",
 			"deltarecovered": "7",
-			"lastupdatedtime": "18/04/2020 19:14:05",
+			"lastupdatedtime": "18/04/2020 19:15:05",
 			"recovered": "42",
 			"state": "Andhra Pradesh",
 			"statecode": "AP",
@@ -922,13 +922,13 @@
 			"statenotes": ""
 		},
 		{
-			"active": "42",
-			"confirmed": "85",
+			"active": "43",
+			"confirmed": "86",
 			"deaths": "1",
-			"deltaconfirmed": "0",
+			"deltaconfirmed": "1",
 			"deltadeaths": "0",
 			"deltarecovered": "5",
-			"lastupdatedtime": "18/04/2020 18:35:12",
+			"lastupdatedtime": "18/04/2020 19:24:06",
 			"recovered": "42",
 			"state": "Bihar",
 			"statecode": "BR",
@@ -980,7 +980,7 @@
 			"deltaconfirmed": "1",
 			"deltadeaths": "0",
 			"deltarecovered": "0",
-			"lastupdatedtime": "18/04/2020 19:14:06",
+			"lastupdatedtime": "18/04/2020 19:15:06",
 			"recovered": "16",
 			"state": "Himachal Pradesh",
 			"statecode": "HP",
