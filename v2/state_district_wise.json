@@ -3254,10 +3254,10 @@
     "districtData": [
       {
         "district": "South Andaman",
-        "confirmed": 7,
+        "confirmed": 8,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 1
+          "confirmed": 2
         }
       },
       {

@@ -714,14 +714,14 @@
 	],
 	"statewise": [
 		{
-			"active": "12147",
-			"confirmed": "14707",
+			"active": "12149",
+			"confirmed": "14708",
 			"deaths": "496",
-			"deltaconfirmed": "355",
+			"deltaconfirmed": "356",
 			"deltadeaths": "10",
-			"deltarecovered": "23",
-			"lastupdatedtime": "18/04/2020 16:55:16",
-			"recovered": "2064",
+			"deltarecovered": "22",
+			"lastupdatedtime": "18/04/2020 17:15:35",
+			"recovered": "2063",
 			"state": "Total",
 			"statecode": "TT",
 			"statenotes": ""
@@ -987,14 +987,14 @@
 			"statenotes": "Death of Tibetan refugee included"
 		},
 		{
-			"active": "20",
+			"active": "21",
 			"confirmed": "34",
 			"deaths": "1",
 			"deltaconfirmed": "0",
 			"deltadeaths": "0",
-			"deltarecovered": "4",
-			"lastupdatedtime": "18/04/2020 16:55:24",
-			"recovered": "13",
+			"deltarecovered": "3",
+			"lastupdatedtime": "18/04/2020 17:14:50",
+			"recovered": "12",
 			"state": "Assam",
 			"statecode": "AS",
 			"statenotes": ""
@@ -1039,13 +1039,13 @@
 			"statenotes": ""
 		},
 		{
-			"active": "2",
-			"confirmed": "13",
+			"active": "3",
+			"confirmed": "14",
 			"deaths": "0",
-			"deltaconfirmed": "1",
+			"deltaconfirmed": "2",
 			"deltadeaths": "0",
 			"deltarecovered": "0",
-			"lastupdatedtime": "18/04/2020 15:47:07",
+			"lastupdatedtime": "18/04/2020 17:15:10",
 			"recovered": "11",
 			"state": "Andaman and Nicobar Islands",
 			"statecode": "AN",
