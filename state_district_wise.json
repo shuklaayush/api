@@ -1336,10 +1336,10 @@
         }
       },
       "Bandipore": {
-        "confirmed": 75,
+        "confirmed": 80,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 5
         }
       },
       "Rajouri": {
@@ -1350,10 +1350,10 @@
         }
       },
       "Badgam": {
-        "confirmed": 12,
+        "confirmed": 13,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "Baramula": {
@@ -1364,10 +1364,10 @@
         }
       },
       "Shupiyan": {
-        "confirmed": 17,
+        "confirmed": 22,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 5
         }
       },
       "Udhampur": {
@@ -1426,11 +1426,11 @@
           "confirmed": 0
         }
       },
-      "Unknown": {
-        "confirmed": 13,
+      "Anantnag": {
+        "confirmed": 2,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 13
+          "confirmed": 2
         }
       }
     }

@@ -1532,10 +1532,10 @@
       },
       {
         "district": "Bandipore",
-        "confirmed": 75,
+        "confirmed": 80,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 5
         }
       },
       {
@@ -1548,10 +1548,10 @@
       },
       {
         "district": "Badgam",
-        "confirmed": 12,
+        "confirmed": 13,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
@@ -1564,10 +1564,10 @@
       },
       {
         "district": "Shupiyan",
-        "confirmed": 17,
+        "confirmed": 22,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 5
         }
       },
       {
@@ -1635,11 +1635,11 @@
         }
       },
       {
-        "district": "Unknown",
-        "confirmed": 13,
+        "district": "Anantnag",
+        "confirmed": 2,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 13
+          "confirmed": 2
         }
       }
     ]
