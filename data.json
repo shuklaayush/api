@@ -714,14 +714,14 @@
 	],
 	"statewise": [
 		{
-			"active": "12797",
+			"active": "12739",
 			"confirmed": "15722",
-			"deaths": "519",
+			"deaths": "520",
 			"deltaconfirmed": "1370",
-			"deltadeaths": "33",
-			"deltarecovered": "366",
-			"lastupdatedtime": "18/04/2020 22:54:04",
-			"recovered": "2406",
+			"deltadeaths": "34",
+			"deltarecovered": "423",
+			"lastupdatedtime": "18/04/2020 23:04:05",
+			"recovered": "2463",
 			"state": "Total",
 			"statecode": "TT",
 			"statenotes": ""
@@ -740,13 +740,13 @@
 			"statenotes": ""
 		},
 		{
-			"active": "1644",
+			"active": "1643",
 			"confirmed": "1893",
-			"deaths": "42",
+			"deaths": "43",
 			"deltaconfirmed": "186",
-			"deltadeaths": "0",
+			"deltadeaths": "1",
 			"deltarecovered": "135",
-			"lastupdatedtime": "18/04/2020 22:54:05",
+			"lastupdatedtime": "18/04/2020 23:04:06",
 			"recovered": "207",
 			"state": "Delhi",
 			"statecode": "DL",
@@ -779,14 +779,14 @@
 			"statenotes": ""
 		},
 		{
-			"active": "1263",
+			"active": "1206",
 			"confirmed": "1402",
 			"deaths": "69",
 			"deltaconfirmed": "92",
 			"deltadeaths": "0",
-			"deltarecovered": "0",
-			"lastupdatedtime": "18/04/2020 20:55:06",
-			"recovered": "70",
+			"deltarecovered": "57",
+			"lastupdatedtime": "18/04/2020 23:04:07",
+			"recovered": "127",
 			"state": "Madhya Pradesh",
 			"statecode": "MP",
 			"statenotes": ""
