@@ -113,6 +113,14 @@
         "delta": {
           "confirmed": 0
         }
+      },
+      {
+        "district": "Unknown",
+        "confirmed": 4,
+        "lastupdatedtime": "",
+        "delta": {
+          "confirmed": 4
+        }
       }
     ]
   },
@@ -2425,7 +2433,7 @@
         }
       },
       {
-        "district": "Unknown",
+        "district": "Baleshwar",
         "confirmed": 1,
         "lastupdatedtime": "",
         "delta": {

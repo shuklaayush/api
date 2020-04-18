@@ -98,6 +98,13 @@
         "delta": {
           "confirmed": 0
         }
+      },
+      "Unknown": {
+        "confirmed": 4,
+        "lastupdatedtime": "",
+        "delta": {
+          "confirmed": 4
+        }
       }
     }
   },
@@ -2115,7 +2122,7 @@
           "confirmed": 0
         }
       },
-      "Unknown": {
+      "Baleshwar": {
         "confirmed": 1,
         "lastupdatedtime": "",
         "delta": {
