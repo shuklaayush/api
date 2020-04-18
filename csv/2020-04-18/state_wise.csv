@@ -1,5 +1,5 @@
 State,Confirmed,Recovered,Deaths,Active,Last_Updated_Time,State_code,Delta_Confirmed,Delta_Recovered,Delta_Deaths,State_Notes
-Total,14707,2060,496,12151,18/04/2020 16:04:05,TT,355,19,10,
+Total,14707,2064,496,12147,18/04/2020 16:57:48,TT,355,23,10,
 Maharashtra,3320,331,201,2788,17/04/2020 23:45:05,MH,0,0,0,
 Delhi,1707,72,42,1593,17/04/2020 21:52:06,DL,0,0,0,
 Tamil Nadu,1323,283,15,1025,17/04/2020 18:55:06,TN,0,0,0,
@@ -20,7 +20,7 @@ Odisha,60,21,1,38,17/04/2020 20:37:11,OR,0,0,0,
 Uttarakhand,42,9,0,33,18/04/2020 15:26:17,UT,2,0,0,
 Chhattisgarh,36,24,0,12,17/04/2020 19:15:07,CT,0,0,0,
 Himachal Pradesh,38,16,2,20,18/04/2020 00:45:07,HP,0,0,0,Death of Tibetan refugee included
-Assam,34,9,1,24,18/04/2020 00:25:07,AS,0,0,0,
+Assam,34,13,1,20,18/04/2020 16:57:54,AS,0,4,0,
 Jharkhand,32,0,2,30,17/04/2020 21:09:07,JH,0,0,0,
 Chandigarh,21,9,0,12,15/04/2020 17:20:25,CH,0,0,0,
 Ladakh,18,14,0,4,16/04/2020 15:13:07,LA,0,0,0,
