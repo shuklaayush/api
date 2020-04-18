@@ -385,10 +385,10 @@
         }
       },
       "Jaipur": {
-        "confirmed": 494,
+        "confirmed": 496,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       "Jhunjhunu": {
@@ -406,10 +406,10 @@
         }
       },
       "Jodhpur": {
-        "confirmed": 154,
+        "confirmed": 156,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       "Pali": {
@@ -448,10 +448,10 @@
         }
       },
       "Ajmer": {
-        "confirmed": 15,
+        "confirmed": 17,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       "Evacuees*": {
@@ -490,10 +490,10 @@
         }
       },
       "Bharatpur": {
-        "confirmed": 43,
+        "confirmed": 70,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 27
         }
       },
       "Bikaner": {
@@ -511,10 +511,10 @@
         }
       },
       "Banswara": {
-        "confirmed": 59,
+        "confirmed": 60,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "Karauli": {
@@ -525,24 +525,24 @@
         }
       },
       "Nagaur": {
-        "confirmed": 14,
+        "confirmed": 15,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "Jaisalmer": {
-        "confirmed": 30,
+        "confirmed": 31,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "Kota": {
-        "confirmed": 92,
+        "confirmed": 97,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 5
         }
       },
       "Jhalawar": {
@@ -564,13 +564,6 @@
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
-        }
-      },
-      "Unknown": {
-        "confirmed": 41,
-        "lastupdatedtime": "",
-        "delta": {
-          "confirmed": 41
         }
       }
     }

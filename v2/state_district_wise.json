@@ -443,10 +443,10 @@
       },
       {
         "district": "Jaipur",
-        "confirmed": 494,
+        "confirmed": 496,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       {
@@ -467,10 +467,10 @@
       },
       {
         "district": "Jodhpur",
-        "confirmed": 154,
+        "confirmed": 156,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       {
@@ -515,10 +515,10 @@
       },
       {
         "district": "Ajmer",
-        "confirmed": 15,
+        "confirmed": 17,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       {
@@ -563,10 +563,10 @@
       },
       {
         "district": "Bharatpur",
-        "confirmed": 43,
+        "confirmed": 70,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 27
         }
       },
       {
@@ -587,10 +587,10 @@
       },
       {
         "district": "Banswara",
-        "confirmed": 59,
+        "confirmed": 60,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
@@ -603,26 +603,26 @@
       },
       {
         "district": "Nagaur",
-        "confirmed": 14,
+        "confirmed": 15,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
         "district": "Jaisalmer",
-        "confirmed": 30,
+        "confirmed": 31,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
         "district": "Kota",
-        "confirmed": 92,
+        "confirmed": 97,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 5
         }
       },
       {
@@ -647,14 +647,6 @@
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
-        }
-      },
-      {
-        "district": "Unknown",
-        "confirmed": 41,
-        "lastupdatedtime": "",
-        "delta": {
-          "confirmed": 41
         }
       }
     ]
