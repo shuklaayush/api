@@ -2075,10 +2075,10 @@
       },
       {
         "district": "S.A.S. Nagar",
-        "confirmed": 56,
+        "confirmed": 57,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
@@ -2091,10 +2091,10 @@
       },
       {
         "district": "Jalandhar",
-        "confirmed": 35,
+        "confirmed": 41,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 6
         }
       },
       {
@@ -2195,10 +2195,10 @@
       },
       {
         "district": "Gurdaspur",
-        "confirmed": 1,
+        "confirmed": 2,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
@@ -3122,7 +3122,7 @@
       },
       {
         "district": "Nalanda",
-        "confirmed": 6,
+        "confirmed": 7,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -3154,7 +3154,7 @@
       },
       {
         "district": "Begusarai",
-        "confirmed": 8,
+        "confirmed": 9,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -3194,14 +3194,6 @@
       },
       {
         "district": "Buxar",
-        "confirmed": 2,
-        "lastupdatedtime": "",
-        "delta": {
-          "confirmed": 0
-        }
-      },
-      {
-        "district": "Unknown",
         "confirmed": 2,
         "lastupdatedtime": "",
         "delta": {
