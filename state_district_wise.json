@@ -448,10 +448,10 @@
         }
       },
       "Ajmer": {
-        "confirmed": 17,
+        "confirmed": 18,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 2
+          "confirmed": 3
         }
       },
       "Evacuees*": {
@@ -564,6 +564,13 @@
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
+        }
+      },
+      "Unknown": {
+        "confirmed": 68,
+        "lastupdatedtime": "",
+        "delta": {
+          "confirmed": 68
         }
       }
     }
@@ -1968,10 +1975,10 @@
         }
       },
       "Krishna": {
-        "confirmed": 70,
+        "confirmed": 69,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 18
+          "confirmed": 17
         }
       },
       "Chittoor": {
@@ -1989,10 +1996,10 @@
         }
       },
       "Kurnool": {
-        "confirmed": 130,
+        "confirmed": 131,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 5
+          "confirmed": 6
         }
       },
       "Anantapur": {

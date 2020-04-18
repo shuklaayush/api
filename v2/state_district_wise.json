@@ -515,10 +515,10 @@
       },
       {
         "district": "Ajmer",
-        "confirmed": 17,
+        "confirmed": 18,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 2
+          "confirmed": 3
         }
       },
       {
@@ -647,6 +647,14 @@
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
+        }
+      },
+      {
+        "district": "Unknown",
+        "confirmed": 68,
+        "lastupdatedtime": "",
+        "delta": {
+          "confirmed": 68
         }
       }
     ]
@@ -2256,10 +2264,10 @@
       },
       {
         "district": "Krishna",
-        "confirmed": 70,
+        "confirmed": 69,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 18
+          "confirmed": 17
         }
       },
       {
@@ -2280,10 +2288,10 @@
       },
       {
         "district": "Kurnool",
-        "confirmed": 130,
+        "confirmed": 131,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 5
+          "confirmed": 6
         }
       },
       {
