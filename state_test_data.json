@@ -235,6 +235,24 @@
 			"updatedon": "17/04/2020"
 		},
 		{
+			"negative": "358",
+			"numcallsstatehelpline": "",
+			"numicubeds": "",
+			"numisolationbeds": "",
+			"numventilators": "",
+			"positive": "1",
+			"positiveratebytests": "",
+			"source": "https://twitter.com/PemaKhanduBJP/status/1251485238477221889",
+			"source2": "",
+			"state": "Arunachal Pradesh",
+			"testsperthousand": "",
+			"totalpeopleinquarantine": "",
+			"totalpeoplereleasedfromquarantine": "",
+			"totaltested": "389",
+			"unconfirmed": "31",
+			"updatedon": "18/04/2020"
+		},
+		{
 			"negative": "819",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1315,6 +1333,24 @@
 			"updatedon": "17/04/2020"
 		},
 		{
+			"negative": "",
+			"numcallsstatehelpline": "",
+			"numicubeds": "",
+			"numisolationbeds": "",
+			"numventilators": "",
+			"positive": "7",
+			"positiveratebytests": "",
+			"source": "https://twitter.com/DHS_Goa/status/1251500960444104704",
+			"source2": "",
+			"state": "Goa",
+			"testsperthousand": "",
+			"totalpeopleinquarantine": "",
+			"totalpeoplereleasedfromquarantine": "",
+			"totaltested": "758",
+			"unconfirmed": "",
+			"updatedon": "18/04/2020"
+		},
+		{
 			"negative": "3905",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1475,6 +1511,24 @@
 			"totaltested": "23483",
 			"unconfirmed": "45",
 			"updatedon": "17/04/2020"
+		},
+		{
+			"negative": "",
+			"numcallsstatehelpline": "",
+			"numicubeds": "",
+			"numisolationbeds": "",
+			"numventilators": "",
+			"positive": "1272",
+			"positiveratebytests": "",
+			"source": "https://gujcovid19.gujarat.gov.in/",
+			"source2": "",
+			"state": "Gujarat",
+			"testsperthousand": "",
+			"totalpeopleinquarantine": "",
+			"totalpeoplereleasedfromquarantine": "",
+			"totaltested": "24614",
+			"unconfirmed": "",
+			"updatedon": "18/04/2020"
 		},
 		{
 			"negative": "938",
