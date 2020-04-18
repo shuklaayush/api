@@ -2194,10 +2194,10 @@
         }
       },
       "Unknown": {
-        "confirmed": 228,
+        "confirmed": 260,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 32
         }
       }
     }
