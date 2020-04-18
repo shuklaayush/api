@@ -1675,6 +1675,24 @@
 			"updatedon": "17/04/2020"
 		},
 		{
+			"negative": "7223",
+			"numcallsstatehelpline": "",
+			"numicubeds": "",
+			"numisolationbeds": "",
+			"numventilators": "",
+			"positive": "227",
+			"positiveratebytests": "",
+			"source": "http://www.nhmharyana.gov.in/WriteReadData/userfiles/file/CoronaVirus/Bulletin%20-Morning-%2018-04-2020.pdf",
+			"source2": "",
+			"state": "Haryana",
+			"testsperthousand": "",
+			"totalpeopleinquarantine": "",
+			"totalpeoplereleasedfromquarantine": "",
+			"totaltested": "8971",
+			"unconfirmed": "1535",
+			"updatedon": "18/04/2020"
+		},
+		{
 			"negative": "870",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1817,6 +1835,24 @@
 			"totaltested": "1992",
 			"unconfirmed": "216",
 			"updatedon": "17/04/2020"
+		},
+		{
+			"negative": "1831",
+			"numcallsstatehelpline": "",
+			"numicubeds": "",
+			"numisolationbeds": "",
+			"numventilators": "",
+			"positive": "38",
+			"positiveratebytests": "",
+			"source": "http://www.nrhmhp.gov.in/",
+			"source2": "",
+			"state": "Himachal Pradesh",
+			"testsperthousand": "",
+			"totalpeopleinquarantine": "",
+			"totalpeoplereleasedfromquarantine": "",
+			"totaltested": "1988",
+			"unconfirmed": "119",
+			"updatedon": "18/04/2020"
 		},
 		{
 			"negative": "1429",

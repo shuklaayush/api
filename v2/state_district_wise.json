@@ -443,10 +443,10 @@
       },
       {
         "district": "Jaipur",
-        "confirmed": 496,
+        "confirmed": 497,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 2
+          "confirmed": 3
         }
       },
       {
@@ -603,10 +603,10 @@
       },
       {
         "district": "Nagaur",
-        "confirmed": 15,
+        "confirmed": 26,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 1
+          "confirmed": 12
         }
       },
       {
@@ -812,6 +812,14 @@
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
+        }
+      },
+      {
+        "district": "Unknown",
+        "confirmed": 1,
+        "lastupdatedtime": "",
+        "delta": {
+          "confirmed": 1
         }
       }
     ]
