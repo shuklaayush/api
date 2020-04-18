@@ -43096,18 +43096,18 @@
 			"statecode": "RJ"
 		},
 		{
-			"agebracket": "",
+			"agebracket": "47",
 			"city": "",
 			"date": "18/04/2020",
 			"district": "Jaipur",
-			"gender": "",
+			"gender": "M",
 			"nationality": "",
-			"notes": "Diabetes",
+			"notes": "Resident of Shastri Nagar in Jaipur died at 12.40 am on 18th Apr in SMS Hospital. Officials said he had acute diabetes. He was admitted to the hospital on April 13 and tested positive on April 15.",
 			"patientnumbercouldbemappedlater": "",
 			"patientstatus": "Deceased",
 			"slno": "2536",
 			"source1": "https://twitter.com/ANI/status/1251361454864789505",
-			"source2": "",
+			"source2": "https://www.hindustantimes.com/india-news/covid-19-three-die-in-jaipur-rajasthan-s-death-toll-mounts-to-21/story-08HuJq5OEauOTXxmw1F7RK.html",
 			"source3": "",
 			"state": "Rajasthan",
 			"statecode": "RJ"
@@ -47187,7 +47187,7 @@
 			"patientstatus": "Deceased",
 			"slno": "2776",
 			"source1": "https://twitter.com/ANI/status/1251545226604417030",
-			"source2": "",
+			"source2": "https://www.hindustantimes.com/india-news/covid-19-three-die-in-jaipur-rajasthan-s-death-toll-mounts-to-21/story-08HuJq5OEauOTXxmw1F7RK.html",
 			"source3": "",
 			"state": "Rajasthan",
 			"statecode": "RJ"
@@ -47204,7 +47204,7 @@
 			"patientstatus": "Deceased",
 			"slno": "2777",
 			"source1": "https://twitter.com/ANI/status/1251545226604417030",
-			"source2": "",
+			"source2": "https://www.hindustantimes.com/india-news/covid-19-three-die-in-jaipur-rajasthan-s-death-toll-mounts-to-21/story-08HuJq5OEauOTXxmw1F7RK.html",
 			"source3": "",
 			"state": "Rajasthan",
 			"statecode": "RJ"
