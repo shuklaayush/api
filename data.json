@@ -714,14 +714,14 @@
 	],
 	"statewise": [
 		{
-			"active": "12649",
+			"active": "12637",
 			"confirmed": "15362",
 			"deaths": "505",
 			"deltaconfirmed": "1010",
 			"deltadeaths": "19",
 			"deltarecovered": "168",
-			"lastupdatedtime": "18/04/2020 20:10:39",
-			"recovered": "2208",
+			"lastupdatedtime": "18/04/2020 20:14:05",
+			"recovered": "2220",
 			"state": "Total",
 			"statecode": "TT",
 			"statenotes": ""
@@ -811,7 +811,7 @@
 			"deltaconfirmed": "125",
 			"deltadeaths": "0",
 			"deltarecovered": "26",
-			"lastupdatedtime": "18/04/2020 20:02:07",
+			"lastupdatedtime": "18/04/2020 20:11:19",
 			"recovered": "108",
 			"state": "Uttar Pradesh",
 			"statecode": "UP",
@@ -896,14 +896,14 @@
 			"statenotes": "As WB state bulletin only reports the number of active cases, the numbers for WB are currently updated according to https://www.mohfw.gov.in"
 		},
 		{
-			"active": "141",
+			"active": "129",
 			"confirmed": "232",
 			"deaths": "3",
 			"deltaconfirmed": "9",
 			"deltadeaths": "0",
 			"deltarecovered": "2",
-			"lastupdatedtime": "18/04/2020 15:26:16",
-			"recovered": "88",
+			"lastupdatedtime": "18/04/2020 20:14:08",
+			"recovered": "100",
 			"state": "Haryana",
 			"statecode": "HR",
 			"statenotes": "14 recovered Italian tourists included in tally, 1 death in Ambala unaccounted."

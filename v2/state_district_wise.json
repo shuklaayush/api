@@ -696,18 +696,18 @@
       },
       {
         "district": "Sonipat",
-        "confirmed": 4,
+        "confirmed": 7,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 3
         }
       },
       {
         "district": "Palwal",
-        "confirmed": 32,
+        "confirmed": 34,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 2
+          "confirmed": 4
         }
       },
       {
@@ -821,34 +821,34 @@
     "districtData": [
       {
         "district": "Agra",
-        "confirmed": 172,
+        "confirmed": 199,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 27
         }
       },
       {
         "district": "Ghaziabad",
-        "confirmed": 28,
+        "confirmed": 30,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       {
         "district": "Lucknow",
-        "confirmed": 104,
+        "confirmed": 160,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 56
         }
       },
       {
         "district": "Gautam Buddha Nagar",
-        "confirmed": 92,
+        "confirmed": 95,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 3
         }
       },
       {
@@ -861,26 +861,26 @@
       },
       {
         "district": "Moradabad",
-        "confirmed": 33,
+        "confirmed": 39,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 6
         }
       },
       {
         "district": "Varanasi",
-        "confirmed": 11,
+        "confirmed": 14,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 3
         }
       },
       {
         "district": "Kanpur Nagar",
-        "confirmed": 29,
+        "confirmed": 30,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
@@ -909,18 +909,18 @@
       },
       {
         "district": "Shamli",
-        "confirmed": 22,
+        "confirmed": 23,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
         "district": "Meerut",
-        "confirmed": 69,
+        "confirmed": 70,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
@@ -933,10 +933,10 @@
       },
       {
         "district": "Bulandshahr",
-        "confirmed": 14,
+        "confirmed": 15,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
@@ -965,10 +965,10 @@
       },
       {
         "district": "Firozabad",
-        "confirmed": 27,
+        "confirmed": 38,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 11
         }
       },
       {
@@ -1037,10 +1037,10 @@
       },
       {
         "district": "Mirzapur",
-        "confirmed": 3,
+        "confirmed": 4,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
@@ -1093,10 +1093,10 @@
       },
       {
         "district": "Bijnor",
-        "confirmed": 13,
+        "confirmed": 22,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 9
         }
       },
       {
@@ -1213,10 +1213,10 @@
       },
       {
         "district": "Unknown",
-        "confirmed": 125,
+        "confirmed": 3,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 125
+          "confirmed": 3
         }
       }
     ]
