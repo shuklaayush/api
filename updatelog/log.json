@@ -1,9 +1,5 @@
 [
   {
-    "update": "38 new cases in Rajasthan\n",
-    "timestamp": 1587099263
-  },
-  {
     "update": "92 new cases, 1 recovery and 2 deaths in Gujarat\n",
     "timestamp": 1587104055
   },
@@ -198,5 +194,9 @@
   {
     "update": "9 recoveries in Jammu and Kashmir\n",
     "timestamp": 1587219259
+  },
+  {
+    "update": "328 new cases in Maharashtra\n104 new cases, 5 recoveries and 5 deaths in Gujarat\n",
+    "timestamp": 1587219863
   }
 ]

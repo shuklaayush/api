@@ -1862,10 +1862,10 @@
       },
       {
         "district": "Aurangabad",
-        "confirmed": 23,
+        "confirmed": 24,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
@@ -1982,10 +1982,10 @@
       },
       {
         "district": "Amravati",
-        "confirmed": 6,
+        "confirmed": 7,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
@@ -2006,10 +2006,10 @@
       },
       {
         "district": "Akola",
-        "confirmed": 13,
+        "confirmed": 14,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
@@ -2046,10 +2046,10 @@
       },
       {
         "district": "Unknown",
-        "confirmed": 239,
+        "confirmed": 564,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 325
         }
       }
     ]
@@ -2807,6 +2807,14 @@
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
+        }
+      },
+      {
+        "district": "Unknown",
+        "confirmed": 104,
+        "lastupdatedtime": "",
+        "delta": {
+          "confirmed": 104
         }
       }
     ]
