@@ -54,4 +54,4 @@ Telegram Bots
 - DO NOT change json or csv directly. They get replaced automatically
 
 ## Notes
-- Don't use the "Current Status" in raw_data.json as we are rarely able to map the status to exact patient anymore. This will soon be deprecated in a future version of the API.
+- Do not use the "Current Status" in raw_data.json as we are rarely able to map the status to exact patient anymore. This will soon be deprecated in a future version of the API.
