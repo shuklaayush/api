@@ -604,11 +604,11 @@
 			"totalrecovered": "329"
 		},
 		{
-			"dailyconfirmed": "485",
+			"dailyconfirmed": "#ERROR!",
 			"dailydeceased": "16",
 			"dailyrecovered": "65",
 			"date": "06 April ",
-			"totalconfirmed": "4778",
+			"totalconfirmed": "#ERROR!",
 			"totaldeceased": "137",
 			"totalrecovered": "394"
 		},
@@ -617,7 +617,7 @@
 			"dailydeceased": "27",
 			"dailyrecovered": "75",
 			"date": "07 April ",
-			"totalconfirmed": "5351",
+			"totalconfirmed": "#ERROR!",
 			"totaldeceased": "164",
 			"totalrecovered": "469"
 		},
@@ -626,7 +626,7 @@
 			"dailydeceased": "20",
 			"dailyrecovered": "96",
 			"date": "08 April ",
-			"totalconfirmed": "5916",
+			"totalconfirmed": "#ERROR!",
 			"totaldeceased": "184",
 			"totalrecovered": "565"
 		},
@@ -635,7 +635,7 @@
 			"dailydeceased": "46",
 			"dailyrecovered": "70",
 			"date": "09 April ",
-			"totalconfirmed": "6729",
+			"totalconfirmed": "#ERROR!",
 			"totaldeceased": "230",
 			"totalrecovered": "635"
 		},
@@ -644,7 +644,7 @@
 			"dailydeceased": "22",
 			"dailyrecovered": "151",
 			"date": "10 April ",
-			"totalconfirmed": "7600",
+			"totalconfirmed": "#ERROR!",
 			"totaldeceased": "252",
 			"totalrecovered": "786"
 		},
@@ -653,7 +653,7 @@
 			"dailydeceased": "40",
 			"dailyrecovered": "186",
 			"date": "11 April ",
-			"totalconfirmed": "8454",
+			"totalconfirmed": "#ERROR!",
 			"totaldeceased": "292",
 			"totalrecovered": "972"
 		},
@@ -662,7 +662,7 @@
 			"dailydeceased": "42",
 			"dailyrecovered": "114",
 			"date": "12 April ",
-			"totalconfirmed": "9212",
+			"totalconfirmed": "#ERROR!",
 			"totaldeceased": "334",
 			"totalrecovered": "1086"
 		},
@@ -671,7 +671,7 @@
 			"dailydeceased": "27",
 			"dailyrecovered": "112",
 			"date": "13 April ",
-			"totalconfirmed": "10455",
+			"totalconfirmed": "#ERROR!",
 			"totaldeceased": "361",
 			"totalrecovered": "1198"
 		},
@@ -680,7 +680,7 @@
 			"dailydeceased": "37",
 			"dailyrecovered": "167",
 			"date": "14 April ",
-			"totalconfirmed": "11490",
+			"totalconfirmed": "#ERROR!",
 			"totaldeceased": "398",
 			"totalrecovered": "1365"
 		},
@@ -689,7 +689,7 @@
 			"dailydeceased": "27",
 			"dailyrecovered": "144",
 			"date": "15 April ",
-			"totalconfirmed": "12372",
+			"totalconfirmed": "#ERROR!",
 			"totaldeceased": "425",
 			"totalrecovered": "1509"
 		},
@@ -698,7 +698,7 @@
 			"dailydeceased": "26",
 			"dailyrecovered": "259",
 			"date": "16 April ",
-			"totalconfirmed": "13434",
+			"totalconfirmed": "#ERROR!",
 			"totaldeceased": "451",
 			"totalrecovered": "1768"
 		},
@@ -707,7 +707,7 @@
 			"dailydeceased": "38",
 			"dailyrecovered": "273",
 			"date": "17 April ",
-			"totalconfirmed": "14354",
+			"totalconfirmed": "#ERROR!",
 			"totaldeceased": "489",
 			"totalrecovered": "2041"
 		}
