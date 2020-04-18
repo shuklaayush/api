@@ -1641,10 +1641,10 @@
     "districtData": [
       {
         "district": "Bengaluru",
-        "confirmed": 97,
+        "confirmed": 100,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 3
         }
       },
       {
@@ -1665,10 +1665,10 @@
       },
       {
         "district": "Mysuru",
-        "confirmed": 76,
+        "confirmed": 80,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 3
+          "confirmed": 7
         }
       },
       {
@@ -1745,10 +1745,10 @@
       },
       {
         "district": "Bagalkote",
-        "confirmed": 16,
+        "confirmed": 19,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 2
+          "confirmed": 5
         }
       },
       {
@@ -1785,10 +1785,18 @@
       },
       {
         "district": "Vijayapura",
-        "confirmed": 20,
+        "confirmed": 21,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 1
+          "confirmed": 2
+        }
+      },
+      {
+        "district": "Unknown",
+        "confirmed": 2,
+        "lastupdatedtime": "",
+        "delta": {
+          "confirmed": 2
         }
       }
     ]

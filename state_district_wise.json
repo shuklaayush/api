@@ -1431,10 +1431,10 @@
   "Karnataka": {
     "districtData": {
       "Bengaluru": {
-        "confirmed": 97,
+        "confirmed": 100,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 3
         }
       },
       "Kalaburagi": {
@@ -1452,10 +1452,10 @@
         }
       },
       "Mysuru": {
-        "confirmed": 76,
+        "confirmed": 80,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 3
+          "confirmed": 7
         }
       },
       "Dharwad": {
@@ -1522,10 +1522,10 @@
         }
       },
       "Bagalkote": {
-        "confirmed": 16,
+        "confirmed": 19,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 2
+          "confirmed": 5
         }
       },
       "Belagavi": {
@@ -1557,10 +1557,17 @@
         }
       },
       "Vijayapura": {
-        "confirmed": 20,
+        "confirmed": 21,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 1
+          "confirmed": 2
+        }
+      },
+      "Unknown": {
+        "confirmed": 2,
+        "lastupdatedtime": "",
+        "delta": {
+          "confirmed": 2
         }
       }
     }
