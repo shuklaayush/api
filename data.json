@@ -713,23 +713,23 @@
 		},
 		{
 			"dailyconfirmed": "1370",
-			"dailydeceased": "34",
+			"dailydeceased": "35",
 			"dailyrecovered": "423",
 			"date": "18 April ",
 			"totalconfirmed": "15722",
-			"totaldeceased": "523",
+			"totaldeceased": "524",
 			"totalrecovered": "2463"
 		}
 	],
 	"statewise": [
 		{
-			"active": "12739",
+			"active": "12738",
 			"confirmed": "15722",
-			"deaths": "520",
+			"deaths": "521",
 			"deltaconfirmed": "1370",
-			"deltadeaths": "34",
+			"deltadeaths": "35",
 			"deltarecovered": "423",
-			"lastupdatedtime": "18/04/2020 23:05:05",
+			"lastupdatedtime": "19/04/2020 00:24:05",
 			"recovered": "2463",
 			"state": "Total",
 			"statecode": "TT",
@@ -931,13 +931,13 @@
 			"statenotes": ""
 		},
 		{
-			"active": "43",
+			"active": "42",
 			"confirmed": "86",
-			"deaths": "1",
+			"deaths": "2",
 			"deltaconfirmed": "1",
-			"deltadeaths": "0",
+			"deltadeaths": "1",
 			"deltarecovered": "5",
-			"lastupdatedtime": "18/04/2020 19:25:11",
+			"lastupdatedtime": "19/04/2020 00:24:06",
 			"recovered": "42",
 			"state": "Bihar",
 			"statecode": "BR",

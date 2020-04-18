@@ -1,5 +1,5 @@
 State,Confirmed,Recovered,Deaths,Active,Last_Updated_Time,State_code,Delta_Confirmed,Delta_Recovered,Delta_Deaths,State_Notes
-Total,15722,2463,520,12739,18/04/2020 23:05:05,TT,1370,423,34,
+Total,15722,2463,521,12738,19/04/2020 00:23:05,TT,1370,423,35,
 Maharashtra,3648,365,211,3072,18/04/2020 21:44:05,MH,328,34,10,
 Delhi,1893,207,43,1643,18/04/2020 23:05:06,DL,186,135,1,
 Tamil Nadu,1372,365,15,992,18/04/2020 18:35:10,TN,49,82,0,
@@ -15,7 +15,7 @@ Jammu and Kashmir,341,51,5,285,18/04/2020 19:45:06,JK,13,9,0,
 West Bengal,287,55,12,220,18/04/2020 20:55:07,WB,32,4,2,"As WB state bulletin only reports the number of active cases, the numbers for WB are currently updated according to https://www.mohfw.gov.in"
 Haryana,232,100,3,129,18/04/2020 20:15:08,HR,9,14,0,"14 recovered Italian tourists included in tally, 1 death in Ambala unaccounted."
 Punjab,234,31,16,187,18/04/2020 20:55:08,PB,23,1,2,
-Bihar,86,42,1,43,18/04/2020 19:25:11,BR,1,5,0,
+Bihar,86,42,2,42,19/04/2020 00:23:06,BR,1,5,1,
 Odisha,61,24,1,36,18/04/2020 17:56:06,OR,1,3,0,
 Uttarakhand,42,9,0,33,18/04/2020 15:26:17,UT,2,0,0,
 Chhattisgarh,36,25,0,11,18/04/2020 19:36:06,CT,0,1,0,

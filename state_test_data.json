@@ -5192,7 +5192,7 @@
 			"numventilators": "",
 			"positive": "42",
 			"positiveratebytests": "",
-			"source": "",
+			"source": "https://m.facebook.com/UKMedicalHealth/photos/a.1933022463614120/2569600566622970/?type=3",
 			"source2": "",
 			"state": "Uttarakhand",
 			"testsperthousand": "",
@@ -5420,24 +5420,6 @@
 		},
 		{
 			"negative": "",
-			"numcallsstatehelpline": "34424",
-			"numicubeds": "",
-			"numisolationbeds": "",
-			"numventilators": "",
-			"positive": "255",
-			"positiveratebytests": "",
-			"source": "https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_17.04_.2020_.pdf",
-			"source2": "https://www.mohfw.gov.in/",
-			"state": "West Bengal",
-			"testsperthousand": "",
-			"totalpeopleinquarantine": "",
-			"totalpeoplereleasedfromquarantine": "",
-			"totaltested": "4212",
-			"unconfirmed": "",
-			"updatedon": "17/04/2020"
-		},
-		{
-			"negative": "",
 			"numcallsstatehelpline": "35447",
 			"numicubeds": "",
 			"numisolationbeds": "",
@@ -5453,6 +5435,24 @@
 			"totaltested": "4630",
 			"unconfirmed": "",
 			"updatedon": "18/04/2020"
+		},
+		{
+			"negative": "",
+			"numcallsstatehelpline": "34424",
+			"numicubeds": "",
+			"numisolationbeds": "",
+			"numventilators": "",
+			"positive": "255",
+			"positiveratebytests": "",
+			"source": "https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_17.04_.2020_.pdf",
+			"source2": "https://www.mohfw.gov.in/",
+			"state": "West Bengal",
+			"testsperthousand": "",
+			"totalpeopleinquarantine": "",
+			"totalpeoplereleasedfromquarantine": "",
+			"totaltested": "4212",
+			"unconfirmed": "",
+			"updatedon": "17/04/2020"
 		}
 	]
 }
