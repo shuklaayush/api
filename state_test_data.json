@@ -2150,7 +2150,7 @@
 			"numventilators": "",
 			"positive": "328",
 			"positiveratebytests": "",
-			"source": "https://twitter.com/diprjk/status/1248598584380887042/photo/1",
+			"source": "https://mobile.twitter.com/diprjk/status/1251154157924282371/photo/2",
 			"source2": "",
 			"state": "Jammu and Kashmir",
 			"testsperthousand": "",
@@ -2159,6 +2159,24 @@
 			"totaltested": "6438",
 			"unconfirmed": "",
 			"updatedon": "17/04/2020"
+		},
+		{
+			"negative": "6596",
+			"numcallsstatehelpline": "",
+			"numicubeds": "",
+			"numisolationbeds": "",
+			"numventilators": "",
+			"positive": "341",
+			"positiveratebytests": "",
+			"source": "https://twitter.com/diprjk/status/1251512200130228233",
+			"source2": "",
+			"state": "Jammu and Kashmir",
+			"testsperthousand": "",
+			"totalpeopleinquarantine": "252",
+			"totalpeoplereleasedfromquarantine": "",
+			"totaltested": "6937",
+			"unconfirmed": "",
+			"updatedon": "18/04/2020"
 		},
 		{
 			"negative": "1326",
@@ -3149,6 +3167,24 @@
 			"totaltested": "20298",
 			"unconfirmed": "4996",
 			"updatedon": "17/04/2020"
+		},
+		{
+			"negative": "13576",
+			"numcallsstatehelpline": "698326",
+			"numicubeds": "",
+			"numisolationbeds": "",
+			"numventilators": "",
+			"positive": "1402",
+			"positiveratebytests": "",
+			"source": "",
+			"source2": "",
+			"state": "Madhya Pradesh",
+			"testsperthousand": "",
+			"totalpeopleinquarantine": "",
+			"totalpeoplereleasedfromquarantine": "",
+			"totaltested": "22569",
+			"unconfirmed": "7251",
+			"updatedon": "18/04/2020"
 		},
 		{
 			"negative": "14837",
