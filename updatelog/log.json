@@ -1,9 +1,5 @@
 [
   {
-    "update": "6 new cases in Karnataka\n",
-    "timestamp": 1587125207
-  },
-  {
     "update": "6 recoveries in Karnataka\n3 new cases in Uttarakhand\n",
     "timestamp": 1587125721
   },
@@ -198,5 +194,9 @@
   {
     "update": "17 recoveries in Rajasthan\n",
     "timestamp": 1587227047
+  },
+  {
+    "update": "160 new cases in Delhi\n",
+    "timestamp": 1587230455
   }
 ]
