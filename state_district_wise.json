@@ -1557,14 +1557,7 @@
         }
       },
       "Vijayapura": {
-        "confirmed": 19,
-        "lastupdatedtime": "",
-        "delta": {
-          "confirmed": 0
-        }
-      },
-      "Bijapur": {
-        "confirmed": 1,
+        "confirmed": 20,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 1
@@ -2216,6 +2209,13 @@
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
+        }
+      },
+      "Unknown": {
+        "confirmed": 2,
+        "lastupdatedtime": "",
+        "delta": {
+          "confirmed": 2
         }
       }
     }

@@ -1785,15 +1785,7 @@
       },
       {
         "district": "Vijayapura",
-        "confirmed": 19,
-        "lastupdatedtime": "",
-        "delta": {
-          "confirmed": 0
-        }
-      },
-      {
-        "district": "Bijapur",
-        "confirmed": 1,
+        "confirmed": 20,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 1
@@ -2541,6 +2533,14 @@
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
+        }
+      },
+      {
+        "district": "Unknown",
+        "confirmed": 2,
+        "lastupdatedtime": "",
+        "delta": {
+          "confirmed": 2
         }
       }
     ]
