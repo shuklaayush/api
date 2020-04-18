@@ -1225,22 +1225,22 @@
 			"updatedon": "17/04/2020"
 		},
 		{
-			"negative": "",
+			"negative": "17449",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
 			"numisolationbeds": "",
 			"numventilators": "",
-			"positive": "",
+			"positive": "1893",
 			"positiveratebytests": "",
-			"source": "",
+			"source": "https://twitter.com/CMODelhi/status/1251559869494198282?s=19",
 			"source2": "",
 			"state": "Delhi",
 			"testsperthousand": "",
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
-			"totaltested": "",
-			"unconfirmed": "",
-			"updatedon": "19/04/2020"
+			"totaltested": "22283",
+			"unconfirmed": "2799",
+			"updatedon": "18/04/2020"
 		},
 		{
 			"negative": "197",
