@@ -198,10 +198,10 @@
     "districtData": [
       {
         "district": "Hyderabad",
-        "confirmed": 417,
+        "confirmed": 448,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 31
         }
       },
       {
@@ -222,10 +222,10 @@
       },
       {
         "district": "Ranga Reddy",
-        "confirmed": 23,
+        "confirmed": 25,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       {
@@ -238,10 +238,10 @@
       },
       {
         "district": "Rajanna Sircilla",
-        "confirmed": 1,
+        "confirmed": 3,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       {
@@ -262,10 +262,10 @@
       },
       {
         "district": "Unknown",
-        "confirmed": 65,
+        "confirmed": 22,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 43
+          "confirmed": 0
         }
       },
       {
@@ -366,18 +366,18 @@
       },
       {
         "district": "Jogulamba Gadwal",
-        "confirmed": 19,
+        "confirmed": 26,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 7
         }
       },
       {
         "district": "Nalgonda",
-        "confirmed": 12,
+        "confirmed": 13,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {

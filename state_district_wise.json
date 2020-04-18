@@ -171,10 +171,10 @@
   "Telangana": {
     "districtData": {
       "Hyderabad": {
-        "confirmed": 417,
+        "confirmed": 448,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 31
         }
       },
       "Karimnagar": {
@@ -192,10 +192,10 @@
         }
       },
       "Ranga Reddy": {
-        "confirmed": 23,
+        "confirmed": 25,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       "Medchal Malkajgiri": {
@@ -206,10 +206,10 @@
         }
       },
       "Rajanna Sircilla": {
-        "confirmed": 1,
+        "confirmed": 3,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       "Khammam": {
@@ -227,10 +227,10 @@
         }
       },
       "Unknown": {
-        "confirmed": 65,
+        "confirmed": 22,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 43
+          "confirmed": 0
         }
       },
       "Vikarabad": {
@@ -318,17 +318,17 @@
         }
       },
       "Jogulamba Gadwal": {
-        "confirmed": 19,
+        "confirmed": 26,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 7
         }
       },
       "Nalgonda": {
-        "confirmed": 12,
+        "confirmed": 13,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "Nagarkurnool": {
