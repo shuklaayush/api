@@ -648,6 +648,14 @@
         "delta": {
           "confirmed": 0
         }
+      },
+      {
+        "district": "Unknown",
+        "confirmed": 41,
+        "lastupdatedtime": "",
+        "delta": {
+          "confirmed": 41
+        }
       }
     ]
   },
