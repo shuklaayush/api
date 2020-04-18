@@ -2255,31 +2255,31 @@
   "Gujarat": {
     "districtData": {
       "Rajkot": {
-        "confirmed": 28,
+        "confirmed": 30,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       "Surat": {
-        "confirmed": 140,
+        "confirmed": 156,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 16
         }
       },
       "Ahmadabad": {
-        "confirmed": 622,
+        "confirmed": 765,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 143
         }
       },
       "Vadodara": {
-        "confirmed": 142,
+        "confirmed": 150,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 8
         }
       },
       "Gandhinagar": {
@@ -2304,10 +2304,10 @@
         }
       },
       "Bhavnagar": {
-        "confirmed": 26,
+        "confirmed": 28,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       "Porbandar": {
@@ -2360,10 +2360,10 @@
         }
       },
       "Anand": {
-        "confirmed": 26,
+        "confirmed": 27,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "Sabar Kantha": {
@@ -2381,10 +2381,10 @@
         }
       },
       "Bharuch": {
-        "confirmed": 21,
+        "confirmed": 22,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "Banas Kantha": {
@@ -2427,13 +2427,6 @@
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
-        }
-      },
-      "Unknown": {
-        "confirmed": 173,
-        "lastupdatedtime": "",
-        "delta": {
-          "confirmed": 173
         }
       }
     }
