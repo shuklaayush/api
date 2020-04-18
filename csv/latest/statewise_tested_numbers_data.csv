@@ -1,4 +1,4 @@
-Updated On,State,Total Tested,Positive,Negative,Unconfirmed,Total People In Quarantine,Total People Released From Quarantine,Num Isolation Beds,Num ICU Beds,Num Ventilators,Num Calls State Helpline,Source,Source2,Positive rate,Tests per million
+Updated On,State,Total Tested,Positive,Negative,Unconfirmed,Total People In Quarantine,Total People Released From Quarantine,Num Isolation Beds,Num ICU Beds,Num Ventilators,Num Calls State Helpline,Source,Source2,Positive rate by tests,Tests per thousand
 02/04/2020,Andhra Pradesh,1800,132,1175,493,179,,23479,2680,330,,https://twitter.com/ArogyaAndhra/status/1245580598938198016?s=20,,7.33%,
 10/04/2020,Andhra Pradesh,6374,365,6009,,,,,,,,http://hmfw.ap.gov.in/covid_dashboard.aspx,,,
 11/04/2020,Andhra Pradesh,6958,381,6577,,,,,,,,http://hmfw.ap.gov.in/covid_dashboard.aspx,,,
