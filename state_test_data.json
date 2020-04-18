@@ -1855,12 +1855,12 @@
 			"updatedon": "17/04/2020"
 		},
 		{
-			"negative": "1831",
+			"negative": "1973",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
 			"numisolationbeds": "",
 			"numventilators": "",
-			"positive": "38",
+			"positive": "39",
 			"positiveratebytests": "",
 			"source": "http://www.nrhmhp.gov.in/",
 			"source2": "",
@@ -1868,8 +1868,8 @@
 			"testsperthousand": "",
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
-			"totaltested": "1988",
-			"unconfirmed": "119",
+			"totaltested": "2240",
+			"unconfirmed": "228",
 			"updatedon": "18/04/2020"
 		},
 		{
@@ -2699,6 +2699,24 @@
 			"totaltested": "18029",
 			"unconfirmed": "355",
 			"updatedon": "17/04/2020"
+		},
+		{
+			"negative": "17763",
+			"numcallsstatehelpline": "",
+			"numicubeds": "",
+			"numisolationbeds": "",
+			"numventilators": "",
+			"positive": "399",
+			"positiveratebytests": "",
+			"source": "https://dashboard.kerala.gov.in/testing-view-public.php",
+			"source2": "",
+			"state": "Kerala",
+			"testsperthousand": "",
+			"totalpeopleinquarantine": "",
+			"totalpeoplereleasedfromquarantine": "",
+			"totaltested": "18774",
+			"unconfirmed": "612",
+			"updatedon": "18/04/2020"
 		},
 		{
 			"negative": "",

@@ -1247,10 +1247,10 @@
       },
       {
         "district": "Chennai",
-        "confirmed": 233,
+        "confirmed": 240,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 7
         }
       },
       {
@@ -1263,26 +1263,26 @@
       },
       {
         "district": "Coimbatore",
-        "confirmed": 127,
+        "confirmed": 128,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
         "district": "Tirunelveli",
-        "confirmed": 60,
+        "confirmed": 62,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       {
         "district": "Tiruppur",
-        "confirmed": 80,
+        "confirmed": 108,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 28
         }
       },
       {
@@ -1319,10 +1319,10 @@
       },
       {
         "district": "Thanjavur",
-        "confirmed": 34,
+        "confirmed": 35,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
@@ -1399,10 +1399,10 @@
       },
       {
         "district": "Dindigul",
-        "confirmed": 66,
+        "confirmed": 69,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 3
         }
       },
       {
@@ -1471,10 +1471,10 @@
       },
       {
         "district": "Perambalur",
-        "confirmed": 1,
+        "confirmed": 4,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 3
         }
       },
       {
@@ -1503,18 +1503,10 @@
       },
       {
         "district": "Tenkasi",
-        "confirmed": 11,
+        "confirmed": 15,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
-        }
-      },
-      {
-        "district": "Unknown",
-        "confirmed": 49,
-        "lastupdatedtime": "",
-        "delta": {
-          "confirmed": 49
+          "confirmed": 4
         }
       }
     ]

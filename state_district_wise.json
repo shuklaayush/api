@@ -1087,10 +1087,10 @@
         }
       },
       "Chennai": {
-        "confirmed": 233,
+        "confirmed": 240,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 7
         }
       },
       "Erode": {
@@ -1101,24 +1101,24 @@
         }
       },
       "Coimbatore": {
-        "confirmed": 127,
+        "confirmed": 128,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "Tirunelveli": {
-        "confirmed": 60,
+        "confirmed": 62,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       "Tiruppur": {
-        "confirmed": 80,
+        "confirmed": 108,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 28
         }
       },
       "Madurai": {
@@ -1150,10 +1150,10 @@
         }
       },
       "Thanjavur": {
-        "confirmed": 34,
+        "confirmed": 35,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "Vellore": {
@@ -1220,10 +1220,10 @@
         }
       },
       "Dindigul": {
-        "confirmed": 66,
+        "confirmed": 69,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 3
         }
       },
       "Sivaganga": {
@@ -1283,10 +1283,10 @@
         }
       },
       "Perambalur": {
-        "confirmed": 1,
+        "confirmed": 4,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 3
         }
       },
       "Tiruchirappalli": {
@@ -1311,17 +1311,10 @@
         }
       },
       "Tenkasi": {
-        "confirmed": 11,
+        "confirmed": 15,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
-        }
-      },
-      "Unknown": {
-        "confirmed": 49,
-        "lastupdatedtime": "",
-        "delta": {
-          "confirmed": 49
+          "confirmed": 4
         }
       }
     }
