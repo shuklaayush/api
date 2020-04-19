@@ -163,6 +163,24 @@
 			"updatedon": "16/04/2020"
 		},
 		{
+			"negative": "",
+			"numcallsstatehelpline": "",
+			"numicubeds": "",
+			"numisolationbeds": "",
+			"numventilators": "",
+			"positive": "572",
+			"positiveratebytests": "",
+			"source": "http://hmfw.ap.gov.in/covid_dashboard.aspx",
+			"source2": "https://t.me/indiacovid/2474",
+			"state": "Andhra Pradesh",
+			"testsperthousand": "",
+			"totalpeopleinquarantine": "",
+			"totalpeoplereleasedfromquarantine": "",
+			"totaltested": "20235",
+			"unconfirmed": "",
+			"updatedon": "17/04/2020"
+		},
+		{
 			"negative": "20487",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -179,6 +197,24 @@
 			"totaltested": "21450",
 			"unconfirmed": "",
 			"updatedon": "18/04/2020"
+		},
+		{
+			"negative": "26311",
+			"numcallsstatehelpline": "",
+			"numicubeds": "",
+			"numisolationbeds": "",
+			"numventilators": "",
+			"positive": "647",
+			"positiveratebytests": "",
+			"source": "",
+			"source2": "",
+			"state": "Andhra Pradesh",
+			"testsperthousand": "",
+			"totalpeopleinquarantine": "",
+			"totalpeoplereleasedfromquarantine": "",
+			"totaltested": "26958",
+			"unconfirmed": "",
+			"updatedon": "19/04/2020"
 		},
 		{
 			"negative": "185",
