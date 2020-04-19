@@ -1886,7 +1886,7 @@
       },
       {
         "district": "Palghar",
-        "confirmed": 49,
+        "confirmed": 83,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -1958,7 +1958,7 @@
       },
       {
         "district": "Nashik",
-        "confirmed": 53,
+        "confirmed": 45,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -2038,7 +2038,7 @@
       },
       {
         "district": "Solapur",
-        "confirmed": 4,
+        "confirmed": 14,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -2054,7 +2054,7 @@
       },
       {
         "district": "Chandrapur",
-        "confirmed": 4,
+        "confirmed": 2,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -2062,7 +2062,7 @@
       },
       {
         "district": "Unknown",
-        "confirmed": 42,
+        "confirmed": 8,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -2573,6 +2573,14 @@
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
+        }
+      },
+      {
+        "district": "Unknown",
+        "confirmed": 3,
+        "lastupdatedtime": "",
+        "delta": {
+          "confirmed": 3
         }
       }
     ]
@@ -3214,6 +3222,14 @@
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 2
+        }
+      },
+      {
+        "district": "Bhojpur",
+        "confirmed": 1,
+        "lastupdatedtime": "",
+        "delta": {
+          "confirmed": 1
         }
       }
     ]

@@ -1645,7 +1645,7 @@
         }
       },
       "Palghar": {
-        "confirmed": 49,
+        "confirmed": 83,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -1708,7 +1708,7 @@
         }
       },
       "Nashik": {
-        "confirmed": 53,
+        "confirmed": 45,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -1778,7 +1778,7 @@
         }
       },
       "Solapur": {
-        "confirmed": 4,
+        "confirmed": 14,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -1792,14 +1792,14 @@
         }
       },
       "Chandrapur": {
-        "confirmed": 4,
+        "confirmed": 2,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
         }
       },
       "Unknown": {
-        "confirmed": 42,
+        "confirmed": 8,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -2244,6 +2244,13 @@
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
+        }
+      },
+      "Unknown": {
+        "confirmed": 3,
+        "lastupdatedtime": "",
+        "delta": {
+          "confirmed": 3
         }
       }
     }
@@ -2803,6 +2810,13 @@
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 2
+        }
+      },
+      "Bhojpur": {
+        "confirmed": 1,
+        "lastupdatedtime": "",
+        "delta": {
+          "confirmed": 1
         }
       }
     }
