@@ -1,5 +1,5 @@
 State,Confirmed,Recovered,Deaths,Active,Last_Updated_Time,State_code,Delta_Confirmed,Delta_Recovered,Delta_Deaths,State_Notes
-Total,16136,2518,530,13088,19/04/2020 18:04:05,TT,413,52,9,
+Total,16136,2531,530,13075,19/04/2020 18:06:05,TT,413,65,9,
 Maharashtra,3648,365,211,3072,18/04/2020 21:44:05,MH,0,0,0,
 Delhi,1893,207,43,1643,18/04/2020 23:05:06,DL,0,0,0,
 Tamil Nadu,1372,365,15,992,18/04/2020 18:35:10,TN,0,0,0,
@@ -9,8 +9,8 @@ Gujarat,1604,94,58,1452,19/04/2020 12:14:06,GJ,228,1,5,
 Uttar Pradesh,974,108,14,852,18/04/2020 20:11:19,UP,0,0,0,
 Telangana,809,186,18,605,18/04/2020 21:15:08,TG,0,0,0,
 Andhra Pradesh,647,65,17,565,19/04/2020 15:35:05,AP,44,23,1,
-Kerala,401,257,2,142,19/04/2020 18:04:07,KL,2,0,0,
-Karnataka,390,111,16,263,19/04/2020 18:04:08,KA,6,7,2,
+Kerala,401,270,2,129,19/04/2020 18:06:06,KL,2,13,0,
+Karnataka,390,111,16,263,19/04/2020 18:06:06,KA,6,7,2,
 Jammu and Kashmir,341,51,5,285,18/04/2020 19:45:06,JK,0,0,0,
 West Bengal,310,62,12,236,19/04/2020 12:14:07,WB,23,7,0,"As WB state bulletin only reports the number of active cases, the numbers for WB are currently updated according to https://www.mohfw.gov.in"
 Haryana,246,104,3,139,19/04/2020 15:55:05,HR,14,4,0,"14 recovered Italian tourists included in tally, 1 death in Ambala unaccounted."
