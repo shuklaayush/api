@@ -1,9 +1,5 @@
 [
   {
-    "update": "2 recoveries and 7 deaths in Gujarat\n",
-    "timestamp": 1587189939
-  },
-  {
     "update": "45 new cases in Madhya Pradesh\n",
     "timestamp": 1587192270
   },
@@ -198,5 +194,9 @@
   {
     "update": "2 new cases and 13 recoveries in Kerala\n7 recoveries in Karnataka\n",
     "timestamp": 1587299718
+  },
+  {
+    "update": "105 new cases in Tamil Nadu\n2 deaths in Madhya Pradesh\n9 new cases in Jammu and Kashmir\n4 recoveries in Assam\n",
+    "timestamp": 1587301584
   }
 ]
