@@ -443,10 +443,10 @@
       },
       {
         "district": "Jaipur",
-        "confirmed": 519,
+        "confirmed": 521,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       {
@@ -467,10 +467,10 @@
       },
       {
         "district": "Jodhpur",
-        "confirmed": 180,
+        "confirmed": 207,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 27
         }
       },
       {
@@ -563,10 +563,10 @@
       },
       {
         "district": "Bharatpur",
-        "confirmed": 85,
+        "confirmed": 93,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 8
         }
       },
       {
@@ -603,34 +603,34 @@
       },
       {
         "district": "Nagaur",
-        "confirmed": 31,
+        "confirmed": 32,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
         "district": "Jaisalmer",
-        "confirmed": 31,
+        "confirmed": 32,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
         "district": "Kota",
-        "confirmed": 97,
+        "confirmed": 99,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       {
         "district": "Jhalawar",
-        "confirmed": 18,
+        "confirmed": 20,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       {
@@ -643,18 +643,10 @@
       },
       {
         "district": "Hanumangarh",
-        "confirmed": 2,
+        "confirmed": 3,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
-        }
-      },
-      {
-        "district": "Unknown",
-        "confirmed": 44,
-        "lastupdatedtime": "",
-        "delta": {
-          "confirmed": 44
+          "confirmed": 1
         }
       }
     ]
@@ -2248,26 +2240,26 @@
       },
       {
         "district": "Visakhapatnam",
-        "confirmed": 20,
+        "confirmed": 21,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
         "district": "East Godavari",
-        "confirmed": 19,
+        "confirmed": 24,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 5
         }
       },
       {
         "district": "Krishna",
-        "confirmed": 69,
+        "confirmed": 75,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 6
         }
       },
       {
@@ -2280,26 +2272,26 @@
       },
       {
         "district": "Guntur",
-        "confirmed": 125,
+        "confirmed": 128,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 3
         }
       },
       {
         "district": "Kurnool",
-        "confirmed": 132,
+        "confirmed": 158,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 26
         }
       },
       {
         "district": "Anantapur",
-        "confirmed": 26,
+        "confirmed": 29,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 3
         }
       },
       {
@@ -2316,14 +2308,6 @@
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
-        }
-      },
-      {
-        "district": "Unknown",
-        "confirmed": 44,
-        "lastupdatedtime": "",
-        "delta": {
-          "confirmed": 44
         }
       }
     ]
@@ -2556,10 +2540,10 @@
       },
       {
         "district": "Unknown",
-        "confirmed": 260,
+        "confirmed": 283,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 23
         }
       }
     ]
@@ -3154,10 +3138,10 @@
       },
       {
         "district": "Nalanda",
-        "confirmed": 7,
+        "confirmed": 8,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {

@@ -1,9 +1,5 @@
 [
   {
-    "update": "146 new cases and 14 deaths in Madhya Pradesh\n12 recoveries and 3 deaths in Gujarat\n66 new cases in Telangana\n",
-    "timestamp": 1587134691
-  },
-  {
     "update": "8 recoveries and 1 death in Uttar Pradesh\n2 recoveries in Odisha\n",
     "timestamp": 1587136029
   },
@@ -198,5 +194,9 @@
   {
     "update": "44 new cases in Andhra Pradesh\n",
     "timestamp": 1587277464
+  },
+  {
+    "update": "5 recoveries in Rajasthan\n23 recoveries in Andhra Pradesh\n23 new cases in West Bengal\n1 new case in Bihar\n",
+    "timestamp": 1587278066
   }
 ]

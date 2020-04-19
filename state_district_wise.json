@@ -385,10 +385,10 @@
         }
       },
       "Jaipur": {
-        "confirmed": 519,
+        "confirmed": 521,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       "Jhunjhunu": {
@@ -406,10 +406,10 @@
         }
       },
       "Jodhpur": {
-        "confirmed": 180,
+        "confirmed": 207,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 27
         }
       },
       "Pali": {
@@ -490,10 +490,10 @@
         }
       },
       "Bharatpur": {
-        "confirmed": 85,
+        "confirmed": 93,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 8
         }
       },
       "Bikaner": {
@@ -525,31 +525,31 @@
         }
       },
       "Nagaur": {
-        "confirmed": 31,
+        "confirmed": 32,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "Jaisalmer": {
-        "confirmed": 31,
+        "confirmed": 32,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "Kota": {
-        "confirmed": 97,
+        "confirmed": 99,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       "Jhalawar": {
-        "confirmed": 18,
+        "confirmed": 20,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       "Barmer": {
@@ -560,17 +560,10 @@
         }
       },
       "Hanumangarh": {
-        "confirmed": 2,
+        "confirmed": 3,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
-        }
-      },
-      "Unknown": {
-        "confirmed": 44,
-        "lastupdatedtime": "",
-        "delta": {
-          "confirmed": 44
+          "confirmed": 1
         }
       }
     }
@@ -1961,24 +1954,24 @@
         }
       },
       "Visakhapatnam": {
-        "confirmed": 20,
+        "confirmed": 21,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "East Godavari": {
-        "confirmed": 19,
+        "confirmed": 24,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 5
         }
       },
       "Krishna": {
-        "confirmed": 69,
+        "confirmed": 75,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 6
         }
       },
       "Chittoor": {
@@ -1989,24 +1982,24 @@
         }
       },
       "Guntur": {
-        "confirmed": 125,
+        "confirmed": 128,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 3
         }
       },
       "Kurnool": {
-        "confirmed": 132,
+        "confirmed": 158,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 26
         }
       },
       "Anantapur": {
-        "confirmed": 26,
+        "confirmed": 29,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 3
         }
       },
       "West Godavari": {
@@ -2021,13 +2014,6 @@
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
-        }
-      },
-      "Unknown": {
-        "confirmed": 44,
-        "lastupdatedtime": "",
-        "delta": {
-          "confirmed": 44
         }
       }
     }
@@ -2229,10 +2215,10 @@
         }
       },
       "Unknown": {
-        "confirmed": 260,
+        "confirmed": 283,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 23
         }
       }
     }
@@ -2750,10 +2736,10 @@
         }
       },
       "Nalanda": {
-        "confirmed": 7,
+        "confirmed": 8,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "Lakhisarai": {

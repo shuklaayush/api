@@ -714,23 +714,23 @@
 		{
 			"dailyconfirmed": "1371",
 			"dailydeceased": "35",
-			"dailyrecovered": "426",
+			"dailyrecovered": "454",
 			"date": "18 April ",
 			"totalconfirmed": "15723",
 			"totaldeceased": "521",
-			"totalrecovered": "2466"
+			"totalrecovered": "2494"
 		}
 	],
 	"statewise": [
 		{
-			"active": "13052",
-			"confirmed": "16039",
+			"active": "13048",
+			"confirmed": "16063",
 			"deaths": "521",
-			"deltaconfirmed": "316",
+			"deltaconfirmed": "340",
 			"deltadeaths": "0",
 			"deltarecovered": "0",
-			"lastupdatedtime": "19/04/2020 11:54:04",
-			"recovered": "2466",
+			"lastupdatedtime": "19/04/2020 12:04:05",
+			"recovered": "2494",
 			"state": "Total",
 			"statecode": "TT",
 			"statenotes": ""
@@ -775,14 +775,14 @@
 			"statenotes": ""
 		},
 		{
-			"active": "1174",
+			"active": "1169",
 			"confirmed": "1395",
 			"deaths": "21",
 			"deltaconfirmed": "44",
 			"deltadeaths": "0",
 			"deltarecovered": "0",
-			"lastupdatedtime": "19/04/2020 11:50:06",
-			"recovered": "200",
+			"lastupdatedtime": "19/04/2020 12:04:05",
+			"recovered": "205",
 			"state": "Rajasthan",
 			"statecode": "RJ",
 			"statenotes": ""
@@ -840,14 +840,14 @@
 			"statenotes": ""
 		},
 		{
-			"active": "589",
+			"active": "566",
 			"confirmed": "647",
 			"deaths": "16",
 			"deltaconfirmed": "44",
 			"deltadeaths": "0",
 			"deltarecovered": "0",
-			"lastupdatedtime": "19/04/2020 11:54:05",
-			"recovered": "42",
+			"lastupdatedtime": "19/04/2020 12:04:06",
+			"recovered": "65",
 			"state": "Andhra Pradesh",
 			"statecode": "AP",
 			"statenotes": ""
@@ -892,13 +892,13 @@
 			"statenotes": ""
 		},
 		{
-			"active": "220",
-			"confirmed": "287",
+			"active": "243",
+			"confirmed": "310",
 			"deaths": "12",
-			"deltaconfirmed": "0",
+			"deltaconfirmed": "23",
 			"deltadeaths": "0",
 			"deltarecovered": "0",
-			"lastupdatedtime": "18/04/2020 20:55:07",
+			"lastupdatedtime": "19/04/2020 12:04:07",
 			"recovered": "55",
 			"state": "West Bengal",
 			"statecode": "WB",
@@ -931,13 +931,13 @@
 			"statenotes": ""
 		},
 		{
-			"active": "42",
-			"confirmed": "86",
+			"active": "43",
+			"confirmed": "87",
 			"deaths": "2",
-			"deltaconfirmed": "0",
+			"deltaconfirmed": "1",
 			"deltadeaths": "0",
 			"deltarecovered": "0",
-			"lastupdatedtime": "19/04/2020 00:24:06",
+			"lastupdatedtime": "19/04/2020 12:04:08",
 			"recovered": "42",
 			"state": "Bihar",
 			"statecode": "BR",
