@@ -542,11 +542,11 @@
 		},
 		{
 			"dailyconfirmed": "187",
-			"dailydeceased": "16",
+			"dailydeceased": "14",
 			"dailyrecovered": "35",
 			"date": "30 March ",
 			"totalconfirmed": "1326",
-			"totaldeceased": "43",
+			"totaldeceased": "41",
 			"totalrecovered": "137"
 		},
 		{
@@ -555,16 +555,16 @@
 			"dailyrecovered": "13",
 			"date": "31 March ",
 			"totalconfirmed": "1635",
-			"totaldeceased": "49",
+			"totaldeceased": "47",
 			"totalrecovered": "150"
 		},
 		{
 			"dailyconfirmed": "424",
-			"dailydeceased": "7",
+			"dailydeceased": "6",
 			"dailyrecovered": "19",
 			"date": "01 April ",
 			"totalconfirmed": "2059",
-			"totaldeceased": "56",
+			"totaldeceased": "53",
 			"totalrecovered": "169"
 		},
 		{
@@ -573,7 +573,7 @@
 			"dailyrecovered": "22",
 			"date": "02 April ",
 			"totalconfirmed": "2545",
-			"totaldeceased": "72",
+			"totaldeceased": "69",
 			"totalrecovered": "191"
 		},
 		{
@@ -582,7 +582,7 @@
 			"dailyrecovered": "39",
 			"date": "03 April ",
 			"totalconfirmed": "3105",
-			"totaldeceased": "86",
+			"totaldeceased": "83",
 			"totalrecovered": "230"
 		},
 		{
@@ -591,7 +591,7 @@
 			"dailyrecovered": "56",
 			"date": "04 April ",
 			"totalconfirmed": "3684",
-			"totaldeceased": "99",
+			"totaldeceased": "96",
 			"totalrecovered": "286"
 		},
 		{
@@ -600,7 +600,7 @@
 			"dailyrecovered": "43",
 			"date": "05 April ",
 			"totalconfirmed": "4293",
-			"totaldeceased": "121",
+			"totaldeceased": "118",
 			"totalrecovered": "329"
 		},
 		{
@@ -609,7 +609,7 @@
 			"dailyrecovered": "65",
 			"date": "06 April ",
 			"totalconfirmed": "4777",
-			"totaldeceased": "137",
+			"totaldeceased": "134",
 			"totalrecovered": "394"
 		},
 		{
@@ -618,7 +618,7 @@
 			"dailyrecovered": "75",
 			"date": "07 April ",
 			"totalconfirmed": "5349",
-			"totaldeceased": "164",
+			"totaldeceased": "161",
 			"totalrecovered": "469"
 		},
 		{
@@ -627,7 +627,7 @@
 			"dailyrecovered": "96",
 			"date": "08 April ",
 			"totalconfirmed": "5914",
-			"totaldeceased": "184",
+			"totaldeceased": "181",
 			"totalrecovered": "565"
 		},
 		{
@@ -636,7 +636,7 @@
 			"dailyrecovered": "70",
 			"date": "09 April ",
 			"totalconfirmed": "6727",
-			"totaldeceased": "230",
+			"totaldeceased": "227",
 			"totalrecovered": "635"
 		},
 		{
@@ -645,7 +645,7 @@
 			"dailyrecovered": "151",
 			"date": "10 April ",
 			"totalconfirmed": "7598",
-			"totaldeceased": "252",
+			"totaldeceased": "249",
 			"totalrecovered": "786"
 		},
 		{
@@ -654,7 +654,7 @@
 			"dailyrecovered": "186",
 			"date": "11 April ",
 			"totalconfirmed": "8452",
-			"totaldeceased": "292",
+			"totaldeceased": "289",
 			"totalrecovered": "972"
 		},
 		{
@@ -663,7 +663,7 @@
 			"dailyrecovered": "114",
 			"date": "12 April ",
 			"totalconfirmed": "9210",
-			"totaldeceased": "334",
+			"totaldeceased": "331",
 			"totalrecovered": "1086"
 		},
 		{
@@ -672,7 +672,7 @@
 			"dailyrecovered": "112",
 			"date": "13 April ",
 			"totalconfirmed": "10453",
-			"totaldeceased": "361",
+			"totaldeceased": "358",
 			"totalrecovered": "1198"
 		},
 		{
@@ -681,7 +681,7 @@
 			"dailyrecovered": "167",
 			"date": "14 April ",
 			"totalconfirmed": "11488",
-			"totaldeceased": "398",
+			"totaldeceased": "395",
 			"totalrecovered": "1365"
 		},
 		{
@@ -690,7 +690,7 @@
 			"dailyrecovered": "144",
 			"date": "15 April ",
 			"totalconfirmed": "12370",
-			"totaldeceased": "425",
+			"totaldeceased": "422",
 			"totalrecovered": "1509"
 		},
 		{
@@ -699,7 +699,7 @@
 			"dailyrecovered": "258",
 			"date": "16 April ",
 			"totalconfirmed": "13432",
-			"totaldeceased": "451",
+			"totaldeceased": "448",
 			"totalrecovered": "1767"
 		},
 		{
@@ -708,7 +708,7 @@
 			"dailyrecovered": "273",
 			"date": "17 April ",
 			"totalconfirmed": "14352",
-			"totaldeceased": "489",
+			"totaldeceased": "486",
 			"totalrecovered": "2040"
 		},
 		{
@@ -717,7 +717,7 @@
 			"dailyrecovered": "426",
 			"date": "18 April ",
 			"totalconfirmed": "15723",
-			"totaldeceased": "524",
+			"totaldeceased": "521",
 			"totalrecovered": "2466"
 		}
 	],
@@ -729,7 +729,7 @@
 			"deltaconfirmed": "0",
 			"deltadeaths": "0",
 			"deltarecovered": "0",
-			"lastupdatedtime": "19/04/2020 08:24:05",
+			"lastupdatedtime": "19/04/2020 08:25:05",
 			"recovered": "2466",
 			"state": "Total",
 			"statecode": "TT",
@@ -1093,7 +1093,7 @@
 			"deltaconfirmed": "0",
 			"deltadeaths": "0",
 			"deltarecovered": "0",
-			"lastupdatedtime": "19/04/2020 08:24:06",
+			"lastupdatedtime": "19/04/2020 08:25:07",
 			"recovered": "4",
 			"state": "Puducherry",
 			"statecode": "PY",
