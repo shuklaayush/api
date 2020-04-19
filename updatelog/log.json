@@ -1,9 +1,5 @@
 [
   {
-    "update": "2 new cases in Chandigarh\n",
-    "timestamp": 1587210852
-  },
-  {
     "update": "13 new cases in Karnataka\n",
     "timestamp": 1587211576
   },
@@ -198,5 +194,9 @@
   {
     "update": "551 new cases, 142 recoveries and 12 deaths in Maharashtra\n",
     "timestamp": 1587310349
+  },
+  {
+    "update": "125 new cases, 19 recoveries and 3 deaths in Uttar Pradesh\n49 new cases and 3 deaths in Telangana\n3 new cases in Jharkhand\n",
+    "timestamp": 1587311571
   }
 ]

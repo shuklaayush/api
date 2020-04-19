@@ -262,10 +262,10 @@
       },
       {
         "district": "Unknown",
-        "confirmed": 22,
+        "confirmed": 71,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 49
         }
       },
       {
@@ -837,26 +837,26 @@
     "districtData": [
       {
         "district": "Agra",
-        "confirmed": 199,
+        "confirmed": 242,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 43
         }
       },
       {
         "district": "Ghaziabad",
-        "confirmed": 30,
+        "confirmed": 41,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 11
         }
       },
       {
         "district": "Lucknow",
-        "confirmed": 160,
+        "confirmed": 162,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       {
@@ -877,10 +877,10 @@
       },
       {
         "district": "Moradabad",
-        "confirmed": 39,
+        "confirmed": 57,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 18
         }
       },
       {
@@ -933,10 +933,10 @@
       },
       {
         "district": "Meerut",
-        "confirmed": 70,
+        "confirmed": 74,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 4
         }
       },
       {
@@ -957,10 +957,10 @@
       },
       {
         "district": "Basti",
-        "confirmed": 16,
+        "confirmed": 19,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 3
         }
       },
       {
@@ -973,26 +973,26 @@
       },
       {
         "district": "Shahjahanpur",
-        "confirmed": 1,
+        "confirmed": 20,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 19
         }
       },
       {
         "district": "Firozabad",
-        "confirmed": 38,
+        "confirmed": 48,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 10
         }
       },
       {
         "district": "Azamgarh",
-        "confirmed": 6,
+        "confirmed": 7,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
@@ -1093,10 +1093,10 @@
       },
       {
         "district": "Budaun",
-        "confirmed": 5,
+        "confirmed": 8,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 3
         }
       },
       {
@@ -1149,10 +1149,10 @@
       },
       {
         "district": "Rampur",
-        "confirmed": 6,
+        "confirmed": 14,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 8
         }
       },
       {
@@ -1173,10 +1173,10 @@
       },
       {
         "district": "Etawah",
-        "confirmed": 2,
+        "confirmed": 3,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
@@ -1197,10 +1197,10 @@
       },
       {
         "district": "Kannauj",
-        "confirmed": 4,
+        "confirmed": 5,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
@@ -1225,6 +1225,14 @@
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
+        }
+      },
+      {
+        "district": "Mau",
+        "confirmed": 1,
+        "lastupdatedtime": "",
+        "delta": {
+          "confirmed": 1
         }
       }
     ]
@@ -3395,10 +3403,10 @@
       },
       {
         "district": "Unknown",
-        "confirmed": 1,
+        "confirmed": 4,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 1
+          "confirmed": 4
         }
       }
     ]

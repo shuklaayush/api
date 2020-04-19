@@ -227,10 +227,10 @@
         }
       },
       "Unknown": {
-        "confirmed": 22,
+        "confirmed": 71,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 49
         }
       },
       "Vikarabad": {
@@ -729,24 +729,24 @@
   "Uttar Pradesh": {
     "districtData": {
       "Agra": {
-        "confirmed": 199,
+        "confirmed": 242,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 43
         }
       },
       "Ghaziabad": {
-        "confirmed": 30,
+        "confirmed": 41,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 11
         }
       },
       "Lucknow": {
-        "confirmed": 160,
+        "confirmed": 162,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       "Gautam Buddha Nagar": {
@@ -764,10 +764,10 @@
         }
       },
       "Moradabad": {
-        "confirmed": 39,
+        "confirmed": 57,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 18
         }
       },
       "Varanasi": {
@@ -813,10 +813,10 @@
         }
       },
       "Meerut": {
-        "confirmed": 70,
+        "confirmed": 74,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 4
         }
       },
       "Bareilly": {
@@ -834,10 +834,10 @@
         }
       },
       "Basti": {
-        "confirmed": 16,
+        "confirmed": 19,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 3
         }
       },
       "Hardoi": {
@@ -848,24 +848,24 @@
         }
       },
       "Shahjahanpur": {
-        "confirmed": 1,
+        "confirmed": 20,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 19
         }
       },
       "Firozabad": {
-        "confirmed": 38,
+        "confirmed": 48,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 10
         }
       },
       "Azamgarh": {
-        "confirmed": 6,
+        "confirmed": 7,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "Saharanpur": {
@@ -953,10 +953,10 @@
         }
       },
       "Budaun": {
-        "confirmed": 5,
+        "confirmed": 8,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 3
         }
       },
       "Kaushambi": {
@@ -1002,10 +1002,10 @@
         }
       },
       "Rampur": {
-        "confirmed": 6,
+        "confirmed": 14,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 8
         }
       },
       "Bhadohi": {
@@ -1023,10 +1023,10 @@
         }
       },
       "Etawah": {
-        "confirmed": 2,
+        "confirmed": 3,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "Sambhal": {
@@ -1044,10 +1044,10 @@
         }
       },
       "Kannauj": {
-        "confirmed": 4,
+        "confirmed": 5,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "Sant Kabir Nagar": {
@@ -1069,6 +1069,13 @@
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
+        }
+      },
+      "Mau": {
+        "confirmed": 1,
+        "lastupdatedtime": "",
+        "delta": {
+          "confirmed": 1
         }
       }
     }
@@ -2959,10 +2966,10 @@
         }
       },
       "Unknown": {
-        "confirmed": 1,
+        "confirmed": 4,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 1
+          "confirmed": 4
         }
       }
     }
