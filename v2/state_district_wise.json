@@ -1234,6 +1234,14 @@
         "delta": {
           "confirmed": 1
         }
+      },
+      {
+        "district": "Unknown",
+        "confirmed": 1,
+        "lastupdatedtime": "",
+        "delta": {
+          "confirmed": 1
+        }
       }
     ]
   },
@@ -1556,10 +1564,10 @@
       },
       {
         "district": "Bandipore",
-        "confirmed": 80,
+        "confirmed": 83,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 3
         }
       },
       {
@@ -1580,10 +1588,10 @@
       },
       {
         "district": "Baramula",
-        "confirmed": 42,
+        "confirmed": 43,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
@@ -3138,10 +3146,10 @@
     "districtData": [
       {
         "district": "Munger",
-        "confirmed": 17,
+        "confirmed": 20,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 3
         }
       },
       {

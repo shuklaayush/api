@@ -721,24 +721,24 @@
 			"totalrecovered": "2466"
 		},
 		{
-			"dailyconfirmed": "1573",
+			"dailyconfirmed": "1581",
 			"dailydeceased": "38",
 			"dailyrecovered": "388",
 			"date": "19 April ",
-			"totalconfirmed": "17296",
+			"totalconfirmed": "17304",
 			"totaldeceased": "559",
 			"totalrecovered": "2854"
 		}
 	],
 	"statewise": [
 		{
-			"active": "13883",
-			"confirmed": "17296",
+			"active": "13891",
+			"confirmed": "17304",
 			"deaths": "559",
-			"deltaconfirmed": "1573",
+			"deltaconfirmed": "1581",
 			"deltadeaths": "38",
 			"deltarecovered": "388",
-			"lastupdatedtime": "19/04/2020 23:18:05",
+			"lastupdatedtime": "20/04/2020 01:08:30",
 			"recovered": "2854",
 			"state": "Total",
 			"statecode": "TT",
@@ -823,13 +823,13 @@
 			"statenotes": ""
 		},
 		{
-			"active": "955",
-			"confirmed": "1099",
+			"active": "956",
+			"confirmed": "1100",
 			"deaths": "17",
-			"deltaconfirmed": "125",
+			"deltaconfirmed": "126",
 			"deltadeaths": "3",
 			"deltarecovered": "19",
-			"lastupdatedtime": "19/04/2020 21:23:06",
+			"lastupdatedtime": "20/04/2020 01:08:30",
 			"recovered": "127",
 			"state": "Uttar Pradesh",
 			"statecode": "UP",
@@ -888,10 +888,10 @@
 			"statenotes": ""
 		},
 		{
-			"active": "289",
-			"confirmed": "350",
+			"active": "293",
+			"confirmed": "354",
 			"deaths": "5",
-			"deltaconfirmed": "9",
+			"deltaconfirmed": "13",
 			"deltadeaths": "0",
 			"deltarecovered": "5",
 			"lastupdatedtime": "19/04/2020 21:36:07",
@@ -940,10 +940,10 @@
 			"statenotes": ""
 		},
 		{
-			"active": "49",
-			"confirmed": "93",
+			"active": "52",
+			"confirmed": "96",
 			"deaths": "2",
-			"deltaconfirmed": "7",
+			"deltaconfirmed": "10",
 			"deltadeaths": "0",
 			"deltarecovered": "0",
 			"lastupdatedtime": "19/04/2020 17:36:06",
@@ -1628,13 +1628,13 @@
 			"updatetimestamp": "18/04/2020 21:00:00"
 		},
 		{
-			"positivecasesfromsamplesreported": "",
-			"samplereportedtoday": "",
-			"source": "",
+			"positivecasesfromsamplesreported": "1135",
+			"samplereportedtoday": "27824",
+			"source": "https://icmr.nic.in/sites/default/files/whats_new/ICMR_testing_update_19April_9PM_IST.pdf",
 			"testsconductedbyprivatelabs": "",
-			"totalindividualstested": "",
-			"totalpositivecases": "",
-			"totalsamplestested": "",
+			"totalindividualstested": "383985",
+			"totalpositivecases": "17615",
+			"totalsamplestested": "401586",
 			"updatetimestamp": "19/04/2020 21:00:00"
 		}
 	]

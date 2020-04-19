@@ -1077,6 +1077,13 @@
         "delta": {
           "confirmed": 1
         }
+      },
+      "Unknown": {
+        "confirmed": 1,
+        "lastupdatedtime": "",
+        "delta": {
+          "confirmed": 1
+        }
       }
     }
   },
@@ -1357,10 +1364,10 @@
         }
       },
       "Bandipore": {
-        "confirmed": 80,
+        "confirmed": 83,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 3
         }
       },
       "Rajouri": {
@@ -1378,10 +1385,10 @@
         }
       },
       "Baramula": {
-        "confirmed": 42,
+        "confirmed": 43,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "Shupiyan": {
@@ -2736,10 +2743,10 @@
   "Bihar": {
     "districtData": {
       "Munger": {
-        "confirmed": 17,
+        "confirmed": 20,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 3
         }
       },
       "Patna": {
