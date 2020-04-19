@@ -1645,7 +1645,7 @@
         }
       },
       "Palghar": {
-        "confirmed": 47,
+        "confirmed": 49,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -1708,7 +1708,7 @@
         }
       },
       "Nashik": {
-        "confirmed": 57,
+        "confirmed": 53,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -1736,7 +1736,7 @@
         }
       },
       "Amravati": {
-        "confirmed": 7,
+        "confirmed": 6,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -1750,7 +1750,7 @@
         }
       },
       "Jalna": {
-        "confirmed": 1,
+        "confirmed": 2,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -1764,7 +1764,7 @@
         }
       },
       "Akola": {
-        "confirmed": 13,
+        "confirmed": 15,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0

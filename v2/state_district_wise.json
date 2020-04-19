@@ -1886,7 +1886,7 @@
       },
       {
         "district": "Palghar",
-        "confirmed": 47,
+        "confirmed": 49,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -1958,7 +1958,7 @@
       },
       {
         "district": "Nashik",
-        "confirmed": 57,
+        "confirmed": 53,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -1990,7 +1990,7 @@
       },
       {
         "district": "Amravati",
-        "confirmed": 7,
+        "confirmed": 6,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -2006,7 +2006,7 @@
       },
       {
         "district": "Jalna",
-        "confirmed": 1,
+        "confirmed": 2,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -2022,7 +2022,7 @@
       },
       {
         "district": "Akola",
-        "confirmed": 13,
+        "confirmed": 15,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
