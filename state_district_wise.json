@@ -1459,10 +1459,10 @@
         }
       },
       "Mysuru": {
-        "confirmed": 80,
+        "confirmed": 84,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 4
         }
       },
       "Dharwad": {
@@ -2283,31 +2283,31 @@
   "Gujarat": {
     "districtData": {
       "Rajkot": {
-        "confirmed": 30,
+        "confirmed": 35,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 5
         }
       },
       "Surat": {
-        "confirmed": 156,
+        "confirmed": 223,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 67
         }
       },
       "Ahmadabad": {
-        "confirmed": 861,
+        "confirmed": 1001,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 140
         }
       },
       "Vadodara": {
-        "confirmed": 153,
+        "confirmed": 161,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 8
         }
       },
       "Gandhinagar": {
@@ -2325,17 +2325,17 @@
         }
       },
       "Mahesana": {
-        "confirmed": 4,
+        "confirmed": 5,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "Bhavnagar": {
-        "confirmed": 30,
+        "confirmed": 32,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       "Porbandar": {
@@ -2367,10 +2367,10 @@
         }
       },
       "Chota Udaipur": {
-        "confirmed": 6,
+        "confirmed": 7,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "Jamnagar": {
@@ -2388,10 +2388,10 @@
         }
       },
       "Anand": {
-        "confirmed": 27,
+        "confirmed": 28,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "Sabar Kantha": {
@@ -2416,17 +2416,17 @@
         }
       },
       "Banas Kantha": {
-        "confirmed": 9,
+        "confirmed": 11,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       "Botad": {
-        "confirmed": 4,
+        "confirmed": 5,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "Kheda": {
@@ -2455,13 +2455,6 @@
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
-        }
-      },
-      "Unknown": {
-        "confirmed": 228,
-        "lastupdatedtime": "",
-        "delta": {
-          "confirmed": 228
         }
       }
     }

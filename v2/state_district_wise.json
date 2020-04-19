@@ -1673,10 +1673,10 @@
       },
       {
         "district": "Mysuru",
-        "confirmed": 80,
+        "confirmed": 84,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 4
         }
       },
       {
@@ -2619,34 +2619,34 @@
     "districtData": [
       {
         "district": "Rajkot",
-        "confirmed": 30,
+        "confirmed": 35,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 5
         }
       },
       {
         "district": "Surat",
-        "confirmed": 156,
+        "confirmed": 223,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 67
         }
       },
       {
         "district": "Ahmadabad",
-        "confirmed": 861,
+        "confirmed": 1001,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 140
         }
       },
       {
         "district": "Vadodara",
-        "confirmed": 153,
+        "confirmed": 161,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 8
         }
       },
       {
@@ -2667,18 +2667,18 @@
       },
       {
         "district": "Mahesana",
-        "confirmed": 4,
+        "confirmed": 5,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
         "district": "Bhavnagar",
-        "confirmed": 30,
+        "confirmed": 32,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       {
@@ -2715,10 +2715,10 @@
       },
       {
         "district": "Chota Udaipur",
-        "confirmed": 6,
+        "confirmed": 7,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
@@ -2739,10 +2739,10 @@
       },
       {
         "district": "Anand",
-        "confirmed": 27,
+        "confirmed": 28,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
@@ -2771,18 +2771,18 @@
       },
       {
         "district": "Banas Kantha",
-        "confirmed": 9,
+        "confirmed": 11,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       {
         "district": "Botad",
-        "confirmed": 4,
+        "confirmed": 5,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
@@ -2815,14 +2815,6 @@
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
-        }
-      },
-      {
-        "district": "Unknown",
-        "confirmed": 228,
-        "lastupdatedtime": "",
-        "delta": {
-          "confirmed": 228
         }
       }
     ]
