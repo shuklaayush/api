@@ -1189,21 +1189,21 @@
 			"updatedon": "17/04/2020"
 		},
 		{
-			"negative": "",
+			"negative": "6086",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
 			"numisolationbeds": "",
 			"numventilators": "",
-			"positive": "",
+			"positive": "36",
 			"positiveratebytests": "",
-			"source": "",
+			"source": "http://cghealth.nic.in/cghealth17/Information/content/CORONA/mediaBulletinHindi_19042020.pdf",
 			"source2": "",
 			"state": "Chhattisgarh",
 			"testsperthousand": "",
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
-			"totaltested": "",
-			"unconfirmed": "",
+			"totaltested": "6675",
+			"unconfirmed": "553",
 			"updatedon": "19/04/2020"
 		},
 		{
@@ -1441,6 +1441,24 @@
 			"updatedon": "18/04/2020"
 		},
 		{
+			"negative": "19393",
+			"numcallsstatehelpline": "",
+			"numicubeds": "",
+			"numisolationbeds": "",
+			"numventilators": "",
+			"positive": "2003",
+			"positiveratebytests": "",
+			"source": "https://twitter.com/CMODelhi/status/1251923081699811328?s=09",
+			"source2": "",
+			"state": "Delhi",
+			"testsperthousand": "",
+			"totalpeopleinquarantine": "",
+			"totalpeoplereleasedfromquarantine": "",
+			"totaltested": "24387",
+			"unconfirmed": "2872",
+			"updatedon": "19/04/2020"
+		},
+		{
 			"negative": "",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1456,7 +1474,7 @@
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "",
 			"unconfirmed": "",
-			"updatedon": "20/04/2020"
+			"updatedon": "21/04/2020"
 		},
 		{
 			"negative": "197",
@@ -2330,7 +2348,7 @@
 			"numventilators": "",
 			"positive": "39",
 			"positiveratebytests": "",
-			"source": "http://www.nrhmhp.gov.in/",
+			"source": "https://twitter.com/nhm_hp/status/1251902095738810368?s=19",
 			"source2": "",
 			"state": "Himachal Pradesh",
 			"testsperthousand": "",
@@ -2341,12 +2359,12 @@
 			"updatedon": "19/04/2020"
 		},
 		{
-			"negative": "",
+			"negative": "2337",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
 			"numisolationbeds": "",
 			"numventilators": "",
-			"positive": "",
+			"positive": "39",
 			"positiveratebytests": "",
 			"source": "",
 			"source2": "",
@@ -2354,9 +2372,9 @@
 			"testsperthousand": "",
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
-			"totaltested": "",
-			"unconfirmed": "",
-			"updatedon": "21/04/2020"
+			"totaltested": "2553",
+			"unconfirmed": "177",
+			"updatedon": "20/04/2020"
 		},
 		{
 			"negative": "1429",
