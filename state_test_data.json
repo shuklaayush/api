@@ -5239,6 +5239,24 @@
 			"updatedon": "18/04/2020"
 		},
 		{
+			"negative": "43537",
+			"numcallsstatehelpline": "",
+			"numicubeds": "",
+			"numisolationbeds": "",
+			"numventilators": "",
+			"positive": "1478",
+			"positiveratebytests": "",
+			"source": "https://t.me/indiacovid/2691",
+			"source2": "",
+			"state": "Rajasthan",
+			"testsperthousand": "",
+			"totalpeopleinquarantine": "",
+			"totalpeoplereleasedfromquarantine": "",
+			"totaltested": "51614",
+			"unconfirmed": "6599",
+			"updatedon": "19/04/2020"
+		},
+		{
 			"negative": "",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -5254,7 +5272,7 @@
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "",
 			"unconfirmed": "",
-			"updatedon": "20/04/2020"
+			"updatedon": "21/04/2020"
 		},
 		{
 			"negative": "2789",
@@ -5488,6 +5506,24 @@
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "40876",
 			"unconfirmed": "2411",
+			"updatedon": "19/04/2020"
+		},
+		{
+			"negative": "14104",
+			"numcallsstatehelpline": "",
+			"numicubeds": "",
+			"numisolationbeds": "",
+			"numventilators": "",
+			"positive": "858",
+			"positiveratebytests": "",
+			"source": "https://t.me/indiacovid/2688?single",
+			"source2": "",
+			"state": "Telangana",
+			"testsperthousand": "",
+			"totalpeopleinquarantine": "",
+			"totalpeoplereleasedfromquarantine": "",
+			"totaltested": "14962",
+			"unconfirmed": "768",
 			"updatedon": "19/04/2020"
 		},
 		{
@@ -6011,6 +6047,24 @@
 			"totaltested": "3158",
 			"unconfirmed": "406",
 			"updatedon": "18/04/2020"
+		},
+		{
+			"negative": "3046",
+			"numcallsstatehelpline": "",
+			"numicubeds": "",
+			"numisolationbeds": "",
+			"numventilators": "",
+			"positive": "44",
+			"positiveratebytests": "",
+			"source": "https://m.facebook.com/UKMedicalHealth/photos/a.1933022463614120/2570573469859013/?type=3&source=48",
+			"source2": "",
+			"state": "Uttarakhand",
+			"testsperthousand": "",
+			"totalpeopleinquarantine": "",
+			"totalpeoplereleasedfromquarantine": "",
+			"totaltested": "3344",
+			"unconfirmed": "255",
+			"updatedon": "19/04/2020"
 		},
 		{
 			"negative": "568",
