@@ -1852,10 +1852,10 @@
         }
       },
       "Jalandhar": {
-        "confirmed": 41,
+        "confirmed": 47,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 6
         }
       },
       "Ludhiana": {
@@ -2304,31 +2304,31 @@
   "Gujarat": {
     "districtData": {
       "Rajkot": {
-        "confirmed": 35,
+        "confirmed": 36,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 5
+          "confirmed": 6
         }
       },
       "Surat": {
-        "confirmed": 223,
+        "confirmed": 245,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 67
+          "confirmed": 89
         }
       },
       "Ahmadabad": {
-        "confirmed": 1001,
+        "confirmed": 1100,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 140
+          "confirmed": 239
         }
       },
       "Vadodara": {
-        "confirmed": 161,
+        "confirmed": 175,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 8
+          "confirmed": 22
         }
       },
       "Gandhinagar": {
@@ -2430,10 +2430,10 @@
         }
       },
       "Bharuch": {
-        "confirmed": 22,
+        "confirmed": 23,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "Banas Kantha": {
@@ -2458,10 +2458,10 @@
         }
       },
       "Narmada": {
-        "confirmed": 11,
+        "confirmed": 12,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "Aravalli": {
@@ -2478,11 +2478,11 @@
           "confirmed": 0
         }
       },
-      "Unknown": {
-        "confirmed": 139,
+      "Dohad": {
+        "confirmed": 1,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 139
+          "confirmed": 1
         }
       }
     }

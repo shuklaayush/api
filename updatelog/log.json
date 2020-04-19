@@ -1,9 +1,5 @@
 [
   {
-    "update": "4 recoveries in Karnataka\n",
-    "timestamp": 1587206063
-  },
-  {
     "update": "4 recoveries in Assam\n",
     "timestamp": 1587209274
   },
@@ -198,5 +194,9 @@
   {
     "update": "139 new cases, 11 recoveries and 5 deaths in Gujarat\n",
     "timestamp": 1587308073
+  },
+  {
+    "update": "6 new cases and 2 recoveries in Punjab\n",
+    "timestamp": 1587308925
   }
 ]
