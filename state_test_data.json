@@ -4519,6 +4519,24 @@
 			"updatedon": "18/04/2020"
 		},
 		{
+			"negative": "",
+			"numcallsstatehelpline": "",
+			"numicubeds": "",
+			"numisolationbeds": "",
+			"numventilators": "",
+			"positive": "",
+			"positiveratebytests": "",
+			"source": "",
+			"source2": "",
+			"state": "Odisha",
+			"testsperthousand": "",
+			"totalpeopleinquarantine": "",
+			"totalpeoplereleasedfromquarantine": "",
+			"totaltested": "",
+			"unconfirmed": "",
+			"updatedon": "20/04/2020"
+		},
+		{
 			"negative": "1236",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
