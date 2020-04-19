@@ -1814,7 +1814,7 @@
     "districtData": [
       {
         "district": "Pune",
-        "confirmed": 583,
+        "confirmed": 591,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -1830,7 +1830,7 @@
       },
       {
         "district": "Nagpur",
-        "confirmed": 59,
+        "confirmed": 60,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -1838,7 +1838,7 @@
       },
       {
         "district": "Ahmadnagar",
-        "confirmed": 28,
+        "confirmed": 29,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -1854,7 +1854,7 @@
       },
       {
         "district": "Raigarh",
-        "confirmed": 32,
+        "confirmed": 42,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -1870,7 +1870,7 @@
       },
       {
         "district": "Aurangabad",
-        "confirmed": 29,
+        "confirmed": 28,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -1926,7 +1926,7 @@
       },
       {
         "district": "Kolhapur",
-        "confirmed": 6,
+        "confirmed": 5,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -2062,7 +2062,7 @@
       },
       {
         "district": "Unknown",
-        "confirmed": 60,
+        "confirmed": 42,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
