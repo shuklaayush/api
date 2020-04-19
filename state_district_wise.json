@@ -1115,10 +1115,10 @@
         }
       },
       "Tirunelveli": {
-        "confirmed": 62,
+        "confirmed": 64,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       "Tiruppur": {
@@ -1157,10 +1157,10 @@
         }
       },
       "Thanjavur": {
-        "confirmed": 35,
+        "confirmed": 45,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 10
         }
       },
       "Vellore": {
@@ -1171,10 +1171,10 @@
         }
       },
       "Virudhunagar": {
-        "confirmed": 17,
+        "confirmed": 19,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       "Karur": {
@@ -1192,10 +1192,10 @@
         }
       },
       "Viluppuram": {
-        "confirmed": 30,
+        "confirmed": 37,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 7
         }
       },
       "Namakkal": {
@@ -1248,10 +1248,10 @@
         }
       },
       "Thiruvarur": {
-        "confirmed": 22,
+        "confirmed": 27,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 5
         }
       },
       "Ramanathapuram": {
@@ -1269,10 +1269,10 @@
         }
       },
       "Nagapattinam": {
-        "confirmed": 40,
+        "confirmed": 43,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 3
         }
       },
       "Cuddalore": {
@@ -1318,17 +1318,10 @@
         }
       },
       "Tenkasi": {
-        "confirmed": 15,
+        "confirmed": 19,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
-        }
-      },
-      "Unknown": {
-        "confirmed": 33,
-        "lastupdatedtime": "",
-        "delta": {
-          "confirmed": 33
+          "confirmed": 4
         }
       }
     }

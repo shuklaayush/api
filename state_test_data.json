@@ -2305,6 +2305,24 @@
 			"updatedon": "18/04/2020"
 		},
 		{
+			"negative": "2183",
+			"numcallsstatehelpline": "",
+			"numicubeds": "",
+			"numisolationbeds": "",
+			"numventilators": "",
+			"positive": "39",
+			"positiveratebytests": "",
+			"source": "",
+			"source2": "",
+			"state": "Himachal Pradesh",
+			"testsperthousand": "",
+			"totalpeopleinquarantine": "",
+			"totalpeoplereleasedfromquarantine": "",
+			"totaltested": "2556",
+			"unconfirmed": "",
+			"updatedon": "19/04/2020"
+		},
+		{
 			"negative": "",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2320,7 +2338,7 @@
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "",
 			"unconfirmed": "",
-			"updatedon": "20/04/2020"
+			"updatedon": "21/04/2020"
 		},
 		{
 			"negative": "1429",
@@ -2917,6 +2935,24 @@
 			"updatedon": "18/04/2020"
 		},
 		{
+			"negative": "17662",
+			"numcallsstatehelpline": "",
+			"numicubeds": "",
+			"numisolationbeds": "",
+			"numventilators": "",
+			"positive": "390",
+			"positiveratebytests": "",
+			"source": "https://covid19.karnataka.gov.in/storage/pdf-files/Media-Bulletin/19-04-2020-05-00-English.pdf",
+			"source2": "",
+			"state": "Karnataka",
+			"testsperthousand": "",
+			"totalpeopleinquarantine": "",
+			"totalpeoplereleasedfromquarantine": "",
+			"totaltested": "21367",
+			"unconfirmed": "",
+			"updatedon": "19/04/2020"
+		},
+		{
 			"negative": "",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2932,7 +2968,7 @@
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "",
 			"unconfirmed": "",
-			"updatedon": "20/04/2020"
+			"updatedon": "21/04/2020"
 		},
 		{
 			"negative": "8586",
@@ -3277,6 +3313,24 @@
 			"updatedon": "18/04/2020"
 		},
 		{
+			"negative": "18547",
+			"numcallsstatehelpline": "",
+			"numicubeds": "",
+			"numisolationbeds": "",
+			"numventilators": "",
+			"positive": "401",
+			"positiveratebytests": "",
+			"source": "https://dashboard.kerala.gov.in/testing-view-public.php",
+			"source2": "",
+			"state": "Kerala",
+			"testsperthousand": "",
+			"totalpeopleinquarantine": "",
+			"totalpeoplereleasedfromquarantine": "",
+			"totaltested": "19351",
+			"unconfirmed": "403",
+			"updatedon": "19/04/2020"
+		},
+		{
 			"negative": "",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -3292,7 +3346,7 @@
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "",
 			"unconfirmed": "",
-			"updatedon": "20/04/2020"
+			"updatedon": "21/04/2020"
 		},
 		{
 			"negative": "",
@@ -4555,6 +4609,24 @@
 			"updatedon": "18/04/2020"
 		},
 		{
+			"negative": "9629",
+			"numcallsstatehelpline": "",
+			"numicubeds": "",
+			"numisolationbeds": "",
+			"numventilators": "",
+			"positive": "61",
+			"positiveratebytests": "",
+			"source": "https://health.odisha.gov.in/pdf/covid-19-Analysis-Report-19042020.pdf",
+			"source2": "https://health.odisha.gov.in/",
+			"state": "Odisha",
+			"testsperthousand": "",
+			"totalpeopleinquarantine": "",
+			"totalpeoplereleasedfromquarantine": "",
+			"totaltested": "9690",
+			"unconfirmed": "",
+			"updatedon": "19/04/2020"
+		},
+		{
 			"negative": "",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -4570,7 +4642,7 @@
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "",
 			"unconfirmed": "",
-			"updatedon": "20/04/2020"
+			"updatedon": "21/04/2020"
 		},
 		{
 			"negative": "1159",
@@ -5228,7 +5300,7 @@
 			"numventilators": "3371",
 			"positive": "1323",
 			"positiveratebytests": "",
-			"source": "https://stopcorona.tn.gov.in/wp-content/uploads/2020/03/Media-Bulletin-17.04.2020.pdf",
+			"source": "https://stopcorona.tn.gov.in/wp-content/uploads/2020/03/Media-Bulletin-18.04.2020.pdf",
 			"source2": "",
 			"state": "Tamil Nadu",
 			"testsperthousand": "",
@@ -5246,7 +5318,7 @@
 			"numventilators": "3371",
 			"positive": "1372",
 			"positiveratebytests": "",
-			"source": "https://stopcorona.tn.gov.in/wp-content/uploads/2020/03/Media-Bulletin-18.04.2020.pdf",
+			"source": "",
 			"source2": "",
 			"state": "Tamil Nadu",
 			"testsperthousand": "",
