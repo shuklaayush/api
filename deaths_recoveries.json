@@ -51564,19 +51564,19 @@
 		{
 			"agebracket": "",
 			"city": "",
-			"date": "",
+			"date": "19/04/2020",
 			"district": "",
 			"gender": "",
 			"nationality": "",
 			"notes": "",
 			"patientnumbercouldbemappedlater": "",
-			"patientstatus": "",
+			"patientstatus": "Deceased",
 			"slno": "3034",
-			"source1": "",
+			"source1": "https://twitter.com/ArogyaAndhra/status/1251791937897558017?s=20",
 			"source2": "",
 			"source3": "",
-			"state": "",
-			"statecode": ""
+			"state": "Andhra Pradesh",
+			"statecode": "AP"
 		},
 		{
 			"agebracket": "",

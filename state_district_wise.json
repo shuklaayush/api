@@ -2882,10 +2882,10 @@
   "Jharkhand": {
     "districtData": {
       "Ranchi": {
-        "confirmed": 18,
+        "confirmed": 21,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 3
         }
       },
       "Hazaribagh": {
@@ -2917,10 +2917,10 @@
         }
       },
       "Simdega": {
-        "confirmed": 1,
+        "confirmed": 2,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "Dhanbad": {
@@ -2928,6 +2928,13 @@
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
+        }
+      },
+      "Unknown": {
+        "confirmed": 1,
+        "lastupdatedtime": "",
+        "delta": {
+          "confirmed": 1
         }
       }
     }
