@@ -2253,19 +2253,19 @@
 		{
 			"negative": "2307",
 			"numcallsstatehelpline": "",
-			"numicubeds": "",
-			"numisolationbeds": "",
+			"numicubeds": "239",
+			"numisolationbeds": "2891",
 			"numventilators": "",
 			"positive": "27",
 			"positiveratebytests": "",
-			"source": "",
+			"source": "https://mobile.twitter.com/FobGumla/status/1250155260691144704/photo/1",
 			"source2": "",
 			"state": "Jharkhand",
 			"testsperthousand": "",
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "2785",
-			"unconfirmed": "",
+			"unconfirmed": "451",
 			"updatedon": "14/04/2020"
 		},
 		{
