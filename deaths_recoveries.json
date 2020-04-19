@@ -43249,11 +43249,11 @@
 			"statecode": "AP"
 		},
 		{
-			"agebracket": "",
+			"agebracket": "39",
 			"city": "",
 			"date": "18/04/2020",
-			"district": "",
-			"gender": "",
+			"district": "Rajkot",
+			"gender": "M",
 			"nationality": "",
 			"notes": "",
 			"patientnumbercouldbemappedlater": "",
@@ -43266,11 +43266,11 @@
 			"statecode": "GJ"
 		},
 		{
-			"agebracket": "",
+			"agebracket": "34",
 			"city": "",
 			"date": "18/04/2020",
-			"district": "",
-			"gender": "",
+			"district": "Gandhinagar",
+			"gender": "M",
 			"nationality": "",
 			"notes": "",
 			"patientnumbercouldbemappedlater": "",
@@ -43283,11 +43283,11 @@
 			"statecode": "GJ"
 		},
 		{
-			"agebracket": "",
+			"agebracket": "68",
 			"city": "",
 			"date": "18/04/2020",
-			"district": "",
-			"gender": "",
+			"district": "Ahmadabad",
+			"gender": "F",
 			"nationality": "",
 			"notes": "",
 			"patientnumbercouldbemappedlater": "",
@@ -43300,11 +43300,11 @@
 			"statecode": "GJ"
 		},
 		{
-			"agebracket": "",
+			"agebracket": "72",
 			"city": "",
 			"date": "18/04/2020",
-			"district": "",
-			"gender": "",
+			"district": "Ahmadabad",
+			"gender": "F",
 			"nationality": "",
 			"notes": "",
 			"patientnumbercouldbemappedlater": "",
@@ -43317,11 +43317,11 @@
 			"statecode": "GJ"
 		},
 		{
-			"agebracket": "",
+			"agebracket": "65",
 			"city": "",
 			"date": "18/04/2020",
-			"district": "",
-			"gender": "",
+			"district": "Ahmadabad",
+			"gender": "F",
 			"nationality": "",
 			"notes": "",
 			"patientnumbercouldbemappedlater": "",
@@ -43334,11 +43334,11 @@
 			"statecode": "GJ"
 		},
 		{
-			"agebracket": "",
+			"agebracket": "50",
 			"city": "",
 			"date": "18/04/2020",
-			"district": "",
-			"gender": "",
+			"district": "Ahmadabad",
+			"gender": "F",
 			"nationality": "",
 			"notes": "",
 			"patientnumbercouldbemappedlater": "",
@@ -43351,7 +43351,7 @@
 			"statecode": "GJ"
 		},
 		{
-			"agebracket": "",
+			"agebracket": "36",
 			"city": "",
 			"date": "18/04/2020",
 			"district": "",
@@ -43368,7 +43368,7 @@
 			"statecode": "GJ"
 		},
 		{
-			"agebracket": "",
+			"agebracket": "70",
 			"city": "",
 			"date": "18/04/2020",
 			"district": "",
@@ -43385,7 +43385,7 @@
 			"statecode": "GJ"
 		},
 		{
-			"agebracket": "",
+			"agebracket": "60",
 			"city": "",
 			"date": "18/04/2020",
 			"district": "",
