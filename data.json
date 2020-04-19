@@ -694,16 +694,16 @@
 			"totalrecovered": "1509"
 		},
 		{
-			"dailyconfirmed": "1062",
+			"dailyconfirmed": "1061",
 			"dailydeceased": "26",
 			"dailyrecovered": "258",
 			"date": "16 April ",
-			"totalconfirmed": "13432",
+			"totalconfirmed": "13431",
 			"totaldeceased": "448",
 			"totalrecovered": "1767"
 		},
 		{
-			"dailyconfirmed": "920",
+			"dailyconfirmed": "921",
 			"dailydeceased": "38",
 			"dailyrecovered": "273",
 			"date": "17 April ",
@@ -729,7 +729,7 @@
 			"deltaconfirmed": "405",
 			"deltadeaths": "7",
 			"deltarecovered": "40",
-			"lastupdatedtime": "19/04/2020 16:14:05",
+			"lastupdatedtime": "19/04/2020 16:15:19",
 			"recovered": "2506",
 			"state": "Total",
 			"statecode": "TT",
@@ -937,7 +937,7 @@
 			"deltaconfirmed": "6",
 			"deltadeaths": "0",
 			"deltarecovered": "0",
-			"lastupdatedtime": "19/04/2020 16:14:06",
+			"lastupdatedtime": "19/04/2020 16:15:20",
 			"recovered": "42",
 			"state": "Bihar",
 			"statecode": "BR",
