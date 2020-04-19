@@ -848,10 +848,10 @@
         }
       },
       "Shahjahanpur": {
-        "confirmed": 20,
+        "confirmed": 1,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 19
+          "confirmed": 0
         }
       },
       "Firozabad": {
@@ -1071,14 +1071,14 @@
           "confirmed": 0
         }
       },
-      "Mau": {
-        "confirmed": 1,
+      "Unknown": {
+        "confirmed": 20,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 1
+          "confirmed": 20
         }
       },
-      "Unknown": {
+      "Mau": {
         "confirmed": 1,
         "lastupdatedtime": "",
         "delta": {

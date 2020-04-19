@@ -973,10 +973,10 @@
       },
       {
         "district": "Shahjahanpur",
-        "confirmed": 20,
+        "confirmed": 1,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 19
+          "confirmed": 0
         }
       },
       {
@@ -1228,15 +1228,15 @@
         }
       },
       {
-        "district": "Mau",
-        "confirmed": 1,
+        "district": "Unknown",
+        "confirmed": 20,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 1
+          "confirmed": 20
         }
       },
       {
-        "district": "Unknown",
+        "district": "Mau",
         "confirmed": 1,
         "lastupdatedtime": "",
         "delta": {
