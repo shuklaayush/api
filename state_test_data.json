@@ -3475,6 +3475,24 @@
 			"updatedon": "18/04/2020"
 		},
 		{
+			"negative": "797",
+			"numcallsstatehelpline": "",
+			"numicubeds": "",
+			"numisolationbeds": "154",
+			"numventilators": "",
+			"positive": "18",
+			"positiveratebytests": "",
+			"source": "https://twitter.com/ladags/status/1251890558810812422?s=19",
+			"source2": "",
+			"state": "Ladakh",
+			"testsperthousand": "",
+			"totalpeopleinquarantine": "157",
+			"totalpeoplereleasedfromquarantine": "",
+			"totaltested": "991",
+			"unconfirmed": "117",
+			"updatedon": "19/04/2020"
+		},
+		{
 			"negative": "1954",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
