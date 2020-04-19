@@ -2251,6 +2251,24 @@
 			"updatedon": "13/04/2020"
 		},
 		{
+			"negative": "2307",
+			"numcallsstatehelpline": "",
+			"numicubeds": "",
+			"numisolationbeds": "",
+			"numventilators": "",
+			"positive": "27",
+			"positiveratebytests": "",
+			"source": "",
+			"source2": "",
+			"state": "Jharkhand",
+			"testsperthousand": "",
+			"totalpeopleinquarantine": "",
+			"totalpeoplereleasedfromquarantine": "",
+			"totaltested": "2785",
+			"unconfirmed": "",
+			"updatedon": "14/04/2020"
+		},
+		{
 			"negative": "",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2266,7 +2284,7 @@
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "",
 			"unconfirmed": "",
-			"updatedon": "15/04/2020"
+			"updatedon": "16/04/2020"
 		},
 		{
 			"negative": "3111",
@@ -2276,7 +2294,7 @@
 			"numventilators": "",
 			"positive": "32",
 			"positiveratebytests": "",
-			"source": "https://t.me/indiacovid/2518",
+			"source": "https://mobile.twitter.com/FobGumla/status/1251192890342158338",
 			"source2": "",
 			"state": "Jharkhand",
 			"testsperthousand": "",
@@ -2287,22 +2305,22 @@
 			"updatedon": "17/04/2020"
 		},
 		{
-			"negative": "",
+			"negative": "3398",
 			"numcallsstatehelpline": "",
-			"numicubeds": "",
-			"numisolationbeds": "",
+			"numicubeds": "239",
+			"numisolationbeds": "2891",
 			"numventilators": "",
-			"positive": "",
+			"positive": "33",
 			"positiveratebytests": "",
-			"source": "",
+			"source": "https://twitter.com/FobGumla/status/1251564826863628289?s=09",
 			"source2": "",
 			"state": "Jharkhand",
 			"testsperthousand": "",
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
-			"totaltested": "",
+			"totaltested": "4464",
 			"unconfirmed": "",
-			"updatedon": "19/04/2020"
+			"updatedon": "18/04/2020"
 		},
 		{
 			"negative": "4281",
