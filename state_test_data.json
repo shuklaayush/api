@@ -2539,6 +2539,24 @@
 			"updatedon": "18/04/2020"
 		},
 		{
+			"negative": "7545",
+			"numcallsstatehelpline": "",
+			"numicubeds": "",
+			"numisolationbeds": "",
+			"numventilators": "",
+			"positive": "350",
+			"positiveratebytests": "",
+			"source": "https://twitter.com/diprjk/status/1251889101550174209?s=19",
+			"source2": "",
+			"state": "Jammu and Kashmir",
+			"testsperthousand": "",
+			"totalpeopleinquarantine": "264",
+			"totalpeoplereleasedfromquarantine": "",
+			"totaltested": "7895",
+			"unconfirmed": "",
+			"updatedon": "19/04/2020"
+		},
+		{
 			"negative": "",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -2554,7 +2572,7 @@
 			"totalpeoplereleasedfromquarantine": "",
 			"totaltested": "",
 			"unconfirmed": "",
-			"updatedon": "20/04/2020"
+			"updatedon": "21/04/2020"
 		},
 		{
 			"negative": "1326",
