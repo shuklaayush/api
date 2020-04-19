@@ -712,24 +712,24 @@
 			"totalrecovered": "2040"
 		},
 		{
-			"dailyconfirmed": "1370",
+			"dailyconfirmed": "1371",
 			"dailydeceased": "35",
 			"dailyrecovered": "423",
 			"date": "18 April ",
-			"totalconfirmed": "15722",
+			"totalconfirmed": "15723",
 			"totaldeceased": "524",
 			"totalrecovered": "2463"
 		}
 	],
 	"statewise": [
 		{
-			"active": "12738",
-			"confirmed": "15722",
+			"active": "12739",
+			"confirmed": "15723",
 			"deaths": "521",
-			"deltaconfirmed": "1370",
+			"deltaconfirmed": "1371",
 			"deltadeaths": "35",
 			"deltarecovered": "423",
-			"lastupdatedtime": "19/04/2020 00:24:05",
+			"lastupdatedtime": "19/04/2020 06:35:05",
 			"recovered": "2463",
 			"state": "Total",
 			"statecode": "TT",
@@ -1009,13 +1009,13 @@
 			"statenotes": ""
 		},
 		{
-			"active": "30",
-			"confirmed": "32",
+			"active": "31",
+			"confirmed": "33",
 			"deaths": "2",
-			"deltaconfirmed": "0",
+			"deltaconfirmed": "1",
 			"deltadeaths": "0",
 			"deltarecovered": "0",
-			"lastupdatedtime": "17/04/2020 21:09:07",
+			"lastupdatedtime": "19/04/2020 06:35:06",
 			"recovered": "0",
 			"state": "Jharkhand",
 			"statecode": "JH",

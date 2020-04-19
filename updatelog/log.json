@@ -1,9 +1,5 @@
 [
   {
-    "update": "103 recoveries in Tamil Nadu\n1 recovery in Punjab\n",
-    "timestamp": 1587129890
-  },
-  {
     "update": "1 recovery in Chhattisgarh\n",
     "timestamp": 1587131062
   },
@@ -198,5 +194,9 @@
   {
     "update": "1 death in Bihar\n",
     "timestamp": 1587236053
+  },
+  {
+    "update": "1 new case in Jharkhand\n",
+    "timestamp": 1587258322
   }
 ]
