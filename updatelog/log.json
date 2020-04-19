@@ -1,9 +1,5 @@
 [
   {
-    "update": "12 recoveries and 1 death in Karnataka\n1 new case and 3 recoveries in Odisha\n",
-    "timestamp": 1587212756
-  },
-  {
     "update": "4 new cases and 2 recoveries in Kerala\n",
     "timestamp": 1587213404
   },
@@ -198,5 +194,9 @@
   {
     "update": "5 recoveries in Jammu and Kashmir\n",
     "timestamp": 1587312362
+  },
+  {
+    "update": "110 new cases, 83 recoveries and 2 deaths in Delhi\n47 new cases and 1 death in Rajasthan\n2 new cases and 2 recoveries in Uttarakhand\n",
+    "timestamp": 1587318439
   }
 ]
