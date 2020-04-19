@@ -714,23 +714,23 @@
 		{
 			"dailyconfirmed": "1371",
 			"dailydeceased": "35",
-			"dailyrecovered": "454",
+			"dailyrecovered": "426",
 			"date": "18 April ",
 			"totalconfirmed": "15723",
 			"totaldeceased": "521",
-			"totalrecovered": "2494"
+			"totalrecovered": "2466"
 		}
 	],
 	"statewise": [
 		{
-			"active": "13048",
+			"active": "13034",
 			"confirmed": "16063",
-			"deaths": "521",
+			"deaths": "527",
 			"deltaconfirmed": "340",
-			"deltadeaths": "0",
-			"deltarecovered": "0",
-			"lastupdatedtime": "19/04/2020 12:04:05",
-			"recovered": "2494",
+			"deltadeaths": "6",
+			"deltarecovered": "36",
+			"lastupdatedtime": "19/04/2020 12:14:05",
+			"recovered": "2502",
 			"state": "Total",
 			"statecode": "TT",
 			"statenotes": ""
@@ -775,13 +775,13 @@
 			"statenotes": ""
 		},
 		{
-			"active": "1169",
+			"active": "1168",
 			"confirmed": "1395",
-			"deaths": "21",
+			"deaths": "22",
 			"deltaconfirmed": "44",
-			"deltadeaths": "0",
-			"deltarecovered": "0",
-			"lastupdatedtime": "19/04/2020 12:04:05",
+			"deltadeaths": "1",
+			"deltarecovered": "5",
+			"lastupdatedtime": "19/04/2020 12:14:05",
 			"recovered": "205",
 			"state": "Rajasthan",
 			"statecode": "RJ",
@@ -801,14 +801,14 @@
 			"statenotes": ""
 		},
 		{
-			"active": "1458",
+			"active": "1452",
 			"confirmed": "1604",
-			"deaths": "53",
+			"deaths": "58",
 			"deltaconfirmed": "228",
-			"deltadeaths": "0",
-			"deltarecovered": "0",
-			"lastupdatedtime": "19/04/2020 11:50:07",
-			"recovered": "93",
+			"deltadeaths": "5",
+			"deltarecovered": "1",
+			"lastupdatedtime": "19/04/2020 12:14:06",
+			"recovered": "94",
 			"state": "Gujarat",
 			"statecode": "GJ",
 			"statenotes": ""
@@ -845,7 +845,7 @@
 			"deaths": "16",
 			"deltaconfirmed": "44",
 			"deltadeaths": "0",
-			"deltarecovered": "0",
+			"deltarecovered": "23",
 			"lastupdatedtime": "19/04/2020 12:04:06",
 			"recovered": "65",
 			"state": "Andhra Pradesh",
@@ -892,14 +892,14 @@
 			"statenotes": ""
 		},
 		{
-			"active": "243",
+			"active": "236",
 			"confirmed": "310",
 			"deaths": "12",
 			"deltaconfirmed": "23",
 			"deltadeaths": "0",
-			"deltarecovered": "0",
-			"lastupdatedtime": "19/04/2020 12:04:07",
-			"recovered": "55",
+			"deltarecovered": "7",
+			"lastupdatedtime": "19/04/2020 12:14:07",
+			"recovered": "62",
 			"state": "West Bengal",
 			"statecode": "WB",
 			"statenotes": "As WB state bulletin only reports the number of active cases, the numbers for WB are currently updated according to https://www.mohfw.gov.in"

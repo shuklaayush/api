@@ -1,9 +1,5 @@
 [
   {
-    "update": "8 recoveries and 1 death in Uttar Pradesh\n2 recoveries in Odisha\n",
-    "timestamp": 1587136029
-  },
-  {
     "update": "3 new cases in Jharkhand\n",
     "timestamp": 1587137909
   },
@@ -198,5 +194,9 @@
   {
     "update": "5 recoveries in Rajasthan\n23 recoveries in Andhra Pradesh\n23 new cases in West Bengal\n1 new case in Bihar\n",
     "timestamp": 1587278066
+  },
+  {
+    "update": "1 death in Rajasthan\n1 recovery and 5 deaths in Gujarat\n7 recoveries in West Bengal\n",
+    "timestamp": 1587278677
   }
 ]
