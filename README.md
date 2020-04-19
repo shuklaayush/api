@@ -27,7 +27,7 @@ A volunteer-driven database for COVID-19 stats & patient tracing in India.
 
 Telegram Channels
 - [covid19india.org Ops Channel](https://t.me/covid19indiaorg) (News and Updates from covid19india.org Team)
-- [Telegram Instant Updates](https://t.me/covid19indiaorg_updates) (Instant Updates from covid19india.org Team)
+- [Telegram instant Updates](https://t.me/covid19indiaorg_updates) (Instant Updates from covid19india.org Team)
 
 Telegram Bots
 - [CoVID19 India Patients Analyzer and Alerts](https://github.com/xsreality/covid19)
