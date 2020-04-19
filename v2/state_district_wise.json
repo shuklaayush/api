@@ -3130,10 +3130,10 @@
       },
       {
         "district": "Nalanda",
-        "confirmed": 8,
+        "confirmed": 11,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 1
+          "confirmed": 4
         }
       },
       {
