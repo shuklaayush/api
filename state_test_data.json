@@ -1405,6 +1405,24 @@
 			"updatedon": "18/04/2020"
 		},
 		{
+			"negative": "",
+			"numcallsstatehelpline": "",
+			"numicubeds": "",
+			"numisolationbeds": "",
+			"numventilators": "",
+			"positive": "",
+			"positiveratebytests": "",
+			"source": "",
+			"source2": "",
+			"state": "Delhi",
+			"testsperthousand": "",
+			"totalpeopleinquarantine": "",
+			"totalpeoplereleasedfromquarantine": "",
+			"totaltested": "",
+			"unconfirmed": "",
+			"updatedon": "20/04/2020"
+		},
+		{
 			"negative": "197",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -1583,6 +1601,24 @@
 			"totaltested": "758",
 			"unconfirmed": "",
 			"updatedon": "18/04/2020"
+		},
+		{
+			"negative": "",
+			"numcallsstatehelpline": "",
+			"numicubeds": "",
+			"numisolationbeds": "",
+			"numventilators": "",
+			"positive": "",
+			"positiveratebytests": "",
+			"source": "",
+			"source2": "",
+			"state": "Goa",
+			"testsperthousand": "",
+			"totalpeopleinquarantine": "",
+			"totalpeoplereleasedfromquarantine": "",
+			"totaltested": "",
+			"unconfirmed": "",
+			"updatedon": "20/04/2020"
 		},
 		{
 			"negative": "3905",
@@ -1781,6 +1817,24 @@
 			"totaltested": "28212",
 			"unconfirmed": "0",
 			"updatedon": "19/04/2020"
+		},
+		{
+			"negative": "",
+			"numcallsstatehelpline": "",
+			"numicubeds": "",
+			"numisolationbeds": "",
+			"numventilators": "",
+			"positive": "",
+			"positiveratebytests": "",
+			"source": "",
+			"source2": "",
+			"state": "Gujarat",
+			"testsperthousand": "",
+			"totalpeopleinquarantine": "",
+			"totalpeoplereleasedfromquarantine": "",
+			"totaltested": "",
+			"unconfirmed": "",
+			"updatedon": "21/04/2020"
 		},
 		{
 			"negative": "938",
