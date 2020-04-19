@@ -1705,10 +1705,10 @@
       },
       {
         "district": "Dakshina Kannada",
-        "confirmed": 13,
+        "confirmed": 15,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       {
@@ -1958,7 +1958,7 @@
       },
       {
         "district": "Nashik",
-        "confirmed": 52,
+        "confirmed": 53,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -2055,14 +2055,6 @@
       {
         "district": "Chandrapur",
         "confirmed": 2,
-        "lastupdatedtime": "",
-        "delta": {
-          "confirmed": 0
-        }
-      },
-      {
-        "district": "Unknown",
-        "confirmed": 1,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0

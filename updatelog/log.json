@@ -1,9 +1,5 @@
 [
   {
-    "update": "2 new cases, 7 recoveries and 1 death in Andhra Pradesh\n",
-    "timestamp": 1587188053
-  },
-  {
     "update": "173 new cases in Gujarat\n",
     "timestamp": 1587189257
   },
@@ -198,5 +194,9 @@
   {
     "update": "4 recoveries in Chandigarh\n",
     "timestamp": 1587298530
+  },
+  {
+    "update": "2 new cases and 2 deaths in Karnataka\n",
+    "timestamp": 1587299476
   }
 ]
