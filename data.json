@@ -723,14 +723,14 @@
 	],
 	"statewise": [
 		{
-			"active": "13094",
+			"active": "13093",
 			"confirmed": "16128",
 			"deaths": "528",
 			"deltaconfirmed": "405",
 			"deltadeaths": "7",
-			"deltarecovered": "40",
-			"lastupdatedtime": "19/04/2020 16:15:19",
-			"recovered": "2506",
+			"deltarecovered": "41",
+			"lastupdatedtime": "19/04/2020 17:04:05",
+			"recovered": "2507",
 			"state": "Total",
 			"statecode": "TT",
 			"statenotes": ""
@@ -1074,14 +1074,14 @@
 			"statenotes": ""
 		},
 		{
-			"active": "1",
+			"active": "0",
 			"confirmed": "7",
 			"deaths": "0",
 			"deltaconfirmed": "0",
 			"deltadeaths": "0",
-			"deltarecovered": "0",
-			"lastupdatedtime": "15/04/2020 20:10:36",
-			"recovered": "6",
+			"deltarecovered": "1",
+			"lastupdatedtime": "19/04/2020 17:04:07",
+			"recovered": "7",
 			"state": "Goa",
 			"statecode": "GA",
 			"statenotes": ""

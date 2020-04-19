@@ -45340,18 +45340,18 @@
 			"statecode": "BR"
 		},
 		{
-			"agebracket": "",
-			"city": "",
+			"agebracket": "58",
+			"city": "Payal",
 			"date": "18/04/2020",
 			"district": "Ludhiana",
-			"gender": "",
+			"gender": "M",
 			"nationality": "",
-			"notes": "",
+			"notes": "Worked as a kanungo at Payal. No travel history. He was admitted to Dayanad Medical college hospital on 14th April and passed away on 17th April. ",
 			"patientnumbercouldbemappedlater": "",
 			"patientstatus": "Deceased",
 			"slno": "2668",
 			"source1": "https://twitter.com/kbssidhu1961/status/1251495458343579648",
-			"source2": "",
+			"source2": "https://timesofindia.indiatimes.com/city/ludhiana/day-after-test-58-yr-old-covid-19-patient-dies/articleshow/75210148.cms",
 			"source3": "",
 			"state": "Punjab",
 			"statecode": "PB"
@@ -51649,19 +51649,19 @@
 		{
 			"agebracket": "",
 			"city": "",
-			"date": "",
+			"date": "19/04/2020",
 			"district": "",
 			"gender": "",
 			"nationality": "",
 			"notes": "",
 			"patientnumbercouldbemappedlater": "",
-			"patientstatus": "",
+			"patientstatus": "Recovered",
 			"slno": "3039",
-			"source1": "",
+			"source1": "https://twitter.com/visrane/status/1251824595218231296",
 			"source2": "",
 			"source3": "",
-			"state": "",
-			"statecode": ""
+			"state": "Goa",
+			"statecode": "GA"
 		},
 		{
 			"agebracket": "",

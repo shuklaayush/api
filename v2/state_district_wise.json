@@ -1814,7 +1814,7 @@
     "districtData": [
       {
         "district": "Pune",
-        "confirmed": 552,
+        "confirmed": 583,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -1846,7 +1846,7 @@
       },
       {
         "district": "Thane",
-        "confirmed": 323,
+        "confirmed": 341,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -2062,7 +2062,7 @@
       },
       {
         "district": "Unknown",
-        "confirmed": 109,
+        "confirmed": 60,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
