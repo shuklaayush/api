@@ -1589,7 +1589,7 @@
         }
       },
       "Mumbai": {
-        "confirmed": 2257,
+        "confirmed": 2268,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -1708,14 +1708,14 @@
         }
       },
       "Nashik": {
-        "confirmed": 56,
+        "confirmed": 57,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
         }
       },
       "Osmanabad": {
-        "confirmed": 4,
+        "confirmed": 3,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -1756,8 +1756,15 @@
           "confirmed": 0
         }
       },
+      "Parbhani": {
+        "confirmed": 1,
+        "lastupdatedtime": "",
+        "delta": {
+          "confirmed": 0
+        }
+      },
       "Akola": {
-        "confirmed": 14,
+        "confirmed": 13,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -1770,13 +1777,6 @@
           "confirmed": 0
         }
       },
-      "Dhule": {
-        "confirmed": 2,
-        "lastupdatedtime": "",
-        "delta": {
-          "confirmed": 0
-        }
-      },
       "Solapur": {
         "confirmed": 4,
         "lastupdatedtime": "",
@@ -1784,15 +1784,22 @@
           "confirmed": 0
         }
       },
-      "Chandrapur": {
+      "Dhule": {
         "confirmed": 1,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
         }
       },
+      "Chandrapur": {
+        "confirmed": 4,
+        "lastupdatedtime": "",
+        "delta": {
+          "confirmed": 0
+        }
+      },
       "Unknown": {
-        "confirmed": 122,
+        "confirmed": 109,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0

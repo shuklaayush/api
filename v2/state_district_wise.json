@@ -1822,7 +1822,7 @@
       },
       {
         "district": "Mumbai",
-        "confirmed": 2257,
+        "confirmed": 2268,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -1958,7 +1958,7 @@
       },
       {
         "district": "Nashik",
-        "confirmed": 56,
+        "confirmed": 57,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -1966,7 +1966,7 @@
       },
       {
         "district": "Osmanabad",
-        "confirmed": 4,
+        "confirmed": 3,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -2013,8 +2013,16 @@
         }
       },
       {
+        "district": "Parbhani",
+        "confirmed": 1,
+        "lastupdatedtime": "",
+        "delta": {
+          "confirmed": 0
+        }
+      },
+      {
         "district": "Akola",
-        "confirmed": 14,
+        "confirmed": 13,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -2029,14 +2037,6 @@
         }
       },
       {
-        "district": "Dhule",
-        "confirmed": 2,
-        "lastupdatedtime": "",
-        "delta": {
-          "confirmed": 0
-        }
-      },
-      {
         "district": "Solapur",
         "confirmed": 4,
         "lastupdatedtime": "",
@@ -2045,7 +2045,7 @@
         }
       },
       {
-        "district": "Chandrapur",
+        "district": "Dhule",
         "confirmed": 1,
         "lastupdatedtime": "",
         "delta": {
@@ -2053,8 +2053,16 @@
         }
       },
       {
+        "district": "Chandrapur",
+        "confirmed": 4,
+        "lastupdatedtime": "",
+        "delta": {
+          "confirmed": 0
+        }
+      },
+      {
         "district": "Unknown",
-        "confirmed": 122,
+        "confirmed": 109,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
