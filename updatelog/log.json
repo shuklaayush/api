@@ -1,9 +1,5 @@
 [
   {
-    "update": "118 new cases in Maharashtra\n",
-    "timestamp": 1587144873
-  },
-  {
     "update": "31 recoveries in Maharashtra\n1 new case in Himachal Pradesh\n",
     "timestamp": 1587146050
   },
@@ -198,5 +194,9 @@
   {
     "update": "36 new cases in Rajasthan\n",
     "timestamp": 1587288269
+  },
+  {
+    "update": "5 new cases in Jharkhand\n",
+    "timestamp": 1587290373
   }
 ]

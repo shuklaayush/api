@@ -676,16 +676,16 @@
 			"totalrecovered": "1198"
 		},
 		{
-			"dailyconfirmed": "1035",
+			"dailyconfirmed": "1031",
 			"dailydeceased": "37",
 			"dailyrecovered": "167",
 			"date": "14 April ",
-			"totalconfirmed": "11488",
+			"totalconfirmed": "11484",
 			"totaldeceased": "395",
 			"totalrecovered": "1365"
 		},
 		{
-			"dailyconfirmed": "882",
+			"dailyconfirmed": "886",
 			"dailydeceased": "27",
 			"dailyrecovered": "144",
 			"date": "15 April ",
@@ -723,13 +723,13 @@
 	],
 	"statewise": [
 		{
-			"active": "13074",
-			"confirmed": "16103",
+			"active": "13079",
+			"confirmed": "16108",
 			"deaths": "527",
-			"deltaconfirmed": "380",
+			"deltaconfirmed": "385",
 			"deltadeaths": "6",
 			"deltarecovered": "36",
-			"lastupdatedtime": "19/04/2020 14:54:05",
+			"lastupdatedtime": "19/04/2020 15:29:28",
 			"recovered": "2502",
 			"state": "Total",
 			"statecode": "TT",
@@ -1009,10 +1009,10 @@
 			"statenotes": ""
 		},
 		{
-			"active": "31",
-			"confirmed": "33",
+			"active": "36",
+			"confirmed": "38",
 			"deaths": "2",
-			"deltaconfirmed": "0",
+			"deltaconfirmed": "5",
 			"deltadeaths": "0",
 			"deltarecovered": "0",
 			"lastupdatedtime": "19/04/2020 06:35:06",
