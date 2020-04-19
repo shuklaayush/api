@@ -2456,6 +2456,13 @@
         "delta": {
           "confirmed": 0
         }
+      },
+      "Unknown": {
+        "confirmed": 228,
+        "lastupdatedtime": "",
+        "delta": {
+          "confirmed": 228
+        }
       }
     }
   },

@@ -1,9 +1,5 @@
 [
   {
-    "update": "1 new case and 4 recoveries in Haryana\n",
-    "timestamp": 1587131673
-  },
-  {
     "update": "78 new cases in Gujarat\n3 new cases in Uttar Pradesh\n14 new cases and 4 recoveries in Jammu and Kashmir\n",
     "timestamp": 1587134052
   },
@@ -198,5 +194,9 @@
   {
     "update": "3 recoveries in Puducherry\n",
     "timestamp": 1587264882
+  },
+  {
+    "update": "44 new cases in Rajasthan\n228 new cases in Gujarat\n",
+    "timestamp": 1587277198
   }
 ]
