@@ -4087,6 +4087,24 @@
 			"updatedon": "18/04/2020"
 		},
 		{
+			"negative": "678",
+			"numcallsstatehelpline": "",
+			"numicubeds": "",
+			"numisolationbeds": "",
+			"numventilators": "",
+			"positive": "11",
+			"positiveratebytests": "",
+			"source": "http://meghalayaonline.gov.in/covid/login.htm#",
+			"source2": "",
+			"state": "Meghalaya",
+			"testsperthousand": "",
+			"totalpeopleinquarantine": "",
+			"totalpeoplereleasedfromquarantine": "",
+			"totaltested": "766",
+			"unconfirmed": "77",
+			"updatedon": "19/04/2020"
+		},
+		{
 			"negative": "0",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
@@ -4411,22 +4429,22 @@
 			"updatedon": "18/04/2020"
 		},
 		{
-			"negative": "",
+			"negative": "345",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
 			"numisolationbeds": "",
 			"numventilators": "",
-			"positive": "",
+			"positive": "0",
 			"positiveratebytests": "",
-			"source": "",
+			"source": "https://nagahealth.nagaland.gov.in/",
 			"source2": "",
 			"state": "Nagaland",
 			"testsperthousand": "",
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
-			"totaltested": "",
-			"unconfirmed": "",
-			"updatedon": "20/04/2020"
+			"totaltested": "404",
+			"unconfirmed": "59",
+			"updatedon": "19/04/2020"
 		},
 		{
 			"negative": "1108",
