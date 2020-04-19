@@ -1247,18 +1247,18 @@
     "districtData": [
       {
         "district": "Kancheepuram",
-        "confirmed": 7,
+        "confirmed": 8,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
         "district": "Chennai",
-        "confirmed": 240,
+        "confirmed": 290,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 50
         }
       },
       {
@@ -1271,10 +1271,10 @@
       },
       {
         "district": "Coimbatore",
-        "confirmed": 128,
+        "confirmed": 133,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 5
         }
       },
       {
@@ -1295,18 +1295,18 @@
       },
       {
         "district": "Madurai",
-        "confirmed": 44,
+        "confirmed": 46,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       {
         "district": "Chengalpattu",
-        "confirmed": 47,
+        "confirmed": 50,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 3
         }
       },
       {
@@ -1407,10 +1407,10 @@
       },
       {
         "district": "Dindigul",
-        "confirmed": 69,
+        "confirmed": 74,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 5
         }
       },
       {
@@ -1463,10 +1463,10 @@
       },
       {
         "district": "Cuddalore",
-        "confirmed": 20,
+        "confirmed": 26,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 6
         }
       },
       {
@@ -1519,10 +1519,10 @@
       },
       {
         "district": "Unknown",
-        "confirmed": 105,
+        "confirmed": 33,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 105
+          "confirmed": 33
         }
       }
     ]

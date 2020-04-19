@@ -1087,17 +1087,17 @@
   "Tamil Nadu": {
     "districtData": {
       "Kancheepuram": {
-        "confirmed": 7,
+        "confirmed": 8,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "Chennai": {
-        "confirmed": 240,
+        "confirmed": 290,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 50
         }
       },
       "Erode": {
@@ -1108,10 +1108,10 @@
         }
       },
       "Coimbatore": {
-        "confirmed": 128,
+        "confirmed": 133,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 5
         }
       },
       "Tirunelveli": {
@@ -1129,17 +1129,17 @@
         }
       },
       "Madurai": {
-        "confirmed": 44,
+        "confirmed": 46,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       "Chengalpattu": {
-        "confirmed": 47,
+        "confirmed": 50,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 3
         }
       },
       "Salem": {
@@ -1227,10 +1227,10 @@
         }
       },
       "Dindigul": {
-        "confirmed": 69,
+        "confirmed": 74,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 5
         }
       },
       "Sivaganga": {
@@ -1276,10 +1276,10 @@
         }
       },
       "Cuddalore": {
-        "confirmed": 20,
+        "confirmed": 26,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 6
         }
       },
       "Kallakurichi": {
@@ -1325,10 +1325,10 @@
         }
       },
       "Unknown": {
-        "confirmed": 105,
+        "confirmed": 33,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 105
+          "confirmed": 33
         }
       }
     }
