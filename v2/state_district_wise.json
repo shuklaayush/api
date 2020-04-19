@@ -2317,7 +2317,7 @@
     "districtData": [
       {
         "district": "Dehradun",
-        "confirmed": 21,
+        "confirmed": 20,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -2333,7 +2333,7 @@
       },
       {
         "district": "Udham Singh Nagar",
-        "confirmed": 3,
+        "confirmed": 4,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
