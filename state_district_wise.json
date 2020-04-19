@@ -585,17 +585,17 @@
         }
       },
       "Gurugram": {
-        "confirmed": 32,
+        "confirmed": 36,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 4
         }
       },
       "Faridabad": {
-        "confirmed": 33,
+        "confirmed": 42,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 9
         }
       },
       "Panipat": {
@@ -627,10 +627,10 @@
         }
       },
       "Ambala": {
-        "confirmed": 7,
+        "confirmed": 8,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "Sirsa": {
@@ -2799,10 +2799,10 @@
         }
       },
       "Buxar": {
-        "confirmed": 2,
+        "confirmed": 4,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       }
     }
