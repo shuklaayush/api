@@ -2917,10 +2917,10 @@
   "Jharkhand": {
     "districtData": {
       "Ranchi": {
-        "confirmed": 21,
+        "confirmed": 24,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 3
+          "confirmed": 6
         }
       },
       "Hazaribagh": {
@@ -2966,10 +2966,10 @@
         }
       },
       "Unknown": {
-        "confirmed": 4,
+        "confirmed": 1,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 4
+          "confirmed": 1
         }
       }
     }
