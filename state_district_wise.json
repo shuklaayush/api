@@ -2021,14 +2021,14 @@
   "Uttarakhand": {
     "districtData": {
       "Dehradun": {
-        "confirmed": 20,
+        "confirmed": 21,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
         }
       },
       "Pauri Garhwal": {
-        "confirmed": 2,
+        "confirmed": 1,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0

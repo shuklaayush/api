@@ -2317,7 +2317,7 @@
     "districtData": [
       {
         "district": "Dehradun",
-        "confirmed": 20,
+        "confirmed": 21,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -2325,7 +2325,7 @@
       },
       {
         "district": "Pauri Garhwal",
-        "confirmed": 2,
+        "confirmed": 1,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
