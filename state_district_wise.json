@@ -16,10 +16,10 @@
         }
       },
       "Kasaragod": {
-        "confirmed": 168,
+        "confirmed": 169,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "Pathanamthitta": {
@@ -30,10 +30,10 @@
         }
       },
       "Kannur": {
-        "confirmed": 85,
+        "confirmed": 86,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "Ernakulam": {

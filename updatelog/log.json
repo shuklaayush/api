@@ -1,9 +1,5 @@
 [
   {
-    "update": "173 new cases in Gujarat\n",
-    "timestamp": 1587189257
-  },
-  {
     "update": "2 recoveries and 7 deaths in Gujarat\n",
     "timestamp": 1587189939
   },
@@ -198,5 +194,9 @@
   {
     "update": "2 new cases and 2 deaths in Karnataka\n",
     "timestamp": 1587299476
+  },
+  {
+    "update": "2 new cases and 13 recoveries in Kerala\n7 recoveries in Karnataka\n",
+    "timestamp": 1587299718
   }
 ]

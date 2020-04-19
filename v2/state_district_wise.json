@@ -20,10 +20,10 @@
       },
       {
         "district": "Kasaragod",
-        "confirmed": 168,
+        "confirmed": 169,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
@@ -36,10 +36,10 @@
       },
       {
         "district": "Kannur",
-        "confirmed": 85,
+        "confirmed": 86,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
