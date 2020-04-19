@@ -330,13 +330,13 @@ Sl_No,Date,Age Bracket,Gender,Patient_Status,City,District,State,Statecode,Notes
 329,04/04/2020,,,Recovered,,Kannur,Kerala,KL,P1060,,http://dhs.kerala.gov.in/wp-content/uploads/2020/04/Daily-Bulletin-HFWD-English-April-4th.pdf,,,P1060
 330,05/04/2020,61,F,Deceased,Surat,Surat,Gujarat,GJ,Details awaited,,https://gujcovid19.gujarat.gov.in/,https://gujcovid19.gujarat.gov.in/uploads/05-pressbrief0504052020111759895.pdf,,
 331,04/04/2020,,,Recovered,,Kannur,Kerala,KL,P1062,,http://dhs.kerala.gov.in/wp-content/uploads/2020/04/Daily-Bulletin-HFWD-English-April-4th.pdf,,,P1062
-332,05/04/2020,75,F,Recovered,,,Gujarat,GJ,Details awaited,,https://gujcovid19.gujarat.gov.in/,https://gujcovid19.gujarat.gov.in/uploads/05-pressbrief0504052020111759895.pdf,,
+332,05/04/2020,75,F,Recovered,,Rajkot,Gujarat,GJ,Details awaited,,https://gujcovid19.gujarat.gov.in/,https://gujcovid19.gujarat.gov.in/uploads/05-pressbrief0504052020111759895.pdf,,
 333,04/04/2020,,,Recovered,,Kannur,Kerala,KL,P1063,,http://dhs.kerala.gov.in/wp-content/uploads/2020/04/Daily-Bulletin-HFWD-English-April-4th.pdf,,,P1063
-334,05/04/2020,42,M,Recovered,,,Gujarat,GJ,Details awaited,,https://gujcovid19.gujarat.gov.in/,https://gujcovid19.gujarat.gov.in/uploads/05-pressbrief0504052020111759895.pdf,,
+334,05/04/2020,42,M,Recovered,,Rajkot,Gujarat,GJ,Details awaited,,https://gujcovid19.gujarat.gov.in/,https://gujcovid19.gujarat.gov.in/uploads/05-pressbrief0504052020111759895.pdf,,
 335,04/04/2020,,,Recovered,,Kannur,Kerala,KL,P1249,,http://dhs.kerala.gov.in/wp-content/uploads/2020/04/Daily-Bulletin-HFWD-English-April-4th.pdf,,,P1249
-336,05/04/2020,29,F,Recovered,,,Gujarat,GJ,Details awaited,,https://gujcovid19.gujarat.gov.in/,https://gujcovid19.gujarat.gov.in/uploads/05-pressbrief0504052020111759895.pdf,,
+336,05/04/2020,29,F,Recovered,,Vadodara,Gujarat,GJ,Details awaited,,https://gujcovid19.gujarat.gov.in/,https://gujcovid19.gujarat.gov.in/uploads/05-pressbrief0504052020111759895.pdf,,
 337,04/04/2020,,,Recovered,,Kannur,Kerala,KL,P314,,http://dhs.kerala.gov.in/wp-content/uploads/2020/04/Daily-Bulletin-HFWD-English-April-4th.pdf,,,
-338,05/04/2020,46,F,Recovered,,,Gujarat,GJ,Details awaited,,https://gujcovid19.gujarat.gov.in/,https://gujcovid19.gujarat.gov.in/uploads/05-pressbrief0504052020111759895.pdf,,
+338,05/04/2020,46,F,Recovered,,Vadodara,Gujarat,GJ,Details awaited,,https://gujcovid19.gujarat.gov.in/,https://gujcovid19.gujarat.gov.in/uploads/05-pressbrief0504052020111759895.pdf,,
 339,04/04/2020,,,Recovered,,Thiruvananthapuram,Kerala,KL,,,http://dhs.kerala.gov.in/wp-content/uploads/2020/04/Daily-Bulletin-HFWD-English-April-4th.pdf,,,
 340,04/04/2020,,,Recovered,,,Rajasthan,RJ,As per http://www.rajswasthya.nic.in/,,http://www.rajswasthya.nic.in/,,,
 341,04/04/2020,,,Recovered,,,Rajasthan,RJ,As per http://www.rajswasthya.nic.in/,,http://www.rajswasthya.nic.in/,,,
@@ -435,10 +435,10 @@ Sl_No,Date,Age Bracket,Gender,Patient_Status,City,District,State,Statecode,Notes
 434,05/04/2020,,,Recovered,,,Chandigarh,CH,Details awaited,,,,,
 435,05/04/2020,,,Recovered,,,Chandigarh,CH,Details awaited,,,,,
 436,05/04/2020,55,M,Deceased,Varanasi,Varanasi,Uttar Pradesh,UP,"Died in Varanasi on 4th April, tested positive for coronavirus on 5th April. The man was undergoing treatment at Sir Sunderlal Hospital on Benaras Hindu University campus. He was diabetic and used to take medicines for blood pressure. Few days ago, the man complained of cough and cold, following which he was admitted to two private hospitals before being taken to the BHU hospital on April 2.",,https://www.news18.com/news/india/varanasi-sees-first-covid-19-death-samples-test-positive-day-after-man-passes-away-at-bhu-hospital-2565359.html,,,
-437,05/04/2020,32,M,Recovered,,,Gujarat,GJ,,,https://gujcovid19.gujarat.gov.in/uploads/pressbrief0504052020073046686.pdf,,,
-438,05/04/2020,66,M,Recovered,,,Gujarat,GJ,,,https://gujcovid19.gujarat.gov.in/uploads/pressbrief0504052020073046686.pdf,,,
-439,05/04/2020,70,M,Recovered,,,Gujarat,GJ,,,https://gujcovid19.gujarat.gov.in/uploads/pressbrief0504052020073046686.pdf,,,
-440,05/04/2020,32,M,Recovered,,,Gujarat,GJ,,,https://gujcovid19.gujarat.gov.in/uploads/pressbrief0504052020073046686.pdf,,,
+437,05/04/2020,32,M,Recovered,,Surat,Gujarat,GJ,,,https://gujcovid19.gujarat.gov.in/uploads/pressbrief0504052020073046686.pdf,,,
+438,05/04/2020,66,M,Recovered,,Surat,Gujarat,GJ,,,https://gujcovid19.gujarat.gov.in/uploads/pressbrief0504052020073046686.pdf,,,
+439,05/04/2020,70,M,Recovered,,Ahmadabad,Gujarat,GJ,,,https://gujcovid19.gujarat.gov.in/uploads/pressbrief0504052020073046686.pdf,,,
+440,05/04/2020,32,M,Recovered,,Vadodara,Gujarat,GJ,,,https://gujcovid19.gujarat.gov.in/uploads/pressbrief0504052020073046686.pdf,,,
 441,05/04/2020,50,M,Deceased,Indore,Indore,Madhya Pradesh,MP,Died at MGMMCH hospital,,https://www.aninews.in/news/national/general-news/total-covid-19-deaths-in-indore-rise-to-9-positive-cases-at-12220200405183926,,,
 442,05/04/2020,,,Recovered,,,West Bengal,WB,Details awaited,,https://www.mohfw.gov.in/,,,
 443,05/04/2020,,,Recovered,,,West Bengal,WB,Details awaited,,https://www.mohfw.gov.in/,,,
