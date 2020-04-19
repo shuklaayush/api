@@ -459,10 +459,10 @@
       },
       {
         "district": "Bhilwara",
-        "confirmed": 28,
+        "confirmed": 29,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
@@ -563,10 +563,10 @@
       },
       {
         "district": "Bharatpur",
-        "confirmed": 93,
+        "confirmed": 102,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 8
+          "confirmed": 17
         }
       },
       {
@@ -647,6 +647,14 @@
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 1
+        }
+      },
+      {
+        "district": "Unknown",
+        "confirmed": 26,
+        "lastupdatedtime": "",
+        "delta": {
+          "confirmed": 26
         }
       }
     ]
