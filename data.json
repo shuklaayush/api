@@ -723,14 +723,14 @@
 	],
 	"statewise": [
 		{
-			"active": "13097",
+			"active": "13093",
 			"confirmed": "16132",
 			"deaths": "528",
 			"deltaconfirmed": "409",
 			"deltadeaths": "7",
-			"deltarecovered": "41",
-			"lastupdatedtime": "19/04/2020 17:36:05",
-			"recovered": "2507",
+			"deltarecovered": "45",
+			"lastupdatedtime": "19/04/2020 17:45:23",
+			"recovered": "2511",
 			"state": "Total",
 			"statecode": "TT",
 			"statenotes": ""
@@ -1022,14 +1022,14 @@
 			"statenotes": ""
 		},
 		{
-			"active": "17",
+			"active": "13",
 			"confirmed": "26",
 			"deaths": "0",
 			"deltaconfirmed": "3",
 			"deltadeaths": "0",
-			"deltarecovered": "0",
-			"lastupdatedtime": "19/04/2020 17:36:07",
-			"recovered": "9",
+			"deltarecovered": "4",
+			"lastupdatedtime": "19/04/2020 17:45:25",
+			"recovered": "13",
 			"state": "Chandigarh",
 			"statecode": "CH",
 			"statenotes": ""

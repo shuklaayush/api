@@ -1708,7 +1708,7 @@
         }
       },
       "Nashik": {
-        "confirmed": 45,
+        "confirmed": 52,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -1799,7 +1799,7 @@
         }
       },
       "Unknown": {
-        "confirmed": 8,
+        "confirmed": 1,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
