@@ -2561,15 +2561,7 @@
     "districtData": [
       {
         "district": "Chandigarh",
-        "confirmed": 21,
-        "lastupdatedtime": "",
-        "delta": {
-          "confirmed": 0
-        }
-      },
-      {
-        "district": "Unknown",
-        "confirmed": 2,
+        "confirmed": 23,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -3278,23 +3270,15 @@
     "districtData": [
       {
         "district": "South Andaman",
-        "confirmed": 8,
+        "confirmed": 14,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
         "district": "North and Middle Andaman",
         "confirmed": 1,
-        "lastupdatedtime": "",
-        "delta": {
-          "confirmed": 0
-        }
-      },
-      {
-        "district": "Unknown",
-        "confirmed": 5,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0

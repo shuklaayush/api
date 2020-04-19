@@ -2233,14 +2233,7 @@
   "Chandigarh": {
     "districtData": {
       "Chandigarh": {
-        "confirmed": 21,
-        "lastupdatedtime": "",
-        "delta": {
-          "confirmed": 0
-        }
-      },
-      "Unknown": {
-        "confirmed": 2,
+        "confirmed": 23,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -2857,21 +2850,14 @@
   "Andaman and Nicobar Islands": {
     "districtData": {
       "South Andaman": {
-        "confirmed": 8,
+        "confirmed": 14,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "North and Middle Andaman": {
         "confirmed": 1,
-        "lastupdatedtime": "",
-        "delta": {
-          "confirmed": 0
-        }
-      },
-      "Unknown": {
-        "confirmed": 5,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
