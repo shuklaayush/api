@@ -2840,6 +2840,14 @@
         "delta": {
           "confirmed": 0
         }
+      },
+      {
+        "district": "Unknown",
+        "confirmed": 139,
+        "lastupdatedtime": "",
+        "delta": {
+          "confirmed": 139
+        }
       }
     ]
   },
