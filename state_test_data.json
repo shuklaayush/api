@@ -4537,6 +4537,24 @@
 			"updatedon": "20/04/2020"
 		},
 		{
+			"negative": "1159",
+			"numcallsstatehelpline": "",
+			"numicubeds": "",
+			"numisolationbeds": "",
+			"numventilators": "",
+			"positive": "7",
+			"positiveratebytests": "",
+			"source": "https://covid19dashboard.py.gov.in/",
+			"source2": "",
+			"state": "Puducherry",
+			"testsperthousand": "",
+			"totalpeopleinquarantine": "",
+			"totalpeoplereleasedfromquarantine": "",
+			"totaltested": "1207",
+			"unconfirmed": "41",
+			"updatedon": "18/04/2020"
+		},
+		{
 			"negative": "1236",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
