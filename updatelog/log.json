@@ -1,9 +1,5 @@
 [
   {
-    "update": "12 new cases in Karnataka\n3 new cases and 2 recoveries in Haryana\n2 new cases in Uttarakhand\n",
-    "timestamp": 1587203758
-  },
-  {
     "update": "1 new case in Andaman and Nicobar Islands\n",
     "timestamp": 1587204980
   },
@@ -198,5 +194,9 @@
   {
     "update": "5 new cases in Madhya Pradesh\n",
     "timestamp": 1587305645
+  },
+  {
+    "update": "4 recoveries and 1 death in Madhya Pradesh\n",
+    "timestamp": 1587306528
   }
 ]
