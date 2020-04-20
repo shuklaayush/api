@@ -1,9 +1,5 @@
 [
   {
-    "update": "13 new cases in Jammu and Kashmir\n",
-    "timestamp": 1587215674
-  },
-  {
     "update": "1 death in Andhra Pradesh\n1 new case in Himachal Pradesh\n",
     "timestamp": 1587217484
   },
@@ -198,5 +194,9 @@
   {
     "update": "8 new cases in Odisha\n",
     "timestamp": 1587354271
+  },
+  {
+    "update": "29 new cases and 4 recoveries in West Bengal\n",
+    "timestamp": 1587354873
   }
 ]
