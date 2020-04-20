@@ -30,10 +30,10 @@
         }
       },
       "Kannur": {
-        "confirmed": 86,
+        "confirmed": 92,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 6
         }
       },
       "Ernakulam": {
@@ -1337,6 +1337,13 @@
         "delta": {
           "confirmed": 0
         }
+      },
+      "Unknown": {
+        "confirmed": 43,
+        "lastupdatedtime": "",
+        "delta": {
+          "confirmed": 43
+        }
       }
     }
   },
@@ -1357,10 +1364,10 @@
         }
       },
       "Bandipore": {
-        "confirmed": 84,
+        "confirmed": 91,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 7
         }
       },
       "Rajouri": {
@@ -1406,10 +1413,10 @@
         }
       },
       "Kupwara": {
-        "confirmed": 31,
+        "confirmed": 33,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       "Ganderbal": {
@@ -1441,10 +1448,10 @@
         }
       },
       "Anantnag": {
-        "confirmed": 2,
+        "confirmed": 7,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 5
         }
       }
     }
@@ -1536,10 +1543,10 @@
         }
       },
       "Bidar": {
-        "confirmed": 14,
+        "confirmed": 15,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "Bagalkote": {
@@ -1564,10 +1571,10 @@
         }
       },
       "Gadag": {
-        "confirmed": 3,
+        "confirmed": 4,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "Mandya": {
@@ -1578,10 +1585,10 @@
         }
       },
       "Vijayapura": {
-        "confirmed": 21,
+        "confirmed": 32,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 11
         }
       }
     }
@@ -1852,10 +1859,10 @@
         }
       },
       "Jalandhar": {
-        "confirmed": 47,
+        "confirmed": 48,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "Ludhiana": {
@@ -2116,10 +2123,10 @@
         }
       },
       "Jajapur": {
-        "confirmed": 6,
+        "confirmed": 7,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 4
+          "confirmed": 5
         }
       },
       "Kalahandi": {
@@ -2711,10 +2718,10 @@
         }
       },
       "Unknown": {
-        "confirmed": 97,
+        "confirmed": 175,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 78
         }
       }
     }
@@ -2871,10 +2878,10 @@
   "Andaman and Nicobar Islands": {
     "districtData": {
       "South Andaman": {
-        "confirmed": 14,
+        "confirmed": 15,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "North and Middle Andaman": {
@@ -2903,10 +2910,10 @@
         }
       },
       "Bokaro": {
-        "confirmed": 9,
+        "confirmed": 10,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "Kodarma": {

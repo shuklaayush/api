@@ -36,10 +36,10 @@
       },
       {
         "district": "Kannur",
-        "confirmed": 86,
+        "confirmed": 92,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 6
         }
       },
       {
@@ -1532,6 +1532,14 @@
         "delta": {
           "confirmed": 0
         }
+      },
+      {
+        "district": "Unknown",
+        "confirmed": 43,
+        "lastupdatedtime": "",
+        "delta": {
+          "confirmed": 43
+        }
       }
     ]
   },
@@ -1556,10 +1564,10 @@
       },
       {
         "district": "Bandipore",
-        "confirmed": 84,
+        "confirmed": 91,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 7
         }
       },
       {
@@ -1612,10 +1620,10 @@
       },
       {
         "district": "Kupwara",
-        "confirmed": 31,
+        "confirmed": 33,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       {
@@ -1652,10 +1660,10 @@
       },
       {
         "district": "Anantnag",
-        "confirmed": 2,
+        "confirmed": 7,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 5
         }
       }
     ]
@@ -1761,10 +1769,10 @@
       },
       {
         "district": "Bidar",
-        "confirmed": 14,
+        "confirmed": 15,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
@@ -1793,10 +1801,10 @@
       },
       {
         "district": "Gadag",
-        "confirmed": 3,
+        "confirmed": 4,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
@@ -1809,10 +1817,10 @@
       },
       {
         "district": "Vijayapura",
-        "confirmed": 21,
+        "confirmed": 32,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 11
         }
       }
     ]
@@ -2123,10 +2131,10 @@
       },
       {
         "district": "Jalandhar",
-        "confirmed": 47,
+        "confirmed": 48,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
@@ -2426,10 +2434,10 @@
       },
       {
         "district": "Jajapur",
-        "confirmed": 6,
+        "confirmed": 7,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 4
+          "confirmed": 5
         }
       },
       {
@@ -3109,10 +3117,10 @@
       },
       {
         "district": "Unknown",
-        "confirmed": 97,
+        "confirmed": 175,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 78
         }
       }
     ]
@@ -3294,10 +3302,10 @@
     "districtData": [
       {
         "district": "South Andaman",
-        "confirmed": 14,
+        "confirmed": 15,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
@@ -3331,10 +3339,10 @@
       },
       {
         "district": "Bokaro",
-        "confirmed": 9,
+        "confirmed": 10,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
