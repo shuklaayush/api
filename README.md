@@ -1,6 +1,6 @@
 # COVID19-India API
 
-A volunteer-driven database for COVID-19 stats & patient tracing in India.
+A volunteer-driven database for COVID-19 stats & patient tracing in India
 
 ## API
 
