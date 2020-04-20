@@ -1689,10 +1689,10 @@
       },
       {
         "district": "Kalaburagi",
-        "confirmed": 22,
+        "confirmed": 27,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 5
         }
       },
       {
@@ -2288,50 +2288,50 @@
       },
       {
         "district": "East Godavari",
-        "confirmed": 24,
+        "confirmed": 26,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       {
         "district": "Krishna",
-        "confirmed": 75,
+        "confirmed": 80,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 5
         }
       },
       {
         "district": "Chittoor",
-        "confirmed": 28,
+        "confirmed": 53,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 25
         }
       },
       {
         "district": "Guntur",
-        "confirmed": 128,
+        "confirmed": 148,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 20
         }
       },
       {
         "district": "Kurnool",
-        "confirmed": 158,
+        "confirmed": 174,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 16
         }
       },
       {
         "district": "Anantapur",
-        "confirmed": 29,
+        "confirmed": 33,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 4
         }
       },
       {
@@ -2344,10 +2344,10 @@
       },
       {
         "district": "Y.S.R.",
-        "confirmed": 37,
+        "confirmed": 40,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 3
         }
       }
     ]
@@ -2418,10 +2418,10 @@
       },
       {
         "district": "Bhadrak",
-        "confirmed": 3,
+        "confirmed": 8,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 5
         }
       },
       {
@@ -2482,18 +2482,10 @@
       },
       {
         "district": "Baleshwar",
-        "confirmed": 1,
+        "confirmed": 3,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
-        }
-      },
-      {
-        "district": "Unknown",
-        "confirmed": 7,
-        "lastupdatedtime": "",
-        "delta": {
-          "confirmed": 7
+          "confirmed": 2
         }
       }
     ]
@@ -2667,34 +2659,34 @@
     "districtData": [
       {
         "district": "Rajkot",
-        "confirmed": 36,
+        "confirmed": 38,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       {
         "district": "Surat",
-        "confirmed": 242,
+        "confirmed": 244,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       {
         "district": "Ahmadabad",
-        "confirmed": 1101,
+        "confirmed": 1192,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 91
         }
       },
       {
         "district": "Vadodara",
-        "confirmed": 180,
+        "confirmed": 181,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
@@ -2707,18 +2699,18 @@
       },
       {
         "district": "Kachchh",
-        "confirmed": 4,
+        "confirmed": 6,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       {
         "district": "Mahesana",
-        "confirmed": 5,
+        "confirmed": 6,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
@@ -2747,10 +2739,10 @@
       },
       {
         "district": "Panch Mahals",
-        "confirmed": 9,
+        "confirmed": 11,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       {
@@ -2851,18 +2843,18 @@
       },
       {
         "district": "Aravalli",
-        "confirmed": 1,
+        "confirmed": 7,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 6
         }
       },
       {
         "district": "Mahisagar",
-        "confirmed": 2,
+        "confirmed": 3,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       }
     ]
