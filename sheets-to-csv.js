@@ -42,6 +42,10 @@ all_sheets.forEach(element => {
     let settings = { method: "Get" };
     fetch(url, settings).then(res => res.text())
         .then(csv => {
+            if(csv.endsWith("html>"){
+               console.log(csv);
+               return;
+            }
             fs.writeFileSync(today_dir + "/"+element[0]+".csv", csv);
             fs.writeFileSync(latest_dir + "/"+element[0]+".csv", csv);
             console.log("Write completed: "+element[0]);
