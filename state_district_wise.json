@@ -2175,7 +2175,7 @@
         "confirmed": 7,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 7
         }
       }
     }
@@ -2260,7 +2260,7 @@
         "confirmed": 312,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 29
         }
       }
     }
