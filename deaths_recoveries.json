@@ -58092,7 +58092,7 @@
 		{
 			"agebracket": "",
 			"city": "",
-			"date": "19/04/2020",
+			"date": "20/04/2020",
 			"district": "",
 			"gender": "",
 			"nationality": "",
@@ -58109,7 +58109,7 @@
 		{
 			"agebracket": "",
 			"city": "",
-			"date": "19/04/2020",
+			"date": "20/04/2020",
 			"district": "",
 			"gender": "",
 			"nationality": "",
@@ -58126,7 +58126,7 @@
 		{
 			"agebracket": "",
 			"city": "",
-			"date": "19/04/2020",
+			"date": "20/04/2020",
 			"district": "",
 			"gender": "",
 			"nationality": "",
@@ -58143,7 +58143,7 @@
 		{
 			"agebracket": "",
 			"city": "",
-			"date": "19/04/2020",
+			"date": "20/04/2020",
 			"district": "",
 			"gender": "",
 			"nationality": "",
@@ -58160,36 +58160,36 @@
 		{
 			"agebracket": "",
 			"city": "",
-			"date": "",
+			"date": "20/04/2020",
 			"district": "",
 			"gender": "",
 			"nationality": "",
 			"notes": "",
 			"patientnumbercouldbemappedlater": "",
-			"patientstatus": "",
+			"patientstatus": "Recovered",
 			"slno": "3422",
-			"source1": "",
+			"source1": "https://twitter.com/NBirenSingh/status/1251909744605921285",
 			"source2": "",
 			"source3": "",
-			"state": "",
-			"statecode": ""
+			"state": "Manipur",
+			"statecode": "MN"
 		},
 		{
 			"agebracket": "",
 			"city": "",
-			"date": "",
-			"district": "",
+			"date": "20/04/2020",
+			"district": "Nagaur",
 			"gender": "",
 			"nationality": "",
 			"notes": "",
 			"patientnumbercouldbemappedlater": "",
-			"patientstatus": "",
+			"patientstatus": "Deceased",
 			"slno": "3423",
-			"source1": "",
+			"source1": "https://twitter.com/ANI/status/1252084199814823942",
 			"source2": "",
 			"source3": "",
-			"state": "",
-			"statecode": ""
+			"state": "Rajasthan",
+			"statecode": "RJ"
 		},
 		{
 			"agebracket": "",

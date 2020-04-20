@@ -723,23 +723,23 @@
 		{
 			"dailyconfirmed": "1580",
 			"dailydeceased": "38",
-			"dailyrecovered": "392",
+			"dailyrecovered": "388",
 			"date": "19 April ",
 			"totalconfirmed": "17304",
 			"totaldeceased": "559",
-			"totalrecovered": "2858"
+			"totalrecovered": "2854"
 		}
 	],
 	"statewise": [
 		{
-			"active": "13923",
-			"confirmed": "17340",
-			"deaths": "559",
-			"deltaconfirmed": "36",
-			"deltadeaths": "0",
-			"deltarecovered": "0",
-			"lastupdatedtime": "20/04/2020 09:25:13",
-			"recovered": "2858",
+			"active": "13938",
+			"confirmed": "17357",
+			"deaths": "560",
+			"deltaconfirmed": "53",
+			"deltadeaths": "1",
+			"deltarecovered": "5",
+			"lastupdatedtime": "20/04/2020 10:04:05",
+			"recovered": "2859",
 			"state": "Total",
 			"statecode": "TT",
 			"statenotes": ""
@@ -784,13 +784,13 @@
 			"statenotes": ""
 		},
 		{
-			"active": "1250",
-			"confirmed": "1478",
-			"deaths": "23",
-			"deltaconfirmed": "0",
-			"deltadeaths": "0",
+			"active": "1266",
+			"confirmed": "1495",
+			"deaths": "24",
+			"deltaconfirmed": "17",
+			"deltadeaths": "1",
 			"deltarecovered": "0",
-			"lastupdatedtime": "19/04/2020 23:18:10",
+			"lastupdatedtime": "20/04/2020 10:04:06",
 			"recovered": "205",
 			"state": "Rajasthan",
 			"statecode": "RJ",
@@ -906,7 +906,7 @@
 			"deaths": "12",
 			"deltaconfirmed": "29",
 			"deltadeaths": "0",
-			"deltarecovered": "0",
+			"deltarecovered": "4",
 			"lastupdatedtime": "20/04/2020 09:25:14",
 			"recovered": "66",
 			"state": "West Bengal",
@@ -1109,14 +1109,14 @@
 			"statenotes": ""
 		},
 		{
-			"active": "1",
+			"active": "0",
 			"confirmed": "2",
 			"deaths": "0",
 			"deltaconfirmed": "0",
 			"deltadeaths": "0",
-			"deltarecovered": "0",
-			"lastupdatedtime": "06/04/2020 22:35:54",
-			"recovered": "1",
+			"deltarecovered": "1",
+			"lastupdatedtime": "20/04/2020 10:04:08",
+			"recovered": "2",
 			"state": "Manipur",
 			"statecode": "MN",
 			"statenotes": ""

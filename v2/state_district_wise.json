@@ -443,18 +443,18 @@
       },
       {
         "district": "Jaipur",
-        "confirmed": 535,
+        "confirmed": 543,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 8
         }
       },
       {
         "district": "Jhunjhunu",
-        "confirmed": 37,
+        "confirmed": 39,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       {
@@ -467,10 +467,10 @@
       },
       {
         "district": "Jodhpur",
-        "confirmed": 228,
+        "confirmed": 230,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       {
@@ -515,10 +515,10 @@
       },
       {
         "district": "Ajmer",
-        "confirmed": 23,
+        "confirmed": 24,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
@@ -587,10 +587,10 @@
       },
       {
         "district": "Banswara",
-        "confirmed": 60,
+        "confirmed": 61,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
@@ -603,10 +603,10 @@
       },
       {
         "district": "Nagaur",
-        "confirmed": 58,
+        "confirmed": 59,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
@@ -619,10 +619,10 @@
       },
       {
         "district": "Kota",
-        "confirmed": 99,
+        "confirmed": 101,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       {

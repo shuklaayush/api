@@ -1,9 +1,5 @@
 [
   {
-    "update": "1 death in Andhra Pradesh\n1 new case in Himachal Pradesh\n",
-    "timestamp": 1587217484
-  },
-  {
     "update": "1 new case in Bihar\n",
     "timestamp": 1587218075
   },
@@ -198,5 +194,9 @@
   {
     "update": "29 new cases and 4 recoveries in West Bengal\n",
     "timestamp": 1587354873
+  },
+  {
+    "update": "17 new cases and 1 death in Rajasthan\n1 recovery in Manipur\n",
+    "timestamp": 1587357259
   }
 ]
