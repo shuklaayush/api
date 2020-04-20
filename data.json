@@ -732,14 +732,14 @@
 	],
 	"statewise": [
 		{
-			"active": "14404",
-			"confirmed": "17869",
-			"deaths": "567",
-			"deltaconfirmed": "565",
-			"deltadeaths": "8",
-			"deltarecovered": "44",
+			"active": "14406",
+			"confirmed": "17874",
+			"deaths": "568",
+			"deltaconfirmed": "570",
+			"deltadeaths": "9",
+			"deltarecovered": "46",
 			"lastupdatedtime": "20/04/2020 14:04:05",
-			"recovered": "2898",
+			"recovered": "2900",
 			"state": "Total",
 			"statecode": "TT",
 			"statenotes": ""
@@ -784,11 +784,11 @@
 			"statenotes": ""
 		},
 		{
-			"active": "1306",
+			"active": "1305",
 			"confirmed": "1535",
-			"deaths": "24",
+			"deaths": "25",
 			"deltaconfirmed": "57",
-			"deltadeaths": "1",
+			"deltadeaths": "2",
 			"deltarecovered": "0",
 			"lastupdatedtime": "20/04/2020 10:04:06",
 			"recovered": "205",
@@ -953,10 +953,10 @@
 			"statenotes": ""
 		},
 		{
-			"active": "43",
-			"confirmed": "68",
+			"active": "48",
+			"confirmed": "73",
 			"deaths": "1",
-			"deltaconfirmed": "7",
+			"deltaconfirmed": "12",
 			"deltadeaths": "0",
 			"deltarecovered": "0",
 			"lastupdatedtime": "20/04/2020 09:25:15",
@@ -1018,14 +1018,14 @@
 			"statenotes": ""
 		},
 		{
-			"active": "17",
+			"active": "15",
 			"confirmed": "35",
 			"deaths": "1",
 			"deltaconfirmed": "0",
 			"deltadeaths": "0",
-			"deltarecovered": "0",
+			"deltarecovered": "2",
 			"lastupdatedtime": "20/04/2020 08:45:06",
-			"recovered": "17",
+			"recovered": "19",
 			"state": "Assam",
 			"statecode": "AS",
 			"statenotes": "Includes one case from Nagaland"

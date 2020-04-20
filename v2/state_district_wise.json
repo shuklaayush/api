@@ -720,7 +720,7 @@
       },
       {
         "district": "Ambala",
-        "confirmed": 8,
+        "confirmed": 11,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -768,7 +768,7 @@
       },
       {
         "district": "Bhiwani",
-        "confirmed": 2,
+        "confirmed": 3,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -817,14 +817,6 @@
       {
         "district": "Yamunanagar",
         "confirmed": 3,
-        "lastupdatedtime": "",
-        "delta": {
-          "confirmed": 0
-        }
-      },
-      {
-        "district": "Unknown",
-        "confirmed": 4,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -1556,7 +1548,7 @@
       },
       {
         "district": "Srinagar",
-        "confirmed": 78,
+        "confirmed": 79,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -1564,7 +1556,7 @@
       },
       {
         "district": "Bandipore",
-        "confirmed": 83,
+        "confirmed": 84,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -1572,7 +1564,7 @@
       },
       {
         "district": "Rajouri",
-        "confirmed": 3,
+        "confirmed": 4,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -1588,7 +1580,7 @@
       },
       {
         "district": "Baramula",
-        "confirmed": 43,
+        "confirmed": 44,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -1620,7 +1612,7 @@
       },
       {
         "district": "Kupwara",
-        "confirmed": 27,
+        "confirmed": 31,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -1636,7 +1628,7 @@
       },
       {
         "district": "Kulgam",
-        "confirmed": 5,
+        "confirmed": 6,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -1661,14 +1653,6 @@
       {
         "district": "Anantnag",
         "confirmed": 2,
-        "lastupdatedtime": "",
-        "delta": {
-          "confirmed": 0
-        }
-      },
-      {
-        "district": "Unknown",
-        "confirmed": 9,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -2442,10 +2426,10 @@
       },
       {
         "district": "Jajapur",
-        "confirmed": 2,
+        "confirmed": 6,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 4
         }
       },
       {
@@ -2474,10 +2458,10 @@
       },
       {
         "district": "Sundargarh",
-        "confirmed": 2,
+        "confirmed": 3,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
@@ -2593,15 +2577,7 @@
     "districtData": [
       {
         "district": "Chandigarh",
-        "confirmed": 23,
-        "lastupdatedtime": "",
-        "delta": {
-          "confirmed": 0
-        }
-      },
-      {
-        "district": "Unknown",
-        "confirmed": 3,
+        "confirmed": 26,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
