@@ -43,12 +43,13 @@ all_sheets.forEach(element => {
     fetch(url, settings).then(res => res.text())
         .then(csv => {
             if(csv.endsWith("html>")){
-               console.log(csv);
-               process.exit(1);
-               return;
+                console.log(csv);
+                process.exit(1);
+                return;
+            }else{
+                fs.writeFileSync(today_dir + "/"+element[0]+".csv", csv);
+                fs.writeFileSync(latest_dir + "/"+element[0]+".csv", csv);
+                console.log("Write completed: "+element[0]);
             }
-            fs.writeFileSync(today_dir + "/"+element[0]+".csv", csv);
-            fs.writeFileSync(latest_dir + "/"+element[0]+".csv", csv);
-            console.log("Write completed: "+element[0]);
         });
 });
