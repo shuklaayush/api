@@ -1,9 +1,5 @@
 [
   {
-    "update": "9 recoveries in Jammu and Kashmir\n",
-    "timestamp": 1587219259
-  },
-  {
     "update": "328 new cases in Maharashtra\n104 new cases, 5 recoveries and 5 deaths in Gujarat\n",
     "timestamp": 1587219863
   },
@@ -198,5 +194,9 @@
   {
     "update": "1 recovery in Punjab\n",
     "timestamp": 1587388199
+  },
+  {
+    "update": "78 new cases in Madhya Pradesh\n1 new case in Bihar\n",
+    "timestamp": 1587391548
   }
 ]

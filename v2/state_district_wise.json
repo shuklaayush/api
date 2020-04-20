@@ -1271,10 +1271,10 @@
       },
       {
         "district": "Chennai",
-        "confirmed": 290,
+        "confirmed": 308,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 18
         }
       },
       {
@@ -1303,10 +1303,10 @@
       },
       {
         "district": "Tiruppur",
-        "confirmed": 108,
+        "confirmed": 109,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
@@ -1383,10 +1383,10 @@
       },
       {
         "district": "Viluppuram",
-        "confirmed": 37,
+        "confirmed": 40,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 3
         }
       },
       {
@@ -1407,10 +1407,10 @@
       },
       {
         "district": "Thoothukkudi",
-        "confirmed": 26,
+        "confirmed": 27,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
@@ -1423,18 +1423,18 @@
       },
       {
         "district": "Dindigul",
-        "confirmed": 74,
+        "confirmed": 76,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       {
         "district": "Sivaganga",
-        "confirmed": 11,
+        "confirmed": 12,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
@@ -1447,34 +1447,34 @@
       },
       {
         "district": "Thiruvarur",
-        "confirmed": 27,
+        "confirmed": 28,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
         "district": "Ramanathapuram",
-        "confirmed": 10,
+        "confirmed": 11,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
         "district": "Thiruvallur",
-        "confirmed": 47,
+        "confirmed": 49,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       {
         "district": "Nagapattinam",
-        "confirmed": 43,
+        "confirmed": 44,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
@@ -1495,18 +1495,18 @@
       },
       {
         "district": "Perambalur",
-        "confirmed": 4,
+        "confirmed": 5,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
         "district": "Tiruchirappalli",
-        "confirmed": 46,
+        "confirmed": 50,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 4
         }
       },
       {
@@ -1519,26 +1519,26 @@
       },
       {
         "district": "Ariyalur",
-        "confirmed": 1,
+        "confirmed": 3,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       {
         "district": "Tenkasi",
-        "confirmed": 19,
+        "confirmed": 23,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 4
         }
       },
       {
-        "district": "Unknown",
-        "confirmed": 43,
+        "district": "Pudukkottai",
+        "confirmed": 1,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 43
+          "confirmed": 1
         }
       }
     ]
@@ -3117,10 +3117,10 @@
       },
       {
         "district": "Unknown",
-        "confirmed": 175,
+        "confirmed": 253,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 78
+          "confirmed": 156
         }
       }
     ]
@@ -3154,10 +3154,10 @@
       },
       {
         "district": "Nalanda",
-        "confirmed": 11,
+        "confirmed": 12,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
