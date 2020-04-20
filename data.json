@@ -732,14 +732,14 @@
 	],
 	"statewise": [
 		{
-			"active": "14713",
-			"confirmed": "18420",
-			"deaths": "586",
-			"deltaconfirmed": "1116",
-			"deltadeaths": "27",
-			"deltarecovered": "267",
-			"lastupdatedtime": "20/04/2020 20:42:25",
-			"recovered": "3121",
+			"active": "14674",
+			"confirmed": "18539",
+			"deaths": "592",
+			"deltaconfirmed": "1235",
+			"deltadeaths": "33",
+			"deltarecovered": "419",
+			"lastupdatedtime": "20/04/2020 22:15:18",
+			"recovered": "3273",
 			"state": "Total",
 			"statecode": "TT",
 			"statenotes": ""
@@ -758,14 +758,14 @@
 			"statenotes": ""
 		},
 		{
-			"active": "1668",
-			"confirmed": "2003",
-			"deaths": "45",
-			"deltaconfirmed": "0",
-			"deltadeaths": "0",
-			"deltarecovered": "0",
+			"active": "1603",
+			"confirmed": "2081",
+			"deaths": "47",
+			"deltaconfirmed": "78",
+			"deltadeaths": "2",
+			"deltarecovered": "141",
 			"lastupdatedtime": "19/04/2020 23:18:08",
-			"recovered": "290",
+			"recovered": "431",
 			"state": "Delhi",
 			"statecode": "DL",
 			"statenotes": ""
@@ -784,10 +784,10 @@
 			"statenotes": ""
 		},
 		{
-			"active": "1305",
-			"confirmed": "1535",
+			"active": "1346",
+			"confirmed": "1576",
 			"deaths": "25",
-			"deltaconfirmed": "57",
+			"deltaconfirmed": "98",
 			"deltadeaths": "2",
 			"deltarecovered": "0",
 			"lastupdatedtime": "20/04/2020 10:04:06",
@@ -810,14 +810,14 @@
 			"statenotes": ""
 		},
 		{
-			"active": "1282",
+			"active": "1271",
 			"confirmed": "1485",
-			"deaths": "72",
+			"deaths": "76",
 			"deltaconfirmed": "78",
-			"deltadeaths": "0",
-			"deltarecovered": "0",
+			"deltadeaths": "4",
+			"deltarecovered": "7",
 			"lastupdatedtime": "20/04/2020 19:37:26",
-			"recovered": "131",
+			"recovered": "138",
 			"state": "Madhya Pradesh",
 			"statecode": "MP",
 			"statenotes": ""
@@ -979,14 +979,14 @@
 			"statenotes": ""
 		},
 		{
-			"active": "40",
+			"active": "36",
 			"confirmed": "42",
 			"deaths": "2",
 			"deltaconfirmed": "1",
 			"deltadeaths": "0",
-			"deltarecovered": "0",
+			"deltarecovered": "4",
 			"lastupdatedtime": "19/04/2020 21:23:09",
-			"recovered": "0",
+			"recovered": "4",
 			"state": "Jharkhand",
 			"statecode": "JH",
 			"statenotes": ""

@@ -1,9 +1,5 @@
 [
   {
-    "update": "12 recoveries in Haryana\n",
-    "timestamp": 1587221056
-  },
-  {
     "update": "10 deaths in Maharashtra\n47 new cases in Madhya Pradesh\n2 deaths in West Bengal\n15 new cases in Punjab\n",
     "timestamp": 1587223486
   },
@@ -198,5 +194,9 @@
   {
     "update": "65 recoveries and 9 deaths in Maharashtra\n13 recoveries in Uttar Pradesh\n15 recoveries in Jammu and Kashmir\n16 new cases in Bihar\n2 new cases and 7 recoveries in Uttarakhand\n1 recovery in Chandigarh\n",
     "timestamp": 1587398831
+  },
+  {
+    "update": "78 new cases, 141 recoveries and 2 deaths in Delhi\n41 new cases in Rajasthan\n7 recoveries and 4 deaths in Madhya Pradesh\n4 recoveries in Jharkhand\n",
+    "timestamp": 1587401512
   }
 ]
