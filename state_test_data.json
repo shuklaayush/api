@@ -2395,22 +2395,22 @@
 			"updatedon": "19/04/2020"
 		},
 		{
-			"negative": "",
+			"negative": "2567",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
 			"numisolationbeds": "",
 			"numventilators": "",
-			"positive": "",
+			"positive": "39",
 			"positiveratebytests": "",
-			"source": "",
+			"source": "https://twitter.com/nhm_hp/status/1252213823395622912/photo/1",
 			"source2": "",
 			"state": "Himachal Pradesh",
 			"testsperthousand": "",
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
-			"totaltested": "",
-			"unconfirmed": "",
-			"updatedon": "21/04/2020"
+			"totaltested": "2902",
+			"unconfirmed": "296",
+			"updatedon": "20/04/2020"
 		},
 		{
 			"negative": "1429",
@@ -2611,22 +2611,22 @@
 			"updatedon": "19/04/2020"
 		},
 		{
-			"negative": "",
+			"negative": "8244",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
 			"numisolationbeds": "",
 			"numventilators": "",
-			"positive": "",
+			"positive": "368",
 			"positiveratebytests": "",
-			"source": "",
+			"source": "https://twitter.com/diprjk/status/1252217115072839682/photo/2",
 			"source2": "",
 			"state": "Jammu and Kashmir",
 			"testsperthousand": "",
-			"totalpeopleinquarantine": "",
+			"totalpeopleinquarantine": "229",
 			"totalpeoplereleasedfromquarantine": "",
-			"totaltested": "",
+			"totaltested": "8612",
 			"unconfirmed": "",
-			"updatedon": "21/04/2020"
+			"updatedon": "20/04/2020"
 		},
 		{
 			"negative": "1326",
@@ -3061,40 +3061,22 @@
 			"updatedon": "19/04/2020"
 		},
 		{
-			"negative": "",
+			"negative": "19497",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
 			"numisolationbeds": "",
 			"numventilators": "",
-			"positive": "",
+			"positive": "408",
 			"positiveratebytests": "",
-			"source": "",
+			"source": "https://karunadu.karnataka.gov.in/hfw/kannada/nCovDocs/20-04-2020(English).pdf",
 			"source2": "",
 			"state": "Karnataka",
 			"testsperthousand": "",
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
-			"totaltested": "",
+			"totaltested": "23460",
 			"unconfirmed": "",
-			"updatedon": "21/04/2020"
-		},
-		{
-			"negative": "8586",
-			"numcallsstatehelpline": "",
-			"numicubeds": "",
-			"numisolationbeds": "",
-			"numventilators": "",
-			"positive": "306",
-			"positiveratebytests": "",
-			"source": "https://dashboard.kerala.gov.in/testing-view-public.php",
-			"source2": "https://dashboard.kerala.gov.in/quarantine-view-public.php",
-			"state": "Kerala",
-			"testsperthousand": "",
-			"totalpeopleinquarantine": "734",
-			"totalpeoplereleasedfromquarantine": "",
-			"totaltested": "9744",
-			"unconfirmed": "852",
-			"updatedon": "04/02/2020"
+			"updatedon": "20/04/2020"
 		},
 		{
 			"negative": "7256",
@@ -3149,6 +3131,24 @@
 			"totaltested": "9139",
 			"unconfirmed": "718",
 			"updatedon": "03/04/2020"
+		},
+		{
+			"negative": "8586",
+			"numcallsstatehelpline": "",
+			"numicubeds": "",
+			"numisolationbeds": "",
+			"numventilators": "",
+			"positive": "306",
+			"positiveratebytests": "",
+			"source": "https://dashboard.kerala.gov.in/testing-view-public.php",
+			"source2": "https://dashboard.kerala.gov.in/quarantine-view-public.php",
+			"state": "Kerala",
+			"testsperthousand": "",
+			"totalpeopleinquarantine": "734",
+			"totalpeoplereleasedfromquarantine": "",
+			"totaltested": "9744",
+			"unconfirmed": "852",
+			"updatedon": "04/02/2020"
 		},
 		{
 			"negative": "9300",
@@ -3439,22 +3439,22 @@
 			"updatedon": "19/04/2020"
 		},
 		{
-			"negative": "",
+			"negative": "19074",
 			"numcallsstatehelpline": "",
 			"numicubeds": "",
 			"numisolationbeds": "",
 			"numventilators": "",
-			"positive": "",
+			"positive": "408",
 			"positiveratebytests": "",
-			"source": "",
+			"source": "https://dashboard.kerala.gov.in/testing-view-public.php",
 			"source2": "",
 			"state": "Kerala",
 			"testsperthousand": "",
 			"totalpeopleinquarantine": "",
 			"totalpeoplereleasedfromquarantine": "",
-			"totaltested": "",
-			"unconfirmed": "",
-			"updatedon": "21/04/2020"
+			"totaltested": "19756",
+			"unconfirmed": "274",
+			"updatedon": "20/04/2020"
 		},
 		{
 			"negative": "",
