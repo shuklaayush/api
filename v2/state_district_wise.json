@@ -3416,7 +3416,7 @@
       },
       {
         "district": "Kamrup Metropolitan",
-        "confirmed": 5,
+        "confirmed": 6,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -3496,14 +3496,6 @@
       },
       {
         "district": "Hailakandi",
-        "confirmed": 1,
-        "lastupdatedtime": "",
-        "delta": {
-          "confirmed": 0
-        }
-      },
-      {
-        "district": "Dimapur",
         "confirmed": 1,
         "lastupdatedtime": "",
         "delta": {

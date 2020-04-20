@@ -2977,7 +2977,7 @@
         }
       },
       "Kamrup Metropolitan": {
-        "confirmed": 5,
+        "confirmed": 6,
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
@@ -3047,13 +3047,6 @@
         }
       },
       "Hailakandi": {
-        "confirmed": 1,
-        "lastupdatedtime": "",
-        "delta": {
-          "confirmed": 0
-        }
-      },
-      "Dimapur": {
         "confirmed": 1,
         "lastupdatedtime": "",
         "delta": {

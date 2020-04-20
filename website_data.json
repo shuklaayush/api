@@ -103,6 +103,11 @@
 	],
 	"faq": [
 		{
+			"answer": "We are using state press releases to update the numbers.Our hypothesis is that ICMR nightly updates may include cases which could be reported by states the next day",
+			"qno": "0",
+			"question": "Why is there a difference with ICMR report and covid19india.org?"
+		},
+		{
 			"answer": "No",
 			"qno": "1",
 			"question": "Are you official?"
