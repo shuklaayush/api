@@ -3501,6 +3501,14 @@
         "delta": {
           "confirmed": 0
         }
+      },
+      {
+        "district": "Dimapur",
+        "confirmed": 1,
+        "lastupdatedtime": "",
+        "delta": {
+          "confirmed": 0
+        }
       }
     ]
   },
@@ -3530,19 +3538,6 @@
       },
       {
         "district": "North Tripura",
-        "confirmed": 1,
-        "lastupdatedtime": "",
-        "delta": {
-          "confirmed": 0
-        }
-      }
-    ]
-  },
-  {
-    "state": "Nagaland",
-    "districtData": [
-      {
-        "district": "Dimapur",
         "confirmed": 1,
         "lastupdatedtime": "",
         "delta": {

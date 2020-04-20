@@ -1018,13 +1018,13 @@
 			"statenotes": ""
 		},
 		{
-			"active": "16",
-			"confirmed": "34",
+			"active": "17",
+			"confirmed": "35",
 			"deaths": "1",
 			"deltaconfirmed": "0",
 			"deltadeaths": "0",
 			"deltarecovered": "0",
-			"lastupdatedtime": "19/04/2020 19:39:07",
+			"lastupdatedtime": "20/04/2020 08:44:05",
 			"recovered": "17",
 			"state": "Assam",
 			"statecode": "AS",
@@ -1161,13 +1161,13 @@
 			"statenotes": ""
 		},
 		{
-			"active": "1",
-			"confirmed": "1",
+			"active": "0",
+			"confirmed": "0",
 			"deaths": "0",
 			"deltaconfirmed": "0",
 			"deltadeaths": "0",
 			"deltarecovered": "0",
-			"lastupdatedtime": "12/04/2020 23:35:29",
+			"lastupdatedtime": "20/04/2020 08:44:07",
 			"recovered": "0",
 			"state": "Nagaland",
 			"statecode": "NL",
