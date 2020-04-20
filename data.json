@@ -732,27 +732,27 @@
 	],
 	"statewise": [
 		{
-			"active": "14810",
-			"confirmed": "18407",
-			"deaths": "577",
-			"deltaconfirmed": "1103",
-			"deltadeaths": "18",
-			"deltarecovered": "166",
+			"active": "14713",
+			"confirmed": "18420",
+			"deaths": "586",
+			"deltaconfirmed": "1116",
+			"deltadeaths": "27",
+			"deltarecovered": "267",
 			"lastupdatedtime": "20/04/2020 20:42:25",
-			"recovered": "3020",
+			"recovered": "3121",
 			"state": "Total",
 			"statecode": "TT",
 			"statenotes": ""
 		},
 		{
-			"active": "3936",
+			"active": "3862",
 			"confirmed": "4666",
-			"deaths": "223",
+			"deaths": "232",
 			"deltaconfirmed": "466",
-			"deltadeaths": "0",
-			"deltarecovered": "0",
+			"deltadeaths": "9",
+			"deltarecovered": "65",
 			"lastupdatedtime": "20/04/2020 20:42:26",
-			"recovered": "507",
+			"recovered": "572",
 			"state": "Maharashtra",
 			"statecode": "MH",
 			"statenotes": ""
@@ -771,10 +771,10 @@
 			"statenotes": ""
 		},
 		{
-			"active": "1742",
-			"confirmed": "1944",
+			"active": "1737",
+			"confirmed": "1939",
 			"deaths": "71",
-			"deltaconfirmed": "201",
+			"deltaconfirmed": "196",
 			"deltadeaths": "8",
 			"deltarecovered": "26",
 			"lastupdatedtime": "20/04/2020 20:42:27",
@@ -823,14 +823,14 @@
 			"statenotes": ""
 		},
 		{
-			"active": "1039",
+			"active": "1026",
 			"confirmed": "1184",
 			"deaths": "18",
 			"deltaconfirmed": "84",
 			"deltadeaths": "1",
-			"deltarecovered": "0",
+			"deltarecovered": "13",
 			"lastupdatedtime": "20/04/2020 20:42:28",
-			"recovered": "127",
+			"recovered": "140",
 			"state": "Uttar Pradesh",
 			"statecode": "UP",
 			"statenotes": ""
@@ -888,14 +888,14 @@
 			"statenotes": ""
 		},
 		{
-			"active": "307",
+			"active": "292",
 			"confirmed": "368",
 			"deaths": "5",
 			"deltaconfirmed": "14",
 			"deltadeaths": "0",
-			"deltarecovered": "0",
+			"deltarecovered": "15",
 			"lastupdatedtime": "20/04/2020 18:07:33",
-			"recovered": "56",
+			"recovered": "71",
 			"state": "Jammu and Kashmir",
 			"statecode": "JK",
 			"statenotes": ""
@@ -940,10 +940,10 @@
 			"statenotes": ""
 		},
 		{
-			"active": "53",
-			"confirmed": "97",
+			"active": "69",
+			"confirmed": "113",
 			"deaths": "2",
-			"deltaconfirmed": "1",
+			"deltaconfirmed": "17",
 			"deltadeaths": "0",
 			"deltarecovered": "0",
 			"lastupdatedtime": "20/04/2020 19:33:33",
@@ -966,14 +966,14 @@
 			"statenotes": ""
 		},
 		{
-			"active": "33",
-			"confirmed": "44",
+			"active": "28",
+			"confirmed": "46",
 			"deaths": "0",
-			"deltaconfirmed": "0",
+			"deltaconfirmed": "2",
 			"deltadeaths": "0",
-			"deltarecovered": "0",
+			"deltarecovered": "7",
 			"lastupdatedtime": "18/04/2020 15:26:17",
-			"recovered": "11",
+			"recovered": "18",
 			"state": "Uttarakhand",
 			"statecode": "UT",
 			"statenotes": ""
@@ -1031,14 +1031,14 @@
 			"statenotes": "Includes one case from Nagaland"
 		},
 		{
-			"active": "13",
+			"active": "12",
 			"confirmed": "26",
 			"deaths": "0",
 			"deltaconfirmed": "0",
 			"deltadeaths": "0",
-			"deltarecovered": "0",
+			"deltarecovered": "1",
 			"lastupdatedtime": "19/04/2020 17:45:25",
-			"recovered": "13",
+			"recovered": "14",
 			"state": "Chandigarh",
 			"statecode": "CH",
 			"statenotes": ""

@@ -1603,10 +1603,10 @@
         }
       },
       "Mumbai": {
-        "confirmed": 2268,
+        "confirmed": 2455,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 187
         }
       },
       "Nagpur": {
@@ -1624,10 +1624,10 @@
         }
       },
       "Thane": {
-        "confirmed": 341,
+        "confirmed": 362,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 21
         }
       },
       "Raigarh": {
@@ -1820,10 +1820,10 @@
         }
       },
       "Unknown": {
-        "confirmed": 1018,
+        "confirmed": 810,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 466
+          "confirmed": 258
         }
       }
     }
@@ -2049,10 +2049,10 @@
   "Uttarakhand": {
     "districtData": {
       "Dehradun": {
-        "confirmed": 22,
+        "confirmed": 24,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       "Pauri Garhwal": {
@@ -2318,10 +2318,10 @@
         }
       },
       "Ahmadabad": {
-        "confirmed": 1253,
+        "confirmed": 1248,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 152
+          "confirmed": 147
         }
       },
       "Vadodara": {
@@ -2824,6 +2824,13 @@
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
+        }
+      },
+      "Unknown": {
+        "confirmed": 16,
+        "lastupdatedtime": "",
+        "delta": {
+          "confirmed": 16
         }
       }
     }
