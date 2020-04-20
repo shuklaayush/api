@@ -722,31 +722,31 @@
   "Uttar Pradesh": {
     "districtData": {
       "Agra": {
-        "confirmed": 242,
+        "confirmed": 243,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "Ghaziabad": {
-        "confirmed": 41,
+        "confirmed": 46,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 5
         }
       },
       "Lucknow": {
-        "confirmed": 162,
+        "confirmed": 164,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       "Gautam Buddha Nagar": {
-        "confirmed": 95,
+        "confirmed": 100,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 5
         }
       },
       "Kheri": {
@@ -771,10 +771,10 @@
         }
       },
       "Kanpur Nagar": {
-        "confirmed": 30,
+        "confirmed": 31,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       "Pilibhit": {
@@ -1072,10 +1072,10 @@
         }
       },
       "Unknown": {
-        "confirmed": 85,
+        "confirmed": 71,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 84
+          "confirmed": 70
         }
       }
     }
@@ -2750,10 +2750,10 @@
         }
       },
       "Nalanda": {
-        "confirmed": 12,
+        "confirmed": 28,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 1
+          "confirmed": 17
         }
       },
       "Lakhisarai": {
@@ -2824,13 +2824,6 @@
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
-        }
-      },
-      "Unknown": {
-        "confirmed": 16,
-        "lastupdatedtime": "",
-        "delta": {
-          "confirmed": 16
         }
       }
     }

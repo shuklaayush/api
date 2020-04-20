@@ -829,34 +829,34 @@
     "districtData": [
       {
         "district": "Agra",
-        "confirmed": 242,
+        "confirmed": 243,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
         "district": "Ghaziabad",
-        "confirmed": 41,
+        "confirmed": 46,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 5
         }
       },
       {
         "district": "Lucknow",
-        "confirmed": 162,
+        "confirmed": 164,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 2
         }
       },
       {
         "district": "Gautam Buddha Nagar",
-        "confirmed": 95,
+        "confirmed": 100,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 5
         }
       },
       {
@@ -885,10 +885,10 @@
       },
       {
         "district": "Kanpur Nagar",
-        "confirmed": 30,
+        "confirmed": 31,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
@@ -1229,10 +1229,10 @@
       },
       {
         "district": "Unknown",
-        "confirmed": 85,
+        "confirmed": 71,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 84
+          "confirmed": 70
         }
       }
     ]
@@ -3154,10 +3154,10 @@
       },
       {
         "district": "Nalanda",
-        "confirmed": 12,
+        "confirmed": 28,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 1
+          "confirmed": 17
         }
       },
       {
@@ -3238,14 +3238,6 @@
         "lastupdatedtime": "",
         "delta": {
           "confirmed": 0
-        }
-      },
-      {
-        "district": "Unknown",
-        "confirmed": 16,
-        "lastupdatedtime": "",
-        "delta": {
-          "confirmed": 16
         }
       }
     ]
