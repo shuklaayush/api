@@ -3117,10 +3117,10 @@
       },
       {
         "district": "Unknown",
-        "confirmed": 253,
+        "confirmed": 175,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 156
+          "confirmed": 78
         }
       }
     ]
