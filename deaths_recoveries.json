@@ -60195,7 +60195,7 @@
 			"source2": "",
 			"source3": "",
 			"state": "Tamil Nadu",
-			"statecode": ""
+			"statecode": "TN"
 		},
 		{
 			"agebracket": "",
@@ -60212,24 +60212,24 @@
 			"source2": "",
 			"source3": "",
 			"state": "Tamil Nadu",
-			"statecode": ""
+			"statecode": "TN"
 		},
 		{
 			"agebracket": "",
 			"city": "",
-			"date": "",
+			"date": "20/04/2020",
 			"district": "",
 			"gender": "",
 			"nationality": "",
 			"notes": "",
 			"patientnumbercouldbemappedlater": "",
-			"patientstatus": "",
+			"patientstatus": "Recovered",
 			"slno": "3543",
-			"source1": "",
+			"source1": "https://twitter.com/kbssidhu1961/status/1252215921910837249",
 			"source2": "",
 			"source3": "",
-			"state": "",
-			"statecode": ""
+			"state": "Punjab",
+			"statecode": "PB"
 		},
 		{
 			"agebracket": "",

@@ -732,14 +732,14 @@
 	],
 	"statewise": [
 		{
-			"active": "14494",
+			"active": "14493",
 			"confirmed": "18032",
 			"deaths": "570",
 			"deltaconfirmed": "728",
 			"deltadeaths": "11",
-			"deltarecovered": "114",
-			"lastupdatedtime": "20/04/2020 18:12:25",
-			"recovered": "2968",
+			"deltarecovered": "115",
+			"lastupdatedtime": "20/04/2020 18:37:38",
+			"recovered": "2969",
 			"state": "Total",
 			"statecode": "TT",
 			"statenotes": ""
@@ -927,14 +927,14 @@
 			"statenotes": "1 death in Ambala unaccounted."
 		},
 		{
-			"active": "192",
+			"active": "191",
 			"confirmed": "245",
 			"deaths": "16",
 			"deltaconfirmed": "1",
 			"deltadeaths": "0",
-			"deltarecovered": "0",
+			"deltarecovered": "1",
 			"lastupdatedtime": "19/04/2020 20:39:06",
-			"recovered": "37",
+			"recovered": "38",
 			"state": "Punjab",
 			"statecode": "PB",
 			"statenotes": ""
