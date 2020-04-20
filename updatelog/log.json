@@ -1,9 +1,5 @@
 [
   {
-    "update": "82 recoveries in Tamil Nadu\n8 new cases, 1 recovery and 2 deaths in Punjab\n5 recoveries in Bihar\n",
-    "timestamp": 1587215128
-  },
-  {
     "update": "13 new cases in Jammu and Kashmir\n",
     "timestamp": 1587215674
   },
@@ -198,5 +194,9 @@
   {
     "update": "1 new case in Assam\n",
     "timestamp": 1587352475
+  },
+  {
+    "update": "8 new cases in Odisha\n",
+    "timestamp": 1587354271
   }
 ]
