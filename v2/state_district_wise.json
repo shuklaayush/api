@@ -997,10 +997,10 @@
       },
       {
         "district": "Saharanpur",
-        "confirmed": 53,
+        "confirmed": 72,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 19
         }
       },
       {
@@ -1228,15 +1228,15 @@
         }
       },
       {
-        "district": "Unknown",
-        "confirmed": 20,
+        "district": "Mau",
+        "confirmed": 1,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 20
+          "confirmed": 1
         }
       },
       {
-        "district": "Mau",
+        "district": "Unknown",
         "confirmed": 1,
         "lastupdatedtime": "",
         "delta": {
