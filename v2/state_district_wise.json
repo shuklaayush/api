@@ -198,10 +198,10 @@
     "districtData": [
       {
         "district": "Hyderabad",
-        "confirmed": 486,
+        "confirmed": 498,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 12
         }
       },
       {
@@ -230,10 +230,10 @@
       },
       {
         "district": "Medchal Malkajgiri",
-        "confirmed": 6,
+        "confirmed": 7,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
@@ -302,10 +302,10 @@
       },
       {
         "district": "Nizamabad",
-        "confirmed": 58,
+        "confirmed": 59,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 1
         }
       },
       {
@@ -1229,10 +1229,10 @@
       },
       {
         "district": "Unknown",
-        "confirmed": 1,
+        "confirmed": 85,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 0
+          "confirmed": 84
         }
       }
     ]
@@ -2086,10 +2086,10 @@
       },
       {
         "district": "Unknown",
-        "confirmed": 835,
+        "confirmed": 1018,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 283
+          "confirmed": 466
         }
       }
     ]
@@ -2651,26 +2651,26 @@
       },
       {
         "district": "Surat",
-        "confirmed": 244,
+        "confirmed": 269,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 2
+          "confirmed": 27
         }
       },
       {
         "district": "Ahmadabad",
-        "confirmed": 1192,
+        "confirmed": 1253,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 91
+          "confirmed": 152
         }
       },
       {
         "district": "Vadodara",
-        "confirmed": 181,
+        "confirmed": 188,
         "lastupdatedtime": "",
         "delta": {
-          "confirmed": 1
+          "confirmed": 8
         }
       },
       {
