@@ -1,9 +1,9 @@
 State,Confirmed,Recovered,Deaths,Active,Last_Updated_Time,State_code,Delta_Confirmed,Delta_Recovered,Delta_Deaths,State_Notes
-Total,17869,2898,567,14404,20/04/2020 14:04:05,TT,565,44,8,
+Total,17874,2900,568,14406,20/04/2020 14:04:05,TT,570,46,9,
 Maharashtra,4483,507,223,3753,19/04/2020 21:03:06,MH,283,0,0,
 Delhi,2003,290,45,1668,19/04/2020 23:18:08,DL,0,0,0,
 Gujarat,1851,106,67,1678,19/04/2020 20:25:15,GJ,108,1,4,
-Rajasthan,1535,205,24,1306,20/04/2020 10:04:06,RJ,57,0,1,
+Rajasthan,1535,205,25,1305,20/04/2020 10:04:06,RJ,57,0,2,
 Tamil Nadu,1477,411,15,1051,19/04/2020 18:44:11,TN,0,0,0,
 Madhya Pradesh,1407,131,72,1204,19/04/2020 19:59:06,MP,0,0,0,
 Uttar Pradesh,1100,127,17,956,20/04/2020 01:09:12,UP,0,0,0,
@@ -16,12 +16,12 @@ West Bengal,339,66,12,261,20/04/2020 09:25:14,WB,29,4,0,"As WB state bulletin on
 Haryana,251,115,3,133,19/04/2020 19:39:06,HR,1,11,0,1 death in Ambala unaccounted.
 Punjab,244,37,16,191,19/04/2020 20:39:06,PB,0,0,0,
 Bihar,96,42,2,52,20/04/2020 01:09:14,BR,0,0,0,
-Odisha,68,24,1,43,20/04/2020 09:25:15,OR,7,0,0,
+Odisha,73,24,1,48,20/04/2020 09:25:15,OR,12,0,0,
 Uttarakhand,44,11,0,33,18/04/2020 15:26:17,UT,0,0,0,
 Jharkhand,41,0,2,39,19/04/2020 21:23:09,JH,0,0,0,
 Himachal Pradesh,39,16,2,21,18/04/2020 19:15:06,HP,0,0,0,Death of Tibetan refugee included
 Chhattisgarh,36,25,0,11,18/04/2020 19:36:06,CT,0,0,0,
-Assam,35,17,1,17,20/04/2020 08:45:06,AS,0,0,0,Includes one case from Nagaland
+Assam,35,19,1,15,20/04/2020 08:45:06,AS,0,2,0,Includes one case from Nagaland
 Chandigarh,26,13,0,13,19/04/2020 17:45:25,CH,0,0,0,
 Ladakh,18,14,0,4,16/04/2020 15:13:07,LA,0,0,0,
 Andaman and Nicobar Islands,15,11,0,4,19/04/2020 16:04:06,AN,0,0,0,
