@@ -42,7 +42,7 @@ all_sheets.forEach(element => {
     let settings = { method: "Get" };
     fetch(url, settings).then(res => res.text())
         .then(csv => {
-            if(csv.endsWith("html>")){
+            if(csv.includes("</html>")){
                 console.log(csv);
                 process.exit(1);
                 return;
