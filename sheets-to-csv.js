@@ -43,7 +43,7 @@ all_sheets.forEach(element => {
     fetch(url, settings).then(res => res.text())
         .then(csv => {
             if(csv.includes("</html>")){
-                console.log(csv);
+                console.error("probably not csv!");
                 process.exit(1);
                 return;
             }else{
