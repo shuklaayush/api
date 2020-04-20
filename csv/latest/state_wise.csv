@@ -1,2 +1,39 @@
-<!DOCTYPE html><html lang="en"><head><meta name="description" content="Web word processing, presentations and spreadsheets"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0"><link rel="shortcut icon" href="//ssl.gstatic.com/docs/common/drive_favicon1.ico"><title>Too Many Requests</title><link href="//fonts.googleapis.com/css?family=Product+Sans" rel="stylesheet" type="text/css"><style nonce="QVoF0iRYaC4cRamjMnmTrQ">/* Copyright 2020 Google Inc. All Rights Reserved. */
-.goog-inline-block{position:relative;display:-moz-inline-box;display:inline-block}* html .goog-inline-block{display:inline}*:first-child+html .goog-inline-block{display:inline}#drive-logo{margin:18px 0;position:absolute;white-space:nowrap}.docs-drivelogo-img{background-image:url('//ssl.gstatic.com/images/branding/googlelogo/1x/googlelogo_color_116x41dp.png');background-size:116px 41px;display:inline-block;height:41px;vertical-align:bottom;width:116px}.docs-drivelogo-text{color:#000;display:inline-block;opacity:0.54;text-decoration:none;font-family:'Product Sans',Arial,Helvetica,sans-serif;font-size:32px;text-rendering:optimizeLegibility;position:relative;top:-6px;left:-7px;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}@media (-webkit-min-device-pixel-ratio:1.5),(min-resolution:144dpi){.docs-drivelogo-img{background-image:url('//ssl.gstatic.com/images/branding/googlelogo/2x/googlelogo_color_116x41dp.png')}}</style><style type="text/css" nonce="QVoF0iRYaC4cRamjMnmTrQ">body {background-color: #fff; font-family: Arial,sans-serif; font-size: 13px; margin: 0; padding: 0;}a, a:link, a:visited {color: #112ABB;}</style><style type="text/css" nonce="QVoF0iRYaC4cRamjMnmTrQ">.errorMessage {font-size: 12pt; font-weight: bold; line-height: 150%;}</style></head><body><div id="outerContainer"><div id="innerContainer"><div style="position: absolute; top: -80px;"><div style="margin: 18px 0; position: absolute; white-space: nowrap;"><a href="//support.google.com/docs/"><img height="35px" src="//ssl.gstatic.com/docs/common/product/spreadsheets_lockup1.png" alt="Google logo"/></a></div></div>This file might be unavailable right now due to heavy traffic. <a href="">Try again</a>.</div></div></body><style nonce="QVoF0iRYaC4cRamjMnmTrQ">#outerContainer {margin: auto; max-width: 750px;}#innerContainer {margin-bottom: 20px; margin-left: 40px; margin-right: 40px; margin-top: 80px; position: relative;}</style></html>
+State,Confirmed,Recovered,Deaths,Active,Last_Updated_Time,State_code,Delta_Confirmed,Delta_Recovered,Delta_Deaths,State_Notes
+Total,17869,2898,567,14404,20/04/2020 14:04:05,TT,565,44,8,
+Maharashtra,4483,507,223,3753,19/04/2020 21:03:06,MH,283,0,0,
+Delhi,2003,290,45,1668,19/04/2020 23:18:08,DL,0,0,0,
+Gujarat,1851,106,67,1678,19/04/2020 20:25:15,GJ,108,1,4,
+Rajasthan,1535,205,24,1306,20/04/2020 10:04:06,RJ,57,0,1,
+Tamil Nadu,1477,411,15,1051,19/04/2020 18:44:11,TN,0,0,0,
+Madhya Pradesh,1407,131,72,1204,19/04/2020 19:59:06,MP,0,0,0,
+Uttar Pradesh,1100,127,17,956,20/04/2020 01:09:12,UP,0,0,0,
+Telangana,858,186,21,651,19/04/2020 21:23:08,TG,0,0,0,
+Andhra Pradesh,722,92,20,610,19/04/2020 15:35:05,AP,75,27,3,
+Kerala,401,270,2,129,19/04/2020 18:06:06,KL,0,0,0,
+Karnataka,395,111,16,268,19/04/2020 18:06:06,KA,5,0,0,
+Jammu and Kashmir,354,56,5,293,20/04/2020 01:09:13,JK,0,0,0,
+West Bengal,339,66,12,261,20/04/2020 09:25:14,WB,29,4,0,"As WB state bulletin only reports the number of active cases, the numbers for WB are currently updated according to https://www.mohfw.gov.in"
+Haryana,251,115,3,133,19/04/2020 19:39:06,HR,1,11,0,1 death in Ambala unaccounted.
+Punjab,244,37,16,191,19/04/2020 20:39:06,PB,0,0,0,
+Bihar,96,42,2,52,20/04/2020 01:09:14,BR,0,0,0,
+Odisha,68,24,1,43,20/04/2020 09:25:15,OR,7,0,0,
+Uttarakhand,44,11,0,33,18/04/2020 15:26:17,UT,0,0,0,
+Jharkhand,41,0,2,39,19/04/2020 21:23:09,JH,0,0,0,
+Himachal Pradesh,39,16,2,21,18/04/2020 19:15:06,HP,0,0,0,Death of Tibetan refugee included
+Chhattisgarh,36,25,0,11,18/04/2020 19:36:06,CT,0,0,0,
+Assam,35,17,1,17,20/04/2020 08:45:06,AS,0,0,0,Includes one case from Nagaland
+Chandigarh,26,13,0,13,19/04/2020 17:45:25,CH,0,0,0,
+Ladakh,18,14,0,4,16/04/2020 15:13:07,LA,0,0,0,
+Andaman and Nicobar Islands,15,11,0,4,19/04/2020 16:04:06,AN,0,0,0,
+Meghalaya,11,0,1,10,18/04/2020 12:38:07,ML,0,0,0,
+Goa,7,7,0,0,19/04/2020 17:04:07,GA,0,0,0,
+Puducherry,7,4,0,3,19/04/2020 08:25:07,PY,0,0,0,
+Manipur,2,2,0,0,20/04/2020 10:04:08,MN,0,1,0,
+Tripura,2,1,0,1,10/04/2020 20:00:27,TR,0,0,0,
+Mizoram,1,0,0,1,26/03/2020 07:19:29,MZ,0,0,0,
+Arunachal Pradesh,1,1,0,0,16/04/2020 19:33:11,AR,0,0,0,
+Nagaland,0,0,0,0,20/04/2020 08:45:07,NL,0,0,0,
+Dadra and Nagar Haveli,0,0,0,0,17/04/2020 15:03:07,DN,0,0,0,
+Daman and Diu,0,0,0,0,26/03/2020 07:19:29,DD,0,0,0,
+Lakshadweep,0,0,0,0,26/03/2020 07:19:29,LD,0,0,0,
+Sikkim,0,0,0,0,26/03/2020 07:19:29,SK,0,0,0,
