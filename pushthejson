@@ -29,6 +29,7 @@ cp -r updatelog/ ./tmp/
 
 git checkout "$main_branch"
 
+cp README.md tmp/
 # node src/sheets-to-csv.js
 node src/sheet-to-json_generic.js
 # node src/raw_data-to-state_district_wise_data.js
@@ -44,7 +45,7 @@ rm -r tmp/
 
 
 
-git add updatelog/ csv/ *.json 
+git add *
 set +e  # Grep succeeds with nonzero exit codes to show results.
 git status | grep 'new file\|modified'
 if [ $? -eq 0 ]
