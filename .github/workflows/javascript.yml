@@ -39,7 +39,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.github_token }}
           BOT_TOKEN: ${{ secrets.bot_token }}
-          SHEET_ID: ${{ secrets.SHEET_ID }}
+          SHEET_ID_v1: ${{ secrets.SHEET_ID_v1 }}
+          SHEET_ID_v2: ${{ secrets.SHEET_ID_v2 }}
           RESOURCES_SHEET_ID: ${{ secrets.RESOURCES_SHEET_ID }}
           STUCK_BOT: ${{ secrets.STUCK_BOT }}
       - name: show job status
