@@ -1,7 +1,7 @@
 const fs = require('fs');
 const raw_data1 = require('../tmp/raw_data1.json');
 const raw_data2 = require('../tmp/raw_data2.json');
-const deaths_recoveries1 = require('../tmp/deaths_recoveries2.json');
+const deaths_recoveries1 = require('../tmp/deaths_recoveries1.json');
 const deaths_recoveries2 = require('../tmp/deaths_recoveries2.json');
 
 raw_data2.raw_data = raw_data1.raw_data.concat(raw_data2.raw_data);
