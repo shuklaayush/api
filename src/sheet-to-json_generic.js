@@ -4,22 +4,24 @@ const c = require("../lib/constants");
 
 (async function main() {
   console.log("Running task on start...");
-  await task({
-    sheet: c.SHEET_v1,
-    tabs: { raw_data: c.SHEET_RAW_DATA },
-    file: c.FILE_RAW_DATA_1
-  });
+  // uncomment below if v1 sheet has updates
+  // await task({
+  //   sheet: c.SHEET_v1,
+  //   tabs: { raw_data: c.SHEET_RAW_DATA },
+  //   file: c.FILE_RAW_DATA_1
+  // });
   await task({
     sheet: c.SHEET_v2,
     tabs: { raw_data: c.SHEET_RAW_DATA },
     file: c.FILE_RAW_DATA_2
   });
 
-  await task({
-    sheet: c.SHEET_v1,
-    tabs: { deaths_recoveries: c.SHEET_DEATHS_AND_RECOVERIES },
-    file: c.FILE_DEATHS_RECOVERIES_1
-  });
+  // uncomment below if v1 sheet has updates
+  // await task({
+  //   sheet: c.SHEET_v1,
+  //   tabs: { deaths_recoveries: c.SHEET_DEATHS_AND_RECOVERIES },
+  //   file: c.FILE_DEATHS_RECOVERIES_1
+  // });
 
   await task({
     sheet: c.SHEET_v2,
