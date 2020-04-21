@@ -6,7 +6,7 @@ const data_prev = require('../tmp/data_prev.json');
 
 update_log_file = './tmp/updatelog/log.json';
 var update_log = require("."+update_log_file);
-BOT_TOKEN = process.argv[2];
+BOT_TOKEN = process.env.BOT_TOKEN;
 
 
 statewise_new = data.statewise.reduce((arr, row)=>{
