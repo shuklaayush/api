@@ -24,15 +24,18 @@ A volunteer-driven database for COVID-19 stats & patient tracing in India
 
 - [INDIA COVID-19 TRACKER](https://www.covid19india.org/) (Dashboard)
 - [INDIA COVID-19 Google Map TRACKER](https://goo.gl/maps/U32Ex1gWQxmc6Aot8)
+- [Covidinator](http://covidinator.in/) (Dashboard)
 - [COVID-19 Realtime Dashboard](https://bit.ly/India-COVID19-realtime)
 - [COVID-19 Tracker](https://covid19trackerbk.netlify.app/) - [Repo](https://github.com/dynamicbalaji/covid19-tracker)
 - [INDIA COVID-19 Statistics and predictive analysis](https://gnsp.in/covid19)
 
-Telegram Channels
+### Telegram Channels
+
 - [covid19india.org Ops Channel](https://t.me/covid19indiaorg) (News and Updates from covid19india.org Team)
 - [Telegram instant Updates](https://t.me/covid19indiaorg_updates) (Instant Updates from covid19india.org Team)
 
-Telegram Bots
+### Telegram Bots
+
 - [CoVID19 India Patients Analyzer and Alerts](https://github.com/xsreality/covid19)
 - [CoVID19 Live Stats](https://github.com/Tele-Bots/CovidBot)
 - [covid19indiatracker_bot](https://github.com/cibinjoseph/covid19indiatracker_bot)
