@@ -53,7 +53,7 @@ Telegram Bots
 - Contributions to new data formats are welcome
 - Please raise an issue before submitting a PR
 - Report issues with Place names in the [Main Site repo](https://github.com/covid19india/covid19india-react/issues)
-- DO NOT change json or csv directly. They get replaced automatically
+- DO NOT change anything in `gh-pages` branch directly.They get replaced automatically
 
 ## Notes
 - Do not use the "Current Status" in raw_data.json as we are rarely able to map the status to exact patient anymore. This will soon be deprecated in a future version of the API.
