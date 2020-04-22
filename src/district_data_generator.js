@@ -17,6 +17,7 @@ const StateDistrictWiseData = rawDistData.districts.reduce((acc, row) => {
     let districtName = row.district;
     if (!acc[stateName].districtData[districtName]) {
         acc[stateName].districtData[districtName] = {
+            notes: "",
             active: 0,
             confirmed: 0,
             deceased: 0,
@@ -29,6 +30,7 @@ const StateDistrictWiseData = rawDistData.districts.reduce((acc, row) => {
         };
     }
     const currentDistrict = acc[stateName].districtData[districtName];
+    currentDistrict.notes = row.districtnotes;
     currentDistrict.active = +row.active;
     currentDistrict.confirmed = +row.confirmed;
     currentDistrict.recovered = +row.recovered;
@@ -44,6 +46,7 @@ let stateDistrictWiseDataV2 = Object.keys(StateDistrictWiseData).map(state => {
     let districtData = StateDistrictWiseData[state].districtData;
     return {
       state,
+      statecode: StateDistrictWiseData[state].statecode,
       districtData: Object.keys(districtData).map(district => {
         return { district, ...districtData[district] };
       })
