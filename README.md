@@ -24,6 +24,7 @@ A volunteer-driven database for COVID-19 stats & patient tracing in India
 
 - [INDIA COVID-19 TRACKER](https://www.covid19india.org/) (Dashboard)
 - [INDIA COVID-19 Google Map TRACKER](https://goo.gl/maps/U32Ex1gWQxmc6Aot8)
+- [COVID-19 Realtime Dashboard](https://bit.ly/India-COVID19-realtime)
 - [COVID-19 Tracker](https://covid19trackerbk.netlify.app/) - [Repo](https://github.com/dynamicbalaji/covid19-tracker)
 - [INDIA COVID-19 Statistics and predictive analysis](https://gnsp.in/covid19)
 
