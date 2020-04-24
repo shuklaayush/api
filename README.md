@@ -68,7 +68,7 @@ Sometimes, having files in a spreadsheet format is more useful for analysts and 
 
 - Contributions to new data formats are welcome. Please create a GH issue and discuss there before working on the same.
 - Please raise an issue before submitting a PR
-- Report issues with regarding [covid19india.org](covid19india.org) website in the [react-site repository](https://github.com/covid19india/covid19india-react/issues)
+- Report issues with regarding [covid19india.org](https://www.covid19india.org) website in the [react-site repository](https://github.com/covid19india/covid19india-react/issues)
 - DO NOT change anything in `gh-pages` branch directly.They get replaced automatically
 
 ## Notes
