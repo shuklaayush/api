@@ -42,6 +42,7 @@ Sometimes, having files in a spreadsheet format is more useful for analysts and 
 - [Tracker](https://covidstat.info/) (by [@skavinvarnan ](https://github.com/skavinvarnan))
 - [Statistics and Predictive Analysis (India)](https://gnsp.in/covid19/) (by [@GnsP](https://github.com/GnsP))
 - [TN Specific](https://covid19trackerbk.netlify.app/) - [Repo](https://github.com/dynamicbalaji/covid19-tracker)
+- [Tracker](https://livecovid.in/) (by [@anamritraj ](https://github.com/anamritraj/livecovid.in-webapp))
 
 
 **Telegram Bots**
