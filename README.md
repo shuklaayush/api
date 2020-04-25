@@ -47,7 +47,7 @@ Sometimes, having files in a spreadsheet format is more useful for analysts and 
 
 **Telegram Bots**
 - [CoVID19 India Patients Analyzer and Alerts](https://github.com/xsreality/covid19)
-- [CoVID19 Live Stats](https://github.com/Tele-Bots/CovidBot)
+- [CovidBot: CoVID19 Live Stats Chatbot](https://github.com/Tele-Bots/CovidBot) (by [@gurrrung](https://github.com/gurrrung))
 - [covid19indiatracker_bot](https://github.com/cibinjoseph/covid19indiatracker_bot)
 - [INDIA COVID-19 Google Map TRACKER](https://goo.gl/maps/U32Ex1gWQxmc6Aot8)
 
