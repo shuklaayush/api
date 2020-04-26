@@ -17,11 +17,11 @@ const c = require("../lib/constants");
   });
 
   // uncomment below if v1 sheet has updates
-  // await task({
-  //   sheet: c.SHEET_v1,
-  //   tabs: { deaths_recoveries: c.SHEET_DEATHS_AND_RECOVERIES },
-  //   file: c.FILE_DEATHS_RECOVERIES_1
-  // });
+  await task({
+    sheet: c.SHEET_v1,
+    tabs: { deaths_recoveries: c.SHEET_DEATHS_AND_RECOVERIES },
+    file: c.FILE_DEATHS_RECOVERIES_1
+  });
 
   await task({
     sheet: c.SHEET_v2,
