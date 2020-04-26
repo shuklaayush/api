@@ -47,25 +47,25 @@ const old_sheets = [
 
 (async function main() {
     // uncomment below and run when changes in v1 sheet
-    // for (var element of old_sheets) {
-    //     console.log("Reading: " + element[0]);
-    //     var temp_url = "https://docs.google.com/spreadsheets/d/e/" + PUBLISHED_SHEET_ID_1 + "/pub?gid=" + element[1] + "&single=false&output=csv";
-    //     console.log(temp_url);
-    //     url = encodeURI(temp_url);
-    //     let settings = { method: "Get" };
-    //     await fetch(url, settings).then(res => res.text())
-    //         .then(csv => {
-    //             if (csv.includes("</html>")) {
-    //                 console.error("probably not csv!");
-    //                 process.exit(1);
-    //                 return;
-    //             } else {
-    //                 fs.writeFileSync(today_dir + "/" + element[0] + ".csv", csv);
-    //                 fs.writeFileSync(latest_dir + "/" + element[0] + ".csv", csv);
-    //                 console.log("Write completed: " + element[0]);
-    //             }
-    //         });
-    // };
+    for (var element of old_sheets) {
+        console.log("Reading: " + element[0]);
+        var temp_url = "https://docs.google.com/spreadsheets/d/e/" + PUBLISHED_SHEET_ID_1 + "/pub?gid=" + element[1] + "&single=false&output=csv";
+        console.log(temp_url);
+        url = encodeURI(temp_url);
+        let settings = { method: "Get" };
+        await fetch(url, settings).then(res => res.text())
+            .then(csv => {
+                if (csv.includes("</html>")) {
+                    console.error("probably not csv!");
+                    process.exit(1);
+                    return;
+                } else {
+                    fs.writeFileSync(today_dir + "/" + element[0] + ".csv", csv);
+                    fs.writeFileSync(latest_dir + "/" + element[0] + ".csv", csv);
+                    console.log("Write completed: " + element[0]);
+                }
+            });
+    };
 
     for (var element of all_sheets) {
         console.log("Reading: " + element[0]);
