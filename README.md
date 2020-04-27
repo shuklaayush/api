@@ -6,7 +6,7 @@ A volunteer-driven, crowdsourced database for COVID-19 stats & patient tracing i
 
 |Status| Data                                                  | URL                                                   |
 |----------------------------------------------------- |----------------------------------------------------- | ----------------------------------------------------- |
-|:green_heart:| Patient Level : Raw Data | https://api.covid19india.org/raw_data.json  |
+|:blue_heart:| Patient Level : Raw Data | https://api.covid19india.org/raw_data.json  |
 |:green_heart:| Patient Level : Deaths and Recoveries | https://api.covid19india.org/deaths_recoveries.json |
 |:green_heart:| National Level :Time series, State-wise stats and Test counts | https://api.covid19india.org/data.json                |
 |:green_heart:| State Level : has district-wise info  | https://api.covid19india.org/state_district_wise.json |
