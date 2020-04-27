@@ -15,6 +15,11 @@ const c = require("../lib/constants");
     tabs: { raw_data: c.SHEET_RAW_DATA },
     file: c.FILE_RAW_DATA_2
   });
+  await task({
+    sheet: c.SHEET_v3,
+    tabs: { raw_data: c.SHEET_RAW_DATA },
+    file: c.FILE_RAW_DATA_3
+  });
 
   // uncomment below if v1 sheet has updates
   await task({
@@ -75,7 +80,7 @@ const c = require("../lib/constants");
 
   await task({
     sheet: c.SHEET,
-    tabs: {
+    tabs: { 
       statewise: c.SHEET_STATEWISE_TAB,
       cases_time_series: c.SHEET_CASES_TIME_SERIES_TAB,
       tested: c.SHEET_Tested_Numbers_ICMR_Data,
