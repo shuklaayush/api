@@ -2,10 +2,6 @@ const fetch = require('node-fetch');
 const moment = require('moment-timezone');
 var fs = require('fs');
 
-// var dir = __dirname + '/../tmp/csv/';
-// if (!fs.existsSync(dir)) {
-//     fs.mkdirSync(dir, { recursive: true });
-// }
 var dir = './tmp/csv/';
 if (!fs.existsSync(dir)) {
     fs.mkdirSync(dir, { recursive: true });
@@ -26,10 +22,22 @@ if (!fs.existsSync(latest_dir)) {
 
 const PUBLISHED_SHEET_ID_1 = "2PACX-1vSz8Qs1gE_IYpzlkFkCXGcL_BqR8hZieWVi-rphN1gfrO3H4lDtVZs4kd0C3P8Y9lhsT1rhoB-Q_cP4";
 const PUBLISHED_SHEET_ID_2 = "2PACX-1vRodtoTyQwXckfuvuQllkMhGC_gruigaaizVc8I6-BZWeetYpmRyexnO75ep7rnSxFICd8c9dfpwU8I";
+const PUBLISHED_SHEET_ID_3 = "2PACX-1vR_17UovavD4X7m_pqzmXjA_kCjGxIapemdWpRhDELHR1LbLJ-EVbxjKgeQat489BFRZ9bqMf-ILe_H";
 
-const all_sheets = [
+
+
+const sheets_v1 = [
+    ["raw_data1", "0"],
+    ["death_and_recovered1", "200733542"],
+];
+
+const sheets_v2 = [
     ["raw_data2", "0"],
     ["death_and_recovered2", "200733542"],
+];
+
+const sheets_v3 = [
+    ["raw_data3", "0"],
     ["state_wise", "1896310216"],
     ["state_wise_daily", "1395461826"],
     ["sources_list", "704389477"],
@@ -39,17 +47,10 @@ const all_sheets = [
     ["travel_history", "1532084277"]
 ];
 
-const old_sheets = [
-    ["raw_data1", "0"],
-    ["death_and_recovered1", "200733542"],
-];
-
-
-(async function main() {
-    // uncomment below and run when changes in v1 sheet
-    for (var element of old_sheets) {
+async function sheet_to_csv(sheets, pub_id) {
+    for (var element of sheets) {
         console.log("Reading: " + element[0]);
-        var temp_url = "https://docs.google.com/spreadsheets/d/e/" + PUBLISHED_SHEET_ID_1 + "/pub?gid=" + element[1] + "&single=false&output=csv";
+        var temp_url = "https://docs.google.com/spreadsheets/d/e/" + pub_id + "/pub?gid=" + element[1] + "&single=false&output=csv";
         console.log(temp_url);
         url = encodeURI(temp_url);
         let settings = { method: "Get" };
@@ -66,26 +67,13 @@ const old_sheets = [
                 }
             });
     };
+}
 
-    for (var element of all_sheets) {
-        console.log("Reading: " + element[0]);
-        var temp_url = "https://docs.google.com/spreadsheets/d/e/" + PUBLISHED_SHEET_ID_2 + "/pub?gid=" + element[1] + "&single=false&output=csv";
-        console.log(temp_url);
-        url = encodeURI(temp_url);
-        let settings = { method: "Get" };
-        await fetch(url, settings).then(res => res.text())
-            .then(csv => {
-                if (csv.includes("</html>")) {
-                    console.error("probably not csv!");
-                    process.exit(1);
-                    return;
-                } else {
-                    fs.writeFileSync(today_dir + "/" + element[0] + ".csv", csv);
-                    fs.writeFileSync(latest_dir + "/" + element[0] + ".csv", csv);
-                    console.log("Write completed: " + element[0]);
-                }
-            });
-    }
+(async function main() {
+    // uncomment below and run when changes in v1 sheet
+    await sheet_to_csv(sheets_v1, PUBLISHED_SHEET_ID_1);
+    await sheet_to_csv(sheets_v2, PUBLISHED_SHEET_ID_2);
+    await sheet_to_csv(sheets_v3, PUBLISHED_SHEET_ID_3);
 
     // concat steps below
     console.log("merge both csv");
