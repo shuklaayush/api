@@ -36,7 +36,6 @@ CSV files for the same are also available through `api.covid19india.org/csv/late
 |:green_heart:| State Level : Daily changes | https://api.covid19india.org/states_daily.json  |
 |:green_heart:| State Level : Testing data | https://api.covid19india.org/state_test_data.json |
 |:green_heart:| Essentials and resources  | https://api.covid19india.org/resources/resources.json  |
-
 |:end:| Raw Data (Partition 1 + Partition 2. Frozen after Apr 26th) | https://api.covid19india.org/raw_data.json  |
 |:end:| Deaths and Recoveries (Frozen after Apr 26th) | https://api.covid19india.org/deaths_recoveries.json |
 |:end:| Travel history (No more updated)  | https://api.covid19india.org/travel_history.json  |
