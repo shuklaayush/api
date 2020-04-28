@@ -19,7 +19,7 @@ When a new report/bulletin is released from a state regarding confirmed cases :
 4. Recoveries and Deceased information is also available through raw_data3.json now. Use the "Current Status" field to extract that information.
 
 
-All other aggergate APIs retain the same behaviour. 
+All other aggregate APIs retain the same behaviour. 
 CSV files for the same are also available through `api.covid19india.org/csv/latest/raw_data{n}.csv`
 
 
