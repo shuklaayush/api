@@ -4,7 +4,7 @@ const moment = require('moment-timezone');
 // console.log(rawDistData.districts[1]);
 
 const StateDistrictWiseData = rawDistData.districts.reduce((acc, row) => {
-    if (+row.confirmed == 0) {
+    if (+row.confirmed == 0 && +row.recovered == 0 && +row.deceased == 0) {
         return acc;
     }
     let stateName = row.state;
@@ -45,13 +45,13 @@ const StateDistrictWiseData = rawDistData.districts.reduce((acc, row) => {
 let stateDistrictWiseDataV2 = Object.keys(StateDistrictWiseData).map(state => {
     let districtData = StateDistrictWiseData[state].districtData;
     return {
-      state,
-      statecode: StateDistrictWiseData[state].statecode,
-      districtData: Object.keys(districtData).map(district => {
-        return { district, ...districtData[district] };
-      })
+        state,
+        statecode: StateDistrictWiseData[state].statecode,
+        districtData: Object.keys(districtData).map(district => {
+            return { district, ...districtData[district] };
+        })
     }
-  });
+});
 var main_data = JSON.stringify(StateDistrictWiseData, null, 2);
 fs.writeFileSync('./tmp/state_district_wise.json', main_data);
 fs.writeFileSync('./tmp/v2/state_district_wise.json', JSON.stringify(stateDistrictWiseDataV2, null, 2));
