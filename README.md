@@ -2,12 +2,36 @@
 
 A volunteer-driven, crowdsourced database for COVID-19 stats & patient tracing in India
 
+## Update [27 April]
+
+Due to the growing size of the raw data, and the fact that regions like DL, MH, TG are only providing district level information, we have made a change in our data collection.
+Now, raw data is available in three parts : 
+api.covid19india.org/raw_data1.json [Data till EoD Apr 19th]
+api.covid19india.org/raw_data2.json [Data till EoD Apr 26th]
+api.covid19india.org/raw_data3.json [Live 🚀]
+
+Also, there are some structural difference in raw_data3.json : 
+When a new report/bulletin is released from a state regarding confirmed cases : 
+1. If patient level information is available (from several states like KA,KL,BH etc.), that is captured.
+2. If only districtwise information is available, one row is entered for each district, and "numcases" field mentions the number of cases in that district
+3. If only statewise information is available, one row is added added for the entire state (DL 👀)
+
+4. Recoveries and Deceased information is also available through raw_data3.json now. Use the "Current Status" field to extract that information.
+
+
+All other aggergate APIs retain the same behaviour. 
+CSV files for the same are also available through api.covid19india.org/csv/latest/raw_data{n}.json
+
+
 ### JSON
 
 |Status| Data                                                  | URL                                                   |
 |----------------------------------------------------- |----------------------------------------------------- | ----------------------------------------------------- |
-|:broken_heart:| Patient Level : Raw Data | https://api.covid19india.org/raw_data.json  |
-|:green_heart:| Patient Level : Deaths and Recoveries | https://api.covid19india.org/deaths_recoveries.json |
+|:green_heart:| Patient Level : Raw Data Partition 1 (Till Apr 19) | https://api.covid19india.org/raw_data1.json  |
+|:green_heart:| Patient Level : Raw Data Partition 2 (Till Apr 26)| https://api.covid19india.org/raw_data2.json  |
+|:green_heart:| Patient Level : Raw Data Partition 3 (Live) | https://api.covid19india.org/raw_data3.json  |
+|:end:| Raw Data (Partition 1 + Partition 2. Frozen after Apr 26th) | https://api.covid19india.org/raw_data.json  |
+|:end:| Deaths and Recoveries (Frozen after Apr 26th) | https://api.covid19india.org/deaths_recoveries.json |
 |:green_heart:| National Level :Time series, State-wise stats and Test counts | https://api.covid19india.org/data.json                |
 |:green_heart:| State Level : has district-wise info  | https://api.covid19india.org/state_district_wise.json |
 |:green_heart:| State Level : has district-wise info V2 _(minor difference in structure)_ | https://api.covid19india.org/v2/state_district_wise.json |
