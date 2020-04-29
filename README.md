@@ -6,6 +6,7 @@ A volunteer-driven, crowdsourced database for COVID-19 stats & patient tracing i
 
 Due to the growing size of the raw data, and the fact that regions like DL, MH, TG are only providing district level information, we have made a change in our data collection.
 Now, raw data is available in three parts : 
+
 `api.covid19india.org/raw_data1.json` (Data till EoD Apr 19th)<br>
 `api.covid19india.org/raw_data2.json` (Data till EoD Apr 26th)<br>
 `api.covid19india.org/raw_data3.json` (Live 🚀)<br>
