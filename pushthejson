@@ -36,7 +36,7 @@ cp README.md tmp/
 node src/sheets-to-csv.js
 node src/sheet-to-json_generic.js
 # node src/raw_data-to-state_district_wise_data.js
-# node src/generate_activity_log.js
+node src/generate_activity_log.js
 node src/states_daily_to_csv.js
 node src/district_data_generator.js
 node src/concat_data.js
