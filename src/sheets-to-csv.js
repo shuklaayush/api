@@ -41,7 +41,7 @@ const sheets_v3 = [
     ["state_wise", "1896310216"],
     ["state_wise_daily", "1395461826"],
     ["sources_list", "704389477"],
-    ["district_wise", "227379561],
+    ["district_wise", "227379561"],
     ["statewise_tested_numbers_data", "486127050"],
     ["case_time_series", "387368559"],
     ["tested_numbers_icmr_data", "2143634168"],
