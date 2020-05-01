@@ -3,7 +3,7 @@
 
 A volunteer-driven, crowdsourced database for COVID-19 stats & patient tracing in India
 
-https://github.com/covid19india/api
+[https://github.com/covid19india/api](https://github.com/covid19india/api)
 
 ## Update [27 April]
 
@@ -90,7 +90,7 @@ Sometimes, having files in a spreadsheet format is more useful for analysts and 
 
 ## How this works
 
-- This repo is merely a bridge to the main source of Data ([Google Sheets](https://docs.google.com/spreadsheets/d/e/2PACX-1vSc_2y5N0I67wDU38DjDh35IZSIS30rQf7_NYZhtYYGU1jJYT6_kDx4YpF-qw0LSlGsBYP8pqM_a1Pd/pubhtml))
+- Data in this repository is generated from Google Sheets (https://api.covid19india.org/csv)
 - Volunteers collect data from trusted sources and update the sheet
 - This repo periodically fetches relevant data from the Sheet and create/update static json/csv.
 - We use Github Actions to fetch the data periodically and auto-commit. Thank you @Github :)
