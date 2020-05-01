@@ -50,7 +50,7 @@ Sometimes, having files in a spreadsheet format is more useful for analysts and 
 
 | Data                                                  | URL                                                   |
 | ----------------------------------------------------- | ----------------------------------------------------- |
-| Google sheets in CSV                                  | https://api.covid19india.org/csv/                      |
+| Google sheets in CSV                                  | [https://api.covid19india.org/csv/](https://api.covid19india.org/csv/)                      |
 
 > :rocket: Quick example : Apply the formula `=IMPORTDATA("https://api.covid19india.org/csv/latest/state_wise.csv")` in A1 cell of a Google Sheets to get the state data for analysis :)
 
@@ -87,6 +87,7 @@ Sometimes, having files in a spreadsheet format is more useful for analysts and 
 
 - [Telegram Group](https://telegra.ph/CoVID-19--India-Ops-03-24)
 - [Patient Database](http://patientdb.covid19india.org/)
+
 
 ## How this works
 
