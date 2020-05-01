@@ -97,8 +97,8 @@ function editMessage(last_updated) {
         rel_states[state_code]["D"] = +statewise_new[element.state].deaths;
         rel_states[state_code]["Dd"] = +statewise_new[element.state].deltadeaths;
     });
-    words = fillSpace("State", n = 7) + fillSpace("Confirmed", n = 12) + fillSpace("Recovered") + fillSpace("Deceased") + "\n";
-    words += Array(38).join("=") + "\n";
+    words = fillSpace("St", n = 2) + fillSpace("Cnfrmd", n = 11) + fillSpace("Rcvrd") + fillSpace("Dcsd") + "\n";
+    words += Array(33).join("=") + "\n";
     count = 1
     for (element in rel_states) {
         c = "(" + rel_states[element].Cd + ") " + rel_states[element].C;
@@ -106,15 +106,12 @@ function editMessage(last_updated) {
         d = "(" + rel_states[element].Dd + ") " + rel_states[element].D;
 
 
-        words += fillSpace(String(count), n = 3) + fillSpace(element, n = 5) + fillSpace(c, n = 12) + fillSpace(r) + fillSpace(d) + "\n";
+        words += fillSpace(element, n = 2) + fillSpace(c, n = 11) + fillSpace(r) + fillSpace(d) + "\n";
         count++;
         // console.log(rel_states[element]);
     }
     india_total = "*Covid-19 India*\n";
     india_total += "Last updated: _" + last_updated + "_\n\n";
-    // india_total += "\nConfirmed: (↑"+data.statewise[0].deltaconfirmed+") "+data.statewise[0].confirmed;
-    // india_total += "\nRecovered: (↑"+data.statewise[0].deltarecovered+") "+data.statewise[0].recovered;
-    // india_total += "\nDeceased : (↑"+data.statewise[0].deltadeaths+") "+data.statewise[0].deaths;
 
     total = statewise_new["Total"];
     india_total += "```    Total cases: (↑" + total.deltaconfirmed + ") " + total.confirmed
@@ -125,17 +122,24 @@ function editMessage(last_updated) {
 
     words = india_total + "\n\n```\n" + words + "```";
     console.log(words);
+    // BOT_TOKEN = "";
+    // url = encodeURI("https://api.telegram.org/bot" + BOT_TOKEN + "/sendMessage?chat_id=myid&parse_mode=Markdown&text="
+    //     + words);
     // https://t.me/covid19indiaorg_updates/929
+    // snapshots channel id -1001478052719
     url = encodeURI("https://api.telegram.org/bot" + BOT_TOKEN + "/editMessageText?message_id=929&chat_id=@covid19indiaorg_updates&parse_mode=Markdown&text="
         + words);
     // console.log(url);
     let settings = { method: "Get" };
     fetch(url, settings).then(res => res.json())
         .then(json => console.log(json));
+
+    url = encodeURI("https://api.telegram.org/bot" + BOT_TOKEN + "/sendMessage?chat_id=-1001478052719&parse_mode=Markdown&text="
+        + words);
+    fetch(url, settings).then(res => res.json())
+        .then(json => console.log(json));
+
     return;
-
-
-
 }
 
 
@@ -159,8 +163,9 @@ if (full_text != "") {
     fs.writeFileSync(update_log_file, JSON.stringify(update_log, null, 2));
 
     var date = moment.unix(now);
-    formated_time = date.tz("Asia/Kolkata").format("MMMM DD, hh:mm A");
+    formated_time = date.tz("Asia/Kolkata").format("MMMM DD, hh:mm A") + " IST";
     editMessage(formated_time);
+
     // console.log(formated_time)
     var final_text = "_"
         + formated_time + "_\n\n"
@@ -179,4 +184,3 @@ if (full_text != "") {
 } else {
     console.log("No updates this time!");
 }
-
