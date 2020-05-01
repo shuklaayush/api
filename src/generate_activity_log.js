@@ -97,8 +97,8 @@ function editMessage(last_updated) {
         rel_states[state_code]["D"] = +statewise_new[element.state].deaths;
         rel_states[state_code]["Dd"] = +statewise_new[element.state].deltadeaths;
     });
-    words = fillSpace("St", n = 2) + fillSpace("Cnfrmd", n = 12) + fillSpace("Rcvrd") + fillSpace("Dcsd") + "\n";
-    words += Array(33).join("=") + "\n";
+    words = fillSpace("St", n = 2) + fillSpace("Cnfrmd", n = 13) + fillSpace("Rcvrd") + fillSpace("Dcsd") + "\n";
+    words += Array(35).join("=") + "\n";
     count = 1
     for (element in rel_states) {
         c = "(" + rel_states[element].Cd + ") " + rel_states[element].C;
@@ -106,7 +106,7 @@ function editMessage(last_updated) {
         d = "(" + rel_states[element].Dd + ") " + rel_states[element].D;
 
 
-        words += fillSpace(element, n = 2) + fillSpace(c, n = 12) + fillSpace(r) + fillSpace(d) + "\n";
+        words += fillSpace(element, n = 2) + fillSpace(c, n = 13) + fillSpace(r) + fillSpace(d) + "\n";
         count++;
         // console.log(rel_states[element]);
     }
