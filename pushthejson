@@ -3,8 +3,9 @@
 set -eu
 
 # Add a switch to pause updates from sheet
-RUN_STATUS="Pause"
+RUN_STATUS="Play"
 if [ $RUN_STATUS == "Pause" ]
+echo "Actions are paused. Check pushthejson script to enable."
 then
    exit
 fi
