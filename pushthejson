@@ -2,6 +2,13 @@
 
 set -eu
 
+# Add a switch to pause updates from sheet
+RUN_STATUS="Pause"
+if [ $RUN_STATUS == "Pause" ]
+then
+   exit
+fi
+
 repo_uri="https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
 remote_name="origin"
 main_branch="master"
