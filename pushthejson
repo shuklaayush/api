@@ -37,6 +37,7 @@ cp ./raw_data1.json ./tmp/
 cp ./deaths_recoveries1.json ./tmp/
 cp -r updatelog/ ./tmp/
 cp -r csv/ ./tmp/
+cp -r districts_daily/ ./tmp/
 
 git checkout "$main_branch"
 
@@ -50,6 +51,7 @@ node src/district_data_generator.js
 node src/concat_data.js
 node src/split_raw_data.js
 node src/snapshot_zones.js 
+node src/generate_districts_daily.js
 
 git checkout "$gh_pages_branch"
 
