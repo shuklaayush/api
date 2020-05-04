@@ -49,6 +49,7 @@ node src/states_daily_to_csv.js
 node src/district_data_generator.js
 node src/concat_data.js
 node src/split_raw_data.js
+node src/snapshot_zones.js 
 
 git checkout "$gh_pages_branch"
 
