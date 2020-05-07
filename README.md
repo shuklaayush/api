@@ -30,8 +30,8 @@ CSV files for the same are also available through `api.covid19india.org/csv/late
 | Status        | Data                                                                      | URL                                                      |
 | ------------- | ------------------------------------------------------------------------- | -------------------------------------------------------- |
 | :green_heart: | Patient Level : Raw Data Partition 1 (Till Apr 19)                        | https://api.covid19india.org/raw_data1.json              |
-| :green_heart: | Patient Level : Raw Data Partition 2 (Till Apr 26)                        | https://api.covid19india.org/raw_data2.json              |
-| :green_heart: | Patient Level : Raw Data Partition 3 (Live)                               | https://api.covid19india.org/raw_data3.json              |
+| :green_heart: | Patient Level : Raw Data Partition 2 (From Apr 20 to Apr 26)              | https://api.covid19india.org/raw_data2.json              |
+| :green_heart: | Patient Level : Raw Data Partition 3 (From Apr 27 to Now)                 | https://api.covid19india.org/raw_data3.json              |
 | :green_heart: | National Level :Time series, State-wise stats and Test counts             | https://api.covid19india.org/data.json                   |
 | :green_heart: | State Level : has district-wise info                                      | https://api.covid19india.org/state_district_wise.json    |
 | :green_heart: | State Level : has district-wise info V2 _(minor difference in structure)_ | https://api.covid19india.org/v2/state_district_wise.json |
@@ -99,14 +99,13 @@ Sometimes, having files in a spreadsheet format is more useful for analysts and 
 
 - Data in this repository is generated from Google Sheets (https://api.covid19india.org/csv)
 - Volunteers collect data from trusted sources and update the sheet
-- This repo periodically fetches relevant data from the Sheet and create/update static json/csv.
-- We use Github Actions to fetch the data periodically and auto-commit. Thank you @Github :)
+- Using Github Actions this repo periodically fetches relevant data from the Sheet and update static json and csv files
 
 ## Contributing
 
 - Contributions to new data formats are welcome. Please create a GH issue and discuss there before working on the same.
 - Please raise an issue before submitting a PR
-- Report issues with regarding [covid19india.org](https://www.covid19india.org) website in the [react-site repository](https://github.com/covid19india/covid19india-react/issues)
+- Report issues regarding [covid19india.org](https://www.covid19india.org) website in the [react-site repository](https://github.com/covid19india/covid19india-react/issues)
 - DO NOT change anything in `gh-pages` branch directly.They get replaced automatically
 
 ## Notes
