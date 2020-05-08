@@ -54,6 +54,11 @@ Sometimes, having files in a spreadsheet format is more useful for analysts and 
 
 > :rocket: Quick example : Apply the formula `=IMPORTDATA("https://api.covid19india.org/csv/latest/state_wise.csv")` in A1 cell of a Google Sheets to get the state data for analysis :)
 
+
+### Alternate API's by Contributors
+API for current cases, statewise, districtwise and historical data of India COVID-19
+- Graphql playground - https://covidstat.info/graphql [API documentation](https://github.com/COVID19-SARS-CoV-2/web-covid-api/blob/master/india_apis.md)
+
 ## Projects Using This API
 
 - [COVID-19 INDIA TRACKER](https://www.covid19india.org/) (Main Dashboard)
