@@ -2,7 +2,7 @@
 
 A volunteer-driven, crowdsourced database for COVID-19 stats & patient tracing in India
 
-[https://github.com/covid19india/api](https://github.com/covid19india/api)
+[Source Code in Github](https://github.com/covid19india/api)
 
 ## Update [27 April]
 
