@@ -4,7 +4,14 @@ const c = require("../lib/constants");
 
 (async function main() {
   console.log("Running task on start...");
-//   uncomment below if v1 sheet has updates
+  await task({
+    sheet: "12iFd_SP6BHK5TMKindlH4uXGPTF7tTkUzY_OBc_EQpc",
+    tabs: { locales: "od6" },
+    file: "/locales.json"
+  });
+
+
+  //   uncomment below if v1 sheet has updates
   await task({
     sheet: c.SHEET_v1,
     tabs: { raw_data: c.SHEET_RAW_DATA },
@@ -80,7 +87,7 @@ const c = require("../lib/constants");
 
   await task({
     sheet: c.SHEET,
-    tabs: { 
+    tabs: {
       statewise: c.SHEET_STATEWISE_TAB,
       cases_time_series: c.SHEET_CASES_TIME_SERIES_TAB,
       tested: c.SHEET_Tested_Numbers_ICMR_Data,
