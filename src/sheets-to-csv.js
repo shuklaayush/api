@@ -38,6 +38,10 @@ const sheets_v2 = [
 
 const sheets_v3 = [
     ["raw_data3", "0"],
+];
+
+const sheets_v4 = [
+    ["raw_data3", "0"],
     ["state_wise", "1896310216"],
     ["state_wise_daily", "1395461826"],
     ["sources_list", "704389477"],
@@ -75,6 +79,7 @@ async function sheet_to_csv(sheets, pub_id) {
     await sheet_to_csv(sheets_v1, PUBLISHED_SHEET_ID_1);
     await sheet_to_csv(sheets_v2, PUBLISHED_SHEET_ID_2);
     await sheet_to_csv(sheets_v3, PUBLISHED_SHEET_ID_3);
+    await sheet_to_csv(sheets_v4, PUBLISHED_SHEET_ID_4);
 
     // concat steps below
     console.log("merge both csv");

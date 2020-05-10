@@ -28,6 +28,12 @@ const c = require("../lib/constants");
     file: c.FILE_RAW_DATA_3
   });
 
+  await task({
+    sheet: c.SHEET_v4,
+    tabs: { raw_data: c.SHEET_RAW_DATA },
+    file: c.FILE_RAW_DATA_4
+  });
+
   // uncomment below if v1 sheet has updates
   await task({
     sheet: c.SHEET_v1,
@@ -40,6 +46,8 @@ const c = require("../lib/constants");
     tabs: { deaths_recoveries: c.SHEET_DEATHS_AND_RECOVERIES },
     file: c.FILE_DEATHS_RECOVERIES_2
   });
+
+  
 
 
   await task({
