@@ -4,16 +4,17 @@ A volunteer-driven, crowdsourced database for COVID-19 stats & patient tracing i
 
 [Source Code in Github](https://github.com/covid19india/api)
 
-## Update [27 April]
+## About Raw Data
 
 Due to the growing size of the raw data, and the fact that regions like DL, MH, TG are only providing district level information, we have made a change in our data collection.
 Now, raw data is available in three parts :
 
 `api.covid19india.org/raw_data1.json` (Data till EoD Apr 19th)<br>
 `api.covid19india.org/raw_data2.json` (Data till EoD Apr 26th)<br>
-`api.covid19india.org/raw_data3.json` (Live 🚀)<br>
+`api.covid19india.org/raw_data3.json` (Data till EoD May 09th)<br>
+`api.covid19india.org/raw_data4.json` (Live 🚀)<br>
 
-Also, there are some structural difference in raw_data3.json :
+Also, there are some structural difference since raw_data3.json :
 When a new report/bulletin is released from a state regarding confirmed cases :
 
 1. If patient level information is available (from several states like KA,KL,BH etc.), that is captured.
@@ -25,13 +26,17 @@ When a new report/bulletin is released from a state regarding confirmed cases :
 All other aggregate APIs retain the same behaviour.
 CSV files for the same are also available through `api.covid19india.org/csv/latest/raw_data{n}.csv`
 
+We are working on providing a singular raw_data that can be the source of truth. However, we strongly advise you to use the aggrgate information for any analysis.
+
+
 ### JSON
 
 | Status        | Data                                                                      | URL                                                      |
 | ------------- | ------------------------------------------------------------------------- | -------------------------------------------------------- |
 | :green_heart: | Patient Level : Raw Data Partition 1 (Till Apr 19)                        | https://api.covid19india.org/raw_data1.json              |
 | :green_heart: | Patient Level : Raw Data Partition 2 (From Apr 20 to Apr 26)              | https://api.covid19india.org/raw_data2.json              |
-| :green_heart: | Patient Level : Raw Data Partition 3 (From Apr 27 to Now)                 | https://api.covid19india.org/raw_data3.json              |
+| :green_heart: | Patient Level : Raw Data Partition 3 (From Apr 27 to May 09)                 | https://api.covid19india.org/raw_data3.json              |
+| :green_heart: | Patient Level : Raw Data Partition 4 (From May 10 onwards)                 | https://api.covid19india.org/raw_data3.json              |
 | :green_heart: | National Level :Time series, State-wise stats and Test counts             | https://api.covid19india.org/data.json                   |
 | :green_heart: | State Level : has district-wise info                                      | https://api.covid19india.org/state_district_wise.json    |
 | :green_heart: | State Level : has district-wise info V2 _(minor difference in structure)_ | https://api.covid19india.org/v2/state_district_wise.json |
@@ -63,7 +68,8 @@ API for current cases, statewise, districtwise and historical data of India COVI
 
 - Data in this repository is generated from Google Sheets (https://api.covid19india.org/csv)
 - Volunteers collect data from trusted sources and update the sheet
-- Using Github Actions this repo periodically fetches relevant data from the Sheet and update static json and csv files
+- We use Github Actions to fetch the data from the sheet to the repo periodically.
+- Static json and csv files into the gh-pages repository
 
 ## Contributing
 
@@ -72,9 +78,6 @@ API for current cases, statewise, districtwise and historical data of India COVI
 - Report issues regarding [covid19india.org](https://www.covid19india.org) website in the [react-site repository](https://github.com/covid19india/covid19india-react/issues)
 - DO NOT change anything in `gh-pages` branch directly.They get replaced automatically
 
-## Notes
-
-- Do not use the "Current Status" in raw_data.json as we are rarely able to map the status to the exact patient anymore. This will soon be deprecated in a future version of the API.
 
 ## Quick Links
 
