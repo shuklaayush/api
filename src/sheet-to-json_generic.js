@@ -10,6 +10,13 @@ const c = require("../lib/constants");
     file: "/locales.json"
   });
 
+  await task({
+    sheet: "12iFd_SP6BHK5TMKindlH4uXGPTF7tTkUzY_OBc_EQpc",
+    tabs: { locales_progress: "ou6ga5q" },
+    file: "/locales_progress.json"
+  });
+
+  
 
   //   uncomment below if v1 sheet has updates
   await task({
