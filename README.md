@@ -99,7 +99,7 @@ API for current cases, statewise, districtwise and historical data of India COVI
 
 **Analysis**
 
-- [State-wise key stats](https://docs.google.com/spreadsheets/d/e/2PACX-1vTkixJNsO3otK_yOz-7Ru--yNo9S3J9S6ENFIKU6rDuNwhVTAXJWuPH2mzTzBEt1vzhvzQ1Zxyy9ZAt/pubhtml) (by [@Ankan_Plotter](https://t.me/Ankan_Plotter))
+- [State-wise key stats](https://docs.google.com/spreadsheets/d/1yS8x7IrlWLdtgM6UUPm2YN8lLRmRYJKm-4Wax-8EBuI/edit?usp=sharing) (by [@Ankan_Plotter](https://t.me/Ankan_Plotter))
 - [Stats and viz in Google Data Studio](https://tinyurl.com/covid19indiadashboard) (by [@veeyeskay](https://t.me/veeyeskay))
 
 **Other Trackers/Dashboards**
