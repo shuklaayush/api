@@ -48,7 +48,7 @@ class EssentialsConverter:
 
     @property
     def rate_limit_exceeded(self):
-        return self._api and not self._api % 600
+        return self._api and not self._api % 1000
 
     def populate_cities(self, dir="./tmp/resources/", fromFile=True):
         if fromFile:
@@ -93,23 +93,23 @@ class EssentialsConverter:
             self.request_ctr
             response = self.coder.forward(city, types=lvl2, country=["in"], limit=1)
 
+            # if not response.json()["features"]:
+            #     self.request_ctr
+            #     response = self.coder.forward(city, types=lvl2, country=["in"], limit=1)
+
             if not response.json()["features"]:
                 self.request_ctr
-                response = self.coder.forward(city, types=lvl2, country=["in"], limit=1)
+                response = self.coder.forward(
+                    city, types=lvl3, country=["in"], limit=1
+                )
 
                 if not response.json()["features"]:
                     self.request_ctr
-                    response = self.coder.forward(
-                        city, types=lvl3, country=["in"], limit=1
-                    )
+                    response = self.coder.forward(city, country=["in"], limit=1)
 
                     if not response.json()["features"]:
-                        self.request_ctr
-                        response = self.coder.forward(city, country=["in"], limit=1)
-
-        if not response.json()["features"]:
-            self.failed_cities.append(city)
-            return
+                        self.failed_cities.append(city)
+                        return
 
         feat = response.json()["features"][0]
         city_center = feat["center"]
@@ -311,7 +311,7 @@ def main():
 
                 if converter.rate_limit_exceeded:
                     logger.info("API rate limit: Minute delay could be added")
-                    time.sleep(60)
+                    time.sleep(20)
 
         # Feed in processed_entries as oldData to append new batch to previously geocoded entries
         feature_collection = converter.generate_geojson(
@@ -325,7 +325,7 @@ def main():
 
             if converter.rate_limit_exceeded:
                 logger.info("API rate limit: Minute delay could be added")
-                time.sleep(60)
+                time.sleep(20)
 
         # Feed in processed_entries as oldData to append new batch to previously geocoded entries
         feature_collection = converter.generate_geojson(
@@ -333,7 +333,7 @@ def main():
         ) 
 
     except Exception as e:
-        logger.error(e)
+        logger.error('Something went wrong',e)
         sys.exit("geoResources.json couldn't compare")
 
     debug = {
