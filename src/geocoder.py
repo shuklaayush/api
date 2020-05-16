@@ -5,7 +5,7 @@ import urllib
 import time
 from random import gauss
 import logging as logger
-logger.basicConfig(level=logger.ERROR)
+logger.basicConfig(level=logger.INFO)
 
 import os
 import sys
@@ -48,9 +48,9 @@ class EssentialsConverter:
 
     @property
     def rate_limit_exceeded(self):
-        return self._api and not self._api % 1000
+        return self._api and not self._api % 600
 
-    def populate_cities(self, dir="./tmp/resources/", fromFile=True):
+    def populate_cities(self, dir="./tmp/resources/", fromFile=False):
         if fromFile:
             with open(dir + "cityData.json") as c_list:
                 data = json.load(c_list)
@@ -284,7 +284,7 @@ def main():
 
     converter = EssentialsConverter()
 
-    
+    print('Geocoding begins')
 
     """Read the recently fetched resources.json copied to tmp folder"""
     with open("./tmp/resources/resources.json") as f:
