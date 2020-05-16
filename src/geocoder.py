@@ -311,7 +311,7 @@ def main():
 
                 if converter.rate_limit_exceeded:
                     logger.info("API rate limit: Minute delay could be added")
-                    # time.sleep(60)
+                    time.sleep(60)
 
         # Feed in processed_entries as oldData to append new batch to previously geocoded entries
         feature_collection = converter.generate_geojson(
@@ -325,7 +325,7 @@ def main():
 
             if converter.rate_limit_exceeded:
                 logger.info("API rate limit: Minute delay could be added")
-                # time.sleep(60)
+                time.sleep(60)
 
         # Feed in processed_entries as oldData to append new batch to previously geocoded entries
         feature_collection = converter.generate_geojson(
