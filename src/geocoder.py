@@ -5,6 +5,7 @@ import urllib
 import time
 from random import gauss
 import logging as logger
+logger.basicConfig(level=logger.WARNING)
 
 import os
 import sys
@@ -310,13 +311,13 @@ def main():
                 converter.process_entry(entry)
 
                 if converter.rate_limit_exceeded:
-                    logger.info("API rate limit: Minute delay")
-                    time.sleep(60)
+                    logger.info("API rate limit: Minute delay could be added")
+                    # time.sleep(60)
 
         # Feed in processed_entries as oldData to append new batch to previously geocoded entries
         feature_collection = converter.generate_geojson(
             oldData=old_entries
-        )  # oldData=old_entries
+        )
 
     except FileNotFoundError:
         logger.warning("Prefetched file not found. All entries will be geocoded.")
@@ -324,13 +325,13 @@ def main():
             converter.process_entry(entry)
 
             if converter.rate_limit_exceeded:
-                logger.info("API rate limit: Minute delay")
-                time.sleep(60)
+                logger.info("API rate limit: Minute delay could be added")
+                # time.sleep(60)
 
         # Feed in processed_entries as oldData to append new batch to previously geocoded entries
         feature_collection = converter.generate_geojson(
             oldData=None
-        )  # oldData=old_entries
+        ) 
 
     except Exception as e:
         logger.error(e)
@@ -352,3 +353,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
