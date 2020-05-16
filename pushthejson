@@ -42,11 +42,16 @@ cp -r ./resources ./tmp
 
 git checkout "$main_branch"
 
-cp README.md tmp/
-node src/sheets-to-csv.js
+
 node src/sheet-to-json_generic.js
 # node src/raw_data-to-state_district_wise_data.js
-node src/generate_activity_log.js
+
+pip3 install -r requirements.txt
+python3 src/geocoder.py
+
+cp README.md tmp/
+node src/sheets-to-csv.js
+
 node src/states_daily_to_csv.js
 node src/district_data_generator.js
 node src/concat_data.js
@@ -57,8 +62,8 @@ node src/generate_locale.js
 
 node src/sanity_check.js
 
-pip3 install -r requirements.txt
-python3 src/geocoder.py
+# If everything okay, push logs
+node src/generate_activity_log.js
 
 git checkout "$gh_pages_branch"
 

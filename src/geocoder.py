@@ -5,7 +5,7 @@ import urllib
 import time
 from random import gauss
 import logging as logger
-logger.basicConfig(level=logger.WARNING)
+logger.basicConfig(level=logger.ERROR)
 
 import os
 import sys
@@ -40,15 +40,15 @@ class EssentialsConverter:
         self.failed_ids = []
         self.failed_cities = []
         self.gaussian = []
-        self.__api = 0
+        self._api = 0
 
     @property
     def request_ctr(self):
-        self.__api += 1
+        self._api += 1
 
     @property
     def rate_limit_exceeded(self):
-        return self.__api and not self.__api % 600
+        return self._api and not self._api % 600
 
     def populate_cities(self, dir="./tmp/resources/", fromFile=True):
         if fromFile:
@@ -121,7 +121,7 @@ class EssentialsConverter:
 
         self.cityDict[city] = {"bbox": city_bbox, "center": city_center}
 
-        print(f"Boundaries for {city} has been added successfully")
+        logger.info(f"Boundaries for {city} has been added successfully")
 
     @staticmethod
     def get_icon(category):
@@ -200,7 +200,7 @@ class EssentialsConverter:
             else:
                 query = state
                 state = " ".join(["PAN", state])
-                print("Pan entry saved as ", state)
+                logger.info("Pan entry saved as ", state)
 
         # Skipped entries
 
@@ -275,7 +275,7 @@ class EssentialsConverter:
     def process_entry(self, entry):
         self.check_city(entry)  # Generates city data if its not been done yet.
         self.make_feature(entry)
-        print(f'Processed #{entry["recordid"]}')
+        logger.info(f'Processed #{entry["recordid"]}')
 
 
 def main():
@@ -306,7 +306,6 @@ def main():
         
         for idx, entry in enumerate(entries):
             if int(entry["recordid"]) not in processed_i:
-                print(entry["recordid"])
                 # convert only the missing entries
                 converter.process_entry(entry)
 
@@ -350,6 +349,7 @@ def main():
     save_data(debug, "debug")
     save_data(city_data, "cityData")
 
+    print(f'{converter._api} records processed')
 
 if __name__ == "__main__":
     main()
