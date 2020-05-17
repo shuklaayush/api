@@ -5,7 +5,7 @@ import urllib
 import time
 from random import gauss
 import logging as logger
-logger.basicConfig(level=logger.INFO)
+logger.basicConfig(level=logger.ERROR)
 
 import os
 import sys
@@ -197,6 +197,16 @@ class EssentialsConverter:
         city = " ".join((entry["city"], entry["state"]))
         query = ", ".join((entry["nameoftheorganisation"], entry["city"]))
 
+        if "http://www.google.com/maps/place/" in contact:
+            geom = self.scrape_url(contact)
+            self.request_ctr
+            reverse = self.coder.reverse(geom["coordinates"][0], geom["coordinates"][1])
+            target = reverse.geojson()
+
+            if target["features"]:
+                q_name = target["features"][0]["text"]
+                q_addr = target["features"][0]["place_name"]
+
         if "PAN" in city:
             if "India" in city:
                 query = "India"
@@ -212,16 +222,6 @@ class EssentialsConverter:
             self.failed.append(entry)
             self.failed_ids.append(i)
             return
-
-        if "http://www.google.com/maps/place/" in contact:
-            geom = self.scrape_url(contact)
-            self.request_ctr
-            reverse = self.coder.reverse(geom["coordinates"][0], geom["coordinates"][1])
-            target = reverse.geojson()
-
-            if target["features"]:
-                q_name = target["features"][0]["text"]
-                q_addr = target["features"][0]["place_name"]
 
         c_bbox = self.cityDict[city]["bbox"]
         c_center = self.cityDict[city]["center"]
