@@ -46,7 +46,7 @@ git checkout "$main_branch"
 node src/sheet-to-json_generic.js
 # node src/raw_data-to-state_district_wise_data.js
 
-pip3 install -r requirements.txt
+pip3 install --quiet -r requirements.txt
 python3 src/geocoder.py
 
 cp README.md tmp/
