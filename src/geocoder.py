@@ -51,22 +51,18 @@ class EssentialsConverter:
         return self._api and not self._api % 600
 
     def populate_cities(self, dir="./tmp/resources/", fromFile=False):
-        try:
-            if fromFile:
-                try: 
-                    with open(dir + "cityData.json") as c_list:
-                        data = json.load(c_list)
-                except FileNotFoundError:
-                    logger.error('Wanted to access cityData, but not found')
-                    pass
+        if fromFile:
+            try: 
+                with open(dir + "cityData.json") as c_list:
+                    data = json.load(c_list)
+            except FileNotFoundError:
+                logger.error('Wanted to access cityData, but not found')
+                pass
 
-                self.cityDict = data["cityboundaries"]
-                self.cityList = data["cities"]
-        except FileNotFoundError:
-            logger.error('CityData not found.Will pass')
-        
-        else:  # read in city list and city dicts from other sources like the google sheet
-            pass
+            self.cityDict = data["cityboundaries"]
+            self.cityList = data["cities"]
+    else:  # read in city list and city dicts from other sources like the google sheet
+        pass
 
     def generate_geojson(self, oldData=None):
         update = []
