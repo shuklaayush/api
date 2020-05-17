@@ -34,7 +34,7 @@ jobs:
 
       - name: push
         run: |
-          bash ./pushthejson
+          bash ./main.sh
           echo "the job completed"
         env:
           GITHUB_TOKEN: ${{ secrets.github_token }}
