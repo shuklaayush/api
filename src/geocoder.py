@@ -30,9 +30,10 @@ def save_data(save_this, fname="output"):
 
 class EssentialsConverter:
     def __init__(self):
-        # Public API. So commiting with code.
+        # Public API. So commiting with code. No big secret here.
 
-        self.access_token = "pk.eyJ1IjoiYXNobWFwNGdkIiwiYSI6ImNrOXBjb2k2dDA5YW4zb24xb3A2cWs5YXYifQ.3qtCEWPKAOEftYEEUDfDSQ"
+#         self.access_token = "pk.eyJ1IjoiYXNobWFwNGdkIiwiYSI6ImNrOXBjb2k2dDA5YW4zb24xb3A2cWs5YXYifQ.3qtCEWPKAOEftYEEUDfDSQ"
+        self.access_token = "pk.eyJ1IjoiYXNocm9uYXZvbmEiLCJhIjoiY2thYjRtY2hmMDkyeDJ0bzg0cHF5dTh5diJ9.10oEwG3nFpYrhYy-LufSuA"
         self.coder = Geocoder(access_token=self.access_token)
         self.cityDict = {}
         self.cityList = []
