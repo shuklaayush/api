@@ -1,3 +1,4 @@
+
 from mapbox import Geocoder
 
 import json
@@ -173,6 +174,8 @@ class EssentialsConverter:
         return geom
 
     def make_feature(self, entry):
+        url_format = "http://www.google.com/maps/place/"
+
         # Parse entry data
         i = entry["recordid"]
         name = entry["nameoftheorganisation"]
@@ -197,25 +200,21 @@ class EssentialsConverter:
         city = " ".join((entry["city"], entry["state"]))
         query = ", ".join((entry["nameoftheorganisation"], entry["city"]))
 
-        if "http://www.google.com/maps/place/" in contact:
-            geom = self.scrape_url(contact)
-            self.request_ctr
-            reverse = self.coder.reverse(geom["coordinates"][0], geom["coordinates"][1])
-            target = reverse.geojson()
+        maps = False
+        if url_format in contact:
+            maps = True
 
-            if target["features"]:
-                q_name = target["features"][0]["text"]
-                q_addr = target["features"][0]["place_name"]
 
         if "PAN" in city:
             if "India" in city:
                 query = "India"
                 state = "PAN India"
             else:
-                query = state
+                query = entry["city"]
                 state = " ".join(["PAN", state])
                 logger.info("Pan entry saved as ", state)
 
+        
         # Skipped entries
 
         if city not in self.cityDict:
@@ -226,32 +225,46 @@ class EssentialsConverter:
         c_bbox = self.cityDict[city]["bbox"]
         c_center = self.cityDict[city]["center"]
 
-        self.request_ctr
-        if c_bbox != []:
-            resp = self.coder.forward(query, country=["in"], bbox=c_bbox, limit=1)
-        else:
-            resp = self.coder.forward(query, country=["in"], limit=1)
 
-        target = resp.geojson()
-
-        # Get data
-        if target["features"]:  # condition -> non empty response
-            geom = target["features"][0]["geometry"]
-            q_name = target["features"][0]["text"]
-            q_addr = target["features"][0]["place_name"]
-        else:  # else -> empty response - use big brain trickery
-            self.gaussian.append(i)
-            if c_bbox:
-                sd = min(abs(c_bbox[0] - c_bbox[2]) / 8, abs(c_bbox[1] - c_bbox[3]) / 8)
+        if not maps:
+            if c_bbox != []:
+                self.request_ctr
+                resp = self.coder.forward(query, country=["in"], bbox=c_bbox, limit=1)
             else:
-                sd = c_center[0] * 0.0004
+                self.request_ctr
+                resp = self.coder.forward(query, country=["in"], limit=1)
 
-            lng = gauss(c_center[0], sd)
-            lat = gauss(c_center[1], sd)
+            target = resp.geojson()
 
-            geom = {"type": "Point", "coordinates": [lng, lat]}
-            q_addr = city
-            q_name = ""
+            # Get data
+            if target["features"]:  # condition -> non empty response
+                geom = target["features"][0]["geometry"]
+                q_name = target["features"][0]["text"]
+                q_addr = target["features"][0]["place_name"]
+            else:  # else -> empty response - use big brain trickery
+                self.gaussian.append(i)
+                if c_bbox:
+                    sd = min(abs(c_bbox[0] - c_bbox[2]) / 8, abs(c_bbox[1] - c_bbox[3]) / 8)
+                else:
+                    sd = c_center[0] * 0.0004
+
+                lng = gauss(c_center[0], sd)
+                lat = gauss(c_center[1], sd)
+
+                geom = {"type": "Point", "coordinates": [lng, lat]}
+                q_addr = city
+                q_name = ""
+        
+            
+        if url_format in contact:
+            geom = self.scrape_url(contact)
+            self.request_ctr
+            reverse = self.coder.reverse(geom["coordinates"][0], geom["coordinates"][1])
+            target = reverse.geojson()
+
+            if target["features"]:
+                q_name = target["features"][0]["text"]
+                q_addr = target["features"][0]["place_name"]
 
         if "PAN" in city:
             if "India" in city:
@@ -326,7 +339,7 @@ def main():
         logger.warning("Prefetched file not found. All entries will be geocoded.")
         for idx, entry in enumerate(entries):
             converter.process_entry(entry)
-
+            
             if converter.rate_limit_exceeded:
                 logger.info("API rate limit: Minute delay could be added")
                 time.sleep(20)
@@ -337,7 +350,7 @@ def main():
         ) 
 
     except Exception as e:
-        logger.error('Something went wrong',e)
+        logger.error('Something went wrong ',e)
         sys.exit("geoResources.json couldn't compare")
 
     debug = {
@@ -353,8 +366,7 @@ def main():
     save_data(debug, "debug")
     save_data(city_data, "cityData")
 
-    print(f'{converter._api} records were processed. {converter._api} api calls were made')
+    print(f'{len(converter.processedBatch)} records were processed.\n{converter._api} api calls were made')
 
 if __name__ == "__main__":
     main()
-
