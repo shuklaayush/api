@@ -61,8 +61,9 @@ class EssentialsConverter:
 
             self.cityDict = data["cityboundaries"]
             self.cityList = data["cities"]
-    else:  # read in city list and city dicts from other sources like the google sheet
-        pass
+        else:  # read in city list and city dicts from other sources like the google sheet
+            logger.warning('CityData file not used')
+            pass
 
     def generate_geojson(self, oldData=None):
         update = []
