@@ -1,3 +1,5 @@
+console.log("Ultimate parser start")
+
 const {STATE_CODES_ARRAY, STATE_CODES_REVERSE} = require('../lib/constants');
 
 const fs = require('fs');
@@ -206,3 +208,5 @@ const new_data = ultimateParser(
 
 fs.writeFileSync('./tmp/v2/data.json', JSON.stringify(new_data, null, 2));
 fs.writeFileSync('./tmp/v2/data.min.json', JSON.stringify(new_data, null, 0));
+
+console.log("Ultimate parser end")
