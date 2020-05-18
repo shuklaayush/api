@@ -1,4 +1,3 @@
-
 from mapbox import Geocoder
 
 import json
@@ -52,17 +51,24 @@ class EssentialsConverter:
     def rate_limit_exceeded(self):
         return self._api and not self._api % 600
 
-    def populate_cities(self, dir="./tmp/resources/", fromFile=False):
+    def populate(self, dir="./tmp/resources/", fromFile=False):
         if fromFile:
             try: 
                 with open(dir + "cityData.json") as c_list:
                     data = json.load(c_list)
+                with open(dir + "debug.json") as d_file:
+                    debug = json.load(d_file)
             except FileNotFoundError:
-                logger.error('Wanted to access cityData, but not found')
+                logger.error('Wanted to access cityData and debug, but not found')
                 pass
 
             self.cityDict = data["cityboundaries"]
             self.cityList = data["cities"]
+
+            self.gaussian = debug["gaussian"]
+            self.failed_cities = debug["failed_cities"]
+            self.failed_ids = debug["failed_ids"]
+            self.failed = debug["failed_entries"]
         else:  # read in city list and city dicts from other sources like the google sheet
             logger.warning('CityData file not used')
             pass
@@ -320,7 +326,7 @@ def main():
             processed_i.append(int(feature["properties"]["recordid"]))
 
         # Load saved city boundaries
-        converter.populate_cities(fromFile=True)
+        converter.populate(fromFile=True)
         
         for idx, entry in enumerate(entries):
             if int(entry["recordid"]) not in processed_i:
