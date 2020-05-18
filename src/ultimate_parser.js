@@ -26,7 +26,7 @@ const ultimateParser = (
       } catch (error) {}
       if (timestamp) {
         draftICMR[timestamp] = {
-          samples: testObj.totalsamplestested,
+          samples: +testObj.totalsamplestested,
           source: testObj.source,
         };
       }
@@ -46,7 +46,7 @@ const ultimateParser = (
               'yyyy-MM-dd'
             )
           ] = {
-            samples: testObj.totaltested,
+            samples: +testObj.totaltested,
             source: testObj.source1,
           };
         }
@@ -74,7 +74,7 @@ const ultimateParser = (
               draftDate[date] || {tested: testedDict},
               (draftType) => {
                 draftType[dailyObj.status.toLowerCase()] =
-                  dailyObj[state.code.toLowerCase()];
+                  +dailyObj[state.code.toLowerCase()];
               }
             );
           }
@@ -96,9 +96,9 @@ const ultimateParser = (
       } catch (error) {}
       draftState[state.statecode] = {
         total: {
-          confirmed: state.confirmed,
-          recovered: state.recovered,
-          deceased: state.deaths,
+          confirmed: +state.confirmed,
+          recovered: +state.recovered,
+          deceased: +state.deaths,
           tested: produce(latestTestObj || null, (draftTestObj) => {
             if (draftTestObj) {
               draftTestObj['last_updated'] = Object.keys(
@@ -108,9 +108,9 @@ const ultimateParser = (
           }),
         },
         delta: {
-          confirmed: state.deltaconfirmed,
-          recovered: state.deltarecovered,
-          deceased: state.deltadeaths,
+          confirmed: +state.deltaconfirmed,
+          recovered: +state.deltarecovered,
+          deceased: +state.deltadeaths,
         },
         timeseries: timeseries[state.statecode],
         notes: state.statenotes,
@@ -146,29 +146,29 @@ const ultimateParser = (
             draftDistricts['districts'][zone.district] = {
               delta: {
                 confirmed:
-                  stateDistrictWiseResponse[zone.state].districtData[
+                  +stateDistrictWiseResponse[zone.state].districtData[
                     zone.district
                   ].delta.confirmed,
                 recovered:
-                  stateDistrictWiseResponse[zone.state].districtData[
+                  +stateDistrictWiseResponse[zone.state].districtData[
                     zone.district
                   ].delta.recovered,
                 deceased:
-                  stateDistrictWiseResponse[zone.state].districtData[
+                  +stateDistrictWiseResponse[zone.state].districtData[
                     zone.district
                   ].delta.deceased,
               },
               total: {
                 confirmed:
-                  stateDistrictWiseResponse[zone.state].districtData[
+                  +stateDistrictWiseResponse[zone.state].districtData[
                     zone.district
                   ].confirmed,
                 recovered:
-                  stateDistrictWiseResponse[zone.state].districtData[
+                  +stateDistrictWiseResponse[zone.state].districtData[
                     zone.district
                   ].recovered,
                 deceased:
-                  stateDistrictWiseResponse[zone.state].districtData[
+                  +stateDistrictWiseResponse[zone.state].districtData[
                     zone.district
                   ].deceased,
               },
