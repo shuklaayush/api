@@ -102,6 +102,9 @@ API for current cases, statewise, districtwise and historical data of India COVI
 - [Data Analysis : India - District & State](https://docs.google.com/spreadsheets/d/1yS8x7IrlWLdtgM6UUPm2YN8lLRmRYJKm-4Wax-8EBuI/edit?usp=sharing) (by [@Ankan_Plotter](https://t.me/Ankan_Plotter))
 - [Stats and viz in Google Data Studio](https://tinyurl.com/covid19indiadashboard) (by [@veeyeskay](https://t.me/veeyeskay))
 
+**Mobile App [Android]**
+- [Covid-19 Tracker For Android](http://covidapp.in) (by Prabhakar Thota [@myinnos](https://github.com/myinnos))
+
 **Other Trackers/Dashboards**
 
 - [Tracker](https://covidstat.info/) (by [@skavinvarnan ](https://github.com/skavinvarnan))
