@@ -120,6 +120,9 @@ API for current cases, statewise, districtwise and historical data of India COVI
 - [COVID19-Tracker App, UP Highlight](https://www.covid19-tracker.in/) (by [@Deepak0404](https://github.com/Deepak0404))
 - [Covid-19 India Flutter App](https://github.com/curioustechizen/covid19india-flutter) (by [@curioustechizen](https://github.com/curioustechizen))
 
+**Reddit Bots**
+
+- [COVID-19 Reddit BOT](https://github.com/parshnt/covid-19-bot) (by [@parshnt](https://github.com/parshnt))
 
 **Telegram Bots**
 
