@@ -172,21 +172,23 @@ if (full_text != "") {
         + formated_time + "_\n\n"
         + tg_full_text
         + "\n\n*www.covid19india.org*";
-
     // console.log(final_text);
 
     let settings = { method: "Get" };
     url = encodeURI("https://api.telegram.org/bot" + BOT_TOKEN + "/sendmessage?" +
         "disable_web_page_preview=true&parse_mode=Markdown&chat_id=-1001449683810&text=" + final_text);
     fetch(url, settings).then(res => res.json())
-        .then(json => console.log(json));
-
-    // Send a copy to data ops group 
-    url = encodeURI("https://api.telegram.org/bot" + STUCK_BOT_TOKEN + "/sendmessage?" +
-        "disable_web_page_preview=true&parse_mode=Markdown&chat_id=-1001248471072&text=" + final_text);
-    fetch(url, settings).then(res => res.json())
-        .then(json => console.log(json));
-
+        .then(json => {
+            console.log(json);
+            // Forward a copy to data ops group 
+            message_id = json.result.message_id;
+            from_chat_id = json.result.chat.id;
+            chat_id = "=-1001248471072"  // Data Ops group ID
+            url = encodeURI("https://api.telegram.org/bot" + STUCK_BOT_TOKEN + "/forwardMessage?" +
+                "chat_id=" + chat_id + "&from_chat_id=" + from_chat_id + "&message_id=" + message_id);
+            fetch(url, settings).then(res => res.json())
+                .then(json => console.log(json));
+        });
 } else {
     console.log("No updates this time!");
 }
