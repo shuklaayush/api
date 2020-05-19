@@ -183,7 +183,7 @@ if (full_text != "") {
             // Forward a copy to data ops group 
             message_id = json.result.message_id;
             from_chat_id = json.result.chat.id;
-            chat_id = "=-1001248471072"  // Data Ops group ID
+            chat_id = "-1001248471072"  // Data Ops group ID
             url = encodeURI("https://api.telegram.org/bot" + STUCK_BOT_TOKEN + "/forwardMessage?" +
                 "chat_id=" + chat_id + "&from_chat_id=" + from_chat_id + "&message_id=" + message_id);
             fetch(url, settings).then(res => res.json())
