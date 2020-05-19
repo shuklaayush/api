@@ -5,7 +5,7 @@ import urllib
 import time
 from random import gauss
 import logging as logger
-logger.basicConfig(level=logger.INFO)
+logger.basicConfig(level=logger.ERROR)
 
 import os
 import sys
