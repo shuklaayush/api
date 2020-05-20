@@ -121,6 +121,7 @@ API for current cases, statewise, districtwise and historical data of India COVI
 - [COVID19 Tracker/Predictor](https://track-covid-19ind.herokuapp.com/) (by [@manoj](https://github.com/ManojNallusamy))
 - [Covid19-Tracker-App](https://harshitchauhan.github.io/Covid19-Tracker-App/) (by [@HarshitChauhan](https://github.com/HarshitChauhan))
 - [COVID-19 Tracker App](https://corona-india.live/) (by [@sandeshchoudhary](https://github.com/sandeshchoudhary))
+- [COVID-19 India Tracker](https://covid19indiaa.000webhostapp.com) (by [@Samirrana](https://github.com/samirrana1011))
 - [Corona Virus Tracker](https://virtuosars.github.io/CovidLive) (by [@VirtuosArs](https://github.com/VirtuosArs))
 - [COVID-19 Dashboard India|World](https://nkjcovid19.herokuapp.com/india) (by [@nithinkjoy-tech](https://github.com/nithinkjoy-tech))
 - [Covid19Bihar Tracker](https://covid19bihar.github.io/) (by [@arrbxr](https://github.com/arrbxr))
