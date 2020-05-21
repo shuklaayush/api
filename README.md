@@ -94,7 +94,7 @@ API for current cases, statewise, districtwise and historical data of India COVI
 - [covid19india.org Ops Telegram Channel](https://t.me/covid19indiaorg) (News and Announcements from covid19india.org Team)
 - [Telegram instant Updates](https://t.me/covid19indiaorg_updates) (Instant Updates from covid19india.org Team)
 
-### _Some other categories of projects using this API:_
+### Some other categories of projects using this API:
 
 - [Analysis](projects/analysis.md)
 
