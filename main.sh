@@ -66,7 +66,7 @@ node src/ultimate_parser.js
 node src/sanity_check.js
 
 # If everything okay, push logs
-node src/generate_activity_log.js
+#node src/generate_activity_log.js
 
 git checkout "$gh_pages_branch"
 
