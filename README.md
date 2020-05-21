@@ -151,6 +151,9 @@ API for current cases, statewise, districtwise and historical data of India COVI
 - [INDIA COVID-19 Google Map TRACKER](https://goo.gl/maps/U32Ex1gWQxmc6Aot8)
 - [Covid19WorldStats](https://github.com/ravindraten/Covid19WorldStats) (by [@RavindraNayak](https://github.com/ravindraten))
 
+**Discord Bots**
+- [Indian Bot | भारतीय स्वायत्तसेवा](https://discord.com/oauth2/authorize?scope=bot&client_id=583897295267954697&permissions=1342565446) (by [gouenji-shuuya](https://github.com/gouenji-shuuya))
+
 
 **Chrome/Firefox Extensions**
 - [Covid-19 Tracker](https://coronatrends.live) (by [@akanshgulati ](https://github.com/akanshgulati))
