@@ -361,9 +361,9 @@ def main():
         sys.exit("geoResources.json couldn't compare")
 
     debug = {
-        "gaussian": converter.gaussian,
-        "failed_cities": list(set(converter.failed_cities)),
-        "failed_ids": list(set(converter.failed_ids)),
+        "gaussian": sorted(list(set(converter.gaussian))),
+        "failed_cities": sorted(list(set(converter.failed_cities))),
+        "failed_ids": sorted(list(set(converter.failed_ids))),
         "failed_entries": converter.failed,
     }
 
