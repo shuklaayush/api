@@ -50,6 +50,8 @@ node src/sheet-to-json_generic.js
 # python3 src/geocoder.py
 
 cp README.md tmp/
+cp -r projects/ tmp/
+
 node src/sheets-to-csv.js
 
 node src/states_daily_to_csv.js
