@@ -362,8 +362,8 @@ def main():
 
     debug = {
         "gaussian": converter.gaussian,
-        "failed_cities": converter.failed_cities,
-        "failed_ids": converter.failed_ids,
+        "failed_cities": list(set(converter.failed_cities)),
+        "failed_ids": list(set(converter.failed_ids)),
         "failed_entries": converter.failed,
     }
 
