@@ -105,6 +105,10 @@ API for current cases, statewise, districtwise and historical data of India COVI
 
 **Mobile App [Android]**
 - [Covid-19 Tracker For Android](http://covidapp.in) (by Prabhakar Thota [@myinnos](https://github.com/myinnos))
+- [NCovid19 for Android](http://covid.softycom.in) (by Rohan Mahindrakar [@rohan12](https://github.com/ROHAN12))
+
+**Windows 10 App**
+- [NCovid19 for Windows 10](https://www.microsoft.com/store/apps/9N4KZMGF4JRS) (by Rohan Mahindrakar [@rohan12](https://github.com/ROHAN12))
 
 **Other Trackers/Dashboards**
 
@@ -129,6 +133,7 @@ API for current cases, statewise, districtwise and historical data of India COVI
 - [Covid-19 India Flutter App](https://github.com/curioustechizen/covid19india-flutter) (by [@curioustechizen](https://github.com/curioustechizen))
 - [COVID-19 INDIA LOCATION BASED TRACKER](https://covid2.in) (District Screen)
 - [COVID-19 Tracker (Flutter App)](https://github.com/prateekKrOraon/covid19_tracker) (by [@prateekKrOraon](https://github.com/prateekKrOraon))
+- [NCovid19](http://covid.softycom.in) (by Rohan Mahindrakar [@rohan12](https://github.com/ROHAN12))
 
 **Twitter Bot**
 
