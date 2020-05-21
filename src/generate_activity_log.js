@@ -77,8 +77,13 @@ data_prev.statewise.forEach(element => {
 });
 function fillSpace(str, n = 11) {
     // console.log(str.length);
-    empt = Array(n - str.length).join(' ')
-    return empt + str;
+	try{
+		empt = Array(n - str.length).join(' ')
+	}catch(error){
+		console.log("Length of array issue: n: " + n + " str: " + str);
+		throw new Error('Instant updates formatting error');
+	}
+	return empt + str;
 }
 
 
