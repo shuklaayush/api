@@ -75,7 +75,7 @@ data_prev.statewise.forEach(element => {
 
     }
 });
-function fillSpace(str, width = 11) {
+function fillSpace(str, width) {
     empt = Array(width - str.length).join(' ')
     return empt + str;
 }
@@ -101,11 +101,13 @@ function editMessage(last_updated) {
         rel_states[state_code]["D"] = +statewise_new[element.state].deaths;
         rel_states[state_code]["Dd"] = +statewise_new[element.state].deltadeaths;
     });
-    words = fillSpace("St", width = width_state) +
-        fillSpace("Cnfrmd", width = width_confirmed) +
-        fillSpace("Rcvrd", width = width_recovered) +
-        fillSpace("Dcsd", width = width_deceased) + "\n";
-    words += Array(35).join("=") + "\n";
+    words = fillSpace("St", width_state) +
+        fillSpace("Cnfrmd", width_confirmed) +
+        fillSpace("Rcvrd",  width_recovered) +
+        fillSpace("Dcsd", width_deceased) + "\n";
+    
+    const length_of_line = width_state+width_confirmed+width_recovered+width_deceased;
+    words += Array(length_of_line).join("-") + "\n";
     count = 1
     for (element in rel_states) {
         c = "(" + rel_states[element].Cd + ") " + rel_states[element].C;
@@ -113,10 +115,10 @@ function editMessage(last_updated) {
         d = "(" + rel_states[element].Dd + ") " + rel_states[element].D;
 
 
-        words += fillSpace(element, width = width_state) +
-            fillSpace(c, width = width_confirmed) +
-            fillSpace(r, width = width_recovered) +
-            fillSpace(d, width = width_deceased) + "\n";
+        words += fillSpace(element, width_state) +
+            fillSpace(c, width_confirmed) +
+            fillSpace(r, width_recovered) +
+            fillSpace(d, width_deceased) + "\n";
         count++;
         // console.log(rel_states[element]);
     }
