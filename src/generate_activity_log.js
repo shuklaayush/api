@@ -75,17 +75,16 @@ data_prev.statewise.forEach(element => {
 
     }
 });
-function fillSpace(str, n = 11) {
-    // console.log(str.length);
-	if((n - str.length)	< 0){
-		console.log("Formatting error!!! n = " + n + " str = " + str);
-	}
-	
-	empt = Array(n - str.length).join(' ')
-	return empt + str;
+function fillSpace(str, width = 11) {
+    empt = Array(width - str.length).join(' ')
+    return empt + str;
 }
 
 
+const width_state = 2;
+const width_confirmed = 13;
+const width_recovered = 12;
+const width_deceased = 12;
 
 function editMessage(last_updated) {
 
@@ -102,7 +101,10 @@ function editMessage(last_updated) {
         rel_states[state_code]["D"] = +statewise_new[element.state].deaths;
         rel_states[state_code]["Dd"] = +statewise_new[element.state].deltadeaths;
     });
-    words = fillSpace("St", n = 2) + fillSpace("Cnfrmd", n = 13) + fillSpace("Rcvrd") + fillSpace("Dcsd") + "\n";
+    words = fillSpace("St", width = width_state) +
+        fillSpace("Cnfrmd", width = width_confirmed) +
+        fillSpace("Rcvrd", width = width_recovered) +
+        fillSpace("Dcsd", width = width_deceased) + "\n";
     words += Array(35).join("=") + "\n";
     count = 1
     for (element in rel_states) {
@@ -111,7 +113,10 @@ function editMessage(last_updated) {
         d = "(" + rel_states[element].Dd + ") " + rel_states[element].D;
 
 
-        words += fillSpace(element, n = 2) + fillSpace(c, n = 13) + fillSpace(r) + fillSpace(d) + "\n";
+        words += fillSpace(element, width = width_state) +
+            fillSpace(c, width = width_confirmed) +
+            fillSpace(r, width = width_recovered) +
+            fillSpace(d, width = width_deceased) + "\n";
         count++;
         // console.log(rel_states[element]);
     }
@@ -125,7 +130,7 @@ function editMessage(last_updated) {
 
     // console.log(india_total);
 
-    words = india_total + "\n\n```\n" + words + "```";
+    words = india_total + "\n\n```\n" + words + "```\n\n*www.covid19india.org*";
     // console.log(words);
     // BOT_TOKEN = "";
     // url = encodeURI("https://api.telegram.org/bot" + BOT_TOKEN + "/sendMessage?chat_id=myid&parse_mode=Markdown&text="
@@ -156,8 +161,6 @@ if (full_text != "") {
         + "\n" + " Recovered  : (↑" + total.deltarecovered + ") " + total.recovered
         + "\n" + " Deaths     : (↑" + total.deltadeaths + ") " + total.deaths + "```";
 
-    state_wise_text = "State code   "
-
     const now = moment().unix()
     entry = {};
     entry.update = full_text;
@@ -185,13 +188,13 @@ if (full_text != "") {
         .then(json => {
             console.log(json);
             // Forward a copy to data ops group 
-            message_id = json.result.message_id;
-            from_chat_id = json.result.chat.id;
-            chat_id = "-1001248471072"  // Data Ops group ID
-            url = encodeURI("https://api.telegram.org/bot" + STUCK_BOT_TOKEN + "/forwardMessage?" +
-                "chat_id=" + chat_id + "&from_chat_id=" + from_chat_id + "&message_id=" + message_id);
-            fetch(url, settings).then(res => res.json())
-                .then(json => console.log(json));
+            // message_id = json.result.message_id;
+            // from_chat_id = json.result.chat.id;
+            // chat_id = "-1001248471072"  // Data Ops group ID
+            // url = encodeURI("https://api.telegram.org/bot" + STUCK_BOT_TOKEN + "/forwardMessage?" +
+            //     "chat_id=" + chat_id + "&from_chat_id=" + from_chat_id + "&message_id=" + message_id);
+            // fetch(url, settings).then(res => res.json())
+            //     .then(json => console.log(json));
         });
 } else {
     console.log("No updates this time!");
