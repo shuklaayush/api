@@ -85,7 +85,7 @@ API for current cases, statewise, districtwise and historical data of India COVI
 - [Patient Database](http://patientdb.covid19india.org/)
 
 
-----
+-----
 
 
 ## Projects Using This API
