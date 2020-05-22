@@ -53,9 +53,14 @@ const c = require("../lib/constants");
     tabs: { deaths_recoveries: c.SHEET_DEATHS_AND_RECOVERIES },
     file: c.FILE_DEATHS_RECOVERIES_2
   });
-
   
-
+  await task({
+    sheet: c.SHEET,
+    tabs: {
+      state_meta_data: c.SHEET_STATES_META_DATA
+    },
+    file: c.FILE_MISC
+  });
 
   await task({
     sheet: c.SHEET,
