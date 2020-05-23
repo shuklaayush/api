@@ -52,5 +52,6 @@ jobs:
         env:
           status: ${{job.status}}
           STUCK_BOT: ${{ secrets.STUCK_BOT }}
+          GITHUB_TOKEN: ${{ secrets.github_token }}
 #trigger the action
 #trigger the action by remove this line

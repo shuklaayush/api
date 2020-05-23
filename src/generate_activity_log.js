@@ -68,8 +68,6 @@ data_prev.statewise.forEach(element => {
         }
         text = text + " in " + element.state
         full_text = full_text + text + "\n"
-
-
     }
 });
 function fillSpace(str, width) {
@@ -110,7 +108,6 @@ function editMessage(last_updated) {
         c = "(" + rel_states[element].Cd + ") " + rel_states[element].C;
         r = "(" + rel_states[element].Rd + ") " + rel_states[element].R;
         d = "(" + rel_states[element].Dd + ") " + rel_states[element].D;
-
 
         words += fillSpace(element, width_state) +
             fillSpace(c, width_confirmed) +
