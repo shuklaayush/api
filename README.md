@@ -12,6 +12,7 @@ Now, raw data is available in three parts :
 `api.covid19india.org/raw_data1.json` (Data till EoD Apr 19th)<br>
 `api.covid19india.org/raw_data2.json` (Data till EoD Apr 26th)<br>
 `api.covid19india.org/raw_data3.json` (Data till EoD May 09th)<br>
+`api.covid19india.org/raw_data4.json` (Data till EoD May 23rd)<br>
 `api.covid19india.org/raw_data4.json` (Live 🚀)<br>
 
 Also, there are some structural difference since raw_data3.json :
