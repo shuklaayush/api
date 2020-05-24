@@ -34,11 +34,10 @@ jobs:
 
       - name: push
         run: |
-          bash ./main.sh
+          bash ./main.sh 2>> /tmp/apidata_err
           echo "the job completed"
         env:
-          GITHUB_TOKEN: ${{ secrets.jun_token2 }}
-          BOT_TOKEN: ${{ secrets.bot_token }}
+          GITHUB_TOKEN: ${{ secrets.github_token }}
           SHEET_ID_v1: ${{ secrets.SHEET_ID_v1 }}
           SHEET_ID_v2: ${{ secrets.SHEET_ID_v2 }}
           SHEET_ID_v3: ${{ secrets.SHEET_ID_v3 }}
@@ -50,9 +49,10 @@ jobs:
         if: always()
         run: |
           git checkout master
-          node lib/notify_tg.js $STUCK_BOT $status
+          node lib/notify_tg.js $status
         env:
           status: ${{job.status}}
           STUCK_BOT: ${{ secrets.STUCK_BOT }}
+          GITHUB_TOKEN: ${{ secrets.github_token }}
 #trigger the action
 #trigger the action by remove this line
