@@ -47,7 +47,7 @@ node src/split_raw_data.js
 node src/snapshot_zones.js 
 node src/generate_districts_daily.js
 node src/generate_locale.js
-# node src/ultimate_parser.js
+node src/ultimate_parser.js
 
 node src/sanity_check.js
 node src/generate_activity_log.js
