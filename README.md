@@ -109,3 +109,5 @@ API for current cases, statewise, districtwise and historical data of India COVI
 - [Other trackers/dashboards](projects/miscellaneous.md)
 
 - [Windows 10 apps](projects/win10_apps.md)
+
+.
