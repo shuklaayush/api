@@ -12,3 +12,8 @@
 
 - [R-naught stats for India](https://www.rt-india.live/)
     - By: [@rohit](https://t.me/rohitxsh)
+    
+---
+
+- [Covid19 India Predictions and Stats](https://ncov19stats.herokuapp.com)
+    - By: [Naveen](https://www.github.com/naveensaigit)
