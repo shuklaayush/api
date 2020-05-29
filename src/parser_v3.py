@@ -6,9 +6,10 @@ import json
 from collections import defaultdict, OrderedDict
 from datetime import datetime, timedelta
 from pathlib import Path
+import sys
 
 # Set logging level
-logging.basicConfig(format='%(message)s', level=logging.INFO)
+logging.basicConfig(stream=sys.stdout, format='%(message)s', level=logging.INFO)
 
 # Tally final day counts with statewise/districtwise APIs?
 TALLY = True
