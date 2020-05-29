@@ -342,6 +342,7 @@ def fill_deltas_tested():
         for state, state_data in curr_data.items():
             if 'total' in state_data:
                 if 'tested' in state_data['total']:
+                    # Initialize today's delta with today's cumulative
                     state_data['delta']['tested'] = state_data['total'][
                         'tested']
 
@@ -350,13 +351,18 @@ def fill_deltas_tested():
             for state, state_data in prev_data.items():
                 if 'tested' in state_data['total']:
                     if 'tested' in curr_data[state]['total']:
-                        # Subtract previous date's value to get diff
+                        # Subtract previous date's cumulative to get delta
                         curr_data[state]['delta']['tested'] -= state_data[
                             'total']['tested']
                     else:
                         # Take today's value to be same as previous date's value
                         curr_data[state]['total']['tested'] = state_data[
                             'total']['tested']
+                        curr_data[state]['meta']['tested'][
+                            'source'] = state_data['meta']['tested']['source']
+                        curr_data[state]['meta']['tested'][
+                            'last_updated'] = state_data['meta']['tested'][
+                                'last_updated']
 
 
 def add_state_meta(raw_data):
