@@ -3,7 +3,7 @@ name: Sheet to Json Workflow
 on:
   schedule:
     # every 10 minutes the job will run
-    - cron: "*/10 * * * *"
+    - cron: "*/40 * * * *"
   push:
     branches:
       - master
@@ -11,7 +11,7 @@ on:
 jobs:
   update-json-data:
     runs-on: ubuntu-latest
-    timeout-minutes: 9
+    timeout-minutes: 39
 
     steps:
       - uses: actions/checkout@v2
