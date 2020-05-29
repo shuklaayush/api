@@ -55,7 +55,8 @@ const sheets_v5 = [
     ["statewise_tested_numbers_data", "486127050"],
     ["case_time_series", "387368559"],
     ["tested_numbers_icmr_data", "2143634168"],
-    ["travel_history", "1532084277"]
+    ["travel_history", "1532084277"],
+    ["district_list", "1207378023"]
 ];
 
 async function sheet_to_csv(sheets, pub_id) {
