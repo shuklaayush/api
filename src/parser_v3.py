@@ -49,6 +49,7 @@ DISTRICTS_ADDITIONAL = {
     'bsf camp': 'BSF Camp',
     'italians': 'Italians',
     'other state': 'Other State',
+    'other region': 'Other Region',
     'railway quarantine': 'Railway Quarantine',
     'airport quarantine': 'Airport Quarantine',
     'evacuees': 'Evacuees',
