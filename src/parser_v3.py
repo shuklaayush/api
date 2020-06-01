@@ -50,6 +50,8 @@ STATE_CODES = {}
 # State codes to state names map (capitalized appropriately)
 STATE_NAMES = {}
 DISTRICTS_DICT = defaultdict(dict)
+# District key to give to unkown district values in raw_data
+UNKNOWN_DISTRICT_KEY = 'Unknown'
 # Some additional expected districts based on state bulletins
 # These won't show up as Unexpected districts in the log
 DISTRICTS_ADDITIONAL = {
@@ -105,7 +107,7 @@ def parse_district(district, state):
     district = district.strip()
     expected = True
     if not district or district.lower() == 'unknown':
-        district = 'Unassigned'
+        district = UNKNOWN_DISTRICT_KEY
     elif district.lower() in DISTRICTS_DICT[state]:
         district = DISTRICTS_DICT[state][district.lower()]
     elif district.lower() in DISTRICTS_ADDITIONAL:
