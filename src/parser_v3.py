@@ -96,7 +96,9 @@ def parse_district_list(reader):
 
 def inc(ref, key, count):
     if not isinstance(ref[key], int):
+        # Initialize with 0
         ref[key] = 0
+    # Increment
     ref[key] += count
 
 
@@ -153,24 +155,25 @@ def parse(raw_data, i):
                 i, j + 2, date, entry['numcases'], state, district))
             continue
 
-        try:
-            # All rows in v1 and v2 are confirmed cases
-            statistic = 'confirmed' if i < 3 else RAW_DATA_MAP[
-                entry['currentstatus'].strip().lower()]
+        if count:
+            try:
+                # All rows in v1 and v2 are confirmed cases
+                statistic = 'confirmed' if i < 3 else RAW_DATA_MAP[
+                    entry['currentstatus'].strip().lower()]
 
-            inc(data[date]['TT']['delta'], statistic, count)
-            inc(data[date][state]['delta'], statistic, count)
-            # Don't parse old district data since it's unreliable
-            if i > 2:
-                inc(data[date][state]['districts'][district]['delta'],
-                    statistic, count)
+                inc(data[date]['TT']['delta'], statistic, count)
+                inc(data[date][state]['delta'], statistic, count)
+                # Don't parse old district data since it's unreliable
+                if i > 2:
+                    inc(data[date][state]['districts'][district]['delta'],
+                        statistic, count)
 
-        except KeyError:
-            # Unrecognized status
-            logging.warning(
-                '[V{}: L{}] [{}] [Bad currentstatus: {}] {}: {} {}'.format(
-                    i, j + 2, date, entry['currentstatus'], state, district,
-                    entry['numcases']))
+            except KeyError:
+                # Unrecognized status
+                logging.warning(
+                    '[V{}: L{}] [{}] [Bad currentstatus: {}] {}: {} {}'.format(
+                        i, j + 2, date, entry['currentstatus'], state,
+                        district, entry['numcases']))
 
 
 def parse_outcome(outcome_data, i):
@@ -239,13 +242,10 @@ def parse_district_gospel(reader):
             district = DISTRICTS_DICT[state][district.lower()]
 
         for statistic in PRIMARY_STATISTICS:
-            if row[statistic.capitalize()]:
-                try:
-                    data[GOSPEL_DATE][state]['districts'][district]['total'][
-                        statistic] = int(row[statistic.capitalize()])
-                except ValueError:
-                    logging.warning('[{}] [Bad value for {}] {} {}'.format(
-                        i, statistic, state, district))
+            count = int(row[statistic.capitalize()] or 0)
+            if count:
+                data[GOSPEL_DATE][state]['districts'][district]['total'][
+                    statistic] = count
 
 
 def parse_icmr(icmr_data):
@@ -273,9 +273,11 @@ def parse_icmr(icmr_data):
                 j + 2, entry['updatetimestamp'], entry['totalsamplestested']))
             continue
 
-        data[date]['TT']['total']['tested'] = count
-        data[date]['TT']['meta']['tested']['source'] = entry['source'].strip()
-        data[date]['TT']['meta']['tested']['last_updated'] = date
+        if count:
+            data[date]['TT']['total']['tested'] = count
+            data[date]['TT']['meta']['tested']['source'] = entry[
+                'source'].strip()
+            data[date]['TT']['meta']['tested']['last_updated'] = date
 
 
 def parse_state_test(state_test_data):
@@ -312,10 +314,11 @@ def parse_state_test(state_test_data):
                 entry['state']))
             continue
 
-        data[date][state]['total']['tested'] = count
-        data[date][state]['meta']['tested']['source'] = entry['source1'].strip(
-        )
-        data[date][state]['meta']['tested']['last_updated'] = date
+        if count:
+            data[date][state]['total']['tested'] = count
+            data[date][state]['meta']['tested']['source'] = entry[
+                'source1'].strip()
+            data[date][state]['meta']['tested']['last_updated'] = date
 
 
 def fill_tested():
@@ -366,8 +369,7 @@ def accumulate():
                         inc(curr_data[state]['total'], statistic,
                             state_data['total'][statistic])
 
-                if state == 'TT' or date <= GOSPEL_DATE:
-                    # Total state has no district data
+                if 'districts' not in state_data or date <= GOSPEL_DATE:
                     # Old district data is already accumulated
                     continue
 
@@ -387,8 +389,7 @@ def accumulate():
                         inc(state_data['total'], statistic,
                             state_data['delta'][statistic])
 
-                if state == 'TT' or date <= GOSPEL_DATE:
-                    # Total state has no district data
+                if 'districts' not in state_data or date <= GOSPEL_DATE:
                     # Old district data is already accumulated
                     continue
 
@@ -398,6 +399,17 @@ def accumulate():
                             if statistic in district_data['delta']:
                                 inc(district_data['total'], statistic,
                                     district_data['delta'][statistic])
+
+
+def stripper(raw_data):
+    # Remove empty entries
+    new_data = ddict()
+    for k, v in raw_data.items():
+        if isinstance(v, dict):
+            v = stripper(v)
+        if not v in (0, '', None, {}):
+            new_data[k] = v
+    return new_data
 
 
 def generate_timeseries(districts=False):
@@ -410,7 +422,7 @@ def generate_timeseries(districts=False):
                     for statistic, value in state_data[stype].items():
                         timeseries[state][date][stype][statistic] = value
 
-            if not districts or state == 'TT' or date <= GOSPEL_DATE:
+            if not districts or 'districts' not in state_data or date <= GOSPEL_DATE:
                 # Total state has no district data
                 # District timeseries starts only from 26th April
                 continue
@@ -626,6 +638,12 @@ if __name__ == '__main__':
     logging.info('Generating cumulative CRD values...')
     # Generate total (cumulative) data points
     accumulate()
+    logging.info('Done!')
+
+    # Strip empty values ({}, 0, '', None)
+    logging.info('-' * PRINT_WIDTH)
+    logging.info('Stripping empty values...')
+    data = stripper(data)
     logging.info('Done!')
 
     # Generate timeseries
