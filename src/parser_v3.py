@@ -7,6 +7,7 @@ from collections import defaultdict, OrderedDict
 from datetime import datetime, timedelta
 from pathlib import Path
 import sys
+import yaml
 
 # Set logging level
 logging.basicConfig(stream=sys.stdout,
@@ -46,6 +47,8 @@ OUTPUT_TIMESERIES_FILENAME = 'timeseries'
 
 # Two digit state codes
 STATE_CODES = {}
+# State codes to state names map (capitalized appropriately)
+STATE_NAMES = {}
 DISTRICTS_DICT = defaultdict(dict)
 # Some additional expected districts based on state bulletins
 # These won't show up as Unexpected districts in the log
@@ -80,8 +83,12 @@ timeseries = ddict()
 
 def parse_state_codes(raw_data):
     for entry in raw_data['state_meta_data']:
-        STATE_CODES[entry['stateut'].strip().lower(
-        )] = entry['abbreviation'].strip().upper()
+        # State name with sheet capitalization
+        state_name = entry['stateut'].strip()
+        # State code caps
+        state_code = entry['abbreviation'].strip().upper()
+        STATE_CODES[state_name.lower()] = state_code
+        STATE_NAMES[state_code] = state_name
 
 
 def parse_district_list(reader):
@@ -250,14 +257,17 @@ def parse_district_gospel(reader):
 
 def parse_icmr(icmr_data):
     for j, entry in enumerate(icmr_data['tested']):
+        count_str = entry['totalsamplestested'].strip()
         try:
             fdate = datetime.strptime(entry['updatetimestamp'].strip(),
                                       '%d/%m/%Y %H:%M:%S')
             date = datetime.strftime(fdate, '%Y-%m-%d')
             if date > INDIA_DATE:
                 # Entries from future dates will be ignored
-                logging.warning('[L{}] [Future timestamp: {}]'.format(
-                    j + 2, entry['updatetimestamp']))
+                if count_str:
+                    # Log non-zero entries
+                    logging.warning('[L{}] [Future timestamp: {}]'.format(
+                        j + 2, entry['updatetimestamp']))
                 continue
         except ValueError:
             # Bad timestamp
@@ -265,7 +275,6 @@ def parse_icmr(icmr_data):
                 j + 2, entry['updatetimestamp']))
             continue
 
-        count_str = entry['totalsamplestested'].strip()
         try:
             count = int(count_str)
         except ValueError:
@@ -282,13 +291,16 @@ def parse_icmr(icmr_data):
 
 def parse_state_test(state_test_data):
     for j, entry in enumerate(state_test_data['states_tested_data']):
+        count_str = entry['totaltested'].strip()
         try:
             fdate = datetime.strptime(entry['updatedon'].strip(), '%d/%m/%Y')
             date = datetime.strftime(fdate, '%Y-%m-%d')
             if date > INDIA_DATE:
                 # Entries from future dates will be ignored
-                logging.warning('[L{}] [Future date: {}] {}'.format(
-                    j + 2, entry['updatedon'], entry['state']))
+                if count_str:
+                    # Log non-zero entries
+                    logging.warning('[L{}] [Future date: {}] {}'.format(
+                        j + 2, entry['updatedon'], entry['state']))
                 continue
         except ValueError:
             # Bad date
@@ -305,7 +317,6 @@ def parse_state_test(state_test_data):
                 j + 2, entry['updatedon'], entry['state']))
             continue
 
-        count_str = entry['totaltested'].strip()
         try:
             count = int(count_str)
         except ValueError:
@@ -401,13 +412,13 @@ def accumulate():
                                     district_data['delta'][statistic])
 
 
-def stripper(raw_data):
+def stripper(raw_data, dtype=ddict):
     # Remove empty entries
-    new_data = ddict()
+    new_data = dtype()
     for k, v in raw_data.items():
         if isinstance(v, dict):
-            v = stripper(v)
-        if not v in (0, '', None, {}):
+            v = stripper(v, dtype)
+        if v:
             new_data[k] = v
     return new_data
 
@@ -480,6 +491,21 @@ def add_district_meta(raw_data):
 
 def tally_statewise(raw_data):
     last_data = data[sorted(data)[-1]]
+    # Check for extra entries
+    logging.info('Checking for extra entries...')
+    for state, state_data in last_data.items():
+        found = False
+        for entry in raw_data['statewise']:
+            if state == entry['statecode'].strip().upper():
+                found = True
+                break
+        if not found:
+            logging.warning(
+                yaml.dump(stripper({state: state_data}, dtype=dict)))
+    logging.info('Done!')
+
+    # Tally counts of entries present in statewise
+    logging.info('Tallying final date counts...')
     for j, entry in enumerate(raw_data['statewise']):
         state = entry['statecode'].strip().upper()
         if state not in STATE_CODES.values():
@@ -527,6 +553,32 @@ def tally_statewise(raw_data):
 
 def tally_districtwise(raw_data):
     last_data = data[sorted(data)[-1]]
+    # Check for extra entries
+    logging.info('Checking for extra entries...')
+    for state, state_data in last_data.items():
+        if 'districts' not in state_data:
+            continue
+        state_name = STATE_NAMES[state]
+        if state_name in raw_data:
+            for district, district_data in state_data['districts'].items():
+                found = False
+                for entry in raw_data[state_name]['districtData'].keys():
+                    if entry == 'Unknown':
+                        entry = 'Unassigned'
+                    if district == entry:
+                        found = True
+                        break
+                if not found:
+                    key = '{} ({})'.format(district, state)
+                    logging.warning(
+                        yaml.dump(stripper({key: district_data}, dtype=dict)))
+        else:
+            logging.warning(
+                yaml.dump(stripper({state: state_data}, dtype=dict)))
+    logging.info('Done!')
+
+    # Tally counts of entries present in districtwise
+    logging.info('Tallying final date counts...')
     for j, entry in enumerate(raw_data.values()):
         state = entry['statecode'].strip().upper()
         if state not in STATE_CODES.values():
@@ -704,7 +756,7 @@ if __name__ == '__main__':
 
     # Tally final date counts with statewise API
     logging.info('-' * PRINT_WIDTH)
-    logging.info('Tallying final date counts with statewise sheet...')
+    logging.info('Comparing data with statewise sheet...')
     f = STATE_WISE
     with open(f, 'r') as f:
         raw_data = json.load(f, object_pairs_hook=OrderedDict)
@@ -713,7 +765,7 @@ if __name__ == '__main__':
 
     # Tally final date counts with districtwise API
     logging.info('-' * PRINT_WIDTH)
-    logging.info('Tallying final date counts with districtwise sheet...')
+    logging.info('Comparing data with districtwise sheet...')
     f = DISTRICT_WISE
     with open(f, 'r') as f:
         raw_data = json.load(f, object_pairs_hook=OrderedDict)
