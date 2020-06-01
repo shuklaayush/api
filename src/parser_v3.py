@@ -49,6 +49,9 @@ OUTPUT_TIMESERIES_FILENAME = 'timeseries'
 STATE_CODES = {}
 # State codes to state names map (capitalized appropriately)
 STATE_NAMES = {}
+# Code corresponding to MoHFW's 'Unassigned States' in sheet
+UNASSIGNED_STATE_CODE = 'UN'
+# Dict containing geographical districts
 DISTRICTS_DICT = defaultdict(dict)
 # District key to give to unkown district values in raw_data
 UNKNOWN_DISTRICT_KEY = 'Unknown'
@@ -181,7 +184,7 @@ def parse(raw_data, i):
                 inc(data[date]['TT']['delta'], statistic, count)
                 inc(data[date][state]['delta'], statistic, count)
                 # Don't parse old district data since it's unreliable
-                if i > 2 and date > GOSPEL_DATE:
+                if i > 2 and date > GOSPEL_DATE and state != UNASSIGNED_STATE_CODE:
                     inc(data[date][state]['districts'][district]['delta'],
                         statistic, count)
 
@@ -371,9 +374,13 @@ def fill_tested():
                                 'last_updated']
 
 
-def accumulate():
+def accumulate(start_after_date='', end_date='3020-01-30'):
     dates = sorted(data)
     for i, date in enumerate(dates):
+        if date <= start_after_date:
+            continue
+        elif date > end_date:
+            break
         curr_data = data[date]
 
         if i > 0:
@@ -416,6 +423,31 @@ def accumulate():
                             if statistic in district_data['delta']:
                                 inc(district_data['total'], statistic,
                                     district_data['delta'][statistic])
+
+
+def fill_gospel_unknown():
+    # Gospel doesn't contain unknowns
+    # Fill them based on gospel date state counts
+    curr_data = data[GOSPEL_DATE]
+    for state, state_data in curr_data.items():
+        if 'districts' not in state_data or 'total' not in state_data:
+            # State had no cases yet
+            continue
+
+        sum_district_totals = defaultdict(lambda: 0)
+        for district, district_data in state_data['districts'].items():
+            if 'total' in district_data:
+                for statistic, count in district_data['total'].items():
+                    sum_district_totals[statistic] += count
+
+        for statistic in PRIMARY_STATISTICS:
+            if statistic in state_data['total']:
+                count = state_data['total'][statistic]
+                if count != sum_district_totals[statistic]:
+                    # Counts don't match
+                    # We take Unknown district values = State - Sum(districts gospel)
+                    state_data['districts'][UNKNOWN_DISTRICT_KEY]['total'][
+                        statistic] = count - sum_district_totals[statistic]
 
 
 def stripper(raw_data, dtype=ddict):
@@ -680,15 +712,29 @@ if __name__ == '__main__':
         parse_state_test(raw_data)
     logging.info('Done!')
 
+    # Fill delta values for tested
     logging.info('-' * PRINT_WIDTH)
     logging.info('Generating daily tested values...')
     fill_tested()
     logging.info('Done!')
 
+    # Generate total (cumulative) data points till 26th April
     logging.info('-' * PRINT_WIDTH)
-    logging.info('Generating cumulative CRD values...')
-    # Generate total (cumulative) data points
-    accumulate()
+    logging.info('Generating cumulative CRD values till 26th April...')
+    accumulate(end_date=GOSPEL_DATE)
+    logging.info('Done!')
+
+    # Fill Unknown district counts for 26th April
+    logging.info('-' * PRINT_WIDTH)
+    logging.info(
+        'Filling {} data for 26th April...'.format(UNKNOWN_DISTRICT_KEY))
+    fill_gospel_unknown()
+    logging.info('Done!')
+
+    # Generate rest of total (cumulative) data points
+    logging.info('-' * PRINT_WIDTH)
+    logging.info('Generating cumulative CRD values from after 26th April...')
+    accumulate(start_after_date=GOSPEL_DATE)
     logging.info('Done!')
 
     # Strip empty values ({}, 0, '', None)
