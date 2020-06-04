@@ -114,7 +114,7 @@
 
 ---
 
-[COVID DashBoard for Policy Makers](https://covid19kol.herokuapp.com/) (Built in consultation with isical Kolkata for intervention monitoring)
+- [COVID DashBoard for Policy Makers](https://covid19kol.herokuapp.com/) (Built in consultation with isical Kolkata for intervention monitoring)
 
 ---
     
