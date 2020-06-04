@@ -118,3 +118,7 @@
 
 ---
     
+- [COVID 19 Tracker - Karnataka](https://kar.covid19-info.website/)
+    - By: [@AbhishekPednekar](https://github.com/AbhishekPednekar84)
+    
+---
