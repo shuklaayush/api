@@ -17,3 +17,8 @@
 
 - [Covid19 India Predictions and Stats](https://ncov19stats.herokuapp.com)
     - By: [Naveen](https://www.github.com/naveensaigit)
+
+---
+
+- [Covid 19 stats and Reproduction value (Rt)](https://www.rtindia.org)
+    - By: [Laksh](http://github.com/lakshmatai), Yash and [Nilesh](https://github.com/nilesh304)
