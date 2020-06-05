@@ -137,8 +137,8 @@ def parse(raw_data, i):
             # Entries with empty state names are discarded
             if state_name:
                 # Unrecognized state entries are discarded and logged
-                logging.warning('[V{}: L{}] [{}] [Bad state: {}] {}'.format(
-                    i, j + 2, entry['dateannounced'], entry['detectedstate'],
+                logging.warning('[L{}] [{}] [Bad state: {}] {}'.format(
+                    j + 2, entry['dateannounced'], entry['detectedstate'],
                     entry['numcases']))
             continue
 
@@ -148,16 +148,14 @@ def parse(raw_data, i):
             date = datetime.strftime(fdate, '%Y-%m-%d')
             if date > INDIA_DATE:
                 # Entries from future dates will be ignored
-                logging.warning(
-                    '[V{}: L{}] [Future date: {}] {}: {} {}'.format(
-                        i, j + 2, entry['dateannounced'],
-                        entry['detectedstate'], entry['detecteddistrict'],
-                        entry['numcases']))
+                logging.warning('[L{}] [Future date: {}] {}: {} {}'.format(
+                    j + 2, entry['dateannounced'], entry['detectedstate'],
+                    entry['detecteddistrict'], entry['numcases']))
                 continue
         except ValueError:
             # Bad date
-            logging.warning('[V{}: L{}] [Bad date: {}] {}: {} {}'.format(
-                i, j + 2, entry['dateannounced'], entry['detectedstate'],
+            logging.warning('[L{}] [Bad date: {}] {}: {} {}'.format(
+                j + 2, entry['dateannounced'], entry['detectedstate'],
                 entry['detecteddistrict'], entry['numcases']))
             continue
 
@@ -165,14 +163,14 @@ def parse(raw_data, i):
         if not expected:
             # Print unexpected district names
             logging.warning(
-                '[V{}: L{}] [{}] [Unexpected district: {}] {}'.format(
-                    i, j + 2, date, district, state))
+                '[L{}] [{}] [Unexpected district: {} ({})] {}'.format(
+                    j + 2, date, district, state, entry['numcases']))
 
         try:
             count = int(entry['numcases'].strip())
         except ValueError:
-            logging.warning('[V{}: L{}] [{}] [Bad numcases: {}] {}: {}'.format(
-                i, j + 2, date, entry['numcases'], state, district))
+            logging.warning('[L{}] [{}] [Bad numcases: {}] {}: {}'.format(
+                j + 2, date, entry['numcases'], state, district))
             continue
 
         if count:
@@ -191,9 +189,9 @@ def parse(raw_data, i):
             except KeyError:
                 # Unrecognized status
                 logging.warning(
-                    '[V{}: L{}] [{}] [Bad currentstatus: {}] {}: {} {}'.format(
-                        i, j + 2, date, entry['currentstatus'], state,
-                        district, entry['numcases']))
+                    '[L{}] [{}] [Bad currentstatus: {}] {}: {} {}'.format(
+                        j + 2, date, entry['currentstatus'], state, district,
+                        entry['numcases']))
 
 
 def parse_outcome(outcome_data, i):
@@ -205,8 +203,8 @@ def parse_outcome(outcome_data, i):
             # Entries with empty state names are discarded
             if state_name:
                 # Unrecognized state entries are discarded and logged
-                logging.warning('[V{}: L{}] [{}] [Bad state: {}]'.format(
-                    i, j + 2, entry['date'], entry['state']))
+                logging.warning('[L{}] [{}] [Bad state: {}]'.format(
+                    j + 2, entry['date'], entry['state']))
             continue
 
         try:
@@ -214,21 +212,21 @@ def parse_outcome(outcome_data, i):
             date = datetime.strftime(fdate, '%Y-%m-%d')
             if date > INDIA_DATE:
                 # Entries from future dates will be ignored
-                logging.warning('[V{}: L{}] [Future date: {}] {}'.format(
-                    i, j + 2, entry['date'], state))
+                logging.warning('[L{}] [Future date: {}] {}'.format(
+                    j + 2, entry['date'], state))
                 continue
         except ValueError:
             # Bad date
-            logging.warning('[V{}: L{}] [Bad date: {}] {}'.format(
-                i, j + 2, entry['date'], state))
+            logging.warning('[L{}] [Bad date: {}] {}'.format(
+                j + 2, entry['date'], state))
             continue
 
         district, expected = parse_district(entry['district'], state)
         if not expected:
             # Print unexpected district names
             logging.warning(
-                '[V{}: L{}] [{}] [Unexpected district: {}] {}'.format(
-                    i, j + 2, date, district, state))
+                '[L{}] [{}] [Unexpected district: {} ({})] {}'.format(
+                    j + 2, date, district, state, entry['numcases']))
 
         try:
             statistic = RAW_DATA_MAP[entry['patientstatus'].strip().lower()]
@@ -240,9 +238,8 @@ def parse_outcome(outcome_data, i):
             #      1)
         except KeyError:
             # Unrecognized status
-            logging.warning(
-                '[V{}: L{}] [{}] [Bad patientstatus: {}] {}: {}'.format(
-                    i, j + 2, date, entry['patientstatus'], state, district))
+            logging.warning('[L{}] [{}] [Bad patientstatus: {}] {}: {}'.format(
+                j + 2, date, entry['patientstatus'], state, district))
 
 
 def parse_district_gospel(reader):
@@ -650,8 +647,9 @@ if __name__ == '__main__':
 
     # Get possible state codes
     logging.info('-' * PRINT_WIDTH)
-    logging.info('Parsing state meta data...')
+    logging.info('Parsing state names and codes...')
     with open(STATE_META_DATA, 'r') as f:
+        logging.info('File: {}'.format(STATE_META_DATA.name))
         raw_data = json.load(f)
         parse_state_codes(raw_data)
     logging.info('Done!')
@@ -660,6 +658,7 @@ if __name__ == '__main__':
     logging.info('-' * PRINT_WIDTH)
     logging.info('Parsing districts list...')
     with open(DISTRICT_LIST, 'r') as f:
+        logging.info('File: {}'.format(DISTRICT_LIST.name))
         reader = csv.DictReader(f)
         parse_district_list(reader)
     logging.info('Done!')
@@ -673,6 +672,7 @@ if __name__ == '__main__':
         if not f.is_file():
             break
         with open(f, 'r') as f:
+            logging.info('File: {}'.format(RAW_DATA.format(n=i)))
             raw_data = json.load(f)
             parse(raw_data, i)
         i += 1
@@ -684,6 +684,7 @@ if __name__ == '__main__':
     for i in [1, 2]:
         f = INPUT_DIR / OUTCOME_DATA.format(n=i)
         with open(f, 'r') as f:
+            logging.info('File: {}'.format(OUTCOME_DATA.format(n=i)))
             raw_data = json.load(f)
             parse_outcome(raw_data, i)
     logging.info('Done!')
@@ -692,6 +693,7 @@ if __name__ == '__main__':
     logging.info('Adding district data for 26th April...')
     # Parse gospel district data for 26th April
     with open(DISTRICT_DATA_GOSPEL, 'r') as f:
+        logging.info('File: {}'.format(DISTRICT_DATA_GOSPEL.name))
         reader = csv.DictReader(f)
         parse_district_gospel(reader)
     logging.info('Done!')
@@ -700,6 +702,7 @@ if __name__ == '__main__':
     logging.info('Parsing ICMR test data for India...')
     f = ICMR_TEST_DATA
     with open(f, 'r') as f:
+        logging.info('File: {}'.format(ICMR_TEST_DATA.name))
         raw_data = json.load(f, object_pairs_hook=OrderedDict)
         parse_icmr(raw_data)
     logging.info('Done!')
@@ -708,6 +711,7 @@ if __name__ == '__main__':
     logging.info('Parsing test data for all states...')
     f = STATE_TEST_DATA
     with open(f, 'r') as f:
+        logging.info('File: {}'.format(STATE_TEST_DATA.name))
         raw_data = json.load(f, object_pairs_hook=OrderedDict)
         parse_state_test(raw_data)
     logging.info('Done!')
@@ -733,7 +737,8 @@ if __name__ == '__main__':
 
     # Generate rest of total (cumulative) data points
     logging.info('-' * PRINT_WIDTH)
-    logging.info('Generating cumulative CRD values from after 26th April...')
+    logging.info(
+        'Generating cumulative CRD values from 26th April afterwards...')
     accumulate(start_after_date=GOSPEL_DATE)
     logging.info('Done!')
 
@@ -750,14 +755,16 @@ if __name__ == '__main__':
     logging.info('Done!')
 
     logging.info('-' * PRINT_WIDTH)
-    logging.info('Adding state/district metadata...')
+    logging.info('Adding state and district metadata...')
     f = STATE_WISE
     with open(f, 'r') as f:
+        logging.info('File: {}'.format(STATE_WISE.name))
         raw_data = json.load(f, object_pairs_hook=OrderedDict)
         add_state_meta(raw_data)
 
     f = DISTRICT_WISE
     with open(f, 'r') as f:
+        logging.info('File: {}'.format(DISTRICT_WISE.name))
         raw_data = json.load(f, object_pairs_hook=OrderedDict)
         add_district_meta(raw_data)
     logging.info('Done!')
@@ -804,6 +811,7 @@ if __name__ == '__main__':
     logging.info('Comparing data with statewise sheet...')
     f = STATE_WISE
     with open(f, 'r') as f:
+        logging.info('File: {}'.format(STATE_WISE.name))
         raw_data = json.load(f, object_pairs_hook=OrderedDict)
         tally_statewise(raw_data)
     logging.info('Done!')
@@ -813,6 +821,7 @@ if __name__ == '__main__':
     logging.info('Comparing data with districtwise sheet...')
     f = DISTRICT_WISE
     with open(f, 'r') as f:
+        logging.info('File: {}'.format(DISTRICT_WISE.name))
         raw_data = json.load(f, object_pairs_hook=OrderedDict)
         tally_districtwise(raw_data)
     logging.info('Done!')
