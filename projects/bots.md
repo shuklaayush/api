@@ -24,6 +24,8 @@
 
 - [Covid19WorldStats](https://github.com/ravindraten/Covid19WorldStats) (by [@RavindraNayak](https://github.com/ravindraten))
 
+- [Covid19India Stats & News] (https://t.me/Covid19trackerindiagj27_bot) (by [@akhiltrivedi])
+
 ---
 
 ### _Twitter bots:_

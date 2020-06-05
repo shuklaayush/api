@@ -106,3 +106,15 @@
 
 - [NCovid19](http://covid.softycom.in)
     - By: Rohan Mahindrakar [@rohan12](https://github.com/ROHAN12)
+    
+---
+
+- [COVID_19](https://web2.eu5.org)
+    - By: [@rishigole42](https://github.com/rishigole42/)
+
+---
+
+- [COVID DashBoard for Policy Makers](https://covid19kol.herokuapp.com/) (Built in consultation with isical Kolkata for intervention monitoring)
+
+---
+    
