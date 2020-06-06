@@ -39,7 +39,7 @@ We are working on providing a singular raw_data that can be the source of truth.
 | :green_heart: | Patient Level : Raw Data Partition 2 (From Apr 20 to Apr 26)              | https://api.covid19india.org/raw_data2.json              |
 | :green_heart: | Patient Level : Raw Data Partition 3 (From Apr 27 to May 09)                 | https://api.covid19india.org/raw_data3.json              |
 | :green_heart: | Patient Level : Raw Data Partition 4 (From May 10 to May 23)                 | https://api.covid19india.org/raw_data4.json              |
-| :green_heart: | Patient Level : Raw Data Partition 5 (From May 24 onwards)                 | https://api.covid19india.org/raw_data5.json              |
+| :green_heart: | Patient Level : Raw Data Partition 5 (From May 24 to Jun 04)                 | https://api.covid19india.org/raw_data5.json              |
 | :green_heart: | Patient Level : Raw Data Partition 6 (From Jun 5th onwards)                 | https://api.covid19india.org/raw_data6.json              |
 | :green_heart: | National Level :Time series, State-wise stats and Test counts             | https://api.covid19india.org/data.json                   |
 | :green_heart: | State Level : has district-wise info                                      | https://api.covid19india.org/state_district_wise.json    |
