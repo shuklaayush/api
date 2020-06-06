@@ -22,7 +22,7 @@ INPUT_DIR = Path('tmp')
 # Contains state codes to be used as API keys
 STATE_META_DATA = INPUT_DIR / 'misc.json'
 # Contains list of geographical districts
-DISTRICT_LIST = INPUT_DIR / 'csv' / 'latest' / 'district_list.csv'
+DISTRICT_LIST = INPUT_DIR / 'state_district_wise.json'
 # All raw_data's
 RAW_DATA = 'raw_data{n}.json'
 # Contains deaths and recoveries for entries in raw_data1 and raw_data2
@@ -55,19 +55,6 @@ UNASSIGNED_STATE_CODE = 'UN'
 DISTRICTS_DICT = defaultdict(dict)
 # District key to give to unkown district values in raw_data
 UNKNOWN_DISTRICT_KEY = 'Unknown'
-# Some additional expected districts based on state bulletins
-# These won't show up as Unexpected districts in the log
-DISTRICTS_ADDITIONAL = {
-    'bsf camp': 'BSF Camp',
-    'italians': 'Italians',
-    'other state': 'Other State',
-    'other region': 'Other Region',
-    'railway quarantine': 'Railway Quarantine',
-    'airport quarantine': 'Airport Quarantine',
-    'evacuees': 'Evacuees',
-    'foreign evacuees': 'Foreign Evacuees',
-    'unassigned': 'Unassigned',
-}
 
 PRIMARY_STATISTICS = ['confirmed', 'deceased', 'recovered']
 
@@ -96,14 +83,19 @@ def parse_state_codes(raw_data):
         STATE_NAMES[state_code] = state_name
 
 
-def parse_district_list(reader):
-    for i, row in enumerate(reader):
-        state_name = row['State'].strip().lower()
-        if state_name not in STATE_CODES:
-            logging.warning('[{}] [Bad state: {}]'.format(i, row['State']))
+def parse_district_list(raw_data):
+    for i, entry in enumerate(raw_data.values()):
+        state = entry['statecode'].strip().upper()
+        if state not in STATE_CODES.values():
+            logging.warning('[{}] [Bad state: {}]'.format(
+                i + 2, entry['statecode']))
             continue
-        district = row['District'].strip()
-        DISTRICTS_DICT[STATE_CODES[state_name]][district.lower()] = district
+        if 'districtData' not in entry:
+            continue
+
+        for district in entry['districtData']:
+            district = district.strip()
+            DISTRICTS_DICT[state][district.lower()] = district
 
 
 def parse_district(district, state):
@@ -113,8 +105,6 @@ def parse_district(district, state):
         district = UNKNOWN_DISTRICT_KEY
     elif district.lower() in DISTRICTS_DICT[state]:
         district = DISTRICTS_DICT[state][district.lower()]
-    elif district.lower() in DISTRICTS_ADDITIONAL:
-        district = DISTRICTS_ADDITIONAL[district.lower()]
     else:
         expected = False
     return district, expected
@@ -659,8 +649,8 @@ if __name__ == '__main__':
     logging.info('Parsing districts list...')
     with open(DISTRICT_LIST, 'r') as f:
         logging.info('File: {}'.format(DISTRICT_LIST.name))
-        reader = csv.DictReader(f)
-        parse_district_list(reader)
+        raw_data = json.load(f)
+        parse_district_list(raw_data)
     logging.info('Done!')
 
     # Parse raw_data's
