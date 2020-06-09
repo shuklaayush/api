@@ -23,3 +23,5 @@
 - [Covid-19 India Android App](https://tinyurl.com/covid19indiask) (by Sachin K [@sachinkcrp](https://github.com/sachinkcrp))
 
 - [COVID19 India](https://github.com/iamnishanth/Covid19India) (by Nishanth [@iamNishanth](https://github.com/iamnishanth))
+
+- [Covid-19 Tracker](https://github.com/Mehatab/covid-19) (by Mehatab Shaikh [@mehatab](https://github.com/Mehatab))
