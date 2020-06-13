@@ -2,6 +2,8 @@
 
 ### _Android apps:_
 
+- [Covid-19 India Android App](https://github.com/GRajin/Covid-19IndiaApp) (by Rajin Gangadharan [@GRajin](https://github.com/GRajin)). This app shows the cases of Covid-19 Virus in India. It is a lightweight application(4mb). This app has a DayWise report, StateWise report and DistrictWise report including graphs. To download APK, click [here](https://github.com/GRajin/Covid-19IndiaApp/releases/download/Covid19_India_v1.0/Covid-19.India.apk). Feel free to fork the project and add your own features!
+
 - [Covid-19 India Android (React-Native) App](https://github.com/RajeevTomar/Covid-19) (by Rajeev Tomar [@RajeevTomar](https://github.com/RajeevTomar/)) --- <a href="http://positivemind.co.in/apk/covid-19_v1.1.apk"> Download Android App</a>
 
 - [COVID19-India-Tracker](https://github.com/Gopal-Dahale/COVID19-India-Tracker) (by Gopal Dahale [@Gopal-Dahale](https://github.com/Gopal-Dahale)) shows the number of cases in states and districts of India. It also features an interactive map to display Coronavirus spread across India.
