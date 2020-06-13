@@ -25,7 +25,8 @@ const PUBLISHED_SHEET_ID_1 = "2PACX-1vSz8Qs1gE_IYpzlkFkCXGcL_BqR8hZieWVi-rphN1gf
 const PUBLISHED_SHEET_ID_2 = "2PACX-1vRodtoTyQwXckfuvuQllkMhGC_gruigaaizVc8I6-BZWeetYpmRyexnO75ep7rnSxFICd8c9dfpwU8I";
 const PUBLISHED_SHEET_ID_3 = "2PACX-1vR_17UovavD4X7m_pqzmXjA_kCjGxIapemdWpRhDELHR1LbLJ-EVbxjKgeQat489BFRZ9bqMf-ILe_H";
 const PUBLISHED_SHEET_ID_4 = "2PACX-1vSeAoAk_iMv7cQ0tldZC7aivJmGKM5Wpc5VVr37Nzv-geTmtr6pDMb-oDK59RS21Om80-SYR3jRp6qq";
-const PUBLISHED_SHEET_ID_5 = "2PACX-1vSEikAgjAB9x7yhx4zNOUGLIx8Zfy2mAzRv0K1tbw08g73MO88-bbWCsgmhJ0uXa0gtuUlLMOnE9h26"
+const PUBLISHED_SHEET_ID_5 = "2PACX-1vSEikAgjAB9x7yhx4zNOUGLIx8Zfy2mAzRv0K1tbw08g73MO88-bbWCsgmhJ0uXa0gtuUlLMOnE9h26";
+const PUBLISHED_SHEET_ID_6 = "2PACX-1vQQmgjCktQknnTPy-s4OFycu-imtoMCrWY5M2Lqig3nhGyy6W5E27xbCyaaKV9lGaDWmTzGWVzPH9-S";
 
 
 const sheets_v1 = [
@@ -49,6 +50,10 @@ const sheets_v4 = [
 
 const sheets_v5 = [
     ["raw_data5", "0"],
+];
+
+const sheets_v6 = [
+    ["raw_data6", "0"],
     ["state_wise", "1896310216"],
     ["state_wise_daily", "1395461826"],
     ["sources_list", "704389477"],
@@ -56,7 +61,7 @@ const sheets_v5 = [
     ["statewise_tested_numbers_data", "486127050"],
     ["case_time_series", "387368559"],
     ["tested_numbers_icmr_data", "2143634168"],
-    ["travel_history", "1532084277"],
+//     ["travel_history", "1532084277"],
     ["district_list", "1207378023"]
 ];
 
@@ -89,6 +94,7 @@ async function sheet_to_csv(sheets, pub_id) {
     await sheet_to_csv(sheets_v3, PUBLISHED_SHEET_ID_3);
     await sheet_to_csv(sheets_v4, PUBLISHED_SHEET_ID_4);
     await sheet_to_csv(sheets_v5, PUBLISHED_SHEET_ID_5);
+    await sheet_to_csv(sheets_v6, PUBLISHED_SHEET_ID_6);
 
     // concat steps below
     console.log("merge both csv");

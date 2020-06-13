@@ -6,8 +6,8 @@ const data_prev = require('../tmp/data_prev.json');
 
 var total = data.statewise[0];
 var err = false;
-if (total.deltaconfirmed > 10000) {
-    process.stderr.write("Delta confirmed is greater than 10k");
+if (total.deltaconfirmed > 20000) {
+    process.stderr.write("Delta confirmed is greater than 20k");
     err = true;
 }
 

@@ -47,6 +47,12 @@ const c = require("../lib/constants");
     file: c.FILE_RAW_DATA_5
   });
 
+  await task({
+    sheet: c.SHEET_v6,
+    tabs: { raw_data: c.SHEET_RAW_DATA },
+    file: c.FILE_RAW_DATA_6
+  });
+
   // uncomment below if v1 sheet has updates
   await task({
     sheet: c.SHEET_v1,
@@ -137,6 +143,12 @@ const c = require("../lib/constants");
     sheet: c.SHEET,
     tabs: { zones: c.SHEET_ZONES },
     file: c.FILE_ZONES
+  });
+
+  await task({
+    sheet: c.SHEET,
+    tabs: { district_testing_data: c.SHEET_DISTRICT_TESTING_DATA },
+    file: c.FILE_DISTRICT_TESTING_DATA
   });
 
   console.log("End of sheet-to-json_generic");

@@ -43,6 +43,7 @@ jobs:
           SHEET_ID_v3: ${{ secrets.SHEET_ID_v3 }}
           SHEET_ID_v4: ${{ secrets.SHEET_ID_v4 }}
           SHEET_ID_v5: ${{ secrets.SHEET_ID_v5 }}
+          SHEET_ID_v6: ${{ secrets.SHEET_ID_v6 }}
           RESOURCES_SHEET_ID: ${{ secrets.RESOURCES_SHEET_ID }}
           STUCK_BOT: ${{ secrets.STUCK_BOT }}
       - name: show job status

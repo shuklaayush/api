@@ -117,8 +117,20 @@
 - [COVID DashBoard for Policy Makers](https://covid19kol.herokuapp.com/) (Built in consultation with isical Kolkata for intervention monitoring)
 
 ---
+
+- [COVID-19-Tracker](https://aakashmangla2000.github.io/Covid-19-India-Website/)
+    - By: [@aakashmangla2000](https://github.com/Aakashmangla2000)
+
+---
+
+- [COVID-19 Tracker for India (React App)](https://covid19indiastatus-da4dc.web.app) (State and District wise figures)
+    - By: [@mehulsengupta](https://github.com/mehulsengupta/)
+
+---
     
+- [R0 Tracker India](https://www.nidhigupta.live/rtcovid) (States and Districts wise R0 tracking in India)
+
+---
+
 - [COVID 19 Tracker - Karnataka](https://kar.covid19-info.website/)
     - By: [@AbhishekPednekar](https://github.com/AbhishekPednekar84)
-    
----
