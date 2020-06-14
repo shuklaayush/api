@@ -62,7 +62,8 @@ const sheets_v6 = [
     ["case_time_series", "387368559"],
     ["tested_numbers_icmr_data", "2143634168"],
 //     ["travel_history", "1532084277"],
-    ["district_list", "1207378023"]
+    ["district_list", "1207378023"],
+    ["district_testing", "458610673"],
 ];
 
 async function sheet_to_csv(sheets, pub_id) {
