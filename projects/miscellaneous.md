@@ -129,3 +129,8 @@
 ---
     
 - [R0 Tracker India](https://www.nidhigupta.live/rtcovid) (States and Districts wise R0 tracking in India)
+
+---
+
+- [COVID 19 Tracker - Karnataka](https://kar.covid19-info.website/)
+    - By: [@AbhishekPednekar](https://github.com/AbhishekPednekar84)
