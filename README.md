@@ -1,13 +1,12 @@
 # COVID19-India API
 
-A volunteer-driven, crowdsourced database for COVID-19 stats & patient tracing in India
+A volunteer-driven, crowd-sourced database for COVID-19 stats & patient tracing in India.
 
-[Source Code in Github](https://github.com/covid19india/api)
+[Source Code on Github](https://github.com/covid19india/api)
 
 ## About Raw Data
 
-Due to the growing size of the raw data, and the fact that regions like DL, MH, TG are only providing district level information, we have made a change in our data collection.
-Now, raw data is available in five parts :
+Due to the growing size of the raw data, and the fact that regions like DL, MH, TG are providing district level information only, we have made a change in our data collection. The raw data is now available in five parts as below:
 
 `api.covid19india.org/raw_data1.json` (Data till EoD Apr 19th)<br>
 `api.covid19india.org/raw_data2.json` (Data till EoD Apr 26th)<br>
@@ -16,19 +15,17 @@ Now, raw data is available in five parts :
 `api.covid19india.org/raw_data5.json` (Data till EoD Jun 04th)<br>
 `api.covid19india.org/raw_data6.json` (Live 🚀)<br>
 
-Also, there are some structural difference since raw_data3.json :
-When a new report/bulletin is released from a state regarding confirmed cases :
+Also, there are some structural differences from the release of raw_data3.json onwards. When a new report/bulletin is released from a state regarding confirmed cases:
 
 1. If patient level information is available (from several states like KA,KL,BH etc.), that is captured.
-2. If only districtwise information is available, one row is entered for each district, and "numcases" field mentions the number of cases in that district
-3. If only statewise information is available, one row is added added for the entire state (DL 👀)
-
+2. If only district-wise information is available, one row is entered for each district, and "numcases" field mentions the number of cases in that district.
+3. If only state-wise information is available, one row is added added for the entire state (DL 👀)
 4. Recoveries and Deceased information is also available through raw_data3.json now. Use the "Current Status" field to extract that information.
 
 All other aggregate APIs retain the same behaviour.
 CSV files for the same are also available through `api.covid19india.org/csv/latest/raw_data{n}.csv`
 
-We are working on providing a singular raw_data that can be the source of truth. However, we strongly advise you to use the aggrgate information for any analysis.
+We are working towards providing a singular raw_data that can be the source of truth. However, we strongly advise you to use the aggrgate information for any analysis.
 
 
 ### JSON
@@ -59,7 +56,7 @@ We are working on providing a singular raw_data that can be the source of truth.
 
 ### CSV
 
-Sometimes, having files in a spreadsheet format is more useful for analysts and scientists. We have provided the files as downloadable csv files in the following location.
+Sometimes, having files in a spreadsheet format is more useful for analysts and scientists. We have provided the files as downloadable csv files at the following location.
 
 | Data                 | URL                                                                    |
 | -------------------- | ---------------------------------------------------------------------- |
@@ -69,22 +66,22 @@ Sometimes, having files in a spreadsheet format is more useful for analysts and 
 
 
 ### Alternate API's by Contributors
-API for current cases, statewise, districtwise and historical data of India COVID-19
+API for current cases, state-wise, district-wise and historical data of India COVID-19
 - Graphql playground - https://covidstat.info/graphql [API documentation](https://github.com/COVID19-SARS-CoV-2/web-covid-api/blob/master/india_apis.md)
 
 ## How this works
 
 - Data in this repository is generated from Google Sheets (https://api.covid19india.org/csv)
 - Volunteers collect data from trusted sources and update the sheet
-- We use Github Actions to fetch the data from the sheet to the repo periodically.
+- We use Github Actions to periodically fetch the data from the sheet to the repo
 - Static json and csv files into the gh-pages repository
 
 ## Contributing
 
-- Contributions to new data formats are welcome. Please create a GH issue and discuss there before working on the same.
+- Contributions to new data formats are welcome. Please create a GH issue and discuss there before working on the same
 - Please raise an issue before submitting a PR
 - Report issues regarding [covid19india.org](https://www.covid19india.org) website in the [react-site repository](https://github.com/covid19india/covid19india-react/issues)
-- DO NOT change anything in `gh-pages` branch directly.They get replaced automatically
+- DO NOT change anything in `gh-pages` branch directly as they get replaced automatically
 
 
 ## Quick Links
