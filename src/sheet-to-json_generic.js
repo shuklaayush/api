@@ -5,18 +5,18 @@ const c = require("../lib/constants");
 (async function main() {
   console.log("Running task on start...");
   await task({
-    sheet: "12iFd_SP6BHK5TMKindlH4uXGPTF7tTkUzY_OBc_EQpc",
+    sheet: c.SHEET_LOCALE,
     tabs: { locales: "od6" },
     file: "/locales.json"
   });
 
   await task({
-    sheet: "12iFd_SP6BHK5TMKindlH4uXGPTF7tTkUzY_OBc_EQpc",
+    sheet: c.SHEET_LOCALE,
     tabs: { locales_progress: "ou6ga5q" },
     file: "/locales_progress.json"
   });
 
-  
+
 
   //   uncomment below if v1 sheet has updates
   await task({
@@ -51,6 +51,12 @@ const c = require("../lib/constants");
     sheet: c.SHEET_v6,
     tabs: { raw_data: c.SHEET_RAW_DATA },
     file: c.FILE_RAW_DATA_6
+  });
+
+  await task({
+    sheet: c.SHEET_v7,
+    tabs: { raw_data: c.SHEET_RAW_DATA },
+    file: c.FILE_RAW_DATA_7
   });
 
   // uncomment below if v1 sheet has updates
