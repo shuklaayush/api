@@ -13,14 +13,15 @@ Due to the growing size of the raw data, and the fact that regions like DL, MH, 
 `api.covid19india.org/raw_data3.json` (Data till EoD May 09th)<br>
 `api.covid19india.org/raw_data4.json` (Data till EoD May 23rd)<br>
 `api.covid19india.org/raw_data5.json` (Data till EoD Jun 04th)<br>
-`api.covid19india.org/raw_data6.json` (Live 🚀)<br>
+`api.covid19india.org/raw_data6.json` (Data till EoD Jun 19th)<br>
+`api.covid19india.org/raw_data7.json` (Live 🚀)<br>
 
 Also, there are some structural differences from the release of raw_data3.json onwards. When a new report/bulletin is released from a state regarding confirmed cases:
 
 1. If patient level information is available (from several states like KA,KL,BH etc.), that is captured.
 2. If only district-wise information is available, one row is entered for each district, and "numcases" field mentions the number of cases in that district.
-3. If only state-wise information is available, one row is added added for the entire state (DL 👀)
-4. Recoveries and Deceased information is also available through raw_data3.json now. Use the "Current Status" field to extract that information.
+3. If only state-wise information is available, one row is added added for the entire state
+4. Recoveries and Deceased is also present in raw_data. Use the "Current Status" field to extract that information.
 
 All other aggregate APIs retain the same behaviour.
 CSV files for the same are also available through `api.covid19india.org/csv/latest/raw_data{n}.csv`
@@ -37,7 +38,8 @@ We are working towards providing a singular raw_data that can be the source of t
 | :green_heart: | Patient Level : Raw Data Partition 3 (From Apr 27 to May 09)              | https://api.covid19india.org/raw_data3.json              |
 | :green_heart: | Patient Level : Raw Data Partition 4 (From May 10 to May 23)              | https://api.covid19india.org/raw_data4.json              |
 | :green_heart: | Patient Level : Raw Data Partition 5 (From May 24 to Jun 04)              | https://api.covid19india.org/raw_data5.json              |
-| :green_heart: | Patient Level : Raw Data Partition 6 (From Jun 5th onwards)               | https://api.covid19india.org/raw_data6.json              |
+| :green_heart: | Patient Level : Raw Data Partition 6 (From Jun 05 to Jun 19)              | https://api.covid19india.org/raw_data6.json              |
+| :green_heart: | Patient Level : Raw Data Partition 7 (From Jun 20th onwards)               | https://api.covid19india.org/raw_data7.json              |
 | :green_heart: | National Level :Time series, State-wise stats and Test counts             | https://api.covid19india.org/data.json                   |
 | :green_heart: | State Level : has district-wise info                                      | https://api.covid19india.org/state_district_wise.json    |
 | :green_heart: | State Level : has district-wise info V2 _(minor difference in structure)_ | https://api.covid19india.org/v2/state_district_wise.json |
