@@ -49,6 +49,7 @@ node src/generate_districts_daily.js
 node src/generate_locale.js
 # node src/ultimate_parser.js
 python3 src/parser_v3.py
+python3 src/districtwise_parser.py
 
 node src/sanity_check.js
 node src/generate_activity_log.js
@@ -61,18 +62,18 @@ rm -r tmp/
 
 
 
-git add .
-set +e  # Grep succeeds with nonzero exit codes to show results.
-git status | grep 'new file\|modified'
-if [ $? -eq 0 ]
-then
-    set -e
-    git commit -am "data updated on - $(date)"
-    git remote set-url "$remote_name" "$repo_uri" # includes access token
-    git push --force-with-lease "$remote_name" "$gh_pages_branch"
-else
-    set -e
-    echo "No changes since last run"
-fi
+# git add .
+# set +e  # Grep succeeds with nonzero exit codes to show results.
+# git status | grep 'new file\|modified'
+# if [ $? -eq 0 ]
+# then
+#     set -e
+#     git commit -am "data updated on - $(date)"
+#     git remote set-url "$remote_name" "$repo_uri" # includes access token
+#     git push --force-with-lease "$remote_name" "$gh_pages_branch"
+# else
+#     set -e
+#     echo "No changes since last run"
+# fi
 
 echo "finish"
