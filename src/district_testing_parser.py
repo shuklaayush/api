@@ -71,5 +71,5 @@ if __name__ == "__main__":
     logging.info(f"{len(dist_testing)} districts processed")
     logging.info("Save district_testing.json\n------------")
     with open(Path("tmp", "district_testing.json"), "w") as js:
-        json.dump(dist_testing, js)
+        json.dump(dist_testing, js, indent=4)
 
