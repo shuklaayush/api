@@ -65,8 +65,10 @@ if __name__ == "__main__":
     df = pd.read_csv(path)
     ind_di = df.to_dict("index")
 
+    # Range from 1 as 0th row contains headers.
     for i in range(1, len(ind_di)):
         dist_testing.append(parse_testing(ind_di[i]))
+    logging.info(f"{len(dist_testing)} districts processed")
     logging.info("Save district_testing.json\n------------")
     with open(Path("tmp", "district_testing.json"), "w") as js:
         json.dump(dist_testing, js)
