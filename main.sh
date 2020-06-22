@@ -45,6 +45,7 @@ node src/snapshot_zones.js
 node src/generate_districts_daily.js
 node src/generate_locale.js
 # node src/ultimate_parser.js
+pip3 install --upgrade setuptools
 pip3 install --quiet -r requirements.txt
 python3 src/geocoder.py
 python3 src/parser_v3.py
