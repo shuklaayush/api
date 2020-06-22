@@ -28,14 +28,13 @@ def parse_testing(x):
     Returns dictionary for each district.
     """
     rgx = re.compile(r"[0-9]*\/[0-9]*\/[0-9]*")
-    date = ""
-    per_day = {}
+    dt = ""
     per_dist = {}
-
     for k in x.keys():
+        dates = []
         if re.match(rgx, k):
-            if date != str(k[0:10]):
-                date = k
+            if dt != str(k[0:10]):
+                dt = k
                 try:
                     np.isnan(x[k])
                     continue
@@ -49,11 +48,12 @@ def parse_testing(x):
                             "source2": make_int_if_possible(x[k + ".4"]),
                         }
                     }
-                    per_dist.update(per_day)
+                    dates.append(per_day)
             else:
                 continue
         else:
             per_dist.update({k.lower(): make_int_if_possible(x[k])})
+    per_dist.update({"dates" : dates})
     return per_dist
 
 
@@ -69,7 +69,8 @@ if __name__ == "__main__":
     for i in range(1, len(ind_di)):
         dist_testing.append(parse_testing(ind_di[i]))
     logging.info(f"{len(dist_testing)} districts processed")
-    logging.info("Save district_testing.json\n------------")
-    with open(Path("tmp", "district_testing.json"), "w") as js:
-        json.dump(dist_testing, js, indent=4)
+    logging.info("Save district_test_data.json\n------------")
+    dist_testing_dict = {"district_test_data": dist_testing}
+    with open(Path("tmp", "district_test_data.json"), "w") as js:
+        json.dump(dist_testing_dict, js, indent=4)
 
