@@ -30,8 +30,8 @@ def parse_testing(x):
     rgx = re.compile(r"[0-9]*\/[0-9]*\/[0-9]*")
     dt = ""
     per_dist = {}
+    dates = {}
     for k in x.keys():
-        dates = []
         if re.match(rgx, k):
             if dt != str(k[0:10]):
                 dt = k
@@ -48,7 +48,7 @@ def parse_testing(x):
                             "source2": make_int_if_possible(x[k + ".4"]),
                         }
                     }
-                    dates.append(per_day)
+                    dates.update(per_day)
             else:
                 continue
         else:
