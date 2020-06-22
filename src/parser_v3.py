@@ -154,13 +154,15 @@ def parse(raw_data, i):
             # Print unexpected district names
             logging.warning(
                 '[L{}] [{}] [Unexpected district: {} ({})] {}'.format(
-                    j + 2, date, district, state, entry['numcases']))
+                    j + 2, entry['dateannounced'], district, state,
+                    entry['numcases']))
 
         try:
             count = int(entry['numcases'].strip())
         except ValueError:
             logging.warning('[L{}] [{}] [Bad numcases: {}] {}: {}'.format(
-                j + 2, date, entry['numcases'], state, district))
+                j + 2, entry['dateannounced'], entry['numcases'], state,
+                district))
             continue
 
         if count:
@@ -180,8 +182,8 @@ def parse(raw_data, i):
                 # Unrecognized status
                 logging.warning(
                     '[L{}] [{}] [Bad currentstatus: {}] {}: {} {}'.format(
-                        j + 2, date, entry['currentstatus'], state, district,
-                        entry['numcases']))
+                        j + 2, entry['dateannounced'], entry['currentstatus'],
+                        state, district, entry['numcases']))
 
 
 def parse_outcome(outcome_data, i):
@@ -216,7 +218,7 @@ def parse_outcome(outcome_data, i):
             # Print unexpected district names
             logging.warning(
                 '[L{}] [{}] [Unexpected district: {} ({})] {}'.format(
-                    j + 2, date, district, state, entry['numcases']))
+                    j + 2, entry['date'], district, state, entry['numcases']))
 
         try:
             statistic = RAW_DATA_MAP[entry['patientstatus'].strip().lower()]
@@ -229,7 +231,7 @@ def parse_outcome(outcome_data, i):
         except KeyError:
             # Unrecognized status
             logging.warning('[L{}] [{}] [Bad patientstatus: {}] {}: {}'.format(
-                j + 2, date, entry['patientstatus'], state, district))
+                j + 2, entry['date'], entry['patientstatus'], state, district))
 
 
 def parse_district_gospel(reader):
@@ -255,27 +257,26 @@ def parse_icmr(icmr_data):
     for j, entry in enumerate(icmr_data['tested']):
         count_str = entry['totalsamplestested'].strip()
         try:
-            fdate = datetime.strptime(entry['updatetimestamp'].strip(),
-                                      '%d/%m/%Y %H:%M:%S')
+            fdate = datetime.strptime(entry['testedasof'].strip(), '%d/%m/%Y')
             date = datetime.strftime(fdate, '%Y-%m-%d')
             if date > INDIA_DATE:
                 # Entries from future dates will be ignored
                 if count_str:
                     # Log non-zero entries
-                    logging.warning('[L{}] [Future timestamp: {}]'.format(
-                        j + 2, entry['updatetimestamp']))
+                    logging.warning('[L{}] [Future date: {}]'.format(
+                        j + 2, entry['testedasof']))
                 continue
         except ValueError:
             # Bad timestamp
-            logging.warning('[L{}] [Bad timestamp: {}]'.format(
-                j + 2, entry['updatetimestamp']))
+            logging.warning('[L{}] [Bad date: {}]'.format(
+                j + 2, entry['testedasof']))
             continue
 
         try:
             count = int(count_str)
         except ValueError:
             logging.warning('[L{}] [{}] [Bad totalsamplestested: {}]'.format(
-                j + 2, entry['updatetimestamp'], entry['totalsamplestested']))
+                j + 2, entry['testedasof'], entry['totalsamplestested']))
             continue
 
         if count:
