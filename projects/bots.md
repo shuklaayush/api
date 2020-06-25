@@ -20,7 +20,7 @@
 
 - [covid19indiatracker_bot](https://github.com/cibinjoseph/covid19indiatracker_bot)
 
-- [INDIA COVID-19 Google Map TRACKER](https://goo.gl/maps/U32Ex1gWQxmc6Aot8)
+- [INDIA COVID-19 Google Map TRACKER](https://goo.gl/maps/U32Ex1gWQxmc6Aot8) (by [@jeethesh-kotian](https://github.com/jeethesh-kotian))
 
 - [Covid19WorldStats](https://github.com/ravindraten/Covid19WorldStats) (by [@RavindraNayak](https://github.com/ravindraten))
 
