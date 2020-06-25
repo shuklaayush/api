@@ -1,6 +1,8 @@
 # Mobile apps using this API
 
 ### _Android apps:_
+- __[Covid-19 Status](https://github.com/Coders-Of-XDA-OT/covid19-status-android)__ is a free and open source Android application which shows the current status of Covid-19 in India and around the world. It has a beautiful, simple and fast UI developed by __[Vipul Jha](https://github.com/lordarcadius)__. Download & install the latest apk from __[here](https://www.vipuljha.com/covid)__.
+
 - [Corona Track] (https://corona-track.live) (by Cyberdoc) Worldwide Stats with containment zones data of all major cities across India, Testing centres and hospitals info
 
 - [Covid-19 India Android App](https://github.com/GRajin/Covid-19IndiaApp) (by Rajin Gangadharan [@GRajin](https://github.com/GRajin)). This app shows the cases of Covid-19 Virus in India. It is a lightweight application(4mb). This app has a DayWise report, StateWise report and DistrictWise report including graphs. To download APK, click [here](https://github.com/GRajin/Covid-19IndiaApp/releases/download/Covid19_India_v1.0/Covid-19.India.apk). Feel free to fork the project and add your own features!
@@ -21,8 +23,6 @@
 - [Covid-19 Tracker App](https://github.com/saif191020/covid-19-Tracker-App) (by Saif Basheer Ahamed [@saif191020](https://github.com/saif191020))
 
 - __[Covid-19 India Tracker (covidapp.in)](http://covidapp.in)__ This app will help people to find the details status/stats of the COVID-19 in India and other countries stats, also list of quarantine people in respective states. __[Download / Get Android APK](https://drive.google.com/file/d/1n35tQndjuDJR8l1-zYHu6UBO-ZFibFuO/view)__ (by __Prabhakar Thota__ [@myinnos](https://github.com/myinnos))
-
-- [Covid-19 India Tracker (covidapp.in)](http://covidapp.in) This app will help people to find the details status/stats of the COVID-19 in India and other countries stats, also list of quarantine people in respective states. [Download / Get Android APK](https://drive.google.com/file/d/1n35tQndjuDJR8l1-zYHu6UBO-ZFibFuO/view) (by Prabhakar Thota [@myinnos](https://github.com/myinnos))
 
 - [NCovid19](http://covid.softycom.in) (by Rohan Mahindrakar [@rohan12](https://github.com/ROHAN12))
 
