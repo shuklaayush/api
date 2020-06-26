@@ -12,7 +12,8 @@ logging.basicConfig(stream=sys.stdout, format="%(message)s", level=logging.INFO)
 
 def make_int_if_possible(c):
     """
-    csv has integer values as strings.
+    Names and tags are strings. Return as is.
+    csv has tested values as strings.
     Convert them to integer if possible
     """
     if isinstance(c, str):
@@ -30,17 +31,19 @@ def parse_testing(x):
     Returns dictionary for each district.
     """
     rgx = re.compile(r"[0-9]*\/[0-9]*\/[0-9]*")
-    dt = ""
+    date = ""
+    per_day = {}
     per_dist = {}
-    dates = {}
+
     for k in x.keys():
         if re.match(rgx, k):
-            if dt != str(k[0:10]):
-                dt = k
+            if date != str(k[0:10]):
+                date = k
                 try:
                     np.isnan(x[k])
                     continue
                 except TypeError:
+                    
                     per_day = {
                         k[0:10]: {
                             "tested": make_int_if_possible(x[k]),
@@ -50,12 +53,11 @@ def parse_testing(x):
                             "source2": make_int_if_possible(x[k + ".4"]),
                         }
                     }
-                    dates.update(per_day)
+                    per_dist.update(per_day)
             else:
                 continue
         else:
             per_dist.update({k.lower(): make_int_if_possible(x[k])})
-    per_dist.update({"dates" : dates})
     return per_dist
 
 
@@ -67,10 +69,8 @@ if __name__ == "__main__":
     df = pd.read_csv(path)
     ind_di = df.to_dict("index")
 
-    # Range from 1 as 0th row contains headers.
     for i in range(1, len(ind_di)):
         dist_testing.append(parse_testing(ind_di[i]))
-    logging.info(f"{len(dist_testing)} districts processed")
     ddt = {"district_testing": dist_testing}
     logging.info("Save district_testing.json\n------------")
     with open(Path("tmp", "district_testing.json"), "w") as js:
