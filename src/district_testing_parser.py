@@ -12,16 +12,20 @@ logging.basicConfig(stream=sys.stdout, format="%(message)s", level=logging.INFO)
 
 def make_int_if_possible(c):
     """
-    Names and tags are strings. Return as is.
-    csv has tested values as strings.
+    csv has integer values as strings.
     Convert them to integer if possible
     """
-    if isinstance(c, str):
-        return c
     try:
         return int(c)
     except ValueError:
-        return ""
+        if isinstance(c,str):
+            if len(c)>0:
+                return c
+            else:
+                return ""
+        else:
+            return ""
+
 
 
 def parse_testing(x):
