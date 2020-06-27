@@ -20,7 +20,7 @@ INDIA_DATE = datetime.strftime(
 
 INPUT_DIR = Path('tmp')
 # Contains state codes to be used as API keys
-STATE_META_DATA = INPUT_DIR / 'misc.json'
+META_DATA = INPUT_DIR / 'misc.json'
 # Contains list of geographical districts
 DISTRICT_LIST = INPUT_DIR / 'state_district_wise.json'
 # All raw_data's
@@ -49,6 +49,9 @@ OUTPUT_TIMESERIES_FILENAME = 'timeseries'
 STATE_CODES = {}
 # State codes to state names map (capitalized appropriately)
 STATE_NAMES = {}
+# State/district populations
+STATE_POPULATIONS = {}
+DISTRICT_POPULATIONS = defaultdict(dict)
 # Code corresponding to MoHFW's 'Unassigned States' in sheet
 UNASSIGNED_STATE_CODE = 'UN'
 # Dict containing geographical districts
@@ -65,29 +68,40 @@ RAW_DATA_MAP = {
     'migrated_other': 'migrated',
 }
 
+# Log statements width
 PRINT_WIDTH = 70
 
 # Nested default dict of dict
 ddict = lambda: defaultdict(ddict)
+# Dictionaries which stored final parsed data
 data = ddict()
 timeseries = ddict()
 
 
-def parse_state_codes(raw_data):
-    for entry in raw_data['state_meta_data']:
+def parse_state_metadata(raw_data):
+    for i, entry in enumerate(raw_data['state_meta_data']):
         # State name with sheet capitalization
         state_name = entry['stateut'].strip()
         # State code caps
         state_code = entry['abbreviation'].strip().upper()
         STATE_CODES[state_name.lower()] = state_code
         STATE_NAMES[state_code] = state_name
+        # State population
+        try:
+            population = int(entry['population'].strip())
+        except ValueError:
+            if entry['population']:
+                logging.warning('[L{}] [Bad population: {}] {}'.format(
+                    i + 2, entry['population'], state_code))
+            continue
+        STATE_POPULATIONS[state_code] = population
 
 
 def parse_district_list(raw_data):
     for i, entry in enumerate(raw_data.values()):
         state = entry['statecode'].strip().upper()
         if state not in STATE_CODES.values():
-            logging.warning('[{}] [Bad state: {}]'.format(
+            logging.warning('[L{}] Bad state: {}'.format(
                 i + 2, entry['statecode']))
             continue
         if 'districtData' not in entry:
@@ -108,6 +122,29 @@ def parse_district(district, state):
     else:
         expected = False
     return district, expected
+
+
+def parse_district_metadata(raw_data):
+    for i, entry in enumerate(raw_data['district_meta_data']):
+        # State code
+        state = entry['statecode'].strip().upper()
+        if state not in STATE_CODES.values():
+            logging.warning('[L{}] Bad state: {}'.format(i + 2, state))
+            continue
+        # District name with sheet capitalization
+        district, expected = parse_district(entry['district'], state)
+        if not expected:
+            logging.warning('[L{}] [{}] Unexpected district: {}'.format(
+                i + 2, state, district))
+        # District population
+        try:
+            population = int(entry['population'].strip())
+        except ValueError:
+            if entry['population']:
+                logging.warning('[L{}] [Bad population: {}] {}: {}'.format(
+                    i + 2, entry['population'], state, district))
+            continue
+        DISTRICT_POPULATIONS[state][district] = population
 
 
 def inc(ref, key, count):
@@ -286,8 +323,8 @@ def parse_icmr(icmr_data):
             data[date]['TT']['meta']['tested']['last_updated'] = date
 
 
-def parse_state_test(state_test_data):
-    for j, entry in enumerate(state_test_data['states_tested_data']):
+def parse_state_test(raw_data):
+    for j, entry in enumerate(raw_data['states_tested_data']):
         count_str = entry['totaltested'].strip()
         try:
             fdate = datetime.strptime(entry['updatedon'].strip(), '%d/%m/%Y')
@@ -329,6 +366,14 @@ def parse_state_test(state_test_data):
             data[date][state]['meta']['tested']['last_updated'] = date
 
 
+def column_str(n):
+    string = ''
+    while n > 0:
+        n, rem = divmod(n - 1, 26)
+        alpha = chr(65 + rem) + alpha
+    return alpha
+
+
 def fill_tested():
     dates = sorted(data)
     for i, date in enumerate(dates):
@@ -336,16 +381,14 @@ def fill_tested():
 
         # Initialize today's delta with today's cumulative
         for state, state_data in curr_data.items():
-            if 'total' in state_data:
-                if 'tested' in state_data['total']:
-                    state_data['delta']['tested'] = state_data['total'][
-                        'tested']
+            if 'total' in state_data and 'tested' in state_data['total']:
+                state_data['delta']['tested'] = state_data['total']['tested']
 
         if i > 0:
             prev_date = dates[i - 1]
             prev_data = data[prev_date]
             for state, state_data in prev_data.items():
-                if 'tested' in state_data['total']:
+                if 'total' in state_data and 'tested' in state_data['total']:
                     if 'tested' in curr_data[state]['total']:
                         # Subtract previous cumulative to get delta
                         curr_data[state]['delta']['tested'] -= state_data[
@@ -447,6 +490,27 @@ def stripper(raw_data, dtype=ddict):
         if v:
             new_data[k] = v
     return new_data
+
+
+def add_populations():
+    # Add population data for states/districts
+    for curr_data in data.values():
+        for state, state_data in curr_data.items():
+            try:
+                state_pop = STATE_POPULATIONS[state]
+                state_data['meta']['population'] = state_pop
+            except KeyError:
+                pass
+
+            if 'districts' not in state_data:
+                continue
+
+            for district, district_data in state_data['districts'].items():
+                try:
+                    district_pop = DISTRICT_POPULATIONS[state][district]
+                    district_data['meta']['population'] = district_pop
+                except KeyError:
+                    pass
 
 
 def generate_timeseries(districts=False):
@@ -636,13 +700,13 @@ if __name__ == '__main__':
                                             align='^',
                                             width=PRINT_WIDTH))
 
-    # Get possible state codes
+    # Get possible state codes, populations
     logging.info('-' * PRINT_WIDTH)
-    logging.info('Parsing state names and codes...')
-    with open(STATE_META_DATA, 'r') as f:
-        logging.info('File: {}'.format(STATE_META_DATA.name))
+    logging.info('Parsing state metadata...')
+    with open(META_DATA, 'r') as f:
+        logging.info('File: {}'.format(META_DATA.name))
         raw_data = json.load(f)
-        parse_state_codes(raw_data)
+        parse_state_metadata(raw_data)
     logging.info('Done!')
 
     # Get all actual district names
@@ -652,6 +716,15 @@ if __name__ == '__main__':
         logging.info('File: {}'.format(DISTRICT_LIST.name))
         raw_data = json.load(f)
         parse_district_list(raw_data)
+    logging.info('Done!')
+
+    # Get district populations
+    logging.info('-' * PRINT_WIDTH)
+    logging.info('Parsing district metadata...')
+    with open(META_DATA, 'r') as f:
+        logging.info('File: {}'.format(META_DATA.name))
+        raw_data = json.load(f)
+        parse_district_metadata(raw_data)
     logging.info('Done!')
 
     # Parse raw_data's
@@ -737,6 +810,12 @@ if __name__ == '__main__':
     logging.info('-' * PRINT_WIDTH)
     logging.info('Stripping empty values...')
     data = stripper(data)
+    logging.info('Done!')
+
+    # Add population figures
+    logging.info('-' * PRINT_WIDTH)
+    logging.info('Adding state/district populations...')
+    add_populations()
     logging.info('Done!')
 
     # Generate timeseries
