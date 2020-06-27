@@ -45,11 +45,10 @@ node src/snapshot_zones.js
 node src/generate_districts_daily.js
 node src/generate_locale.js
 # node src/ultimate_parser.js
-pip3 install --upgrade setuptools
-pip3 install --quiet -r requirements.txt
+# pip3 install --upgrade setuptools
+# pip3 install --quiet -r requirements.txt
 # python3 src/geocoder.py
 python3 src/parser_v3.py
-python3 src/district_testing_parser.py
 
 node src/sanity_check.js
 node src/generate_activity_log.js
