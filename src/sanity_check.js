@@ -6,13 +6,13 @@ const data_prev = require('../tmp/data_prev.json');
 
 var total = data.statewise[0];
 var err = false;
-if (total.deltaconfirmed > 20000) {
-    process.stderr.write("Delta confirmed is greater than 20k");
+if (total.deltaconfirmed > 30000) {
+    console.error("Delta confirmed is greater than 30k");
     err = true;
 }
 
 if (err) {
-    process.stderr.write("Sanity check failed. Not committing!");
+    console.error("Sanity check failed. Not committing!");
     process.exit(1);
 }
 else {
