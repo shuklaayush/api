@@ -34,6 +34,8 @@ GOSPEL_DATE = '2020-04-26'
 ICMR_TEST_DATA = INPUT_DIR / 'data.json'
 # States testing data
 STATE_TEST_DATA = INPUT_DIR / 'state_test_data.json'
+# District testing data
+DISTRICT_TEST_DATA = INPUT_DIR / 'csv' / 'latest' / 'district_testing.csv'
 ## For adding metadata
 # For state notes and last updated
 STATE_WISE = INPUT_DIR / 'data.json'
@@ -374,6 +376,64 @@ def column_str(n):
     return alpha
 
 
+def parse_district_test(reader):
+    # Header row
+    header = next(reader)
+    # Store formatted dates
+    dates = ['' for _ in header]
+    # Columns > 5 contain dates
+    for j in range(5, len(header), 5):
+        try:
+            fdate = datetime.strptime(header[j].strip(), '%d/%m/%Y')
+            date = datetime.strftime(fdate, '%Y-%m-%d')
+            if date <= INDIA_DATE:
+                # Entries from future dates will be ignored
+                dates[j] = date
+        except ValueError:
+            # Bad date
+            logging.warning('[{}] Bad date: {}'.format(column_str(j),
+                                                       header[j]))
+    # Skip second row
+    next(reader)
+    for i, row in enumerate(reader):
+        # Column 3 contains state name
+        state_name = row[3].strip().lower()
+        try:
+            state = STATE_CODES[state_name]
+        except KeyError:
+            # Entries having unrecognized state names are discarded
+            logging.warning('[L{}] Bad state: {}'.format(i + 3, row[3]))
+            continue
+
+        # Column 4 contains district name
+        district, expected = parse_district(row[4], state)
+        if not expected:
+            # Print unexpected district names
+            logging.warning('[L{}] Unexpected district: {} {}'.format(
+                i + 3, state, district))
+
+        # Testing data starts from column 5
+        for j in range(5, len(row), 5):
+            # | Tested | Positive | Negative | Source1 | Source2 |
+            try:
+                count = int(row[j].strip())
+            except ValueError:
+                if row[j]:
+                    logging.warning('[L{} {}] [{}: {}] Bad Tested: {}'.format(
+                        i + 3, column_str(j), state, district, row[j]))
+                continue
+            # Use Source1 key as source
+            source = row[j + 3].strip()
+            date = dates[j]
+            if count:
+                data[date][state]['districts'][district]['total'][
+                    'tested'] = count
+                data[date][state]['districts'][district]['meta']['tested'][
+                    'source'] = source
+                data[date][state]['districts'][district]['meta']['tested'][
+                    'last_updated'] = date
+
+
 def fill_tested():
     dates = sorted(data)
     for i, date in enumerate(dates):
@@ -383,6 +443,15 @@ def fill_tested():
         for state, state_data in curr_data.items():
             if 'total' in state_data and 'tested' in state_data['total']:
                 state_data['delta']['tested'] = state_data['total']['tested']
+
+            if 'districts' not in state_data:
+                continue
+
+            for district, district_data in state_data['districts'].items():
+                if 'total' in district_data and 'tested' in district_data[
+                        'total']:
+                    district_data['delta']['tested'] = district_data['total'][
+                        'tested']
 
         if i > 0:
             prev_date = dates[i - 1]
@@ -403,6 +472,29 @@ def fill_tested():
                         curr_data[state]['meta']['tested'][
                             'last_updated'] = state_data['meta']['tested'][
                                 'last_updated']
+
+                if 'districts' not in state_data:
+                    continue
+
+                for district, district_data in state_data['districts'].items():
+                    if 'total' in district_data and 'tested' in district_data[
+                            'total']:
+                        if 'tested' in curr_data[state]['districts'][district][
+                                'total']:
+                            # Subtract previous cumulative to get delta
+                            curr_data[state]['districts'][district]['delta'][
+                                'tested'] -= district_data['total']['tested']
+                        else:
+                            # Take today's cumulative to be same as yesterday's
+                            # cumulative if today's cumulative is missing
+                            curr_data[state]['districts'][district]['total'][
+                                'tested'] = district_data['total']['tested']
+                            curr_data[state]['districts'][district]['meta'][
+                                'tested']['source'] = district_data['meta'][
+                                    'tested']['source']
+                            curr_data[state]['districts'][district]['meta'][
+                                'tested']['last_updated'] = district_data[
+                                    'meta']['tested']['last_updated']
 
 
 def accumulate(start_after_date='', end_date='3020-01-30'):
@@ -778,6 +870,15 @@ if __name__ == '__main__':
         logging.info('File: {}'.format(STATE_TEST_DATA.name))
         raw_data = json.load(f, object_pairs_hook=OrderedDict)
         parse_state_test(raw_data)
+    logging.info('Done!')
+
+    logging.info('-' * PRINT_WIDTH)
+    logging.info('Parsing test data for districts...')
+    f = DISTRICT_TEST_DATA
+    with open(f, 'r') as f:
+        logging.info('File: {}'.format(DISTRICT_TEST_DATA.name))
+        reader = csv.reader(f)
+        parse_district_test(reader)
     logging.info('Done!')
 
     # Fill delta values for tested
