@@ -381,8 +381,8 @@ def parse_district_test(reader):
     header = next(reader)
     # Store formatted dates
     dates = ['' for _ in header]
-    # Columns > 5 contain dates
-    for j in range(5, len(header), 5):
+    # Columns >= 6 contain dates
+    for j in range(6, len(header), 5):
         try:
             fdate = datetime.strptime(header[j].strip(), '%d/%m/%Y')
             date = datetime.strftime(fdate, '%Y-%m-%d')
@@ -412,8 +412,8 @@ def parse_district_test(reader):
             logging.warning('[L{}] Unexpected district: {} {}'.format(
                 i + 3, state, district))
 
-        # Testing data starts from column 5
-        for j in range(5, len(row), 5):
+        # Testing data starts from column 6
+        for j in range(6, len(row), 5):
             # | Tested | Positive | Negative | Source1 | Source2 |
             try:
                 count = int(row[j].strip())
