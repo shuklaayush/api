@@ -6,7 +6,7 @@ A volunteer-driven, crowd-sourced database for COVID-19 stats & patient tracing 
 
 ## About Raw Data
 
-Due to the growing size of the raw data, and the fact that regions like DL, MH, TG are providing district level information only, we have made a change in our data collection. The raw data is now available in five parts as below:
+Raw Data is split into multiple files. You can regenerate the full raw data by merging the following json files.
 
 `api.covid19india.org/raw_data1.json` (Data till EoD Apr 19th)<br>
 `api.covid19india.org/raw_data2.json` (Data till EoD Apr 26th)<br>
@@ -14,19 +14,22 @@ Due to the growing size of the raw data, and the fact that regions like DL, MH, 
 `api.covid19india.org/raw_data4.json` (Data till EoD May 23rd)<br>
 `api.covid19india.org/raw_data5.json` (Data till EoD Jun 04th)<br>
 `api.covid19india.org/raw_data6.json` (Data till EoD Jun 19th)<br>
-`api.covid19india.org/raw_data7.json` (Live 🚀)<br>
+`api.covid19india.org/raw_data7.json` (Data till EoD Jun 30th)<br>
+`api.covid19india.org/raw_data8.json` (Live 🚀)<br>
 
-Also, there are some structural differences from the release of raw_data3.json onwards. When a new report/bulletin is released from a state regarding confirmed cases:
+Raw Data 1 and 2 are organized at a patient level. i.e., there is one row per person. The deaths and recoveries that happened during that time need to be fetched from deaths_and_recoveries{1,2} json files.
 
-1. If patient level information is available (from several states like KA,KL,BH etc.), that is captured.
+From Raw Data 3 onwards, structure has been changed to accomadate both aggregate as well as patient level entries.
+
+1. If patient level information is available (from several states like KA,BH etc.), that is captured at one row per patient.
 2. If only district-wise information is available, one row is entered for each district, and "numcases" field mentions the number of cases in that district.
 3. If only state-wise information is available, one row is added added for the entire state
-4. Recoveries and Deceased is also present in raw_data. Use the "Current Status" field to extract that information.
+4. Recoveries and Deceased information is also  also present in raw_data. Use the "Current Status" field to extract that information.
 
 All other aggregate APIs retain the same behaviour.
 CSV files for the same are also available through `api.covid19india.org/csv/latest/raw_data{n}.csv`
 
-We are working towards providing a singular raw_data that can be the source of truth. However, we strongly advise you to use the aggrgate information for any analysis.
+We are working towards providing a singular raw_data that can be the source of truth. However, we strongly advise you to use the aggregate information for any analysis.
 
 
 ### JSON
@@ -39,10 +42,10 @@ We are working towards providing a singular raw_data that can be the source of t
 | :green_heart: | Patient Level : Raw Data Partition 4 (From May 10 to May 23)              | https://api.covid19india.org/raw_data4.json              |
 | :green_heart: | Patient Level : Raw Data Partition 5 (From May 24 to Jun 04)              | https://api.covid19india.org/raw_data5.json              |
 | :green_heart: | Patient Level : Raw Data Partition 6 (From Jun 05 to Jun 19)              | https://api.covid19india.org/raw_data6.json              |
-| :green_heart: | Patient Level : Raw Data Partition 7 (From Jun 20th onwards)               | https://api.covid19india.org/raw_data7.json              |
+| :green_heart: | Patient Level : Raw Data Partition 7 (From Jun 20 to Jun 30)              | https://api.covid19india.org/raw_data7.json              |
+| :green_heart: | Patient Level : Raw Data Partition 8 (From Jul 01st onwards)              | https://api.covid19india.org/raw_data8.json              |
 | :green_heart: | National Level :Time series, State-wise stats and Test counts             | https://api.covid19india.org/data.json                   |
 | :green_heart: | State Level : has district-wise info                                      | https://api.covid19india.org/state_district_wise.json    |
-| :green_heart: | State Level : has district-wise info V2 _(minor difference in structure)_ | https://api.covid19india.org/v2/state_district_wise.json |
 | :green_heart: | State Level : Daily changes                                               | https://api.covid19india.org/states_daily.json           |
 | :green_heart: | State Level : Testing data                                                | https://api.covid19india.org/state_test_data.json        |
 | :green_heart: | National/State/District Level : Latest cummulative/daily counts           | https://api.covid19india.org/v3/data.json                |
@@ -51,7 +54,7 @@ We are working towards providing a singular raw_data that can be the source of t
 | :green_heart: | National/State Level: Timeseries _(different structure)_                  | https://api.covid19india.org/v3/timeseries.json          |
 | :green_heart: | District Level : Daily changes                                            | https://api.covid19india.org/districts_daily.json        |
 | :end:         | District Level : Zones                                                    | https://api.covid19india.org/zones.json                  |
-| :green_heart: | Essentials and resources                                                  | https://api.covid19india.org/resources/resources.json    |
+| :end:         | Essentials and resources                                                  | https://api.covid19india.org/resources/resources.json    |
 | :end:         | Raw Data (Partition 1 + Partition 2. Frozen after Apr 26th)               | https://api.covid19india.org/raw_data.json               |
 | :end:         | Deaths and Recoveries (Frozen after Apr 26th)                             | https://api.covid19india.org/deaths_recoveries.json      |
 | :end:         | Travel history (No more updated)                                          | https://api.covid19india.org/travel_history.json         |
@@ -77,6 +80,7 @@ API for current cases, state-wise, district-wise and historical data of India CO
 - Volunteers collect data from trusted sources and update the sheet
 - We use Github Actions to periodically fetch the data from the sheet to the repo
 - Static json and csv files into the gh-pages repository
+- gh-pages serve the json files just like a website
 
 ## Contributing
 
@@ -89,7 +93,7 @@ API for current cases, state-wise, district-wise and historical data of India CO
 ## Quick Links
 
 - [Telegram Group](https://telegra.ph/CoVID-19--India-Ops-03-24)
-- [Patient Database](http://patientdb.covid19india.org/)
+- [Sources Considered](https://telegra.ph/Covid-19-Sources-03-19)
 
 
 -----
@@ -99,7 +103,7 @@ API for current cases, state-wise, district-wise and historical data of India CO
 
 - [COVID-19 INDIA TRACKER](https://www.covid19india.org/) (Main Dashboard)
 - [covid19india.org Ops Telegram Channel](https://t.me/covid19indiaorg) (News and Announcements from covid19india.org Team)
-- [Telegram instant Updates](https://t.me/covid19indiaorg_updates) (Instant Updates from covid19india.org Team)
+- [covid19india.org Instant Updates](https://t.me/covid19indiaorg_updates) (Instant Updates of new cases added - from covid19india.org Team)
 
 ### Some other categories of projects using this API:
 
@@ -112,7 +116,5 @@ API for current cases, state-wise, district-wise and historical data of India CO
 - [Mobile apps](projects/mobile_apps.md)
 
 - [Other trackers/dashboards](projects/miscellaneous.md)
-
-- [Windows 10 apps](projects/win10_apps.md)
 
 ........................................
