@@ -28,6 +28,7 @@ const PUBLISHED_SHEET_ID_4 = "2PACX-1vSeAoAk_iMv7cQ0tldZC7aivJmGKM5Wpc5VVr37Nzv-
 const PUBLISHED_SHEET_ID_5 = "2PACX-1vSEikAgjAB9x7yhx4zNOUGLIx8Zfy2mAzRv0K1tbw08g73MO88-bbWCsgmhJ0uXa0gtuUlLMOnE9h26";
 const PUBLISHED_SHEET_ID_6 = "2PACX-1vQQmgjCktQknnTPy-s4OFycu-imtoMCrWY5M2Lqig3nhGyy6W5E27xbCyaaKV9lGaDWmTzGWVzPH9-S";
 const PUBLISHED_SHEET_ID_7 = "2PACX-1vR6blqV85tiBO-9u4MCW72qXALS3f7yQD0iV47MbsmIcKrvBDTorIVrUJ96QrxUj7iwAviYiecjp8VU";
+const PUBLISHED_SHEET_ID_8 = "2PACX-1vR1zl3JStozuCgPsPol19f9k_io1ABmHS_mOl9gzWxiDd2_WvWhdfhePXBFZIUFjpW-gPfPwE9m7AA_";
 
 
 const sheets_v1 = [
@@ -59,6 +60,10 @@ const sheets_v6 = [
 
 const sheets_v7 = [
     ["raw_data7", "0"],
+];
+
+const sheets_v8 = [
+    ["raw_data8", "0"],
     ["state_wise", "1896310216"],
     ["state_wise_daily", "1395461826"],
     ["sources_list", "704389477"],
@@ -102,29 +107,30 @@ async function sheet_to_csv(sheets, pub_id) {
     await sheet_to_csv(sheets_v5, PUBLISHED_SHEET_ID_5);
     await sheet_to_csv(sheets_v6, PUBLISHED_SHEET_ID_6);
     await sheet_to_csv(sheets_v7, PUBLISHED_SHEET_ID_7);
+    await sheet_to_csv(sheets_v8, PUBLISHED_SHEET_ID_8);
 
     // concat steps below
-    console.log("merge both csv");
-    var raw_data1 = fs.readFileSync('./tmp/csv/latest/raw_data1.csv', 'utf8');
-    var raw_data2 = fs.readFileSync('./tmp/csv/latest/raw_data2.csv', 'utf8');
-    var deaths_recoveries1 = fs.readFileSync('./tmp/csv/latest/death_and_recovered1.csv', 'utf8');
-    var deaths_recoveries2 = fs.readFileSync('./tmp/csv/latest/death_and_recovered2.csv', 'utf8');
+    // console.log("merge both csv");
+    // var raw_data1 = fs.readFileSync('./tmp/csv/latest/raw_data1.csv', 'utf8');
+    // var raw_data2 = fs.readFileSync('./tmp/csv/latest/raw_data2.csv', 'utf8');
+    // var deaths_recoveries1 = fs.readFileSync('./tmp/csv/latest/death_and_recovered1.csv', 'utf8');
+    // var deaths_recoveries2 = fs.readFileSync('./tmp/csv/latest/death_and_recovered2.csv', 'utf8');
 
-    dr = deaths_recoveries2.split("\n");;
-    dr.shift();
-    dr2 = dr.join("\n");
-    deaths_recoveries = deaths_recoveries1 + "\n" + dr2;
+    // dr = deaths_recoveries2.split("\n");;
+    // dr.shift();
+    // dr2 = dr.join("\n");
+    // deaths_recoveries = deaths_recoveries1 + "\n" + dr2;
 
-    rd = raw_data2.split("\n");;
-    rd.shift();
-    rd2 = rd.join("\n");
-    raw_data = raw_data1 + "\n" + rd2;
+    // rd = raw_data2.split("\n");;
+    // rd.shift();
+    // rd2 = rd.join("\n");
+    // raw_data = raw_data1 + "\n" + rd2;
 
-    fs.writeFileSync(today_dir + "/raw_data.csv", raw_data);
-    fs.writeFileSync(latest_dir + "/raw_data.csv", raw_data);
-    console.log("merged raw_data1 and raw_data2");
-    fs.writeFileSync(today_dir + "/death_and_recovered.csv", deaths_recoveries);
-    fs.writeFileSync(latest_dir + "/death_and_recovered.csv", deaths_recoveries);
-    console.log("merged death_and_recovered1 and death_and_recovered2");
+    // fs.writeFileSync(today_dir + "/raw_data.csv", raw_data);
+    // fs.writeFileSync(latest_dir + "/raw_data.csv", raw_data);
+    // console.log("merged raw_data1 and raw_data2");
+    // fs.writeFileSync(today_dir + "/death_and_recovered.csv", deaths_recoveries);
+    // fs.writeFileSync(latest_dir + "/death_and_recovered.csv", deaths_recoveries);
+    // console.log("merged death_and_recovered1 and death_and_recovered2");
 
 })();
