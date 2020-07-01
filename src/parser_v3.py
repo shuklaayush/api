@@ -387,7 +387,7 @@ def parse_district_test(reader):
             fdate = datetime.strptime(header[j].strip(), '%d/%m/%Y')
             date = datetime.strftime(fdate, '%Y-%m-%d')
             if date <= INDIA_DATE:
-                # Entries from future dates will be ignored
+                # Only keep entries from present or past dates
                 dates[j] = date
         except ValueError:
             # Bad date
@@ -414,6 +414,11 @@ def parse_district_test(reader):
 
         # Testing data starts from column 6
         for j in range(6, len(row), 5):
+            # Date header
+            date = dates[j]
+            if not date:
+                # Skip future date
+                continue
             # | Tested | Positive | Negative | Source1 | Source2 |
             try:
                 count = int(row[j].strip())
@@ -424,7 +429,6 @@ def parse_district_test(reader):
                 continue
             # Use Source1 key as source
             source = row[j + 3].strip()
-            date = dates[j]
             if count:
                 data[date][state]['districts'][district]['total'][
                     'tested'] = count
