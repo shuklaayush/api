@@ -78,7 +78,7 @@ function fillSpace(str, width) {
 
 const width_state = 2;
 const width_confirmed = 13;
-const width_recovered = 12;
+const width_recovered = 13;
 const width_deceased = 12;
 
 function editMessage(last_updated) {
