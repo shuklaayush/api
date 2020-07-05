@@ -619,7 +619,7 @@ def generate_timeseries(districts=False):
                         timeseries[state]['dates'][date][stype][
                             statistic] = value
 
-            if not districts or 'districts' not in state_data or date <= GOSPEL_DATE:
+            if not districts or 'districts' not in state_data or date < GOSPEL_DATE:
                 # Total state has no district data
                 # District timeseries starts only from 26th April
                 continue
