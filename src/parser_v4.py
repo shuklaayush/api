@@ -3,14 +3,13 @@
 import csv
 import logging
 import json
-import sys
 import yaml
 from collections import defaultdict, OrderedDict
 from datetime import datetime, timedelta
 from pathlib import Path
 
 # Set logging level
-logging.basicConfig(stream=sys.stdout,
+logging.basicConfig(handlers=[logging.NullHandler()],
                     format='%(message)s',
                     level=logging.INFO)
 
@@ -42,10 +41,10 @@ STATE_WISE = INPUT_DIR / 'data.json'
 # For district notes
 DISTRICT_WISE = INPUT_DIR / 'state_district_wise.json'
 
-OUTPUT_DIR = Path('tmp', 'v3')
+OUTPUT_DIR = Path('tmp', 'v4')
 OUTPUT_MIN_DIR = OUTPUT_DIR / 'min'
 OUTPUT_DATA_PREFIX = 'data'
-OUTPUT_TIMESERIES_FILENAME = 'timeseries'
+OUTPUT_TIMESERIES_PREFIX = 'timeseries'
 
 # Two digit state codes
 STATE_CODES = {}
@@ -617,7 +616,8 @@ def generate_timeseries(districts=False):
             for stype in ['total', 'delta']:
                 if stype in state_data:
                     for statistic, value in state_data[stype].items():
-                        timeseries[state][date][stype][statistic] = value
+                        timeseries[state]['dates'][date][stype][
+                            statistic] = value
 
             if not districts or 'districts' not in state_data or date <= GOSPEL_DATE:
                 # Total state has no district data
@@ -628,8 +628,8 @@ def generate_timeseries(districts=False):
                 for stype in ['total', 'delta']:
                     if stype in district_data:
                         for statistic, value in district_data[stype].items():
-                            timeseries[state]['districts'][district][date][
-                                stype][statistic] = value
+                            timeseries[state]['districts'][district]['dates'][
+                                date][stype][statistic] = value
 
 
 def add_state_meta(raw_data):
@@ -792,7 +792,7 @@ def tally_districtwise(raw_data):
 
 if __name__ == '__main__':
     logging.info('-' * PRINT_WIDTH)
-    logging.info('{:{align}{width}}'.format('PARSER V3 START',
+    logging.info('{:{align}{width}}'.format('PARSER V4 START',
                                             align='^',
                                             width=PRINT_WIDTH))
 
@@ -926,7 +926,7 @@ if __name__ == '__main__':
     # Generate timeseries
     logging.info('-' * PRINT_WIDTH)
     logging.info('Generating timeseries...')
-    generate_timeseries(districts=False)
+    generate_timeseries(districts=True)
     logging.info('Done!')
 
     logging.info('-' * PRINT_WIDTH)
@@ -970,15 +970,37 @@ if __name__ == '__main__':
         with open((OUTPUT_MIN_DIR / fn).with_suffix('.min.json'), 'w') as f:
             json.dump(curr_data, f, separators=(',', ':'), sort_keys=True)
 
-    # Dump timeseries json
-    with open((OUTPUT_DIR / OUTPUT_TIMESERIES_FILENAME).with_suffix('.json'),
-              'w') as f:
+    # Dump full timeseries json
+    fn = '{}-{}'.format(OUTPUT_TIMESERIES_PREFIX, 'all')
+    with open((OUTPUT_DIR / fn).with_suffix('.json'), 'w') as f:
         json.dump(timeseries, f, indent=2, sort_keys=True)
-    with open(
-        (OUTPUT_MIN_DIR / OUTPUT_TIMESERIES_FILENAME).with_suffix('.min.json'),
-            'w') as f:
+    with open((OUTPUT_MIN_DIR / fn).with_suffix('.min.json'), 'w') as f:
         json.dump(timeseries, f, separators=(',', ':'), sort_keys=True)
 
+    # Dump state timeseries json
+    fn = OUTPUT_TIMESERIES_PREFIX
+    # Filter out district time-series
+    timeseries_states = {
+        state: {
+            'dates': timeseries[state]['dates']
+        }
+        for state in timeseries
+    }
+    with open((OUTPUT_DIR / fn).with_suffix('.json'), 'w') as f:
+        json.dump(timeseries_states, f, indent=2, sort_keys=True)
+    with open((OUTPUT_MIN_DIR / fn).with_suffix('.min.json'), 'w') as f:
+        json.dump(timeseries_states, f, separators=(',', ':'), sort_keys=True)
+
+    # Split data and dump separate json for each state
+    for state in timeseries:
+        state_data = {state: timeseries[state]}
+        fn = '{}-{}'.format(OUTPUT_TIMESERIES_PREFIX, state)
+
+        with open((OUTPUT_DIR / fn).with_suffix('.json'), 'w') as f:
+            json.dump(state_data, f, indent=2, sort_keys=True)
+        # Minified
+        with open((OUTPUT_MIN_DIR / fn).with_suffix('.min.json'), 'w') as f:
+            json.dump(state_data, f, separators=(',', ':'), sort_keys=True)
     logging.info('Done!')
 
     # Tally final date counts with statewise API
@@ -1002,7 +1024,7 @@ if __name__ == '__main__':
     logging.info('Done!')
 
     logging.info('-' * PRINT_WIDTH)
-    logging.info('{:{align}{width}}'.format('PARSER V3 END',
+    logging.info('{:{align}{width}}'.format('PARSER V4 END',
                                             align='^',
                                             width=PRINT_WIDTH))
     logging.info('-' * PRINT_WIDTH)
