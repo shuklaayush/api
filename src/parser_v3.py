@@ -3,14 +3,13 @@
 import csv
 import logging
 import json
-import sys
 import yaml
 from collections import defaultdict, OrderedDict
 from datetime import datetime, timedelta
 from pathlib import Path
 
 # Set logging level
-logging.basicConfig(stream=sys.stdout,
+logging.basicConfig(handlers=[logging.NullHandler()],
                     format='%(message)s',
                     level=logging.INFO)
 
