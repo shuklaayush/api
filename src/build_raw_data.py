@@ -102,7 +102,7 @@ def fix_rawdata1and2(raw,rec):
     return raw
     
 
-def merge_alldata(current_ver:
+def merge_alldata(current_ver):
     '''
     Merge it all together
     '''
