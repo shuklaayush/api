@@ -29,6 +29,7 @@ const PUBLISHED_SHEET_ID_5 = "2PACX-1vSEikAgjAB9x7yhx4zNOUGLIx8Zfy2mAzRv0K1tbw08
 const PUBLISHED_SHEET_ID_6 = "2PACX-1vQQmgjCktQknnTPy-s4OFycu-imtoMCrWY5M2Lqig3nhGyy6W5E27xbCyaaKV9lGaDWmTzGWVzPH9-S";
 const PUBLISHED_SHEET_ID_7 = "2PACX-1vR6blqV85tiBO-9u4MCW72qXALS3f7yQD0iV47MbsmIcKrvBDTorIVrUJ96QrxUj7iwAviYiecjp8VU";
 const PUBLISHED_SHEET_ID_8 = "2PACX-1vR1zl3JStozuCgPsPol19f9k_io1ABmHS_mOl9gzWxiDd2_WvWhdfhePXBFZIUFjpW-gPfPwE9m7AA_";
+const PUBLISHED_SHEET_ID_9 = "2PACX-1vRb4AsEPrV4b0S4j2vQku-J5XHnh8c_8fzmIhD2S2aMc2if7g6bLwJNYOPV8UmrrNR-Bv0C0yjcUnU3";
 
 
 const sheets_v1 = [
@@ -64,6 +65,10 @@ const sheets_v7 = [
 
 const sheets_v8 = [
     ["raw_data8", "0"],
+];
+
+const sheets_v9 = [
+    ["raw_data9", "0"],
     ["state_wise", "1896310216"],
     ["state_wise_daily", "1395461826"],
     ["sources_list", "704389477"],
@@ -108,6 +113,7 @@ async function sheet_to_csv(sheets, pub_id) {
     await sheet_to_csv(sheets_v6, PUBLISHED_SHEET_ID_6);
     await sheet_to_csv(sheets_v7, PUBLISHED_SHEET_ID_7);
     await sheet_to_csv(sheets_v8, PUBLISHED_SHEET_ID_8);
+    await sheet_to_csv(sheets_v9, PUBLISHED_SHEET_ID_9);
 
     // concat steps below
     // console.log("merge both csv");
