@@ -28,7 +28,7 @@ This API gives the district level details of states that includes the totals for
 ```
 The values for delta and totals are per district per state combination. 
 
-### Usage and caveats:
+#### Usage and caveats:
 - Active numbers are calculated as Active = Confirmed - Recovered - Deceased - Migrated Others. This applies to both delta and total counts.
 - The values for all the districts of a state need to be consumed along with the "Unknown" district if there exists one. These are the cases for which the district details are not available as of now. 
 - There are possibilities of the numbers for districts going negative. This can happen in multiple scenarios
