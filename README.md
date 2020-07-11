@@ -84,6 +84,11 @@ API for current cases, state-wise, district-wise and historical data of India CO
 - Static json and csv files into the gh-pages repository
 - gh-pages serve the json files just like a website
 
+## License
+This repository contains both the code that routinely fetches the data from Google Sheet and convert it into JSON files in the required format and the data itself (in the gh-pages branch). So, the content of this repository is licensed in two ways : Code and Data
+License for Code (Consider this as everything in the `master` branch) : MIT License (Detailed in LICENSE_CODE.txt)
+License for Data (Consider this as everything in the `gh-ages` branch) : CC-BY-SA-4.0 License (Detailed in LICENSE_DATA.txt)
+
 ## Contributing
 
 - Contributions to new data formats are welcome. Please create a GH issue and discuss there before working on the same
