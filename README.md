@@ -34,7 +34,7 @@ We are working towards providing a singular raw_data that can be the source of t
 
 
 ### JSON 
-[A detailed documentation] (documentation/documentation.md)
+[A detailed documentation](documentation/documentation.md)
 
 | Status        | Data                                                                      | URL                                                      |
 | ------------- | ------------------------------------------------------------------------- | -------------------------------------------------------- |
