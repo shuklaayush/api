@@ -15,7 +15,8 @@ Raw Data is split into multiple files. You can regenerate the full raw data by m
 `api.covid19india.org/raw_data5.json` (Data till EoD Jun 04th)<br>
 `api.covid19india.org/raw_data6.json` (Data till EoD Jun 19th)<br>
 `api.covid19india.org/raw_data7.json` (Data till EoD Jun 30th)<br>
-`api.covid19india.org/raw_data8.json` (Live 🚀)<br>
+`api.covid19india.org/raw_data8.json` (Data till EoD Jul 07th)<br>
+`api.covid19india.org/raw_data9.json` (Live 🚀)<br>
 
 Raw Data 1 and 2 are organized at a patient level. i.e., there is one row per person. The deaths and recoveries that happened during that time need to be fetched from deaths_and_recoveries{1,2} json files.
 
@@ -43,14 +44,15 @@ We are working towards providing a singular raw_data that can be the source of t
 | :green_heart: | Patient Level : Raw Data Partition 5 (From May 24 to Jun 04)              | https://api.covid19india.org/raw_data5.json              |
 | :green_heart: | Patient Level : Raw Data Partition 6 (From Jun 05 to Jun 19)              | https://api.covid19india.org/raw_data6.json              |
 | :green_heart: | Patient Level : Raw Data Partition 7 (From Jun 20 to Jun 30)              | https://api.covid19india.org/raw_data7.json              |
-| :green_heart: | Patient Level : Raw Data Partition 8 (From Jul 01st onwards)              | https://api.covid19india.org/raw_data8.json              |
+| :green_heart: | Patient Level : Raw Data Partition 8 (From Jul 01 to Jul 07)              | https://api.covid19india.org/raw_data8.json              |
+| :green_heart: | Patient Level : Raw Data Partition 9 (From Jul 08th onwards)              | https://api.covid19india.org/raw_data8.json              |
 | :green_heart: | National Level :Time series, State-wise stats and Test counts             | https://api.covid19india.org/data.json                   |
 | :green_heart: | State Level : has district-wise info                                      | https://api.covid19india.org/state_district_wise.json    |
 | :green_heart: | State Level : Daily changes                                               | https://api.covid19india.org/states_daily.json           |
 | :green_heart: | State Level : Testing data                                                | https://api.covid19india.org/state_test_data.json        |
-| :green_heart: | National/State/District Level : Latest cummulative/daily counts           | https://api.covid19india.org/v3/data.json                |
+| :green_heart: | National/State/District Level : Latest cumulative/daily counts            | https://api.covid19india.org/v3/data.json                |
 | :green_heart: | National/State/District Level : Old per-date cummulative/daily counts     | https://api.covid19india.org/v3/data-{YYYY-MM-DD}.json   |
-| :green_heart: | National/State/District Level : All dates cummulative/daily counts        | https://api.covid19india.org/v3/data-all.json            |
+| :green_heart: | National/State/District Level : All dates cumulative/daily counts         | https://api.covid19india.org/v3/data-all.json            |
 | :green_heart: | National/State Level: Timeseries _(different structure)_                  | https://api.covid19india.org/v3/timeseries.json          |
 | :green_heart: | District Level : Daily changes                                            | https://api.covid19india.org/districts_daily.json        |
 | :end:         | District Level : Zones                                                    | https://api.covid19india.org/zones.json                  |
