@@ -33,6 +33,7 @@ git checkout "$main_branch"
 node src/sheet-to-json_generic.js
 
 cp README.md tmp/
+cp -r documentation/ tmp/
 cp -r projects/ tmp/
 
 node src/sheets-to-csv.js
