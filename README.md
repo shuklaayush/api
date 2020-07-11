@@ -4,37 +4,11 @@ A volunteer-driven, crowd-sourced database for COVID-19 stats & patient tracing 
 
 [Source Code on Github](https://github.com/covid19india/api)
 
-## About Raw Data
-
-Raw Data is split into multiple files. You can regenerate the full raw data by merging the following json files.
-
-`api.covid19india.org/raw_data1.json` (Data till EoD Apr 19th)<br>
-`api.covid19india.org/raw_data2.json` (Data till EoD Apr 26th)<br>
-`api.covid19india.org/raw_data3.json` (Data till EoD May 09th)<br>
-`api.covid19india.org/raw_data4.json` (Data till EoD May 23rd)<br>
-`api.covid19india.org/raw_data5.json` (Data till EoD Jun 04th)<br>
-`api.covid19india.org/raw_data6.json` (Data till EoD Jun 19th)<br>
-`api.covid19india.org/raw_data7.json` (Data till EoD Jun 30th)<br>
-`api.covid19india.org/raw_data8.json` (Data till EoD Jul 07th)<br>
-`api.covid19india.org/raw_data9.json` (Live 🚀)<br>
-
-Raw Data 1 and 2 are organized at a patient level. i.e., there is one row per person. The deaths and recoveries that happened during that time need to be fetched from deaths_and_recoveries{1,2} json files.
-
-From Raw Data 3 onwards, structure has been changed to accomadate both aggregate as well as patient level entries.
-
-1. If patient level information is available (from several states like KA,BH etc.), that is captured at one row per patient.
-2. If only district-wise information is available, one row is entered for each district, and "numcases" field mentions the number of cases in that district.
-3. If only state-wise information is available, one row is added added for the entire state
-4. Recoveries and Deceased information is also  also present in raw_data. Use the "Current Status" field to extract that information.
-
-All other aggregate APIs retain the same behaviour.
-CSV files for the same are also available through `api.covid19india.org/csv/latest/raw_data{n}.csv`
-
-We are working towards providing a singular raw_data that can be the source of truth. However, we strongly advise you to use the aggregate information for any analysis.
+## API Documentation
+Detailed documentation regarding the API end-points [can be found here](documentation/)
 
 
-### JSON 
-[A detailed documentation](documentation/documentation.md)
+### JSON Endpoints
 
 | Status        | Data                                                                      | URL                                                      |
 | ------------- | ------------------------------------------------------------------------- | -------------------------------------------------------- |
@@ -72,11 +46,6 @@ Sometimes, having files in a spreadsheet format is more useful for analysts and 
 
 > :rocket: Quick example : Apply the formula `=IMPORTDATA("https://api.covid19india.org/csv/latest/state_wise.csv")` in A1 cell of a Google Sheets to get the state data for analysis :)
 
-
-### Alternate API's by Contributors
-API for current cases, state-wise, district-wise and historical data of India COVID-19
-- Graphql playground - https://covidstat.info/graphql [API documentation](https://github.com/COVID19-SARS-CoV-2/web-covid-api/blob/master/india_apis.md)
-
 ## How this works
 
 - Data in this repository is generated from Google Sheets (https://api.covid19india.org/csv)
@@ -92,11 +61,10 @@ License for Code (Consider this as everything in the `master` branch) : MIT Lice
 License for Data (Consider this as everything in the `gh-ages` branch) : CC-BY-SA-4.0 License (Detailed in LICENSE_DATA.txt)
 
 ## Contributing
-
-- Contributions to new data formats are welcome. Please create a GH issue and discuss there before working on the same
-- Please raise an issue before submitting a PR
+- Contributions to new data formats and making the data fetch process mroe efficient are welcome. 
+- Please create a GH issue and discuss your idea before working on the same.
 - Report issues regarding [covid19india.org](https://www.covid19india.org) website in the [react-site repository](https://github.com/covid19india/covid19india-react/issues)
-- DO NOT change anything in `gh-pages` branch directly as they get replaced automatically
+- DO NOT change anything in `gh-pages` branch directly as they get replaced automatically every 10 minutes.
 
 
 ## Quick Links
@@ -108,22 +76,10 @@ License for Data (Consider this as everything in the `gh-ages` branch) : CC-BY-S
 -----
 
 
-## Projects Using This API
+## Team Projects Using This API
 
 - [COVID-19 INDIA TRACKER](https://www.covid19india.org/) (Main Dashboard)
 - [covid19india.org Ops Telegram Channel](https://t.me/covid19indiaorg) (News and Announcements from covid19india.org Team)
 - [covid19india.org Instant Updates](https://t.me/covid19indiaorg_updates) (Instant Updates of new cases added - from covid19india.org Team)
-
-### Some other categories of projects using this API:
-
-- [Analysis](projects/analysis.md)
-
-- [Bots (Discord, Reddit, Telegram, etc.)](projects/bots.md)
-
-- [Browser extensions](projects/browser_extensions.md)
-
-- [Mobile apps](projects/mobile_apps.md)
-
-- [Other trackers/dashboards](projects/miscellaneous.md)
 
 ...........................................
