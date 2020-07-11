@@ -33,7 +33,8 @@ CSV files for the same are also available through `api.covid19india.org/csv/late
 We are working towards providing a singular raw_data that can be the source of truth. However, we strongly advise you to use the aggregate information for any analysis.
 
 
-### JSON
+### JSON 
+[A detailed documentation](documentation/documentation.md)
 
 | Status        | Data                                                                      | URL                                                      |
 | ------------- | ------------------------------------------------------------------------- | -------------------------------------------------------- |
