@@ -24,8 +24,6 @@ cp ./raw_data1.json ./tmp
 cp ./deaths_recoveries1.json ./tmp
 cp -r ./updatelog ./tmp
 cp -r ./csv ./tmp
-cp -r ./districts_daily ./tmp
-cp -r ./resources ./tmp
 
 git checkout "$main_branch"
 
