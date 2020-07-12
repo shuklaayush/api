@@ -17,6 +17,7 @@ logging.basicConfig(stream=sys.stdout,
 # Current date in India
 INDIA_DATE = datetime.strftime(
     datetime.utcnow() + timedelta(hours=5, minutes=30), '%Y-%m-%d')
+INDIA_UTC_OFFSET = '+05:30'
 
 # Input/Output root directory
 ROOT_DIR = Path('tmp')
@@ -684,10 +685,11 @@ def add_state_meta(raw_data):
     last_data = data[sorted(data)[-1]]
     for j, entry in enumerate(raw_data['statewise']):
         state = entry['statecode'].strip().upper()
-        if state not in STATE_CODES.values():
-            # Entries having unrecognized state codes are discarded
-            logging.warning('[L{}] [{}] Bad state: {}'.format(
-                j + 2, entry['lastupdatedtime'], entry['statecode']))
+        if state not in STATE_CODES.values() or state not in last_data:
+            # Entries having unrecognized state codes/zero cases are discarded
+            if state not in STATE_CODES.values():
+                logging.warning('[L{}] [{}] Bad state: {}'.format(
+                    j + 2, entry['lastupdatedtime'], entry['statecode']))
             continue
 
         try:
@@ -699,7 +701,7 @@ def add_state_meta(raw_data):
                 j + 2, entry['lastupdatedtime'], state))
             continue
 
-        last_data[state]['meta']['last_updated'] = fdate.isoformat() + '+05:30'
+        last_data[state]['meta']['last_updated'] = fdate.isoformat() + INDIA_UTC_OFFSET
         if entry['statenotes']:
             last_data[state]['meta']['notes'] = entry['statenotes'].strip()
             if state in SINGLE_DISTRICT_STATES:
