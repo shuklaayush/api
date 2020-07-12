@@ -40,10 +40,10 @@ node src/sheets-to-csv.js
 
 node src/states_daily_to_csv.js
 node src/district_data_generator.js
-node src/concat_data.js
-node src/split_raw_data.js
-node src/snapshot_zones.js 
-node src/generate_districts_daily.js
+# node src/concat_data.js
+# node src/split_raw_data.js
+# node src/snapshot_zones.js 
+# node src/generate_districts_daily.js
 node src/generate_locale.js
 # node src/ultimate_parser.js
 pip3 install --quiet -r requirements.txt
