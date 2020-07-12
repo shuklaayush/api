@@ -11,11 +11,11 @@ const now = moment().unix()
 var date = moment.unix(now);
 formated_date = date.tz("Asia/Kolkata").format("YYYY-MM-DD");
 
-var today_dir = dir + formated_date;
+// var today_dir = dir + formated_date;
 var latest_dir = dir + "latest";
-if (!fs.existsSync(today_dir)) {
-    fs.mkdirSync(today_dir);
-}
+// if (!fs.existsSync(today_dir)) {
+//     fs.mkdirSync(today_dir);
+// }
 if (!fs.existsSync(latest_dir)) {
     fs.mkdirSync(latest_dir);
 }
@@ -95,7 +95,7 @@ async function sheet_to_csv(sheets, pub_id) {
                     process.exit(1);
                     return;
                 } else {
-                    fs.writeFileSync(today_dir + "/" + element[0] + ".csv", csv);
+                    // fs.writeFileSync(today_dir + "/" + element[0] + ".csv", csv);
                     fs.writeFileSync(latest_dir + "/" + element[0] + ".csv", csv);
                     console.log("Write completed: " + element[0]);
                 }
@@ -114,29 +114,5 @@ async function sheet_to_csv(sheets, pub_id) {
     await sheet_to_csv(sheets_v7, PUBLISHED_SHEET_ID_7);
     await sheet_to_csv(sheets_v8, PUBLISHED_SHEET_ID_8);
     await sheet_to_csv(sheets_v9, PUBLISHED_SHEET_ID_9);
-
-    // concat steps below
-    // console.log("merge both csv");
-    // var raw_data1 = fs.readFileSync('./tmp/csv/latest/raw_data1.csv', 'utf8');
-    // var raw_data2 = fs.readFileSync('./tmp/csv/latest/raw_data2.csv', 'utf8');
-    // var deaths_recoveries1 = fs.readFileSync('./tmp/csv/latest/death_and_recovered1.csv', 'utf8');
-    // var deaths_recoveries2 = fs.readFileSync('./tmp/csv/latest/death_and_recovered2.csv', 'utf8');
-
-    // dr = deaths_recoveries2.split("\n");;
-    // dr.shift();
-    // dr2 = dr.join("\n");
-    // deaths_recoveries = deaths_recoveries1 + "\n" + dr2;
-
-    // rd = raw_data2.split("\n");;
-    // rd.shift();
-    // rd2 = rd.join("\n");
-    // raw_data = raw_data1 + "\n" + rd2;
-
-    // fs.writeFileSync(today_dir + "/raw_data.csv", raw_data);
-    // fs.writeFileSync(latest_dir + "/raw_data.csv", raw_data);
-    // console.log("merged raw_data1 and raw_data2");
-    // fs.writeFileSync(today_dir + "/death_and_recovered.csv", deaths_recoveries);
-    // fs.writeFileSync(latest_dir + "/death_and_recovered.csv", deaths_recoveries);
-    // console.log("merged death_and_recovered1 and death_and_recovered2");
 
 })();
