@@ -18,34 +18,40 @@ logging.basicConfig(stream=sys.stdout,
 INDIA_DATE = datetime.strftime(
     datetime.utcnow() + timedelta(hours=5, minutes=30), '%Y-%m-%d')
 
-INPUT_DIR = Path('tmp')
+# Input/Output root directory
+ROOT_DIR = Path('tmp')
+CSV_DIR = ROOT_DIR / 'csv' / 'latest'
 # Contains state codes to be used as API keys
-META_DATA = INPUT_DIR / 'misc.json'
+META_DATA = ROOT_DIR / 'misc.json'
 # Contains list of geographical districts
-DISTRICT_LIST = INPUT_DIR / 'state_district_wise.json'
+DISTRICT_LIST = ROOT_DIR / 'state_district_wise.json'
 # All raw_data's
 RAW_DATA = 'raw_data{n}.json'
 # Contains deaths and recoveries for entries in raw_data1 and raw_data2
 OUTCOME_DATA = 'deaths_recoveries{n}.json'
 # Contains district data on 26th April
-DISTRICT_DATA_GOSPEL = INPUT_DIR / 'csv' / 'latest' / 'districts_26apr_gospel.csv'
+DISTRICT_DATA_GOSPEL = CSV_DIR / 'districts_26apr_gospel.csv'
 GOSPEL_DATE = '2020-04-26'
 # India testing data
-ICMR_TEST_DATA = INPUT_DIR / 'data.json'
+ICMR_TEST_DATA = ROOT_DIR / 'data.json'
 # States testing data
-STATE_TEST_DATA = INPUT_DIR / 'state_test_data.json'
+STATE_TEST_DATA = ROOT_DIR / 'state_test_data.json'
 # District testing data
-DISTRICT_TEST_DATA = INPUT_DIR / 'csv' / 'latest' / 'district_testing.csv'
+DISTRICT_TEST_DATA = CSV_DIR / 'district_testing.csv'
 ## For adding metadata
 # For state notes and last updated
-STATE_WISE = INPUT_DIR / 'data.json'
+STATE_WISE = ROOT_DIR / 'data.json'
 # For district notes
-DISTRICT_WISE = INPUT_DIR / 'state_district_wise.json'
+DISTRICT_WISE = ROOT_DIR / 'state_district_wise.json'
 
-OUTPUT_DIR = Path('tmp', 'v4')
+# API outputs
+OUTPUT_DIR = ROOT_DIR / 'v4'
 OUTPUT_MIN_DIR = OUTPUT_DIR / 'min'
 OUTPUT_DATA_PREFIX = 'data'
 OUTPUT_TIMESERIES_PREFIX = 'timeseries'
+# CSV Outputs
+OUTPUT_STATES_CSV = CSV_DIR / 'states.csv'
+OUTPUT_DISTRICTS_CSV = CSV_DIR / 'districts.csv'
 
 # Two digit state codes
 STATE_CODES = {}
@@ -60,19 +66,25 @@ UNASSIGNED_STATE_CODE = 'UN'
 DISTRICTS_DICT = defaultdict(dict)
 # District key to give to unkown district values in raw_data
 UNKNOWN_DISTRICT_KEY = 'Unknown'
-
-# Three most important statistics
-PRIMARY_STATISTICS = ['confirmed', 'deceased', 'recovered']
-# Raw data key => Statistics
-RAW_DATA_MAP = {
-    'hospitalized': 'confirmed',
-    'deceased': 'deceased',
-    'recovered': 'recovered',
-    'migrated_other': 'migrated',
-}
 # States with single district/no district-wise data
 # Possibly the only hard-coded line in the code
 SINGLE_DISTRICT_STATES = ['CH', 'DL', 'LD']
+
+# Three most important statistics
+PRIMARY_STATISTICS = ['confirmed', 'recovered', 'deceased']
+# Raw data key => Statistics
+RAW_DATA_MAP = {
+    'hospitalized': 'confirmed',
+    'recovered': 'recovered',
+    'deceased': 'deceased',
+    'migrated_other': 'migrated',
+}
+# CSV Headers
+STATISTIC_HEADERS = [
+    'Confirmed', 'Recovered', 'Deceased', 'Migrated', 'Tested'
+]
+STATE_CSV_HEADER = ['Date', 'State', *STATISTIC_HEADERS]
+DISTRICT_CSV_HEADER = ['Date', 'State', 'District', *STATISTIC_HEADERS]
 
 # Log statements width
 PRINT_WIDTH = 70
@@ -104,6 +116,10 @@ def parse_state_metadata(raw_data):
 
 
 def parse_district_list(raw_data):
+    # Initialize with districts from single district states
+    for state in SINGLE_DISTRICT_STATES:
+        DISTRICTS_DICT[state][STATE_NAMES[state].lower()] = STATE_NAMES[state]
+    # Parse from file
     for i, entry in enumerate(raw_data.values()):
         state = entry['statecode'].strip().upper()
         if state not in STATE_CODES.values():
@@ -831,6 +847,44 @@ def tally_districtwise(raw_data):
                                     values[stype], parsed_value))
 
 
+def write_csvs(writer_states, writer_districts):
+    # Write header rows
+    writer_states.writerow(STATE_CSV_HEADER)
+    writer_districts.writerow(DISTRICT_CSV_HEADER)
+    for date in sorted(data):
+        curr_data = data[date]
+
+        for state in sorted(curr_data):
+            state_data = curr_data[state]
+            # Date, State, Confirmed, Recovered, Deceased, Migrated, Tested
+            row = [
+                date, STATE_NAMES[state], state_data['total']['confirmed']
+                or 0, state_data['total']['recovered'] or 0,
+                state_data['total']['deceased'] or 0,
+                state_data['total']['migrated'] or 0,
+                state_data['total']['tested'] or ''
+            ]
+            writer_states.writerow(row)
+
+            if 'districts' not in state_data or date < GOSPEL_DATE:
+                # Total state has no district data
+                # District timeseries starts only from 26th April
+                continue
+
+            for district in sorted(state_data['districts']):
+                district_data = state_data['districts'][district]
+                # Date, State, District, Confirmed, Recovered, Deceased, Migrated, Tested
+                row = [
+                    date, STATE_NAMES[state], district,
+                    district_data['total']['confirmed'] or 0,
+                    district_data['total']['recovered'] or 0,
+                    district_data['total']['deceased'] or 0,
+                    district_data['total']['migrated'] or 0,
+                    district_data['total']['tested'] or ''
+                ]
+                writer_districts.writerow(row)
+
+
 if __name__ == '__main__':
     logging.info('-' * PRINT_WIDTH)
     logging.info('{:{align}{width}}'.format('PARSER V4 START',
@@ -869,7 +923,7 @@ if __name__ == '__main__':
     logging.info('Parsing raw_data...')
     i = 1
     while True:
-        f = INPUT_DIR / RAW_DATA.format(n=i)
+        f = ROOT_DIR / RAW_DATA.format(n=i)
         if not f.is_file():
             break
         with open(f, 'r') as f:
@@ -883,7 +937,7 @@ if __name__ == '__main__':
     logging.info('-' * PRINT_WIDTH)
     logging.info('Parsing deaths_recoveries...')
     for i in [1, 2]:
-        f = INPUT_DIR / OUTCOME_DATA.format(n=i)
+        f = ROOT_DIR / OUTCOME_DATA.format(n=i)
         with open(f, 'r') as f:
             logging.info('File: {}'.format(OUTCOME_DATA.format(n=i)))
             raw_data = json.load(f)
@@ -953,10 +1007,7 @@ if __name__ == '__main__':
     logging.info('Done!')
 
     # Strip empty values ({}, 0, '', None)
-    logging.info('-' * PRINT_WIDTH)
-    logging.info('Stripping empty values...')
     data = stripper(data)
-    logging.info('Done!')
 
     # Add population figures
     logging.info('-' * PRINT_WIDTH)
@@ -986,7 +1037,7 @@ if __name__ == '__main__':
     logging.info('Done!')
 
     logging.info('-' * PRINT_WIDTH)
-    logging.info('Dumping APIs...')
+    logging.info('Dumping JSON APIs...')
     OUTPUT_MIN_DIR.mkdir(parents=True, exist_ok=True)
 
     # Dump prettified full data json
@@ -1064,6 +1115,16 @@ if __name__ == '__main__':
         logging.info('File: {}'.format(DISTRICT_WISE.name))
         raw_data = json.load(f, object_pairs_hook=OrderedDict)
         tally_districtwise(raw_data)
+    logging.info('Done!')
+
+    # Dump state/district CSVs
+    logging.info('-' * PRINT_WIDTH)
+    logging.info('Dumping CSVs...')
+    with open(OUTPUT_STATES_CSV, 'w') as f1:
+        writer1 = csv.writer(f1)
+        with open(OUTPUT_DISTRICTS_CSV, 'w') as f2:
+            writer2 = csv.writer(f2)
+            write_csvs(writer1, writer2)
     logging.info('Done!')
 
     logging.info('-' * PRINT_WIDTH)
