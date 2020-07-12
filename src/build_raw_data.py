@@ -119,8 +119,8 @@ def merge_alldata(current_ver):
 
 
 if __name__ == "__main__":
-    logging.info('''----------------------------------------------------------------------
-    Build one true raw data''')
+    logging.info('''----------------------------------------------------------------------''')
+    logging.info('''Build one true raw data''')
     try:
         raw_d,death_rec,current_ver = fetch_raw_data()
     except Exception as e:
@@ -128,6 +128,6 @@ if __name__ == "__main__":
         raise
 
     allraw = merge_alldata(current_ver)
-    allraw.to_csv('tmp/raw_data.csv',index=False)
-    logging.info('''Raw Data saved
-    ----------------------------------------------------------------------''')
+    allraw.to_csv('tmp/csv/latest/raw_data.csv',index=False)
+    logging.info('''Raw Data saved''')
+    logging.info('''----------------------------------------------------------------------''')
