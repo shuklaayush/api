@@ -48,7 +48,7 @@ pip3 install --quiet -r requirements.txt
 # python3 src/geocoder.py
 python3 src/parser_v3.py
 python3 src/parser_v4.py
-python3 src/build_raw_data.py
+# python3 src/build_raw_data.py
 
 node src/sanity_check.js
 node src/generate_activity_log.js
