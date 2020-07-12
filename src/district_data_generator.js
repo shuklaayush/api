@@ -56,22 +56,22 @@ var main_data = JSON.stringify(StateDistrictWiseData, null, 2);
 fs.writeFileSync('./tmp/state_district_wise.json', main_data);
 fs.writeFileSync('./tmp/v2/state_district_wise.json', JSON.stringify(stateDistrictWiseDataV2, null, 2));
 
-const now = moment().unix()
-var date = moment.unix(now);
-formated_date = date.tz("Asia/Kolkata").format("YYYY-MM-DD");
+// const now = moment().unix()
+// var date = moment.unix(now);
+// formated_date = date.tz("Asia/Kolkata").format("YYYY-MM-DD");
 
-var dir = './tmp/districts_daily/';
-if (!fs.existsSync(dir)) {
-    fs.mkdirSync(dir, { recursive: true });
-}
+// var dir = './tmp/districts_daily/';
+// if (!fs.existsSync(dir)) {
+//     fs.mkdirSync(dir, { recursive: true });
+// }
 
-var today_dir = dir + formated_date;
-var latest_dir = dir + "latest";
-if (!fs.existsSync(today_dir)) {
-    fs.mkdirSync(today_dir);
-}
-if (!fs.existsSync(latest_dir)) {
-    fs.mkdirSync(latest_dir);
-}
-fs.writeFileSync(today_dir + "/state_district_wise.json", main_data);
-fs.writeFileSync(latest_dir + "/state_district_wise.json", main_data);
+// var today_dir = dir + formated_date;
+// var latest_dir = dir + "latest";
+// if (!fs.existsSync(today_dir)) {
+//     fs.mkdirSync(today_dir);
+// }
+// if (!fs.existsSync(latest_dir)) {
+//     fs.mkdirSync(latest_dir);
+// }
+// fs.writeFileSync(today_dir + "/state_district_wise.json", main_data);
+// fs.writeFileSync(latest_dir + "/state_district_wise.json", main_data);
