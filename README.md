@@ -60,6 +60,17 @@ This repository contains both the code that routinely fetches the data from Goog
 License for Code (Consider this as everything in the `master` branch) : MIT License (Detailed in LICENSE_CODE.txt)  
 License for Data (Consider this as everything in the `gh-ages` branch) : CC-BY-SA-4.0 License (Detailed in LICENSE_DATA.txt)
 
+## Citation
+You can cite us in your work in the following format  
+```
+@misc{covid19indiaorg2020tracker,
+  author = {COVID-19 India Org Data Operations Group},
+  title = {{Dataset for tracking COVID-19 spread in India}},
+  howpublished = {Accessed on yyyy-mm-dd from \url{https://api.covid19india.org/}},
+  year = 2020
+}
+```
+
 ## Contributing
 - Contributions to new data formats and making the data fetch process mroe efficient are welcome. 
 - Please create a GH issue and discuss your idea before working on the same.
