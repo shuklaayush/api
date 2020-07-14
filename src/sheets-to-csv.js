@@ -120,6 +120,6 @@ async function sheet_to_csv(sheets, pub_id) {
     await sheet_to_csv(sheets_v7, PUBLISHED_SHEET_ID_7);
     await sheet_to_csv(sheets_v8, PUBLISHED_SHEET_ID_8);
     await sheet_to_csv(sheets_v9, PUBLISHED_SHEET_ID_9);
-    await sheet_to_csv(sheets_v9, PUBLISHED_SHEET_ID_10);
+    await sheet_to_csv(sheets_v10, PUBLISHED_SHEET_ID_10);
 
 })();
