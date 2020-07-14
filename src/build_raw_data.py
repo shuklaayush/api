@@ -127,7 +127,7 @@ if __name__ == "__main__":
         logging.error(f"Error while reading the files")
         raise
 
-    allraw = merge_alldata(current_ver)
+    allraw = merge_alldata(current_ver=8)
     allraw.to_csv('tmp/csv/latest/raw_data.csv',index=False)
     logging.info('''Raw Data saved''')
     logging.info('''----------------------------------------------------------------------''')
