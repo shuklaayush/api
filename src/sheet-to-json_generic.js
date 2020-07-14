@@ -71,6 +71,12 @@ const c = require("../lib/constants");
     file: c.FILE_RAW_DATA_9
   });
 
+  await task({
+    sheet: c.SHEET_v10,
+    tabs: { raw_data: c.SHEET_RAW_DATA },
+    file: c.FILE_RAW_DATA_10
+  });
+
   // uncomment below if v1 sheet has updates
   await task({
     sheet: c.SHEET_v1,
