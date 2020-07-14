@@ -115,6 +115,8 @@ def merge_alldata(current_ver):
         tmp = tmp.fillna('')
         allraw = allraw.append(tmp)
     
+    # Remove unnecessary columns
+    allraw.drop(columns=['Estimated Onset Date','Backup Notes','Status Change Date'],inplace=True)
     return allraw
 
 
@@ -127,7 +129,7 @@ if __name__ == "__main__":
         logging.error(f"Error while reading the files")
         raise
 
-    allraw = merge_alldata(current_ver=8)
+    allraw = merge_alldata(current_ver)
     allraw.to_csv('tmp/csv/latest/raw_data.csv',index=False)
     logging.info('''Raw Data saved''')
     logging.info('''----------------------------------------------------------------------''')
