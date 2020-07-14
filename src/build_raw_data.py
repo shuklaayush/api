@@ -9,33 +9,36 @@ logging.basicConfig(stream=sys.stdout,
                     format="%(message)s",
                     level=logging.INFO)
 
-def fetch_raw_data_from_api(current_ver=8):
+def fetch_raw_data_from_api():
     '''
     Read all raw data and death and recovery files
     Pass the latest version of raw data
     '''
+    i = 1
     raw_d = []
-    l = []
-    [l.append(str(i)) for i in range(1,current_ver+1)];
-    for i in l:
-        logging.info(f"Fetching raw_data{i} ")
-        url = f"https://api.covid19india.org/csv/latest/raw_data{i}.csv"
-        df = pd.read_csv(url)
-        df.to_csv(f'./Data/tmp/csv/latest/raw_data{i}.csv',index=False)
-        raw_d.append(df)
+    while True:
+        try:
+            url = f"https://api.covid19india.org/csv/latest/raw_data{i}.csv"
+            df = pd.read_csv(url)
+            df.to_csv(f'./tmp/csv/latest/raw_data{i}.csv',index=False)
+            raw_d.append(df)
+            logging.info(f"Fetched raw_data{i} ")
+            i = i+1
+        except Exception:
+            current_ver = i-1
+            break
 
     death_rec = []
     logging.info(f"Fetching deaths_and_recoveries")
     url = f"https://api.covid19india.org/csv/latest/death_and_recovered"
     df = pd.read_csv(f"{url}1.csv")
     death_rec.append(df)
-    df.to_csv('./Data/tmp/csv/latest/death_and_recovered1.csv',index=False)
+    df.to_csv('./tmp/csv/latest/death_and_recovered1.csv',index=False)
     df = pd.read_csv(f"{url}2.csv")
     death_rec.append(df)
-    df.to_csv('./Data/tmp/csv/latest/death_and_recovered2.csv',index=False)
-
+    df.to_csv('./tmp/csv/latest/death_and_recovered2.csv',index=False)
     
-    return raw_d,death_rec
+    return raw_d,death_rec,current_ver
 
 def fetch_raw_data():
     '''
@@ -115,16 +118,54 @@ def merge_alldata(current_ver):
         tmp = tmp.fillna('')
         allraw = allraw.append(tmp)
     
+    # Try to fix age to float
+    allraw['Age Bracket'] = allraw['Age Bracket'].map(lambda x : fix_age(x))
+    # Try to fix gender column
+    allraw['Gender'] = allraw['Gender'].map(lambda x : fix_gender(x))
     # Remove unnecessary columns
-    allraw.drop(columns=['Estimated Onset Date','Backup Notes','Status Change Date'],inplace=True)
+    try:
+        allraw.drop(columns=['Estimated Onset Date','Backup Notes','Status Change Date'],inplace=True)
+    except KeyError:
+        pass
+
     return allraw
 
+def fix_age(age):
+    '''
+    Age entries are sometimes entered in months.
+    Change them to fraction
+    '''
+    rgx_month = re.compile(r"([0-9]*)( month?.)")
+    rgx_day = re.compile(r"([0-9]*)( day?.)")
+    res_month = rgx_month.search(str(age).lower())
+    res_day = rgx_day.search(str(age).lower())
+    if res_month:
+        age_corr = float(res_month.group(1))/12
+        return round(age_corr,2)
+    elif res_day:
+        age_corr = float(res_day.group(1))/365.25
+        return round(age_corr,2)
+        return float(age)
+
+def fix_gender(g):
+    '''
+    Fix any invalid entries in gender column
+    '''
+    rgx_F = re.compile(r"[w,W]|[f,F]emale")
+    rgx_M = re.compile(r"[m,M]ale")
+    g = str(g)
+    g = re.sub(rgx_F,"F",g)
+    g = re.sub(rgx_M,"M",g)
+
+    return g
 
 if __name__ == "__main__":
     logging.info('''----------------------------------------------------------------------''')
     logging.info('''Build one true raw data''')
     try:
         raw_d,death_rec,current_ver = fetch_raw_data()
+        # If remote fetch is required
+        # raw_d,death_rec,current_ver = fetch_raw_data_from_api()
     except Exception as e:
         logging.error(f"Error while reading the files")
         raise
