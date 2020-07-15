@@ -3,4 +3,4 @@
 - [state_district_wise.json](statedistrictwise.md)
 - [state_daily.json](statedaily.md)
 - [state_test_data.json](statetestdata.md)
-- [v3/data.json] (v3_data.md)
+- [v3/data.json](v3_data.md)
