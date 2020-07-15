@@ -1,5 +1,5 @@
 #### Description:
-This is a comprehensive API that provides state and details as of today.
+This is a comprehensive API that provides state and details as of the current day.
 
 #### Structure
 ```
