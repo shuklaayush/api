@@ -1,55 +1,55 @@
 #### Description:
-This is a comprehensive API that provides state and details starting from 26th April 2020.
+This is a comprehensive API that provides state and details as of today.
 
 #### Structure
 ```
 {
 	"StateCode": {
-			"delta": {
-				"confirmed": <deltaConfirmedForState>",
-				"deceased": <deltaDeceasedForState>",
-				"recovered": <deltaRecoveredForState>"
-			},
-			"districts": {
-				"District1": {
-					"delta":{
-						"confirmed": <deltaConfirmedForDistrict>",
-						"deceased": <deltaDeceasedForDistrict>",
-						"recovered": <deltaRecoveredForDistrict>"
-					},
-					"meta": {
-						"population": <districtPopulation>,
-						"tested": {
-							"last_updated": "yyyy-mm-dd",
-							"source": "uri",
-						},
-						"notes": "notesForDistrict"
-					},
-					"total": {
-						"confirmed": <cumulativeConfirmedNumberForDistrict>,
-						"deceased": <cumulativeDeceasedNumberForDistrict>,
-						"recovered": <cumulativeRecoveredNumberForDistrict>,
-						"tested": <cumulativeTestedNumberForDistrict>
-					}
+		"delta": {
+			"confirmed": <deltaConfirmedForState>",
+			"deceased": <deltaDeceasedForState>",
+			"recovered": <deltaRecoveredForState>"
+		},
+		"districts": {
+			"District1": {
+				"delta":{
+					"confirmed": <deltaConfirmedForDistrict>",
+					"deceased": <deltaDeceasedForDistrict>",
+					"recovered": <deltaRecoveredForDistrict>"
 				},
-				.
-				.
-				.
-			"meta": {
-				"last_updated": "yyyy-mm-ddHH24:M:S+GMT",
-				"population": <statePopulation>,
-				"tested": {
-					"last_updated": "yyyy-mm-dd",
-					"source": "uri"
+				"meta": {
+					"population": <districtPopulation>,
+					"tested": {
+						"last_updated": "yyyy-mm-dd",
+						"source": "uri",
+					},
+					"notes": "notesForDistrict"
 				},
-				"notes": "notesForState"
+				"total": {
+					"confirmed": <cumulativeConfirmedNumberForDistrict>,
+					"deceased": <cumulativeDeceasedNumberForDistrict>,
+					"recovered": <cumulativeRecoveredNumberForDistrict>,
+					"tested": <cumulativeTestedNumberForDistrict>
+				}
 			},
-			"total": {
-				"confirmed": <cumulativeConfirmedNumberForState>,
-				"deceased": <cumulativeDeceasedNumberForState>,
-				"recovered": <cumulativeRecoveredNumberForState>,
-				"tested": <cumulativeConfirmedNumberForState>
-			}
+			.
+			.
+			.
+		},
+		"meta": {
+			"last_updated": "yyyy-mm-ddHH24:M:S+GMT",
+			"population": <statePopulation>,
+			"tested": {
+				"last_updated": "yyyy-mm-dd",
+				"source": "uri"
+			},
+			"notes": "notesForState"
+		},
+		"total": {
+			"confirmed": <cumulativeConfirmedNumberForState>,
+			"deceased": <cumulativeDeceasedNumberForState>,
+			"recovered": <cumulativeRecoveredNumberForState>,
+			"tested": <cumulativeConfirmedNumberForState>
 		}
 	},
 	.
