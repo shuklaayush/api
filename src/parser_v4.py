@@ -69,7 +69,13 @@ DISTRICTS_DICT = defaultdict(dict)
 UNKNOWN_DISTRICT_KEY = 'Unknown'
 # States with single district/no district-wise data
 # Possibly the only hard-coded line in the code
-SINGLE_DISTRICT_STATES = ['AN', 'CH', 'DL', 'LD', 'TG']
+SINGLE_DISTRICT_STATES = {
+    'AN': UNKNOWN_DISTRICT_KEY,
+    'CH': 'Chandigarh',
+    'DL': 'Delhi',
+    'LD': 'Lakshwadeep',
+    'TG': UNKNOWN_DISTRICT_KEY
+}
 
 # Three most important statistics
 PRIMARY_STATISTICS = ['confirmed', 'recovered', 'deceased']
@@ -119,7 +125,8 @@ def parse_state_metadata(raw_data):
 def parse_district_list(raw_data):
     # Initialize with districts from single district states
     for state in SINGLE_DISTRICT_STATES:
-        DISTRICTS_DICT[state][STATE_NAMES[state].lower()] = STATE_NAMES[state]
+        district = SINGLE_DISTRICT_STATES[state]
+        DISTRICTS_DICT[state][district.lower()] = district
     # Parse from file
     for i, entry in enumerate(raw_data.values()):
         state = entry['statecode'].strip().upper()
@@ -139,7 +146,7 @@ def parse_district(district, state, use_state=True):
     district = district.strip()
     expected = True
     if use_state and state in SINGLE_DISTRICT_STATES:
-        district = STATE_NAMES[state]
+        district = SINGLE_DISTRICT_STATES[state]
     elif not district or district.lower() == 'unknown':
         district = UNKNOWN_DISTRICT_KEY
     elif district.lower() in DISTRICTS_DICT[state]:
@@ -401,7 +408,7 @@ def parse_state_test(raw_data):
             # Add district entry too for single-district states
             if state in SINGLE_DISTRICT_STATES:
                 # District/State name
-                district = STATE_NAMES[state]
+                district = SINGLE_DISTRICT_STATES[state]
                 data[date][state]['districts'][district]['total'][
                     'tested'] = count
                 data[date][state]['districts'][district]['meta']['tested'][
@@ -701,13 +708,10 @@ def add_state_meta(raw_data):
                 j + 2, entry['lastupdatedtime'], state))
             continue
 
-        last_data[state]['meta']['last_updated'] = fdate.isoformat() + INDIA_UTC_OFFSET
+        last_data[state]['meta']['last_updated'] = fdate.isoformat(
+        ) + INDIA_UTC_OFFSET
         if entry['statenotes']:
             last_data[state]['meta']['notes'] = entry['statenotes'].strip()
-            if state in SINGLE_DISTRICT_STATES:
-                district = STATE_NAMES[state]
-                last_data[state]['districts'][district]['meta'][
-                    'notes'] = entry['statenotes'].strip()
 
 
 def add_district_meta(raw_data):
