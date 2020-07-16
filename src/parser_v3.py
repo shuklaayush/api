@@ -368,7 +368,7 @@ def parse_state_test(raw_data):
 
 
 def column_str(n):
-    string = ''
+    alpha = ''
     while n > 0:
         n, rem = divmod(n - 1, 26)
         alpha = chr(65 + rem) + alpha
