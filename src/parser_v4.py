@@ -69,7 +69,7 @@ DISTRICTS_DICT = defaultdict(dict)
 UNKNOWN_DISTRICT_KEY = 'Unknown'
 # States with single district/no district-wise data
 # Possibly the only hard-coded line in the code
-SINGLE_DISTRICT_STATES = ['CH', 'DL', 'LD']
+SINGLE_DISTRICT_STATES = ['AN', 'CH', 'DL', 'LD', 'TG']
 
 # Three most important statistics
 PRIMARY_STATISTICS = ['confirmed', 'recovered', 'deceased']
