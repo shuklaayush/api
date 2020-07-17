@@ -1,11 +1,11 @@
-console.log("Ultimate parser start")
+console.log('Ultimate parser start')
 
-const {STATE_CODES_ARRAY, STATE_CODES_REVERSE} = require('../lib/constants');
+const { STATE_CODES_ARRAY, STATE_CODES_REVERSE } = require('../lib/constants')
 
-const fs = require('fs');
+const fs = require('fs')
 
-const {parse, format, formatISO} = require('date-fns');
-const {produce} = require('immer');
+const { parse, format, formatISO } = require('date-fns')
+const { produce } = require('immer')
 const ultimateParser = (
   statesDailyResponse,
   zonesResponse,
@@ -13,30 +13,30 @@ const ultimateParser = (
   stateDistrictWiseResponse,
   stateTestData
 ) => {
-  let ICMR = {};
-  let prevSamples = 0;
+  let ICMR = {}
+  let prevSamples = 0
 
   data.tested.map((testObj) => {
     ICMR = produce(ICMR, (draftICMR) => {
-      let timestamp = null;
+      let timestamp = null
       try {
         timestamp = format(
           parse(testObj.updatetimestamp, 'dd/MM/yyyy HH:mm:ss', new Date()),
           'yyyy-MM-dd'
-        );
+        )
       } catch (error) {}
       if (timestamp) {
         draftICMR[timestamp] = {
           samples: +testObj.totalsamplestested - prevSamples,
-          source: testObj.source,
-        };
+          source: testObj.source
+        }
         prevSamples = +testObj.totalsamplestested
       }
-    });
-  });
+    })
+  })
 
-  let tested = {TT: ICMR};
-  prevSamples = 0;
+  let tested = { TT: ICMR }
+  prevSamples = 0
 
   stateTestData.states_tested_data.map((testObj) => {
     tested = produce(tested, (draftState) => {
@@ -50,15 +50,15 @@ const ultimateParser = (
             )
           ] = {
             samples: +testObj.totaltested - prevSamples,
-            source: testObj.source1,
-          };
-          prevSamples = +testObj.totaltested;
+            source: testObj.source1
+          }
+          prevSamples = +testObj.totaltested
         }
-      );
-    });
-  });
+      )
+    })
+  })
 
-  let timeseries = {};
+  let timeseries = {}
 
   statesDailyResponse.states_daily.map((dailyObj) => {
     timeseries = produce(timeseries, (draftTS) => {
@@ -69,34 +69,34 @@ const ultimateParser = (
             const date = format(
               parse(dailyObj.date, 'dd-LLL-yy', new Date()),
               'yyyy-MM-dd'
-            );
-            let testedDict = null;
+            )
+            let testedDict = null
             try {
-              testedDict = tested[state.code][date] || null;
+              testedDict = tested[state.code][date] || null
             } catch (error) {}
             draftDate[date] = produce(
-              draftDate[date] || {tested: testedDict},
+              draftDate[date] || { tested: testedDict },
               (draftType) => {
                 draftType[dailyObj.status.toLowerCase()] =
-                  +dailyObj[state.code.toLowerCase()];
+                  +dailyObj[state.code.toLowerCase()]
               }
-            );
+            )
           }
-        );
-      });
-    });
-  });
+        )
+      })
+    })
+  })
 
-  let statewise = {};
+  let statewise = {}
   data.statewise.map((state) => {
     statewise = produce(statewise, (draftState) => {
-      let latestTestObj = null;
-      const latestTestDate = null;
+      let latestTestObj = null
+      const latestTestDate = null
       try {
         const latestTestDate = Object.keys(tested[state.statecode])[
           Object.keys(tested[state.statecode]).length - 1
-        ];
-        latestTestObj = tested[state.statecode][latestTestDate];
+        ]
+        latestTestObj = tested[state.statecode][latestTestDate]
       } catch (error) {}
       draftState[state.statecode] = {
         total: {
@@ -105,32 +105,32 @@ const ultimateParser = (
           deceased: +state.deaths,
           tested: produce(latestTestObj || null, (draftTestObj) => {
             if (draftTestObj) {
-              draftTestObj['last_updated'] = Object.keys(
+              draftTestObj.last_updated = Object.keys(
                 tested[state.statecode]
-              )[Object.keys(tested[state.statecode]).length - 1];
+              )[Object.keys(tested[state.statecode]).length - 1]
             }
-          }),
+          })
         },
         delta: {
           confirmed: +state.deltaconfirmed,
           recovered: +state.deltarecovered,
-          deceased: +state.deltadeaths,
+          deceased: +state.deltadeaths
         },
         timeseries: timeseries[state.statecode],
         notes: state.statenotes,
         last_updated:
           formatISO(
             parse(state.lastupdatedtime, 'dd/MM/yyyy HH:mm:ss', new Date())
-          ).slice(0, 19) + '+05:30',
-      };
-    });
-  });
+          ).slice(0, 19) + '+05:30'
+      }
+    })
+  })
 
-  const zones = zonesResponse.zones;
+  const zones = zonesResponse.zones
   zones.push({
-    statecode: 'TT',
-  });
-  let states = {};
+    statecode: 'TT'
+  })
+  let states = {}
 
   zones.map((zone) => {
     states = produce(states, (draftState) => {
@@ -141,13 +141,13 @@ const ultimateParser = (
           total: statewise[zone.statecode].total,
           delta: statewise[zone.statecode].delta,
           notes: statewise[zone.statecode].notes,
-          last_updated: statewise[zone.statecode].last_updated,
+          last_updated: statewise[zone.statecode].last_updated
         },
         (draftDistricts) => {
           if (zone.statecode === 'TT') {
-            draftDistricts['districts'] = null;
+            draftDistricts.districts = null
           } else {
-            draftDistricts['districts'][zone.district] = {
+            draftDistricts.districts[zone.district] = {
               delta: {
                 confirmed:
                   +stateDistrictWiseResponse[zone.state].districtData[
@@ -160,7 +160,7 @@ const ultimateParser = (
                 deceased:
                   +stateDistrictWiseResponse[zone.state].districtData[
                     zone.district
-                  ].delta.deceased,
+                  ].delta.deceased
               },
               total: {
                 confirmed:
@@ -174,33 +174,33 @@ const ultimateParser = (
                 deceased:
                   +stateDistrictWiseResponse[zone.state].districtData[
                     zone.district
-                  ].deceased,
+                  ].deceased
               },
               zone: {
                 status: zone.zone,
                 last_updated: format(
                   parse(zone.lastupdated, 'dd/MM/yyyy', new Date()),
                   'yyyy-MM-dd'
-                ),
+                )
               },
               notes:
                 stateDistrictWiseResponse[zone.state].districtData[
                   zone.district
-                ].notes,
-            };
+                ].notes
+            }
           }
         }
-      );
-    });
-  });
-  return states;
-};
+      )
+    })
+  })
+  return states
+}
 
-const data = require('../tmp/data.json');
-const stateDistrictWiseResponse = require('../tmp/state_district_wise.json');
-const stateTestData = require('../tmp/state_test_data.json');
-const statesDailyResponse = require('../tmp/states_daily.json');
-const zonesResponse = require('../tmp/zones.json');
+const data = require('../tmp/data.json')
+const stateDistrictWiseResponse = require('../tmp/state_district_wise.json')
+const stateTestData = require('../tmp/state_test_data.json')
+const statesDailyResponse = require('../tmp/states_daily.json')
+const zonesResponse = require('../tmp/zones.json')
 
 const new_data = ultimateParser(
   statesDailyResponse,
@@ -208,9 +208,9 @@ const new_data = ultimateParser(
   data,
   stateDistrictWiseResponse,
   stateTestData
-);
+)
 
-fs.writeFileSync('./tmp/v2/data.json', JSON.stringify(new_data, null, 2));
-fs.writeFileSync('./tmp/v2/data.min.json', JSON.stringify(new_data, null, 0));
+fs.writeFileSync('./tmp/v2/data.json', JSON.stringify(new_data, null, 2))
+fs.writeFileSync('./tmp/v2/data.min.json', JSON.stringify(new_data, null, 0))
 
-console.log("Ultimate parser end")
+console.log('Ultimate parser end')
