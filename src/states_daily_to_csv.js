@@ -1,57 +1,51 @@
 const daily = require('../tmp/states_daily.json')
 const fs = require('fs')
 
-var confirmed_csv = 'date,TT,'
-var recovered_csv
-var deceased_csv
+var CONFIRMED_CSV = 'date,TT,'
+var RECOVERED_CSV
+var DECEASED_CSV
 
 var headers = ['date', 'tt']
 for (var key in daily.states_daily[0]) {
-  if (key != 'date' && key != 'status' && key != 'tt') {
+  if (key !== 'date' && key !== 'status' && key !== 'tt') {
     headers.push(key)
-    confirmed_csv += key.toUpperCase() + ','
+    CONFIRMED_CSV += key.toUpperCase() + ','
   }
 }
-recovered_csv = confirmed_csv
-deceased_csv = confirmed_csv
+RECOVERED_CSV = CONFIRMED_CSV
+DECEASED_CSV = CONFIRMED_CSV
 
 console.log(headers)
-console.log(confirmed_csv)
+console.log(CONFIRMED_CSV)
 
 daily.states_daily.forEach(element => {
   switch (element.status) {
     case 'Confirmed':
-      confirmed_csv += '\n'
+      CONFIRMED_CSV += '\n'
       headers.forEach(header => {
-        confirmed_csv += element[header] + ','
-        // console.log(element[header]);
+        CONFIRMED_CSV += element[header] + ','
       })
       break
     case 'Recovered':
-      recovered_csv += '\n'
+      RECOVERED_CSV += '\n'
       headers.forEach(header => {
-        recovered_csv += element[header] + ','
-        // console.log(element[header]);
+        RECOVERED_CSV += element[header] + ','
       })
       break
     case 'Deceased':
-      deceased_csv += '\n'
+      DECEASED_CSV += '\n'
       headers.forEach(header => {
-        deceased_csv += element[header] + ','
-        // console.log(element[header]);
+        DECEASED_CSV += element[header] + ','
       })
       break
   }
 })
 
-// console.log(confirmed_csv);
-// console.log(recovered_csv);
-// console.log(deceased_csv);
-const csv_path = 'tmp/states_daily_csv/'
-if (!fs.existsSync(csv_path)) {
-  fs.mkdirSync(csv_path, { recursive: true })
+const CSV_PATH = 'tmp/states_daily_csv/'
+if (!fs.existsSync(CSV_PATH)) {
+  fs.mkdirSync(CSV_PATH, { recursive: true })
 }
 
-fs.writeFileSync(csv_path + 'confirmed.csv', confirmed_csv)
-fs.writeFileSync(csv_path + 'recovered.csv', recovered_csv)
-fs.writeFileSync(csv_path + 'deceased.csv', deceased_csv)
+fs.writeFileSync(CSV_PATH + 'confirmed.csv', CONFIRMED_CSV)
+fs.writeFileSync(CSV_PATH + 'recovered.csv', RECOVERED_CSV)
+fs.writeFileSync(CSV_PATH + 'deceased.csv', DECEASED_CSV)

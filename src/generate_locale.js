@@ -7,18 +7,18 @@ if (!fs.existsSync(dir)) {
 }
 
 console.log(locales.locales[0])
-all_files = {}
+var allFiles = {}
 
-for (key in locales.locales[0]) {
-  all_files[key] = {}
+for (var key in locales.locales[0]) {
+  allFiles[key] = {}
 }
 
 locales.locales.forEach(element => {
-  for (key in element) {
-    all_files[key][element.english] = element[key]
+  for (var key in element) {
+    allFiles[key][element.english] = element[key]
   }
 })
 
-for (key in all_files) {
-  fs.writeFileSync('./tmp/locales/locale_' + key + '.json', JSON.stringify(all_files[key], null, 2))
+for (key in allFiles) {
+  fs.writeFileSync('./tmp/locales/locale_' + key + '.json', JSON.stringify(allFiles[key], null, 2))
 }

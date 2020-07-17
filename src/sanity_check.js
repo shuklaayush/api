@@ -1,8 +1,4 @@
-const fs = require('fs')
-const fetch = require('node-fetch')
-const moment = require('moment-timezone')
 const data = require('../tmp/data.json')
-const data_prev = require('../tmp/data_prev.json')
 
 var total = data.statewise[0]
 var err = false

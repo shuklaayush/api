@@ -1,5 +1,4 @@
 const fetch = require('node-fetch')
-const moment = require('moment-timezone')
 var fs = require('fs')
 
 var dir = './tmp/csv/'
@@ -7,17 +6,10 @@ if (!fs.existsSync(dir)) {
   fs.mkdirSync(dir, { recursive: true })
 }
 
-const now = moment().unix()
-var date = moment.unix(now)
-formated_date = date.tz('Asia/Kolkata').format('YYYY-MM-DD')
+var latestDir = dir + 'latest'
 
-// var today_dir = dir + formated_date;
-var latest_dir = dir + 'latest'
-// if (!fs.existsSync(today_dir)) {
-//     fs.mkdirSync(today_dir);
-// }
-if (!fs.existsSync(latest_dir)) {
-  fs.mkdirSync(latest_dir)
+if (!fs.existsSync(latestDir)) {
+  fs.mkdirSync(latestDir)
 }
 
 // Published sheets
@@ -32,46 +24,46 @@ const PUBLISHED_SHEET_ID_8 = '2PACX-1vR1zl3JStozuCgPsPol19f9k_io1ABmHS_mOl9gzWxi
 const PUBLISHED_SHEET_ID_9 = '2PACX-1vRb4AsEPrV4b0S4j2vQku-J5XHnh8c_8fzmIhD2S2aMc2if7g6bLwJNYOPV8UmrrNR-Bv0C0yjcUnU3'
 const PUBLISHED_SHEET_ID_10 = '2PACX-1vQyBRow24Pc7Wm_mSjU3JDy_Ua5mFByz6zE7-vFguBvUOdcr-90PgNcTBOCL-nTa40WrghiAN-kSFVX'
 
-const sheets_v1 = [
+const SHEETS_V1 = [
   ['raw_data1', '0'],
   ['death_and_recovered1', '200733542']
 ]
 
-const sheets_v2 = [
+const SHEETS_V2 = [
   ['raw_data2', '0'],
   ['death_and_recovered2', '200733542']
 ]
 
-const sheets_v3 = [
+const SHEETS_V3 = [
   ['raw_data3', '0'],
   ['districts_26apr_gospel', '1964493192']
 ]
 
-const sheets_v4 = [
+const SHEETS_V4 = [
   ['raw_data4', '0']
 ]
 
-const sheets_v5 = [
+const SHEETS_V5 = [
   ['raw_data5', '0']
 ]
 
-const sheets_v6 = [
+const SHEETS_V6 = [
   ['raw_data6', '0']
 ]
 
-const sheets_v7 = [
+const SHEETS_V7 = [
   ['raw_data7', '0']
 ]
 
-const sheets_v8 = [
+const SHEETS_V8 = [
   ['raw_data8', '0']
 ]
 
-const sheets_v9 = [
+const SHEETS_V9 = [
   ['raw_data9', '0']
 ]
 
-const sheets_v10 = [
+const SHEETS_V10 = [
   ['raw_data10', '0'],
   ['state_wise', '1896310216'],
   ['state_wise_daily', '1395461826'],
@@ -85,22 +77,21 @@ const sheets_v10 = [
   ['district_testing', '458610673']
 ]
 
-async function sheet_to_csv (sheets, pub_id) {
+async function sheetsToCSV (sheets, pubId) {
   for (var element of sheets) {
     console.log('Reading: ' + element[0])
-    var temp_url = 'https://docs.google.com/spreadsheets/d/e/' + pub_id + '/pub?gid=' + element[1] + '&single=false&output=csv'
-    console.log(temp_url)
-    url = encodeURI(temp_url)
+    var tempUrl = 'https://docs.google.com/spreadsheets/d/e/' + pubId + '/pub?gid=' + element[1] + '&single=false&output=csv'
+    console.log(tempUrl)
+    var url = encodeURI(tempUrl)
     const settings = { method: 'Get' }
     await fetch(url, settings).then(res => res.text())
       .then(csv => {
         if (csv.includes('</html>')) {
           console.error('probably not csv!')
           process.exit(1)
-          return
         } else {
           // fs.writeFileSync(today_dir + "/" + element[0] + ".csv", csv);
-          fs.writeFileSync(latest_dir + '/' + element[0] + '.csv', csv)
+          fs.writeFileSync(latestDir + '/' + element[0] + '.csv', csv)
           console.log('Write completed: ' + element[0])
         }
       })
@@ -109,14 +100,14 @@ async function sheet_to_csv (sheets, pub_id) {
 
 (async function main () {
   // uncomment below and run when changes in v1 sheet
-  await sheet_to_csv(sheets_v1, PUBLISHED_SHEET_ID_1)
-  await sheet_to_csv(sheets_v2, PUBLISHED_SHEET_ID_2)
-  await sheet_to_csv(sheets_v3, PUBLISHED_SHEET_ID_3)
-  await sheet_to_csv(sheets_v4, PUBLISHED_SHEET_ID_4)
-  await sheet_to_csv(sheets_v5, PUBLISHED_SHEET_ID_5)
-  await sheet_to_csv(sheets_v6, PUBLISHED_SHEET_ID_6)
-  await sheet_to_csv(sheets_v7, PUBLISHED_SHEET_ID_7)
-  await sheet_to_csv(sheets_v8, PUBLISHED_SHEET_ID_8)
-  await sheet_to_csv(sheets_v9, PUBLISHED_SHEET_ID_9)
-  await sheet_to_csv(sheets_v10, PUBLISHED_SHEET_ID_10)
+  await sheetsToCSV(SHEETS_V1, PUBLISHED_SHEET_ID_1)
+  await sheetsToCSV(SHEETS_V2, PUBLISHED_SHEET_ID_2)
+  await sheetsToCSV(SHEETS_V3, PUBLISHED_SHEET_ID_3)
+  await sheetsToCSV(SHEETS_V4, PUBLISHED_SHEET_ID_4)
+  await sheetsToCSV(SHEETS_V5, PUBLISHED_SHEET_ID_5)
+  await sheetsToCSV(SHEETS_V6, PUBLISHED_SHEET_ID_6)
+  await sheetsToCSV(SHEETS_V7, PUBLISHED_SHEET_ID_7)
+  await sheetsToCSV(SHEETS_V8, PUBLISHED_SHEET_ID_8)
+  await sheetsToCSV(SHEETS_V9, PUBLISHED_SHEET_ID_9)
+  await sheetsToCSV(SHEETS_V10, PUBLISHED_SHEET_ID_10)
 })()
