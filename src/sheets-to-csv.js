@@ -23,7 +23,7 @@ const PUBLISHED_SHEET_ID_7 = '2PACX-1vR6blqV85tiBO-9u4MCW72qXALS3f7yQD0iV47MbsmI
 const PUBLISHED_SHEET_ID_8 = '2PACX-1vR1zl3JStozuCgPsPol19f9k_io1ABmHS_mOl9gzWxiDd2_WvWhdfhePXBFZIUFjpW-gPfPwE9m7AA_'
 const PUBLISHED_SHEET_ID_9 = '2PACX-1vRb4AsEPrV4b0S4j2vQku-J5XHnh8c_8fzmIhD2S2aMc2if7g6bLwJNYOPV8UmrrNR-Bv0C0yjcUnU3'
 const PUBLISHED_SHEET_ID_10 = '2PACX-1vQyBRow24Pc7Wm_mSjU3JDy_Ua5mFByz6zE7-vFguBvUOdcr-90PgNcTBOCL-nTa40WrghiAN-kSFVX'
-
+const PUBLISHED_SHEET_ID_11 = '2PACX-1vTd_tTI33CBI4obGaKTo0dfw1cNu5dUz4OIIhdbWJVmZJlEVslMyWzky1ifb9uRmV0siVxneBW4iBwi'
 const SHEETS_V1 = [
   ['raw_data1', '0'],
   ['death_and_recovered1', '200733542']
@@ -64,7 +64,11 @@ const SHEETS_V9 = [
 ]
 
 const SHEETS_V10 = [
-  ['raw_data10', '0'],
+  ['raw_data10', '0']
+]
+
+const SHEETS_V11 = [
+  ['raw_data11', '0'],
   ['state_wise', '1896310216'],
   ['state_wise_daily', '1395461826'],
   ['sources_list', '704389477'],
@@ -110,4 +114,5 @@ async function sheetsToCSV (sheets, pubId) {
   await sheetsToCSV(SHEETS_V8, PUBLISHED_SHEET_ID_8)
   await sheetsToCSV(SHEETS_V9, PUBLISHED_SHEET_ID_9)
   await sheetsToCSV(SHEETS_V10, PUBLISHED_SHEET_ID_10)
+  await sheetsToCSV(SHEETS_V11, PUBLISHED_SHEET_ID_11)
 })()
