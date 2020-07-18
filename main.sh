@@ -63,8 +63,8 @@ rm -r tmp/
 
 git add .
 set +e  # Grep succeeds with nonzero exit codes to show results.
-git status | grep 'new file\|modified'
-if [ $? -eq 0 ]
+
+if git status | grep 'new file\|modified'
 then
     set -e
     git commit -am "data updated on - $(date)"
