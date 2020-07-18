@@ -13,6 +13,9 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2
+      - name: pip install
+        run: |
+          pip3 install -r requirements.txt
       - name: Lint Code Base
         uses: docker://github/super-linter:v3
         env:
