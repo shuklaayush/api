@@ -1,4 +1,4 @@
-import pandas as pd
+import pandas as pd # pylint: disable=import-error
 import re
 from pathlib import Path
 import logging
