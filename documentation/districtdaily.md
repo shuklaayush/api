@@ -1,8 +1,12 @@
-#### Description:
+# districts_daily.json
+
+## Description
+
 This API provides a cumulative count of each district for the categories of C/R/D for each date.
 
-#### Structure
-```
+## Structure
+
+```json
 {
   "districtsDaily": {
     "StateName": {
@@ -26,10 +30,11 @@ This API provides a cumulative count of each district for the categories of C/R/
 }
 ```
 
-- This API provides an array objects for each district under each state, where each object corresponds to a specific date. 
+- This API provides an array objects for each district under each state, where each object corresponds to a specific date.
 - DistrictName: This is the name of the district.
 - active/confirmed/deceased/recovered : These are the cumulative values for that district upto that date.
 - The logic of active is: Active = Confirmed - Recovered - Deceased - Migrated Others
 
-#### Usage and Caveats:
+## Usage and Caveats
+
 - The objects do not provide Migrated Others values.
