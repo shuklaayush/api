@@ -64,7 +64,7 @@ License for Data (Consider this as everything in the `gh-ages` branch) : CC-BY-S
 
 You can cite us in your work in the following format  
 
-```json
+```tex
 @misc{covid19indiaorg2020tracker,
   author = {COVID-19 India Org Data Operations Group},
   title = {{Dataset for tracking COVID-19 spread in India}},
