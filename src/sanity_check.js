@@ -2,8 +2,8 @@ const data = require('../tmp/data.json')
 
 var total = data.statewise[0]
 var err = false
-if (total.deltaconfirmed > 40000) {
-  console.error('Delta confirmed is greater than 40k')
+if (total.deltaconfirmed > 45000) {
+  console.error('Delta confirmed is greater than 45k')
   err = true
 }
 
