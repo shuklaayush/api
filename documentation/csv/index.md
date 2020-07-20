@@ -11,8 +11,8 @@ These are the files available
 
 #### Raw Data
 
-| Status        | Sheet Name | Link to CSV                                           | Description            |
-|---------------|------------|-------------------------------------------------------|------------------------|
+| Status        | Sheet Name | Link to CSV                                             | Description            |
+|---------------|------------|---------------------------------------------------------|------------------------|
 | :green_heart: | raw_data1  | <https://api.covid19india.org/csv/latest/raw_data1.csv> | Till Apr 19th          |
 | :green_heart: | raw_data2  | <https://api.covid19india.org/csv/latest/raw_data2.csv> | Apr 20th to Apr 26th   |
 | :green_heart: | raw_data3  | <https://api.covid19india.org/csv/latest/raw_data3.csv> | April 27th to May 9th  |
@@ -27,8 +27,8 @@ These are the files available
 
 #### Other Sheets
 
-| Status        | Sheet Name                    | Link to CSV                                                               | Description                                                                                     |
-|---------------|-------------------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
+| Status        | Sheet Name                    | Link to CSV                                                                 | Description                                                                                     |
+|---------------|-------------------------------|-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
 | :green_heart: | death_and_recovered1          | <https://api.covid19india.org/csv/latest/death_and_recovered1.csv>          | Data added to recovered and deceased cases till Apr 19th                                        |
 | :green_heart: | death_and_recovered2          | <https://api.covid19india.org/csv/latest/death_and_recovered2.csv>          | Data added to recovered and deceased cases from Apr 20th to Apr 26th                            |
 | :green_heart: | state_wise                    | <https://api.covid19india.org/csv/latest/state_wise.csv>                    | The current statewise situation                                                                 |
@@ -46,10 +46,10 @@ These are the files available
 
 - raw_data3 includes confirmed, recovered and deceased entries. They can be distinguised based on the "Current Status" key
 - If you need to get the full raw_data, you need to :
-  * Append raw_data1, raw_data2, make all "Current Status" to 'Hospitalized'
-  * Append death_and_recovered1, death_and_recovered2 intelligently to the above
-  * Add a 'Num_Cases' column with all values 1
-  * Append raw_data3 below this
+  - Append raw_data1, raw_data2, make all "Current Status" to 'Hospitalized'
+  - Append death_and_recovered1, death_and_recovered2 intelligently to the above
+  - Add a 'Num_Cases' column with all values 1
+  - Append raw_data3 below this
 - We will try to do this data wrangling and provide a one true raw_data soon. If anybody can create the script for doing this, PRs are welcome :)
 
 #### How to
