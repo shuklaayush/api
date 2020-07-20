@@ -11,24 +11,24 @@ These are the files available
 
 #### Raw Data
 
-| Status        | Sheet Name | Link to CSV                                             | Description            |
-|---------------|------------|---------------------------------------------------------|------------------------|
-| :green_heart: | raw_data1  | <https://api.covid19india.org/csv/latest/raw_data1.csv> | Till Apr 19th          |
-| :green_heart: | raw_data2  | <https://api.covid19india.org/csv/latest/raw_data2.csv> | Apr 20th to Apr 26th   |
-| :green_heart: | raw_data3  | <https://api.covid19india.org/csv/latest/raw_data3.csv> | April 27th to May 9th  |
-| :green_heart: | raw_data4  | <https://api.covid19india.org/csv/latest/raw_data4.csv> | May 10th to May 23rd   |
-| :green_heart: | raw_data5  | <https://api.covid19india.org/csv/latest/raw_data5.csv> | May 24th to June 4th   |
-| :green_heart: | raw_data6  | <https://api.covid19india.org/csv/latest/raw_data6.csv> | June 5th to June 19th  |
-| :green_heart: | raw_data7  | <https://api.covid19india.org/csv/latest/raw_data7.csv> | June 20th to June 30th |
-| :green_heart: | raw_data8  | <https://api.covid19india.org/csv/latest/raw_data7.csv> | July 1st to July 7th   |
-| :green_heart: | raw_data9  | <https://api.covid19india.org/csv/latest/raw_data7.csv> | July 8th to July 13th  |
-| :green_heart: | raw_data10 | <https://api.covid19india.org/csv/latest/raw_data7.csv> | July 14th to July 17th |
-| :green_heart: | raw_data11 | <https://api.covid19india.org/csv/latest/raw_data7.csv> | July 18th onwards      |
+| Status        | Sheet Name | Link to CSV                                              | Description            |
+| ------------- | ---------- | -------------------------------------------------------- | ---------------------- |
+| :green_heart: | raw_data1  | <https://api.covid19india.org/csv/latest/raw_data1.csv>  | Till Apr 19th          |
+| :green_heart: | raw_data2  | <https://api.covid19india.org/csv/latest/raw_data2.csv>  | Apr 20th to Apr 26th   |
+| :green_heart: | raw_data3  | <https://api.covid19india.org/csv/latest/raw_data3.csv>  | April 27th to May 9th  |
+| :green_heart: | raw_data4  | <https://api.covid19india.org/csv/latest/raw_data4.csv>  | May 10th to May 23rd   |
+| :green_heart: | raw_data5  | <https://api.covid19india.org/csv/latest/raw_data5.csv>  | May 24th to June 4th   |
+| :green_heart: | raw_data6  | <https://api.covid19india.org/csv/latest/raw_data6.csv>  | June 5th to June 19th  |
+| :green_heart: | raw_data7  | <https://api.covid19india.org/csv/latest/raw_data7.csv>  | June 20th to June 30th |
+| :green_heart: | raw_data8  | <https://api.covid19india.org/csv/latest/raw_data8.csv>  | July 1st to July 7th   |
+| :green_heart: | raw_data9  | <https://api.covid19india.org/csv/latest/raw_data9.csv>  | July 8th to July 13th  |
+| :green_heart: | raw_data10 | <https://api.covid19india.org/csv/latest/raw_data10.csv> | July 14th to July 17th |
+| :green_heart: | raw_data11 | <https://api.covid19india.org/csv/latest/raw_data11.csv> | July 18th onwards      |
 
 #### Other Sheets
 
 | Status        | Sheet Name                    | Link to CSV                                                                 | Description                                                                                     |
-|---------------|-------------------------------|-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
+| ------------- | ----------------------------- | --------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
 | :green_heart: | death_and_recovered1          | <https://api.covid19india.org/csv/latest/death_and_recovered1.csv>          | Data added to recovered and deceased cases till Apr 19th                                        |
 | :green_heart: | death_and_recovered2          | <https://api.covid19india.org/csv/latest/death_and_recovered2.csv>          | Data added to recovered and deceased cases from Apr 20th to Apr 26th                            |
 | :green_heart: | state_wise                    | <https://api.covid19india.org/csv/latest/state_wise.csv>                    | The current statewise situation                                                                 |
