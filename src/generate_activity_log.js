@@ -75,7 +75,7 @@ function fillSpace (str, width) {
 }
 
 const widthState = 2
-const widthConfirmed = 13
+const widthConfirmed = 14
 const widthRecovered = 13
 const widthDeceased = 12
 
