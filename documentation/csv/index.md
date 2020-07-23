@@ -30,7 +30,7 @@ These are the files available
 
 | Status        | Sheet Name                    | Link to CSV                                                                 | Description                                                                                     |
 | ------------- | ----------------------------- | --------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| :green_heart: | case_time_series              | <https://api.covid19india.org/csv/latest/case_time_series.csv>              | Time series of Confirmed, Recovered and Deceased cases in India 
+| :green_heart: | case_time_series              | <https://api.covid19india.org/csv/latest/case_time_series.csv>              | Time series of Confirmed, Recovered and Deceased cases in India
 | :green_heart: | state_wise                    | <https://api.covid19india.org/csv/latest/state_wise.csv>                    | The latest State-wise situation                                                                 |                                        |
 | :green_heart: | district_wise                 | <https://api.covid19india.org/csv/latest/district_wise.csv>                 | The latest District-wise  situation                                                      |
 | :green_heart: | state_wise_daily              | <https://api.covid19india.org/csv/latest/state_wise_daily.csv>              | Statewise timeseries of Confirmed, Recovered and Deceased numbers.  
@@ -60,7 +60,9 @@ If you prefer working on a Google Sheet instead of downloading the files and wou
 #### Quick Links
 
 If you're looking for the json files
+
 - [API](https://api.covid19india.org)
 
-A more detailed note of the columns present in the data may be found in the json documentaion
+A more detailed note of the columns present in the data may be found in the json documentation
+
 - [Documentation](https://api.covid19india.org/documentation)
