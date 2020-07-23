@@ -22,7 +22,8 @@ Detailed documentation regarding the API end-points [can be found here](document
 | :green_heart: | Patient Level : Raw Data Partition 8 (From Jul 01 to Jul 07)                 | <https://api.covid19india.org/raw_data8.json>           |
 | :green_heart: | Patient Level : Raw Data Partition 9 (From Jul 08 to Jul 13)                 | <https://api.covid19india.org/raw_data9.json>           |
 | :green_heart: | Patient Level : Raw Data Partition 10 (From Jul 14 to Jul 17)                | <https://api.covid19india.org/raw_data10.json>          |
-| :green_heart: | Patient Level : Raw Data Partition 11 (From Jul 18th onwards)                | <https://api.covid19india.org/raw_data11.json>          |
+| :green_heart: | Patient Level : Raw Data Partition 11 (From Jul 18 to Jul 22)                | <https://api.covid19india.org/raw_data11.json>          |
+| :green_heart: | Patient Level : Raw Data Partition 12 (From Jul 23rd onwards)                | <https://api.covid19india.org/raw_data12.json>          |
 | :green_heart: | National Level :Time series, State-wise stats and Test counts                | <https://api.covid19india.org/data.json>                |
 | :green_heart: | State Level : has district-wise info                                         | <https://api.covid19india.org/state_district_wise.json> |
 | :green_heart: | State Level : Daily changes                                                  | <https://api.covid19india.org/states_daily.json>        |
