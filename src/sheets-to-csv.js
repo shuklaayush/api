@@ -24,7 +24,7 @@ const PUBLISHED_SHEET_ID_8 = '2PACX-1vR1zl3JStozuCgPsPol19f9k_io1ABmHS_mOl9gzWxi
 const PUBLISHED_SHEET_ID_9 = '2PACX-1vRb4AsEPrV4b0S4j2vQku-J5XHnh8c_8fzmIhD2S2aMc2if7g6bLwJNYOPV8UmrrNR-Bv0C0yjcUnU3'
 const PUBLISHED_SHEET_ID_10 = '2PACX-1vQyBRow24Pc7Wm_mSjU3JDy_Ua5mFByz6zE7-vFguBvUOdcr-90PgNcTBOCL-nTa40WrghiAN-kSFVX'
 const PUBLISHED_SHEET_ID_11 = '2PACX-1vTd_tTI33CBI4obGaKTo0dfw1cNu5dUz4OIIhdbWJVmZJlEVslMyWzky1ifb9uRmV0siVxneBW4iBwi'
-const PUBLISHED_SHEET_ID_12= '2PACX-1vRCvn9X8LdOLYpiq_8U8Ihw8m_q0Lrl0Gkx4kJ22dhxX9Biy-Bhc0KWWxFQ9Fk2oS5pjgPNEd4I4XHD'
+const PUBLISHED_SHEET_ID_12 = '2PACX-1vRCvn9X8LdOLYpiq_8U8Ihw8m_q0Lrl0Gkx4kJ22dhxX9Biy-Bhc0KWWxFQ9Fk2oS5pjgPNEd4I4XHD'
 
 const SHEETS_V1 = [
   ['raw_data1', '0'],
@@ -74,7 +74,7 @@ const SHEETS_V11 = [
 ]
 
 const SHEETS_V12 = [
-  ['raw_data11', '0'],
+  ['raw_data12', '0'],
   ['state_wise', '1896310216'],
   ['state_wise_daily', '1395461826'],
   ['sources_list', '704389477'],
