@@ -174,11 +174,11 @@ const c = require('../lib/constants');
     file: c.FILE_RESOURCES_ESSENTIALS
   })
 
-  await task({
-    sheet: c.SHEET,
-    tabs: { zones: c.SHEET_ZONES },
-    file: c.FILE_ZONES
-  })
+//   await task({
+//     sheet: c.SHEET,
+//     tabs: { zones: c.SHEET_ZONES },
+//     file: c.FILE_ZONES
+//   })
 
   await task({
     sheet: c.SHEET,
