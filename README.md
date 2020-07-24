@@ -76,7 +76,7 @@ You can cite us in your work in the following format
 
 ## Contributing
 
-- Contributions to new data formats and making the data fetch process mroe efficient are welcome.
+- Contributions to new data formats and making the data fetch process more efficient are welcome.
 - Please create a GH issue and discuss your idea before working on the same.
 - Report issues regarding <https://www.covid19india.org> website in the [react-site repository](https://github.com/covid19india/covid19india-react/issues)
 - DO NOT change anything in `gh-pages` branch directly as they get replaced automatically every 10 minutes.
