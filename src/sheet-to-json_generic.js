@@ -1,7 +1,7 @@
 const { task, fetchData, writeData } = require('../lib')
 const c = require('../lib/constants');
 
-(async function main () {
+(async function main() {
   console.log('Running task on start...')
   await task({
     sheet: c.SHEET_LOCALE,
@@ -174,16 +174,22 @@ const c = require('../lib/constants');
     file: c.FILE_RESOURCES_ESSENTIALS
   })
 
-//   await task({
-//     sheet: c.SHEET,
-//     tabs: { zones: c.SHEET_ZONES },
-//     file: c.FILE_ZONES
-//   })
+  //   await task({
+  //     sheet: c.SHEET,
+  //     tabs: { zones: c.SHEET_ZONES },
+  //     file: c.FILE_ZONES
+  //   })
 
   await task({
     sheet: c.SHEET,
     tabs: { district_testing_data: c.SHEET_DISTRICT_TESTING_DATA },
     file: c.FILE_DISTRICT_TESTING_DATA
+  })
+
+  await task({
+    sheet: c.SHEET,
+    tabs: { twitter_queries: c.SHEET_TWITTER_QUERIES },
+    file: c.FILE_TWITTER_QUERIES
   })
 
   console.log('End of sheet-to-json_generic')
