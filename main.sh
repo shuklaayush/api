@@ -46,6 +46,7 @@ node src/generate_locale.js
 # node src/ultimate_parser.js
 # pip3 install --quiet -r requirements.txt
 # python3 src/geocoder.py
+python3 src/parser_v3.py
 python3 src/parser_v4.py
 python3 src/parser_v5.py
 # python3 src/build_raw_data.py
@@ -56,8 +57,6 @@ node src/generate_activity_log.js
 git checkout "$gh_pages_branch"
 
 rm tmp/data_prev.json
-# Use v4 APIs as v3
-cp -r tmp/v4 tmp/v3
 
 cp -r tmp/* .
 rm -r tmp/
