@@ -339,8 +339,9 @@ def parse_icmr(icmr_data):
                                                     entry['testedasof']))
       continue
 
-    for key, statistic in zip(['totalsamplestested', 'totalpositivecases'],
-                              TESTED_STATISTICS):
+    #  for key, statistic in zip(['totalsamplestested', 'totalpositivecases'],
+    #                            TESTED_STATISTICS):
+    for key, statistic in [('totalsamplestested', 'samples')]:
       count_str = entry[key].strip()
       try:
         count = int(count_str)
