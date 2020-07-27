@@ -56,6 +56,9 @@ node src/generate_activity_log.js
 git checkout "$gh_pages_branch"
 
 rm tmp/data_prev.json
+# Use v4 APIs as v3
+cp -r tmp/v4 tmp/v3
+
 cp -r tmp/* .
 rm -r tmp/
 
