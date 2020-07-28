@@ -488,6 +488,15 @@ def parse_district_test(reader):
               'last_updated'] = date
 
 
+def contains(raw_data, keys):
+  if not keys:
+    return True
+  elif keys[0] in raw_data:
+    return contains(raw_data[keys[0]], keys[1:])
+  else:
+    return False
+
+
 def fill_tested():
   dates = sorted(data)
   for i, date in enumerate(dates):
@@ -495,7 +504,7 @@ def fill_tested():
 
     # Initialize today's delta with today's cumulative
     for state, state_data in curr_data.items():
-      if 'total' in state_data and 'tested' in state_data['total']:
+      if contains(state_data, ['total', 'tested']):
         for statistic in TESTED_STATISTICS:
           if statistic in state_data['total']['tested']:
             state_data['delta']['tested'][statistic] = state_data['total'][
@@ -505,7 +514,7 @@ def fill_tested():
         continue
 
       for district, district_data in state_data['districts'].items():
-        if 'total' in district_data and 'tested' in district_data['total']:
+        if contains(district_data, ['total', 'tested']):
           for statistic in TESTED_STATISTICS:
             if statistic in district_data['total']['tested']:
               district_data['delta']['tested'][statistic] = district_data[
@@ -515,11 +524,10 @@ def fill_tested():
       prev_date = dates[i - 1]
       prev_data = data[prev_date]
       for state, state_data in prev_data.items():
-        if 'total' in state_data and 'tested' in state_data['total']:
+        if contains(state_data, ['total', 'tested']):
           for statistic in TESTED_STATISTICS:
             if statistic in state_data['total']['tested']:
-              if 'tested' in curr_data[state][
-                  'total'] and statistic in curr_data[state]['total']['tested']:
+              if contains(curr_data[state]['total'], ['tested', statistic]):
                 # Subtract previous cumulative to get delta
                 curr_data[state]['delta']['tested'][statistic] -= state_data[
                     'total']['tested'][statistic]
@@ -539,12 +547,11 @@ def fill_tested():
           continue
 
         for district, district_data in state_data['districts'].items():
-          if 'total' in district_data and 'tested' in district_data['total']:
+          if contains(district_data, ['total', 'tested']):
             for statistic in TESTED_STATISTICS:
               if statistic in district_data['total']['tested']:
-                if 'tested' in curr_data[state]['districts'][district][
-                    'total'] and statistic in curr_data[state]['districts'][
-                        district]['total']['tested']:
+                if contains(curr_data[state]['districts'][district]['total'],
+                            ['tested', statistic]):
                   # Subtract previous cumulative to get delta
                   curr_data[state]['districts'][district]['delta']['tested'][
                       statistic] -= district_data['total']['tested'][statistic]
@@ -648,25 +655,51 @@ def stripper(raw_data, dtype=ddict):
   return new_data
 
 
-def add_populations():
+def add_sum_states_testing(curr_data):
+  # Add sum of testing numbers to TT (India) data
+  for state, state_data in curr_data.items():
+    if state == 'TT':
+      continue
+
+    if contains(state_data, ['total', 'tested', 'samples']):
+      inc(curr_data['TT']['total']['tested']['states'], 'samples',
+          state_data['total']['tested']['samples'])
+    if contains(state_data, ['total', 'tested', 'positives']):
+      inc(curr_data['TT']['total']['tested']['states'], 'positives',
+          state_data['total']['tested']['positives'])
+
+    if contains(state_data, ['delta', 'tested', 'samples']):
+      inc(curr_data['TT']['delta']['tested']['states'], 'samples',
+          state_data['delta']['tested']['samples'])
+    if contains(state_data, ['delta', 'tested', 'positives']):
+      inc(curr_data['TT']['delta']['tested']['states'], 'positives',
+          state_data['delta']['tested']['positives'])
+
+
+def add_populations(curr_data):
   # Add population data for states/districts
-  for curr_data in data.values():
-    for state, state_data in curr_data.items():
+  for state, state_data in curr_data.items():
+    try:
+      state_pop = STATE_POPULATIONS[state]
+      state_data['meta']['population'] = state_pop
+    except KeyError:
+      pass
+
+    if 'districts' not in state_data:
+      continue
+
+    for district, district_data in state_data['districts'].items():
       try:
-        state_pop = STATE_POPULATIONS[state]
-        state_data['meta']['population'] = state_pop
+        district_pop = DISTRICT_POPULATIONS[state][district]
+        district_data['meta']['population'] = district_pop
       except KeyError:
         pass
 
-      if 'districts' not in state_data:
-        continue
 
-      for district, district_data in state_data['districts'].items():
-        try:
-          district_pop = DISTRICT_POPULATIONS[state][district]
-          district_data['meta']['population'] = district_pop
-        except KeyError:
-          pass
+def add_more_data():
+  for curr_data in data.values():
+    add_sum_states_testing(curr_data)
+    add_populations(curr_data)
 
 
 def generate_timeseries(districts=False):
@@ -1013,8 +1046,8 @@ if __name__ == '__main__':
 
   # Add population figures
   logging.info('-' * PRINT_WIDTH)
-  logging.info('Adding state/district populations...')
-  add_populations()
+  logging.info('Adding populations, sum of tests...')
+  add_more_data()
   logging.info('Done!')
 
   # Generate timeseries
