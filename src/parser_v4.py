@@ -3,13 +3,14 @@
 import csv
 import logging
 import json
+import sys
 import yaml
 from collections import defaultdict, OrderedDict
 from datetime import datetime, timedelta
 from pathlib import Path
 
 # Set logging level
-logging.basicConfig(handlers=[logging.NullHandler()],
+logging.basicConfig(stream=sys.stdout,
                     format='%(message)s',
                     level=logging.INFO)
 
@@ -83,12 +84,10 @@ RAW_DATA_MAP = {
     'hospitalized': 'confirmed',
     'recovered': 'recovered',
     'deceased': 'deceased',
-    'migrated_other': 'migrated',
+    'migrated_other': 'other',
 }
 # CSV Headers
-STATISTIC_HEADERS = [
-    'Confirmed', 'Recovered', 'Deceased', 'Migrated', 'Tested'
-]
+STATISTIC_HEADERS = ['Confirmed', 'Recovered', 'Deceased', 'Other', 'Tested']
 STATE_CSV_HEADER = ['Date', 'State', *STATISTIC_HEADERS]
 DISTRICT_CSV_HEADER = ['Date', 'State', 'District', *STATISTIC_HEADERS]
 
@@ -469,10 +468,19 @@ def parse_district_test(reader):
       source = row[j + 3].strip()
       if count:
         data[date][state]['districts'][district]['total']['tested'] = count
-        data[date][state]['districts'][district]['meta']['tested'][
-            'source'] = source
+        #  data[date][state]['districts'][district]['meta']['tested'][
+        #      'source'] = source
         data[date][state]['districts'][district]['meta']['tested'][
             'last_updated'] = date
+
+
+def contains(raw_data, keys):
+  if not keys:
+    return True
+  elif keys[0] in raw_data:
+    return contains(raw_data[keys[0]], keys[1:])
+  else:
+    return False
 
 
 def fill_tested():
@@ -482,21 +490,21 @@ def fill_tested():
 
     # Initialize today's delta with today's cumulative
     for state, state_data in curr_data.items():
-      if 'total' in state_data and 'tested' in state_data['total']:
+      if contains(state_data, ['total', 'tested']):
         state_data['delta']['tested'] = state_data['total']['tested']
 
       if 'districts' not in state_data:
         continue
 
       for district, district_data in state_data['districts'].items():
-        if 'total' in district_data and 'tested' in district_data['total']:
+        if contains(district_data, ['total', 'tested']):
           district_data['delta']['tested'] = district_data['total']['tested']
 
     if i > 0:
       prev_date = dates[i - 1]
       prev_data = data[prev_date]
       for state, state_data in prev_data.items():
-        if 'total' in state_data and 'tested' in state_data['total']:
+        if contains(state_data, ['total', 'tested']):
           if 'tested' in curr_data[state]['total']:
             # Subtract previous cumulative to get delta
             curr_data[state]['delta']['tested'] -= state_data['total'][
@@ -514,7 +522,7 @@ def fill_tested():
           continue
 
         for district, district_data in state_data['districts'].items():
-          if 'total' in district_data and 'tested' in district_data['total']:
+          if contains(district_data, ['total', 'tested']):
             if 'tested' in curr_data[state]['districts'][district]['total']:
               # Subtract previous cumulative to get delta
               curr_data[state]['districts'][district]['delta'][
@@ -594,7 +602,8 @@ def fill_gospel_unknown():
     for district, district_data in state_data['districts'].items():
       if 'total' in district_data:
         for statistic, count in district_data['total'].items():
-          sum_district_totals[statistic] += count
+          if statistic in PRIMARY_STATISTICS:
+            sum_district_totals[statistic] += count
 
     for statistic in PRIMARY_STATISTICS:
       if statistic in state_data['total']:
@@ -828,11 +837,11 @@ def write_csvs(writer_states, writer_districts):
 
     for state in sorted(curr_data):
       state_data = curr_data[state]
-      # Date, State, Confirmed, Recovered, Deceased, Migrated, Tested
+      # Date, State, Confirmed, Recovered, Deceased, Other, Tested
       row = [
           date, STATE_NAMES[state], state_data['total']['confirmed'] or 0,
           state_data['total']['recovered'] or 0,
-          state_data['total']['deceased'] or 0, state_data['total']['migrated']
+          state_data['total']['deceased'] or 0, state_data['total']['other']
           or 0, state_data['total']['tested'] or ''
       ]
       writer_states.writerow(row)
@@ -844,13 +853,13 @@ def write_csvs(writer_states, writer_districts):
 
       for district in sorted(state_data['districts']):
         district_data = state_data['districts'][district]
-        # Date, State, District, Confirmed, Recovered, Deceased, Migrated, Tested
+        # Date, State, District, Confirmed, Recovered, Deceased, Other, Tested
         row = [
             date, STATE_NAMES[state], district,
             district_data['total']['confirmed'] or 0,
             district_data['total']['recovered'] or 0,
             district_data['total']['deceased'] or 0,
-            district_data['total']['migrated'] or 0,
+            district_data['total']['other'] or 0,
             district_data['total']['tested'] or ''
         ]
         writer_districts.writerow(row)
@@ -1089,14 +1098,14 @@ if __name__ == '__main__':
   logging.info('Done!')
 
   # Dump state/district CSVs
-  #  logging.info('-' * PRINT_WIDTH)
-  #  logging.info('Dumping CSVs...')
-  #  with open(OUTPUT_STATES_CSV, 'w') as f1:
-  #      writer1 = csv.writer(f1)
-  #      with open(OUTPUT_DISTRICTS_CSV, 'w') as f2:
-  #          writer2 = csv.writer(f2)
-  #          write_csvs(writer1, writer2)
-  #  logging.info('Done!')
+  logging.info('-' * PRINT_WIDTH)
+  logging.info('Dumping CSVs...')
+  with open(OUTPUT_STATES_CSV, 'w') as f1:
+    writer1 = csv.writer(f1)
+    with open(OUTPUT_DISTRICTS_CSV, 'w') as f2:
+      writer2 = csv.writer(f2)
+      write_csvs(writer1, writer2)
+  logging.info('Done!')
 
   logging.info('-' * PRINT_WIDTH)
   logging.info('{:{align}{width}}'.format('PARSER V4 END',

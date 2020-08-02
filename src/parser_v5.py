@@ -3,14 +3,13 @@
 import csv
 import logging
 import json
-import sys
 import yaml
 from collections import defaultdict, OrderedDict
 from datetime import datetime, timedelta
 from pathlib import Path
 
 # Set logging level
-logging.basicConfig(stream=sys.stdout,
+logging.basicConfig(handlers=[logging.NullHandler()],
                     format='%(message)s',
                     level=logging.INFO)
 
@@ -1154,14 +1153,14 @@ if __name__ == '__main__':
   logging.info('Done!')
 
   # Dump state/district CSVs
-  logging.info('-' * PRINT_WIDTH)
-  logging.info('Dumping CSVs...')
-  with open(OUTPUT_STATES_CSV, 'w') as f1:
-    writer1 = csv.writer(f1)
-    with open(OUTPUT_DISTRICTS_CSV, 'w') as f2:
-      writer2 = csv.writer(f2)
-      write_csvs(writer1, writer2)
-  logging.info('Done!')
+  #  logging.info('-' * PRINT_WIDTH)
+  #  logging.info('Dumping CSVs...')
+  #  with open(OUTPUT_STATES_CSV, 'w') as f1:
+  #    writer1 = csv.writer(f1)
+  #    with open(OUTPUT_DISTRICTS_CSV, 'w') as f2:
+  #      writer2 = csv.writer(f2)
+  #      write_csvs(writer1, writer2)
+  #  logging.info('Done!')
 
   logging.info('-' * PRINT_WIDTH)
   logging.info('{:{align}{width}}'.format('PARSER V5 END',
