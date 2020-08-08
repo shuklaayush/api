@@ -48,7 +48,6 @@ node src/generate_locale.js
 # python3 src/geocoder.py
 python3 src/parser_v3.py
 python3 src/parser_v4.py
-python3 src/parser_v5.py
 # python3 src/build_raw_data.py
 
 node src/sanity_check.js
