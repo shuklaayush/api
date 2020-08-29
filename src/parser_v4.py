@@ -414,7 +414,7 @@ def parse_district_test(reader):
   # Header row
   header = next(reader)
   # Store formatted dates
-  dates = ['' for _ in header]
+  dates = [None for _ in header]
   # Columns >= 6 contain dates
   for j in range(6, len(header), 5):
     try:
@@ -425,7 +425,7 @@ def parse_district_test(reader):
         dates[j] = date
     except ValueError:
       # Bad date
-      logging.warning('[{}] Bad date: {}'.format(column_str(j), header[j]))
+      logging.warning('[{}] Bad date: {}'.format(column_str(j + 1), header[j]))
   # Skip second row
   next(reader)
   for i, row in enumerate(reader):
@@ -451,18 +451,23 @@ def parse_district_test(reader):
 
     # Testing data starts from column 6
     for j in range(6, len(row), 5):
+      # | Tested | Positive | Negative | Source1 | Source2 |
+      count_str = row[j].strip()
       # Date header
       date = dates[j]
       if not date:
         # Skip future date
+        if count_str:
+          # Log non-zero entries
+          logging.warning('[L{} {}] [Future date: {}] {}: {}'.format(
+              i + 3, column_str(j + 1), header[j].strip(), state, district))
         continue
-      # | Tested | Positive | Negative | Source1 | Source2 |
       try:
-        count = int(row[j].strip())
+        count = int(count_str)
       except ValueError:
         if row[j]:
           logging.warning('[L{} {}] [{}: {}] Bad Tested: {}'.format(
-              i + 3, column_str(j), state, district, row[j]))
+              i + 3, column_str(j + 1), state, district, row[j]))
         continue
       # Use Source1 key as source
       source = row[j + 3].strip()
