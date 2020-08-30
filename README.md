@@ -24,7 +24,8 @@ Detailed documentation regarding the API end-points [can be found here](document
 | :green_heart: | Patient Level : Raw Data Partition 10 (From Jul 14 to Jul 17)                | <https://api.covid19india.org/raw_data10.json>          |
 | :green_heart: | Patient Level : Raw Data Partition 11 (From Jul 18 to Jul 22)                | <https://api.covid19india.org/raw_data11.json>          |
 | :green_heart: | Patient Level : Raw Data Partition 12 (From Jul 23 to Aug 06)                | <https://api.covid19india.org/raw_data12.json>          |
-| :green_heart: | Patient Level : Raw Data Partition 13 (From Aug 07 onwards)                  | <https://api.covid19india.org/raw_data13.json>          |
+| :green_heart: | Patient Level : Raw Data Partition 13 (From Aug 07 to Aug 21)                  | <https://api.covid19india.org/raw_data13.json>          |
+| :green_heart: | Patient Level : Raw Data Partition 14 (From Aug 22 onward)                  | <https://api.covid19india.org/raw_data14.json>          |
 | :green_heart: | National Level :Time series, State-wise stats and Test counts                | <https://api.covid19india.org/data.json>                |
 | :green_heart: | State Level : has district-wise info                                         | <https://api.covid19india.org/state_district_wise.json> |
 | :green_heart: | State Level : Daily changes                                                  | <https://api.covid19india.org/states_daily.json>        |
@@ -34,9 +35,7 @@ Detailed documentation regarding the API end-points [can be found here](document
 | :green_heart: | National/State/District Level : Historical date-wise cumulative/daily counts | <https://api.covid19india.org/v4/data-all.json>         |
 | :green_heart: | National/State Level: Timeseries_(different structure)_                      | <https://api.covid19india.org/v4/timeseries.json>       |
 | :end:         | District Level : Daily changes                                               | <https://api.covid19india.org/districts_daily.json>     |
-| :end:         | Raw Data (Partition 1 + Partition 2. Frozen after Apr 26th)                  | <https://api.covid19india.org/raw_data.json>            |
-| :end:         | Deaths and Recoveries (Frozen after Apr 26th)                                | <https://api.covid19india.org/deaths_recoveries.json>   |
-| :end:         | Travel history (No more updated)                                             | <https://api.covid19india.org/travel_history.json>      |
+
 
 ### CSV
 
