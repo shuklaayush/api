@@ -68,12 +68,15 @@ DISTRICTS_DICT = defaultdict(dict)
 # District key to give to unkown district values in raw_data
 UNKNOWN_DISTRICT_KEY = 'Unknown'
 # States with single district/no district-wise data
-# Possibly the only hard-coded line in the code
 SINGLE_DISTRICT_STATES = {
     'AN': UNKNOWN_DISTRICT_KEY,
-    'CH': 'Chandigarh',
-    'DL': 'Delhi',
-    'LD': 'Lakshwadeep',
+    'AS': UNKNOWN_DISTRICT_KEY,
+    'CH': None,
+    'DL': None,
+    'GA': UNKNOWN_DISTRICT_KEY,
+    'LD': None,
+    'MN': UNKNOWN_DISTRICT_KEY,
+    'SK': UNKNOWN_DISTRICT_KEY,
     'TG': UNKNOWN_DISTRICT_KEY
 }
 
@@ -123,7 +126,7 @@ def parse_state_metadata(raw_data):
 def parse_district_list(raw_data):
   # Initialize with districts from single district states
   for state in SINGLE_DISTRICT_STATES:
-    district = SINGLE_DISTRICT_STATES[state]
+    district = SINGLE_DISTRICT_STATES[state] or STATE_NAMES[state]
     DISTRICTS_DICT[state][district.lower()] = district
   # Parse from file
   for i, entry in enumerate(raw_data.values()):
@@ -143,7 +146,7 @@ def parse_district(district, state, use_state=True):
   district = district.strip()
   expected = True
   if use_state and state in SINGLE_DISTRICT_STATES:
-    district = SINGLE_DISTRICT_STATES[state]
+    district = SINGLE_DISTRICT_STATES[state] or STATE_NAMES[state]
   elif not district or district.lower() == 'unknown':
     district = UNKNOWN_DISTRICT_KEY
   elif district.lower() in DISTRICTS_DICT[state]:
@@ -394,7 +397,7 @@ def parse_state_test(raw_data):
       # Add district entry too for single-district states
       if state in SINGLE_DISTRICT_STATES:
         # District/State name
-        district = SINGLE_DISTRICT_STATES[state]
+        district = SINGLE_DISTRICT_STATES[state] or STATE_NAMES[state]
         data[date][state]['districts'][district]['total']['tested'] = count
         data[date][state]['districts'][district]['meta']['tested'][
             'source'] = entry['source1'].strip()
@@ -465,7 +468,7 @@ def parse_district_test(reader):
       try:
         count = int(count_str)
       except ValueError:
-        if row[j]:
+        if count_str:
           logging.warning('[L{} {}] [{}: {}] Bad Tested: {}'.format(
               i + 3, column_str(j + 1), state, district, row[j]))
         continue
