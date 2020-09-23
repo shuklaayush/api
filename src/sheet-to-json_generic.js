@@ -32,71 +32,71 @@ const c = require('../lib/constants');
     file: c.FILE_RAW_DATA_3
   })
 
-  // await task({
-  //   sheet: c.SHEET_v4,
-  //   tabs: { raw_data: c.SHEET_RAW_DATA },
-  //   file: c.FILE_RAW_DATA_4
-  // })
+  await task({
+    sheet: c.SHEET_v4,
+    tabs: { raw_data: c.SHEET_RAW_DATA },
+    file: c.FILE_RAW_DATA_4
+  })
 
-  // await task({
-  //   sheet: c.SHEET_v5,
-  //   tabs: { raw_data: c.SHEET_RAW_DATA },
-  //   file: c.FILE_RAW_DATA_5
-  // })
+  await task({
+    sheet: c.SHEET_v5,
+    tabs: { raw_data: c.SHEET_RAW_DATA },
+    file: c.FILE_RAW_DATA_5
+  })
 
-  // await task({
-  //   sheet: c.SHEET_v6,
-  //   tabs: { raw_data: c.SHEET_RAW_DATA },
-  //   file: c.FILE_RAW_DATA_6
-  // })
+  await task({
+    sheet: c.SHEET_v6,
+    tabs: { raw_data: c.SHEET_RAW_DATA },
+    file: c.FILE_RAW_DATA_6
+  })
 
-  // await task({
-  //   sheet: c.SHEET_v7,
-  //   tabs: { raw_data: c.SHEET_RAW_DATA },
-  //   file: c.FILE_RAW_DATA_7
-  // })
+  await task({
+    sheet: c.SHEET_v7,
+    tabs: { raw_data: c.SHEET_RAW_DATA },
+    file: c.FILE_RAW_DATA_7
+  })
 
-  // await task({
-  //   sheet: c.SHEET_v8,
-  //   tabs: { raw_data: c.SHEET_RAW_DATA },
-  //   file: c.FILE_RAW_DATA_8
-  // })
+  await task({
+    sheet: c.SHEET_v8,
+    tabs: { raw_data: c.SHEET_RAW_DATA },
+    file: c.FILE_RAW_DATA_8
+  })
 
-  // await task({
-  //   sheet: c.SHEET_v9,
-  //   tabs: { raw_data: c.SHEET_RAW_DATA },
-  //   file: c.FILE_RAW_DATA_9
-  // })
+  await task({
+    sheet: c.SHEET_v9,
+    tabs: { raw_data: c.SHEET_RAW_DATA },
+    file: c.FILE_RAW_DATA_9
+  })
 
-  // await task({
-  //   sheet: c.SHEET_v10,
-  //   tabs: { raw_data: c.SHEET_RAW_DATA },
-  //   file: c.FILE_RAW_DATA_10
-  // })
+  await task({
+    sheet: c.SHEET_v10,
+    tabs: { raw_data: c.SHEET_RAW_DATA },
+    file: c.FILE_RAW_DATA_10
+  })
 
-  // await task({
-  //   sheet: c.SHEET_v11,
-  //   tabs: { raw_data: c.SHEET_RAW_DATA },
-  //   file: c.FILE_RAW_DATA_11
-  // })
+  await task({
+    sheet: c.SHEET_v11,
+    tabs: { raw_data: c.SHEET_RAW_DATA },
+    file: c.FILE_RAW_DATA_11
+  })
 
-  // await task({
-  //   sheet: c.SHEET_v12,
-  //   tabs: { raw_data: c.SHEET_RAW_DATA },
-  //   file: c.FILE_RAW_DATA_12
-  // })
+  await task({
+    sheet: c.SHEET_v12,
+    tabs: { raw_data: c.SHEET_RAW_DATA },
+    file: c.FILE_RAW_DATA_12
+  })
 
-  // await task({
-  //   sheet: c.SHEET_v13,
-  //   tabs: { raw_data: c.SHEET_RAW_DATA },
-  //   file: c.FILE_RAW_DATA_13
-  // })
+  await task({
+    sheet: c.SHEET_v13,
+    tabs: { raw_data: c.SHEET_RAW_DATA },
+    file: c.FILE_RAW_DATA_13
+  })
 
-  // await task({
-  //   sheet: c.SHEET_v14,
-  //   tabs: { raw_data: c.SHEET_RAW_DATA },
-  //   file: c.FILE_RAW_DATA_14
-  // })
+  await task({
+    sheet: c.SHEET_v14,
+    tabs: { raw_data: c.SHEET_RAW_DATA },
+    file: c.FILE_RAW_DATA_14
+  })
 
   await task({
     sheet: c.SHEET_v15,
