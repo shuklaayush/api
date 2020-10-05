@@ -106,6 +106,7 @@ const SHEETS_V16 = [
   ['district_list', '1207378023'],
   ['district_testing', '458610673'],
   ['icmr_labs_statewise','847799380'],
+  ['icmr_rtpcr_tests_daily','1032515506'],
 ]
 
 async function sheetsToCSV (sheets, pubId) {
