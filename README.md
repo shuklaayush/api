@@ -38,7 +38,7 @@ Detailed documentation regarding the API end-points [can be found here](document
 | :green_heart: | National/State/District Level : Specific date cummulative/daily counts       | <https://api.covid19india.org/v4/data-YYYY-MM-DD.json>  |
 | :green_heart: | National/State/District Level : Historical date-wise cumulative/daily counts | <https://api.covid19india.org/v4/data-all.json>         |
 | :green_heart: | National/State Level: Timeseries_(different structure)_                      | <https://api.covid19india.org/v4/timeseries.json>       |
-
+| :green_heart: | State & District Level: Population                                           | <https://api.covid19india.org/misc.json>                |
 
 ### CSV
 
