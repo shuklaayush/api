@@ -158,13 +158,13 @@ const c = require('../lib/constants');
     file: c.FILE_DISTRICTS
   })
 
-  await task({
-    sheet: c.SHEET,
-    tabs: {
-      travel_history: c.SHEET_TRAVEL_HISTORY
-    },
-    file: c.FILE_TRAVEL_HISTORY
-  });
+  // await task({
+  //   sheet: c.SHEET,
+  //   tabs: {
+  //     travel_history: c.SHEET_TRAVEL_HISTORY
+  //   },
+  //   file: c.FILE_TRAVEL_HISTORY
+  // });
 
   await task({
     sheet: c.SHEET,
