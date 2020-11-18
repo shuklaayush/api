@@ -165,6 +165,6 @@ async function sheetsToCSV (sheets, pubId) {
   // await sheetsToCSV(SHEETS_V15, PUBLISHED_SHEET_ID_15)
   // await sheetsToCSV(SHEETS_V16, PUBLISHED_SHEET_ID_16)
   // await sheetsToCSV(SHEETS_V17, PUBLISHED_SHEET_ID_17)
-  await sheetsToCSV(SHEETS_V18, PUBLISHED_SHEET_ID_18)
+  // await sheetsToCSV(SHEETS_V18, PUBLISHED_SHEET_ID_18)
   await sheetsToCSV(SHEETS_V19, PUBLISHED_SHEET_ID_19)
 })()
