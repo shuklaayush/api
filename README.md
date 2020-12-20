@@ -28,9 +28,11 @@ Detailed documentation regarding the API end-points [can be found here](document
 | :green_heart: | Patient Level : Raw Data Partition 14 (From Aug 22 to Sep 05)                | <https://api.covid19india.org/raw_data14.json>          |
 | :green_heart: | Patient Level : Raw Data Partition 15 (From Sep 06 to Sep 21)                | <https://api.covid19india.org/raw_data15.json>          |
 | :green_heart: | Patient Level : Raw Data Partition 16 (From Sep 22 to Oct 08)                | <https://api.covid19india.org/raw_data16.json>          |
-| :green_heart: | Patient Level : Raw Data Partition 17 (From Oct 09 to Oct 26)                  | <https://api.covid19india.org/raw_data17.json>          |
-| :green_heart: | Patient Level : Raw Data Partition 18 (From Oct 27 to Nov 12)                  | <https://api.covid19india.org/raw_data18.json>          |
-| :green_heart: | Patient Level : Raw Data Partition 19 (From Nov 13 onwards)                  | <https://api.covid19india.org/raw_data19.json>          |
+| :green_heart: | Patient Level : Raw Data Partition 17 (From Oct 09 to Oct 26)                | <https://api.covid19india.org/raw_data17.json>          |
+| :green_heart: | Patient Level : Raw Data Partition 18 (From Oct 27 to Nov 12)                | <https://api.covid19india.org/raw_data18.json>          |
+| :green_heart: | Patient Level : Raw Data Partition 19 (From Nov 13 to Nov 30th)              | <https://api.covid19india.org/raw_data19.json>          |
+| :green_heart: | Patient Level : Raw Data Partition 20 (From Dec 01 to Dec 19th)              | <https://api.covid19india.org/raw_data20.json>          |
+| :green_heart: | Patient Level : Raw Data Partition 21 (From Dec 20th onwards)                | <https://api.covid19india.org/raw_data21.json>          |
 | :green_heart: | National Level :Time series, State-wise stats and Test counts                | <https://api.covid19india.org/data.json>                |
 | :green_heart: | State Level : has district-wise info                                         | <https://api.covid19india.org/state_district_wise.json> |
 | :green_heart: | State Level : Daily changes                                                  | <https://api.covid19india.org/states_daily.json>        |
