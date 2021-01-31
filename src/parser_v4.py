@@ -102,6 +102,7 @@ ICMR_DATA_DICT = {
         'source': 'source4'
     }
 }
+ALL_STATISTICS = [*RAW_DATA_MAP.values(), *ICMR_DATA_DICT.keys()]
 # CSV Headers
 STATISTIC_HEADERS = ['Confirmed', 'Recovered', 'Deceased', 'Other', 'Tested']
 STATE_CSV_HEADER = ['Date', 'State', *STATISTIC_HEADERS]
@@ -613,7 +614,8 @@ def fill_deltas():
                         'last_updated']
 
 
-def accumulate(start_after_date='', end_date='3020-01-30'):
+def accumulate(start_after_date='2020-01-01', end_date='3020-01-30'):
+  # Cumulate daily delta values into total
   dates = sorted(data)
   for i, date in enumerate(dates):
     if date <= start_after_date:
@@ -689,6 +691,39 @@ def fill_gospel_unknown():
               statistic] = count - sum_district_totals[statistic]
 
 
+def accumulate_7day():
+  # Cumulate seven day delta values
+  for date in data:
+    curr_data = data[date]
+
+    fdate = datetime.strptime(date, '%Y-%m-%d')
+    last_7_dates = [
+        datetime.strftime(fdate - timedelta(days=x), '%Y-%m-%d')
+        for x in range(7)
+    ]
+    for prev_date in last_7_dates:
+      if prev_date in data:
+        prev_data = data[prev_date]
+        for state, state_data in prev_data.items():
+          if 'delta' in state_data:
+            for statistic in ALL_STATISTICS:
+              if statistic in state_data['delta']:
+                inc(curr_data[state]['delta7'], statistic,
+                    state_data['delta'][statistic])
+
+          if state not in SINGLE_DISTRICT_STATES and (
+              'districts' not in state_data or date <= GOSPEL_DATE):
+            # Old district data is already accumulated
+            continue
+
+          for district, district_data in state_data['districts'].items():
+            if 'delta' in district_data:
+              for statistic in ALL_STATISTICS:
+                if statistic in district_data['delta']:
+                  inc(curr_data[state]['districts'][district]['delta7'],
+                      statistic, district_data['delta'][statistic])
+
+
 def stripper(raw_data, dtype=ddict):
   # Remove empty entries
   new_data = dtype()
@@ -726,7 +761,7 @@ def generate_timeseries(districts=False):
     curr_data = data[date]
 
     for state, state_data in curr_data.items():
-      for stype in ['total', 'delta']:
+      for stype in ['total', 'delta', 'delta7']:
         if stype in state_data:
           for statistic, value in state_data[stype].items():
             timeseries[state]['dates'][date][stype][statistic] = value
@@ -737,7 +772,7 @@ def generate_timeseries(districts=False):
         continue
 
       for district, district_data in state_data['districts'].items():
-        for stype in ['total', 'delta']:
+        for stype in ['total', 'delta', 'delta7']:
           if stype in district_data:
             for statistic, value in district_data[stype].items():
               timeseries[state]['districts'][district]['dates'][date][stype][
@@ -1063,6 +1098,12 @@ if __name__ == '__main__':
   logging.info(
       'Generating cumulative CRD values from 26th April afterwards...')
   accumulate(start_after_date=GOSPEL_DATE)
+  logging.info('Done!')
+
+  # Generate 7 day delta values
+  logging.info('-' * PRINT_WIDTH)
+  logging.info('Generating 7 day delta values...')
+  accumulate_7day()
   logging.info('Done!')
 
   # Strip empty values ({}, 0, '', None)
