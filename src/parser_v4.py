@@ -1140,8 +1140,9 @@ if __name__ == '__main__':
 
   # Dump prettified full data json
   fn = '{}-{}'.format(OUTPUT_DATA_PREFIX, 'all')
-  with open((OUTPUT_DIR / fn).with_suffix('.json'), 'w') as f:
-    json.dump(data, f, indent=2, sort_keys=True)
+  # Only dump minified data-all.json
+  #  with open((OUTPUT_DIR / fn).with_suffix('.json'), 'w') as f:
+  #    json.dump(data, f, indent=2, sort_keys=True)
   # Dump minified full data
   with open((OUTPUT_MIN_DIR / fn).with_suffix('.min.json'), 'w') as f:
     json.dump(data, f, separators=(',', ':'), sort_keys=True)
@@ -1162,8 +1163,9 @@ if __name__ == '__main__':
 
   # Dump full timeseries json
   fn = '{}-{}'.format(OUTPUT_TIMESERIES_PREFIX, 'all')
-  with open((OUTPUT_DIR / fn).with_suffix('.json'), 'w') as f:
-    json.dump(timeseries, f, indent=2, sort_keys=True)
+  # Only dump minified timeseries-all.json
+  #  with open((OUTPUT_DIR / fn).with_suffix('.json'), 'w') as f:
+  #    json.dump(timeseries, f, indent=2, sort_keys=True)
   with open((OUTPUT_MIN_DIR / fn).with_suffix('.min.json'), 'w') as f:
     json.dump(timeseries, f, separators=(',', ':'), sort_keys=True)
 
