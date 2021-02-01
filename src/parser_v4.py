@@ -39,6 +39,9 @@ ICMR_TEST_DATA = ROOT_DIR / 'data.json'
 STATE_TEST_DATA = ROOT_DIR / 'state_test_data.json'
 # District testing data
 DISTRICT_TEST_DATA = CSV_DIR / 'district_testing.csv'
+# State vaccination data
+STATE_VACCINATION_DATA = CSV_DIR / 'vaccine_doses_statewise.csv'
+
 ## For adding metadata
 # For state notes and last updated
 STATE_WISE = ROOT_DIR / 'data.json'
@@ -88,6 +91,16 @@ RAW_DATA_MAP = {
     'recovered': 'recovered',
     'deceased': 'deceased',
     'migrated_other': 'other',
+}
+ICMR_DATA_DICT = {
+    'tested': {
+        'key': 'totalsamplestested',
+        'source': 'source'
+    },
+    'vaccinated': {
+        'key': 'totaldosesadministered',
+        'source': 'source4'
+    }
 }
 # CSV Headers
 STATISTIC_HEADERS = ['Confirmed', 'Recovered', 'Deceased', 'Other', 'Tested']
@@ -191,6 +204,11 @@ def inc(ref, key, count):
 
 def parse(raw_data, i):
   for j, entry in enumerate(raw_data['raw_data']):
+    count_str = entry['numcases'].strip()
+
+    if not count_str:
+      continue
+
     state_name = entry['detectedstate'].strip().lower()
     try:
       state = STATE_CODES[state_name]
@@ -206,9 +224,9 @@ def parse(raw_data, i):
     try:
       fdate = datetime.strptime(entry['dateannounced'].strip(), '%d/%m/%Y')
       date = datetime.strftime(fdate, '%Y-%m-%d')
-      if date > INDIA_DATE:
+      if date < '2020-01-01' or date > INDIA_DATE:
         # Entries from future dates will be ignored
-        logging.warning('[L{}] [Future date: {}] {}: {} {}'.format(
+        logging.warning('[L{}] [Future/past date: {}] {}: {} {}'.format(
             j + 2, entry['dateannounced'], entry['detectedstate'],
             entry['detecteddistrict'], entry['numcases']))
         continue
@@ -226,7 +244,7 @@ def parse(raw_data, i):
           j + 2, entry['dateannounced'], district, state, entry['numcases']))
 
     try:
-      count = int(entry['numcases'].strip())
+      count = int(count_str)
     except ValueError:
       logging.warning('[L{}] [{}] [Bad numcases: {}] {}: {}'.format(
           j + 2, entry['dateannounced'], entry['numcases'], state, district))
@@ -269,9 +287,9 @@ def parse_outcome(outcome_data, i):
     try:
       fdate = datetime.strptime(entry['date'].strip(), '%d/%m/%Y')
       date = datetime.strftime(fdate, '%Y-%m-%d')
-      if date > INDIA_DATE:
+      if date < '2020-01-01' or date > INDIA_DATE:
         # Entries from future dates will be ignored
-        logging.warning('[L{}] [Future date: {}] {}'.format(
+        logging.warning('[L{}] [Future/past date: {}] {}'.format(
             j + 2, entry['date'], state))
         continue
     except ValueError:
@@ -307,13 +325,13 @@ def parse_district_gospel(reader):
     state = row['State_Code'].strip().upper()
     if state not in STATE_CODES.values() or state in SINGLE_DISTRICT_STATES:
       if state not in STATE_CODES.values():
-        logging.warning('[{}] Bad state: {}'.format(i, state))
+        logging.warning('[{}] Bad state: {}'.format(i + 2, state))
       continue
     district, expected = parse_district(row['District'], state)
     if not expected:
       # Print unexpected district names
       logging.warning('[{}] Unexpected district: {} {}'.format(
-          i, state, district))
+          i + 2, state, district))
 
     for statistic in PRIMARY_STATISTICS:
       count = int(row[statistic.capitalize()] or 0)
@@ -324,63 +342,54 @@ def parse_district_gospel(reader):
 
 def parse_icmr(icmr_data):
   for j, entry in enumerate(icmr_data['tested']):
-    tested_count_str = entry['totalsamplestested'].strip()
-    
-    try:
-      fdate = datetime.strptime(entry['testedasof'].strip(), '%d/%m/%Y')
-      date = datetime.strftime(fdate, '%Y-%m-%d')
-      if date > INDIA_DATE:
-        # Entries from future dates will be ignored
-        if count_str:
-          # Log non-zero entries
-          logging.warning('[L{}] [Future date: {}]'.format(
-              j + 2, entry['testedasof']))
+    for statistic, statistic_dict in ICMR_DATA_DICT.items():
+      key = statistic_dict['key']
+      count_str = entry[key].strip()
+
+      if not count_str:
         continue
-    except ValueError:
-      # Bad timestamp
-      logging.warning('[L{}] [Bad date: {}]'.format(j + 2,
-                                                    entry['testedasof']))
-      continue
-
-    try:
-      tested_count = int(tested_count_str)
-    except ValueError:
-      logging.warning('[L{}] [{}] [Bad totalsamplestested: {}]'.format(
-          j + 2, entry['testedasof'], entry['totalsamplestested']))
-      continue
-
-    if tested_count:
-      data[date]['TT']['total']['tested'] = tested_count
-      data[date]['TT']['meta']['tested']['source'] = entry['source'].strip()
-      data[date]['TT']['meta']['tested']['last_updated'] = date
-
-    if(entry['totaldosesadministered']):
-      vaccinated_count_str = entry['totaldosesadministered'].strip() 
 
       try:
-        vaccinated_count = int(vaccinated_count_str)
+        fdate = datetime.strptime(entry['testedasof'].strip(), '%d/%m/%Y')
+        date = datetime.strftime(fdate, '%Y-%m-%d')
+        if date < '2020-01-01' or date > INDIA_DATE:
+          # Entries from future dates will be ignored and logged
+          logging.warning('[L{}] [Future/past date: {}]'.format(
+              j + 2, entry['testedasof']))
+          continue
       except ValueError:
-        logging.warning('[L{}] [{}] [Bad totaldosesadministered: {}]'.format(
-            j + 2, entry['testedasof'], entry['totaldosesadministered']))
+        # Bad timestamp
+        logging.warning('[L{}] [Bad date: {}]'.format(j + 2,
+                                                      entry['testedasof']))
         continue
 
-      if vaccinated_count:
-        data[date]['TT']['total']['vaccinated'] = vaccinated_count
-        data[date]['TT']['meta']['vaccinated']['source'] = entry['source4'].strip()
-        data[date]['TT']['meta']['vaccinated']['last_updated'] = date
+      try:
+        count = int(count_str)
+      except ValueError:
+        logging.warning('[L{}] [{}] [Bad {}: {}]'.format(
+            j + 2, entry['testedasof'], key, entry[key]))
+        continue
+
+      if count:
+        data[date]['TT']['total'][statistic] = count
+        data[date]['TT']['meta'][statistic]['source'] = entry[
+            statistic_dict['source']].strip()
+        data[date]['TT']['meta'][statistic]['last_updated'] = date
+
 
 def parse_state_test(raw_data):
   for j, entry in enumerate(raw_data['states_tested_data']):
     count_str = entry['totaltested'].strip()
+    if not count_str:
+      continue
+
     try:
       fdate = datetime.strptime(entry['updatedon'].strip(), '%d/%m/%Y')
       date = datetime.strftime(fdate, '%Y-%m-%d')
-      if date > INDIA_DATE:
-        # Entries from future dates will be ignored
-        if count_str:
-          # Log non-zero entries
-          logging.warning('[L{}] [Future date: {}] {}'.format(
-              j + 2, entry['updatedon'], entry['state']))
+      if date < '2020-01-01' or date > INDIA_DATE:
+        # Entries from future dates will be ignored and logged
+        logging.warning('[L{}] [Future/past date: {}] {}'.format(
+            j + 2, entry['updatedon'], entry['state']))
         continue
     except ValueError:
       # Bad date
@@ -438,8 +447,8 @@ def parse_district_test(reader):
     try:
       fdate = datetime.strptime(header[j].strip(), '%d/%m/%Y')
       date = datetime.strftime(fdate, '%Y-%m-%d')
-      if date <= INDIA_DATE:
-        # Only keep entries from present or past dates
+      if '2020-01-01' < date <= INDIA_DATE:
+        # Only keep entries upto present date
         dates[j] = date
     except ValueError:
       # Bad date
@@ -497,6 +506,45 @@ def parse_district_test(reader):
             'last_updated'] = date
 
 
+def parse_state_vaccination(reader):
+  for i, row in enumerate(reader):
+    # Pop state name from dict
+    state_name = row.pop('State').strip().lower()
+    try:
+      state = STATE_CODES[state_name]
+    except KeyError:
+      # Entries with empty state names are discarded
+      if state_name:
+        # Unrecognized state entries are discarded and logged
+        logging.warning('[L{}] [Bad state: {}]'.format(i + 2, state_name))
+      continue
+
+    for j, date_raw in enumerate(row):
+      try:
+        fdate = datetime.strptime(date_raw.strip(), '%d/%m/%Y')
+        date = datetime.strftime(fdate, '%Y-%m-%d')
+        if date < '2020-01-01' or date > INDIA_DATE:
+          # Entries from future/past dates will be ignored
+          continue
+      except ValueError:
+        # Bad date
+        if not j:
+          logging.warning('[{}] Bad date: {}'.format(column_str(j + 2),
+                                                     date_raw))
+      count_str = row[date_raw]
+
+      try:
+        count = int(count_str)
+      except ValueError:
+        if count_str:
+          logging.warning('[L{} {}] [{}] [Bad vaccinated: {}] {}'.format(
+              i + 2, column_str(j + 2), date_raw, row[date_raw], state))
+        continue
+
+      if count:
+        data[date][state]['total']['vaccinated'] = count
+
+
 def contains(raw_data, keys):
   if not keys:
     return True
@@ -506,77 +554,63 @@ def contains(raw_data, keys):
     return False
 
 
-def fill_tested():
+def fill_deltas():
   dates = sorted(data)
   for i, date in enumerate(dates):
     curr_data = data[date]
 
     # Initialize today's delta with today's cumulative
     for state, state_data in curr_data.items():
-      if contains(state_data, ['total', 'tested']):
-        state_data['delta']['tested'] = state_data['total']['tested']
-
-      if contains(state_data, ['total', 'vaccinated']):
-        state_data['delta']['vaccinated'] = state_data['total']['vaccinated']
+      for key in ICMR_DATA_DICT:
+        if contains(state_data, ['total', key]):
+          state_data['delta'][key] = state_data['total'][key]
 
       if 'districts' not in state_data:
         continue
 
       for district, district_data in state_data['districts'].items():
-        if contains(district_data, ['total', 'tested']):
-          district_data['delta']['tested'] = district_data['total']['tested']
+        for key in ICMR_DATA_DICT:
+          if contains(district_data, ['total', key]):
+            district_data['delta'][key] = district_data['total'][key]
 
     if i > 0:
       prev_date = dates[i - 1]
       prev_data = data[prev_date]
       for state, state_data in prev_data.items():
-        if contains(state_data, ['total', 'tested']):
-          if 'tested' in curr_data[state]['total']:
-            # Subtract previous cumulative to get delta
-            curr_data[state]['delta']['tested'] -= state_data['total'][
-                'tested']
-          else:
-            # Take today's cumulative to be same as yesterday's
-            # cumulative if today's cumulative is missing
-            curr_data[state]['total']['tested'] = state_data['total']['tested']
-            curr_data[state]['meta']['tested']['source'] = state_data['meta'][
-                'tested']['source']
-            curr_data[state]['meta']['tested']['last_updated'] = state_data[
-                'meta']['tested']['last_updated']
-
-        if contains(state_data, ['total', 'vaccinated']):
-          if 'vaccinated' in curr_data[state]['total']:
-            # Subtract previous cumulative to get delta
-            curr_data[state]['delta']['vaccinated'] -= state_data['total'][
-                'vaccinated']
-          else:
-            # Take today's cumulative to be same as yesterday's
-            # cumulative if today's cumulative is missing
-            curr_data[state]['total']['vaccinated'] = state_data['total']['vaccinated']
-            curr_data[state]['meta']['vaccinated']['source'] = state_data['meta'][
-                'vaccinated']['source']
-            curr_data[state]['meta']['vaccinated']['last_updated'] = state_data[
-                'meta']['vaccinated']['last_updated']
+        for key in ICMR_DATA_DICT:
+          if contains(state_data, ['total', key]):
+            if key in curr_data[state]['total']:
+              # Subtract previous cumulative to get delta
+              curr_data[state]['delta'][key] -= state_data['total'][key]
+            else:
+              # Take today's cumulative to be same as yesterday's
+              # cumulative if today's cumulative is missing
+              curr_data[state]['total'][key] = state_data['total'][key]
+              curr_data[state]['meta'][key]['source'] = state_data['meta'][
+                  key]['source']
+              curr_data[state]['meta'][key]['last_updated'] = state_data[
+                  'meta'][key]['last_updated']
 
         if 'districts' not in state_data:
           continue
 
         for district, district_data in state_data['districts'].items():
-          if contains(district_data, ['total', 'tested']):
-            if 'tested' in curr_data[state]['districts'][district]['total']:
-              # Subtract previous cumulative to get delta
-              curr_data[state]['districts'][district]['delta'][
-                  'tested'] -= district_data['total']['tested']
-            else:
-              # Take today's cumulative to be same as yesterday's
-              # cumulative if today's cumulative is missing
-              curr_data[state]['districts'][district]['total'][
-                  'tested'] = district_data['total']['tested']
-              curr_data[state]['districts'][district]['meta']['tested'][
-                  'source'] = district_data['meta']['tested']['source']
-              curr_data[state]['districts'][district]['meta']['tested'][
-                  'last_updated'] = district_data['meta']['tested'][
-                      'last_updated']
+          for key in ICMR_DATA_DICT:
+            if contains(district_data, ['total', key]):
+              if key in curr_data[state]['districts'][district]['total']:
+                # Subtract previous cumulative to get delta
+                curr_data[state]['districts'][district]['delta'][
+                    key] -= district_data['total'][key]
+              else:
+                # Take today's cumulative to be same as yesterday's
+                # cumulative if today's cumulative is missing
+                curr_data[state]['districts'][district]['total'][
+                    key] = district_data['total'][key]
+                curr_data[state]['districts'][district]['meta'][key][
+                    'source'] = district_data['meta'][key]['source']
+                curr_data[state]['districts'][district]['meta'][key][
+                    'last_updated'] = district_data['meta'][key][
+                        'last_updated']
 
 
 def accumulate(start_after_date='', end_date='3020-01-30'):
@@ -943,11 +977,11 @@ if __name__ == '__main__':
   logging.info('Parsing raw_data...')
   i = 1
   while True:
-    f = ROOT_DIR / RAW_DATA.format(n=i)
-    if not f.is_file():
+    fn = ROOT_DIR / RAW_DATA.format(n=i)
+    if not fn.is_file():
       break
-    with open(f, 'r') as f:
-      logging.info('File: {}'.format(RAW_DATA.format(n=i)))
+    with open(fn, 'r') as f:
+      logging.info('File: {}'.format(fn.name))
       raw_data = json.load(f)
       parse(raw_data, i)
     i += 1
@@ -957,9 +991,9 @@ if __name__ == '__main__':
   logging.info('-' * PRINT_WIDTH)
   logging.info('Parsing deaths_recoveries...')
   for i in [1, 2]:
-    f = ROOT_DIR / OUTCOME_DATA.format(n=i)
-    with open(f, 'r') as f:
-      logging.info('File: {}'.format(OUTCOME_DATA.format(n=i)))
+    fn = ROOT_DIR / OUTCOME_DATA.format(n=i)
+    with open(fn, 'r') as f:
+      logging.info('File: {}'.format(fn.name))
       raw_data = json.load(f)
       parse_outcome(raw_data, i)
   logging.info('Done!')
@@ -975,8 +1009,7 @@ if __name__ == '__main__':
 
   logging.info('-' * PRINT_WIDTH)
   logging.info('Parsing ICMR test data for India...')
-  f = ICMR_TEST_DATA
-  with open(f, 'r') as f:
+  with open(ICMR_TEST_DATA, 'r') as f:
     logging.info('File: {}'.format(ICMR_TEST_DATA.name))
     raw_data = json.load(f, object_pairs_hook=OrderedDict)
     parse_icmr(raw_data)
@@ -984,8 +1017,7 @@ if __name__ == '__main__':
 
   logging.info('-' * PRINT_WIDTH)
   logging.info('Parsing test data for all states...')
-  f = STATE_TEST_DATA
-  with open(f, 'r') as f:
+  with open(STATE_TEST_DATA, 'r') as f:
     logging.info('File: {}'.format(STATE_TEST_DATA.name))
     raw_data = json.load(f, object_pairs_hook=OrderedDict)
     parse_state_test(raw_data)
@@ -993,17 +1025,24 @@ if __name__ == '__main__':
 
   logging.info('-' * PRINT_WIDTH)
   logging.info('Parsing test data for districts...')
-  f = DISTRICT_TEST_DATA
-  with open(f, 'r') as f:
+  with open(DISTRICT_TEST_DATA, 'r') as f:
     logging.info('File: {}'.format(DISTRICT_TEST_DATA.name))
     reader = csv.reader(f)
     parse_district_test(reader)
   logging.info('Done!')
 
+  logging.info('-' * PRINT_WIDTH)
+  logging.info('Parsing vaccination data for states...')
+  with open(STATE_VACCINATION_DATA, 'r') as f:
+    logging.info('File: {}'.format(STATE_VACCINATION_DATA.name))
+    reader = csv.DictReader(f)
+    parse_state_vaccination(reader)
+  logging.info('Done!')
+
   # Fill delta values for tested
   logging.info('-' * PRINT_WIDTH)
-  logging.info('Generating daily tested values...')
-  fill_tested()
+  logging.info('Generating daily tested/vaccinated values...')
+  fill_deltas()
   logging.info('Done!')
 
   # Generate total (cumulative) data points till 26th April
@@ -1043,14 +1082,12 @@ if __name__ == '__main__':
 
   logging.info('-' * PRINT_WIDTH)
   logging.info('Adding state and district metadata...')
-  f = STATE_WISE
-  with open(f, 'r') as f:
+  with open(STATE_WISE, 'r') as f:
     logging.info('File: {}'.format(STATE_WISE.name))
     raw_data = json.load(f, object_pairs_hook=OrderedDict)
     add_state_meta(raw_data)
 
-  f = DISTRICT_WISE
-  with open(f, 'r') as f:
+  with open(DISTRICT_WISE, 'r') as f:
     logging.info('File: {}'.format(DISTRICT_WISE.name))
     raw_data = json.load(f, object_pairs_hook=OrderedDict)
     add_district_meta(raw_data)
@@ -1120,8 +1157,7 @@ if __name__ == '__main__':
   # Tally final date counts with statewise API
   logging.info('-' * PRINT_WIDTH)
   logging.info('Comparing data with statewise sheet...')
-  f = STATE_WISE
-  with open(f, 'r') as f:
+  with open(STATE_WISE, 'r') as f:
     logging.info('File: {}'.format(STATE_WISE.name))
     raw_data = json.load(f, object_pairs_hook=OrderedDict)
     tally_statewise(raw_data)
@@ -1130,8 +1166,7 @@ if __name__ == '__main__':
   # Tally final date counts with districtwise API
   logging.info('-' * PRINT_WIDTH)
   logging.info('Comparing data with districtwise sheet...')
-  f = DISTRICT_WISE
-  with open(f, 'r') as f:
+  with open(DISTRICT_WISE, 'r') as f:
     logging.info('File: {}'.format(DISTRICT_WISE.name))
     raw_data = json.load(f, object_pairs_hook=OrderedDict)
     tally_districtwise(raw_data)
