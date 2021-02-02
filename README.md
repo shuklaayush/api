@@ -1,56 +1,69 @@
 # COVID19-India API
 
-A volunteer-driven, crowd-sourced database for COVID-19 stats & patient tracing in India.
+## Announcement
+We have stopped capturing testing data at a district level. Please check the status of the API endpoints below.
+## CSV
 
-[Source Code on Github](https://github.com/covid19india/api)
+Sometimes, having files in a spreadsheet format is more useful for analysts and scientists. We have provided the files as downloadable csv files as below.
 
-## API Documentation
+### Files available
 
-Detailed documentation regarding the API end-points [can be found here](documentation/)
+Latest data from the google sheet (10-20 minutes delayed) is available through the `latest` end-point.
+These are the files available
 
-### JSON Endpoints
+#### Raw Data
 
-| Status        | Data                                                                         | URL                                                     |
-| ------------- | ---------------------------------------------------------------------------- | ------------------------------------------------------- |
-| :green_heart: | Patient Level : Raw Data Partition 1 (Till Apr 19)                           | <https://api.covid19india.org/raw_data1.json>           |
-| :green_heart: | Patient Level : Raw Data Partition 2 (From Apr 20 to Apr 26)                 | <https://api.covid19india.org/raw_data2.json>           |
-| :green_heart: | Patient Level : Raw Data Partition 3 (From Apr 27 to May 09)                 | <https://api.covid19india.org/raw_data3.json>           |
-| :green_heart: | Patient Level : Raw Data Partition 4 (From May 10 to May 23)                 | <https://api.covid19india.org/raw_data4.json>           |
-| :green_heart: | Patient Level : Raw Data Partition 5 (From May 24 to Jun 04)                 | <https://api.covid19india.org/raw_data5.json>           |
-| :green_heart: | Patient Level : Raw Data Partition 6 (From Jun 05 to Jun 19)                 | <https://api.covid19india.org/raw_data6.json>           |
-| :green_heart: | Patient Level : Raw Data Partition 7 (From Jun 20 to Jun 30)                 | <https://api.covid19india.org/raw_data7.json>           |
-| :green_heart: | Patient Level : Raw Data Partition 8 (From Jul 01 to Jul 07)                 | <https://api.covid19india.org/raw_data8.json>           |
-| :green_heart: | Patient Level : Raw Data Partition 9 (From Jul 08 to Jul 13)                 | <https://api.covid19india.org/raw_data9.json>           |
-| :green_heart: | Patient Level : Raw Data Partition 10 (From Jul 14 to Jul 17)                | <https://api.covid19india.org/raw_data10.json>          |
-| :green_heart: | Patient Level : Raw Data Partition 11 (From Jul 18 to Jul 22)                | <https://api.covid19india.org/raw_data11.json>          |
-| :green_heart: | Patient Level : Raw Data Partition 12 (From Jul 23 to Aug 06)                | <https://api.covid19india.org/raw_data12.json>          |
-| :green_heart: | Patient Level : Raw Data Partition 13 (From Aug 07 to Aug 21)                | <https://api.covid19india.org/raw_data13.json>          |
-| :green_heart: | Patient Level : Raw Data Partition 14 (From Aug 22 to Sep 05)                | <https://api.covid19india.org/raw_data14.json>          |
-| :green_heart: | Patient Level : Raw Data Partition 15 (From Sep 06 to Sep 21)                | <https://api.covid19india.org/raw_data15.json>          |
-| :green_heart: | Patient Level : Raw Data Partition 16 (From Sep 22 to Oct 08)                | <https://api.covid19india.org/raw_data16.json>          |
-| :green_heart: | Patient Level : Raw Data Partition 17 (From Oct 09 to Oct 26)                | <https://api.covid19india.org/raw_data17.json>          |
-| :green_heart: | Patient Level : Raw Data Partition 18 (From Oct 27 to Nov 12)                | <https://api.covid19india.org/raw_data18.json>          |
-| :green_heart: | Patient Level : Raw Data Partition 19 (From Nov 13 to Nov 30th)              | <https://api.covid19india.org/raw_data19.json>          |
-| :green_heart: | Patient Level : Raw Data Partition 20 (From Dec 01 to Dec 19th)              | <https://api.covid19india.org/raw_data20.json>          |
-| :green_heart: | Patient Level : Raw Data Partition 21 (From Dec 20th onwards)                | <https://api.covid19india.org/raw_data21.json>          |
-| :green_heart: | National Level :Time series, State-wise stats and Test counts                | <https://api.covid19india.org/data.json>                |
-| :green_heart: | State Level : has district-wise info                                         | <https://api.covid19india.org/state_district_wise.json> |
-| :green_heart: | State Level : Daily changes                                                  | <https://api.covid19india.org/states_daily.json>        |
-| :green_heart: | State Level : Testing data                                                   | <https://api.covid19india.org/state_test_data.json>     |
-| :green_heart: | National/State/District Level : Latest cumulative/daily counts               | <https://api.covid19india.org/v4/data.json>             |
-| :green_heart: | National/State/District Level : Specific date cummulative/daily counts       | <https://api.covid19india.org/v4/data-YYYY-MM-DD.json>  |
-| :green_heart: | National/State/District Level : Historical date-wise cumulative/daily counts | <https://api.covid19india.org/v4/data-all.json>         |
-| :green_heart: | National/State Level: Timeseries_(different structure)_                      | <https://api.covid19india.org/v4/timeseries.json>       |
-| :green_heart: | State & District Level: Population                                           | <https://api.covid19india.org/misc.json>                |
+| Status        | Sheet Name | Link to CSV                                              | Description            |
+| ------------- | ---------- | -------------------------------------------------------- | ---------------------- |
+| :green_heart: | raw_data1  | <https://api.covid19india.org/csv/latest/raw_data1.csv>  | Till Apr 19th          |
+| :green_heart: | raw_data2  | <https://api.covid19india.org/csv/latest/raw_data2.csv>  | Apr 20th to Apr 26th   |
+| :green_heart: | raw_data3  | <https://api.covid19india.org/csv/latest/raw_data3.csv>  | Apr 27th to May 9th    |
+| :green_heart: | raw_data4  | <https://api.covid19india.org/csv/latest/raw_data4.csv>  | May 10th to May 23rd   |
+| :green_heart: | raw_data5  | <https://api.covid19india.org/csv/latest/raw_data5.csv>  | May 24th to Jun 4th    |
+| :green_heart: | raw_data6  | <https://api.covid19india.org/csv/latest/raw_data6.csv>  | Jun 05th to Jun 19th   |
+| :green_heart: | raw_data7  | <https://api.covid19india.org/csv/latest/raw_data7.csv>  | Jun 20th to Jun 30th   |
+| :green_heart: | raw_data8  | <https://api.covid19india.org/csv/latest/raw_data8.csv>  | Jul 01st to Jul 7th    |
+| :green_heart: | raw_data9  | <https://api.covid19india.org/csv/latest/raw_data9.csv>  | Jul 08th to Jul 13th   |
+| :green_heart: | raw_data10 | <https://api.covid19india.org/csv/latest/raw_data10.csv> | Jul 14th to Jul 17th   |
+| :green_heart: | raw_data11 | <https://api.covid19india.org/csv/latest/raw_data11.csv> | Jul 18th to Jul 22nd   |
+| :green_heart: | raw_data12 | <https://api.covid19india.org/csv/latest/raw_data12.csv> | Jul 23th to Aug 06th   |
+| :green_heart: | raw_data13 | <https://api.covid19india.org/csv/latest/raw_data13.csv> | Aug 07th to Aug 21st   |
+| :green_heart: | raw_data14 | <https://api.covid19india.org/csv/latest/raw_data14.csv> | Aug 22nd to Sep 05th   |
+| :green_heart: | raw_data15 | <https://api.covid19india.org/csv/latest/raw_data15.csv> | Sep 06th to Sep 21st   |
+| :green_heart: | raw_data16 | <https://api.covid19india.org/csv/latest/raw_data16.csv> | Sep 22nd to Oct 08th   |
+| :green_heart: | raw_data17 | <https://api.covid19india.org/csv/latest/raw_data17.csv> | Oct 09th to Oct 26th   |
+| :green_heart: | raw_data18 | <https://api.covid19india.org/csv/latest/raw_data18.csv> | Oct 27th to Nov 12th   |
+| :green_heart: | raw_data19 | <https://api.covid19india.org/csv/latest/raw_data19.csv> | Nov 13th to Nov 30th   |
+| :green_heart: | raw_data20 | <https://api.covid19india.org/csv/latest/raw_data20.csv> | Dec 01st to Dec 19th   |
+| :green_heart: | raw_data21 | <https://api.covid19india.org/csv/latest/raw_data21.csv> | Dec 20th to Jan 08th   |
+| :green_heart: | raw_data22 | <https://api.covid19india.org/csv/latest/raw_data22.csv> | Jan 09th to Jan 31st   |
+| :green_heart: | raw_data23 | <https://api.covid19india.org/csv/latest/raw_data23.csv> | Feb 01st onwards       |
 
-### CSV
 
-Sometimes, having files in a spreadsheet format is more useful for analysts and scientists. We have provided the files as downloadable csv files at the following location.
+#### Other Sheets
 
-| Data                 | URL                                               |
-| -------------------- | ------------------------------------------------- |
-| Google sheets in CSV | <https://api.covid19india.org/documentation/csv/> |
+| Status        | Sheet Name                    | Link to CSV                                                                 | Description                                                                                     |
+| ------------- | ----------------------------- | --------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| :green_heart: | case_time_series              | <https://api.covid19india.org/csv/latest/case_time_series.csv>              | Time series of Confirmed, Recovered and Deceased cases in India
+| :green_heart: | state_wise                    | <https://api.covid19india.org/csv/latest/state_wise.csv>                    | The latest State-wise situation                                                                 |                                        |
+| :green_heart: | district_wise                 | <https://api.covid19india.org/csv/latest/district_wise.csv>                 | The latest District-wise  situation                                                      |
+| :green_heart: | state_wise_daily              | <https://api.covid19india.org/csv/latest/state_wise_daily.csv>              | Statewise timeseries of Confirmed, Recovered and Deceased numbers.  
+| :green_heart: | states                        | <https://api.covid19india.org/csv/latest/states.csv>                        | Statewise timeseries of Confirmed, Recovered and Deceased numbers in long format  
+| :green_heart: | districts                        | <https://api.covid19india.org/csv/latest/districts.csv>                  | Districtwise timeseries of Confirmed, Recovered and Deceased numbers in long format                           |
+| :green_heart: | statewise_tested_numbers_data | <https://api.covid19india.org/csv/latest/statewise_tested_numbers_data.csv> | Number of tests conducted in each state, ventilators ,hospital bed occupany reported in state bulletins |
+| :green_heart: | tested_numbers_icmr_data      | <https://api.covid19india.org/csv/latest/tested_numbers_icmr_data.csv>      | Number of tests reported by ICMR                                                                |
+| :green_heart: | icmr_labs_statewise      | <https://api.covid19india.org/csv/latest/icmr_labs_statewise.csv>      | Number of Labs in each state as per ICMR                                                                |
+| :green_heart: | sources_list                  | <https://api.covid19india.org/csv/latest/sources_list.csv>                  | List of sources that we are using.                                                              |
+| :green_heart: | rtpcr_samples_collected       | <http://api.covid19india.org/csv/latest/icmr_rtpcr_tests_daily.csv>          | Number of RTPCR samples collected statewise in ICMR Application                             |
 
+#### Note
+
+- Use raw data files only if you need to analyze the demographics or notes related at a patient level
+- Always try to use the aggregated numbers above as they have been treated for discrepancies
+
+#### How to
+
+If you prefer working on a Google Sheet instead of downloading the files and would like the data to reflect the latest version - below is an example to live fetch this CSV to a spreadsheet.
 > :rocket: Quick example : Apply the formula `=IMPORTDATA("https://api.covid19india.org/csv/latest/state_wise.csv")` in A1 cell of a Google Sheets to get the state data for analysis :)
 
 ## How this works
@@ -82,10 +95,8 @@ You can cite us in your work in the following format
 
 ## Contributing
 
-- Contributions to new data formats and making the data fetch process more efficient are welcome.
-- Please create a GH issue and discuss your idea before working on the same.
+- All public contribution efforts to this project has ended. A big thanks to everyone who did. We only do maintenance operations and bug reports.
 - Report issues regarding <https://www.covid19india.org> website in the [react-site repository](https://github.com/covid19india/covid19india-react/issues)
-- DO NOT change anything in `gh-pages` branch directly as they get replaced automatically every 10 minutes.
 
 ## Quick Links
 

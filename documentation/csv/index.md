@@ -1,5 +1,7 @@
 # COVID19-India API
 
+## Announcement
+We have stopped capturing testing data at a district level. Please check the status of the API endpoints below.
 ## CSV
 
 Sometimes, having files in a spreadsheet format is more useful for analysts and scientists. We have provided the files as downloadable csv files as below.
@@ -34,7 +36,8 @@ These are the files available
 | :green_heart: | raw_data19 | <https://api.covid19india.org/csv/latest/raw_data19.csv> | Nov 13th to Nov 30th   |
 | :green_heart: | raw_data20 | <https://api.covid19india.org/csv/latest/raw_data20.csv> | Dec 01st to Dec 19th   |
 | :green_heart: | raw_data21 | <https://api.covid19india.org/csv/latest/raw_data21.csv> | Dec 20th to Jan 08th   |
-| :green_heart: | raw_data22 | <https://api.covid19india.org/csv/latest/raw_data22.csv> | Jan 09th onwards       |
+| :green_heart: | raw_data22 | <https://api.covid19india.org/csv/latest/raw_data22.csv> | Jan 09th to Jan 31st   |
+| :green_heart: | raw_data23 | <https://api.covid19india.org/csv/latest/raw_data23.csv> | Feb 01st onwards       |
 
 
 #### Other Sheets
@@ -55,7 +58,7 @@ These are the files available
 
 #### Note
 
-- Use raw data files only if you need to analyze the demographics or Notes related at a patient level
+- Use raw data files only if you need to analyze the demographics or notes related at a patient level
 - Always try to use the aggregated numbers above as they have been treated for discrepancies
 
 #### How to
