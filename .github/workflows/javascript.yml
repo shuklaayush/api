@@ -61,6 +61,7 @@ jobs:
           SHEET_ID_v21: ${{ secrets.SHEET_ID_v21 }}
           SHEET_ID_v22: ${{ secrets.SHEET_ID_v22 }}
           SHEET_ID_v23: ${{ secrets.SHEET_ID_v23 }}
+          SHEET_ID_v24: ${{ secrets.SHEET_ID_v24 }}
           RESOURCES_SHEET_ID: ${{ secrets.RESOURCES_SHEET_ID }}
           SHEET_LOCALE: ${{ secrets.SHEET_LOCALE }}
           STUCK_BOT: ${{ secrets.STUCK_BOT }}

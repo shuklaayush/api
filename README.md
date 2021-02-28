@@ -37,8 +37,8 @@ These are the files available
 | :green_heart: | raw_data20 | <https://api.covid19india.org/csv/latest/raw_data20.csv> | Dec 01st to Dec 19th   |
 | :green_heart: | raw_data21 | <https://api.covid19india.org/csv/latest/raw_data21.csv> | Dec 20th to Jan 08th   |
 | :green_heart: | raw_data22 | <https://api.covid19india.org/csv/latest/raw_data22.csv> | Jan 09th to Jan 31st   |
-| :green_heart: | raw_data23 | <https://api.covid19india.org/csv/latest/raw_data23.csv> | Feb 01st onwards       |
-
+| :green_heart: | raw_data23 | <https://api.covid19india.org/csv/latest/raw_data23.csv> | Feb 01st to Feb 27st   |
+| :green_heart: | raw_data24 | <https://api.covid19india.org/csv/latest/raw_data24.csv> | Feb 28th onwards       |
 
 #### Other Sheets
 
@@ -55,7 +55,7 @@ These are the files available
 | :green_heart: | icmr_labs_statewise      | <https://api.covid19india.org/csv/latest/icmr_labs_statewise.csv>      | Number of Labs in each state as per ICMR                                                                |
 | :green_heart: | sources_list                  | <https://api.covid19india.org/csv/latest/sources_list.csv>                  | List of sources that we are using.                                                              |
 | :green_heart: | rtpcr_samples_collected       | <http://api.covid19india.org/csv/latest/icmr_rtpcr_tests_daily.csv>          | Number of RTPCR samples collected statewise in ICMR Application                             |
-
+| :green_heart: | vaccine_doses_administered_statewise      | <http://api.covid19india.org/csv/latest/vaccine_doses_statewise.csv>  | Number of vaccine doses administered statewise                                 |
 #### Note
 
 - Use raw data files only if you need to analyze the demographics or notes related at a patient level
@@ -66,49 +66,19 @@ These are the files available
 If you prefer working on a Google Sheet instead of downloading the files and would like the data to reflect the latest version - below is an example to live fetch this CSV to a spreadsheet.
 > :rocket: Quick example : Apply the formula `=IMPORTDATA("https://api.covid19india.org/csv/latest/state_wise.csv")` in A1 cell of a Google Sheets to get the state data for analysis :)
 
-## How this works
+#### Contributing
 
-- Data in this repository is generated from Google Sheets
-- Volunteers collect data from trusted sources and update the sheet
-- Github Actions periodically fetch the data from the sheet and upload static json and csv files into `gh-pages` branch of this repo
-- `gh-pages` serves the json/csv files at <https://api.covid19india.org>
+- If you notice issues, have questions or want to suggest enhancements, please raise an issue in the repo.
 
-## License
+#### Quick Links
 
-This repository contains both the code that routinely fetches the data from Google Sheet and convert it into JSON files in the required format and the data itself (in the gh-pages branch). So, the content of this repository is licensed in two ways : Code and Data
+If you're looking for the json files
 
-License for Code (Consider this as everything in the `master` branch) : MIT License (Detailed in LICENSE_CODE.txt)  
-License for Data (Consider this as everything in the `gh-pages` branch) : CC-BY-4.0 License (Detailed in LICENSE_DATA.txt)
+- [API](https://api.covid19india.org)
 
-## Citation
+A more detailed note of the columns present in the data may be found in the json documentation
 
-You can cite us in your work in the following format  
+- [Documentation](https://api.covid19india.org/documentation)
 
-```tex
-@misc{covid19indiaorg2020tracker,
-  author = {COVID-19 India Org Data Operations Group},
-  title = {{Dataset for tracking COVID-19 spread in India}},
-  howpublished = {Accessed on yyyy-mm-dd from \url{https://api.covid19india.org/}},
-  year = 2020
-}
-```
-
-## Contributing
-
-- All public contribution efforts to this project has ended. A big thanks to everyone who did. We only do maintenance operations and bug reports.
-- Report issues regarding <https://www.covid19india.org> website in the [react-site repository](https://github.com/covid19india/covid19india-react/issues)
-
-## Quick Links
-
-- [Telegram Group](https://telegra.ph/CoVID-19--India-Ops-03-24)
-- [Sources Considered](https://telegra.ph/Covid-19-Sources-03-19)
-
------
-
-## Team Projects Using This API
-
-- [COVID-19 INDIA TRACKER](https://www.covid19india.org/) (Main Dashboard)
-- [covid19india.org Ops Telegram Channel](https://t.me/covid19indiaorg) (News and Announcements from covid19india.org Team)
-- [covid19india.org Instant Updates](https://t.me/covid19indiaorg_updates) (Instant Updates of new cases added - from covid19india.org Team)
 
 ..............................................
