@@ -40,7 +40,7 @@ STATE_TEST_DATA = ROOT_DIR / 'state_test_data.json'
 # District testing data
 DISTRICT_TEST_DATA = CSV_DIR / 'district_testing.csv'
 # State vaccination data
-STATE_VACCINATION_DATA = CSV_DIR / 'vaccine_doses_statewise.csv'
+STATE_VACCINATION_DATA = ROOT_DIR / 'state_vaccinated_data.json'
 
 ## For adding metadata
 # For state notes and last updated
@@ -507,43 +507,54 @@ def parse_district_test(reader):
             'last_updated'] = date
 
 
-def parse_state_vaccination(reader):
-  for i, row in enumerate(reader):
-    # Pop state name from dict
-    state_name = row.pop('State').strip().lower()
+def parse_state_vaccination(raw_data):
+  for j, entry in enumerate(raw_data['states_vaccinated_data']):
+    count_str = entry['totaldosesadministered'].strip()
+    if not count_str:
+      continue
+
+    try:
+      fdate = datetime.strptime(entry['updatedon'].strip(), '%d/%m/%Y')
+      date = datetime.strftime(fdate, '%Y-%m-%d')
+      if date < '2020-01-01' or date > INDIA_DATE:
+        # Entries from future dates will be ignored and logged
+        logging.warning('[L{}] [Future/past date: {}] {}'.format(
+            j + 2, entry['updatedon'], entry['state']))
+        continue
+    except ValueError:
+      # Bad date
+      logging.warning('[L{}] [Bad date: {}] {}'.format(j + 2,
+                                                       entry['updatedon'],
+                                                       entry['state']))
+      continue
+
+    state_name = entry['state'].strip().lower()
     try:
       state = STATE_CODES[state_name]
     except KeyError:
-      # Entries with empty state names are discarded
-      if state_name:
-        # Unrecognized state entries are discarded and logged
-        logging.warning('[L{}] [Bad state: {}]'.format(i + 2, state_name))
+      # Entries having unrecognized state names are discarded
+      logging.warning('[L{}] [{}] [Bad state: {}]'.format(
+          j + 2, entry['updatedon'], entry['state']))
       continue
 
-    for j, date_raw in enumerate(row):
-      try:
-        fdate = datetime.strptime(date_raw.strip(), '%d/%m/%Y')
-        date = datetime.strftime(fdate, '%Y-%m-%d')
-        if date < '2020-01-01' or date > INDIA_DATE:
-          # Entries from future/past dates will be ignored
-          continue
-      except ValueError:
-        # Bad date
-        if not j:
-          logging.warning('[{}] Bad date: {}'.format(column_str(j + 2),
-                                                     date_raw))
-      count_str = row[date_raw]
+    try:
+      count = int(count_str)
+    except ValueError:
+      logging.warning('[L{}] [{}] [Bad totaldosesadministered: {}] {}'.format(
+          j + 2, entry['updatedon'], entry['totaldosesadministered'],
+          entry['state']))
+      continue
 
-      try:
-        count = int(count_str)
-      except ValueError:
-        if count_str:
-          logging.warning('[L{} {}] [{}] [Bad vaccinated: {}] {}'.format(
-              i + 2, column_str(j + 2), date_raw, row[date_raw], state))
-        continue
-
-      if count:
-        data[date][state]['total']['vaccinated'] = count
+    if count:
+      data[date][state]['total']['vaccinated'] = count
+      #  data[date][state]['meta']['vaccinated']['last_updated'] = date
+      # Add district entry too for single-district states
+      if state in SINGLE_DISTRICT_STATES:
+        # District/State name
+        district = SINGLE_DISTRICT_STATES[state] or STATE_NAMES[state]
+        data[date][state]['districts'][district]['total']['vaccinated'] = count
+        #  data[date][state]['districts'][district]['meta']['vaccinated'][
+        #      'last_updated'] = date
 
 
 def contains(raw_data, keys):
@@ -1070,8 +1081,8 @@ if __name__ == '__main__':
   logging.info('Parsing vaccination data for states...')
   with open(STATE_VACCINATION_DATA, 'r') as f:
     logging.info('File: {}'.format(STATE_VACCINATION_DATA.name))
-    reader = csv.DictReader(f)
-    parse_state_vaccination(reader)
+    raw_data = json.load(f, object_pairs_hook=OrderedDict)
+    parse_state_vaccination(raw_data)
   logging.info('Done!')
 
   # Fill delta values for tested
