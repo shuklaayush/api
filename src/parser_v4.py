@@ -40,7 +40,7 @@ STATE_TEST_DATA = ROOT_DIR / 'state_test_data.json'
 # District testing data
 DISTRICT_TEST_DATA = CSV_DIR / 'district_testing.csv'
 # State vaccination data
-STATE_VACCINATION_DATA = ROOT_DIR / 'state_vaccinated_data.json'
+STATE_VACCINATION_DATA = ROOT_DIR / 'cowin_vaccine_data_statewise.json'
 
 ## For adding metadata
 # For state notes and last updated
