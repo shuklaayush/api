@@ -1,5 +1,7 @@
 # COVID19-India API
 
+# COVID19-India API
+
 ## Announcement
 We have stopped capturing testing data at a district level. Please check the status of the API endpoints below.
 ## CSV
@@ -56,6 +58,9 @@ These are the files available
 | :green_heart: | sources_list                  | <https://api.covid19india.org/csv/latest/sources_list.csv>                  | List of sources that we are using.                                                              |
 | :green_heart: | rtpcr_samples_collected       | <http://api.covid19india.org/csv/latest/icmr_rtpcr_tests_daily.csv>          | Number of RTPCR samples collected statewise in ICMR Application                             |
 | :green_heart: | vaccine_doses_administered_statewise      | <http://api.covid19india.org/csv/latest/vaccine_doses_statewise.csv>  | Number of vaccine doses administered statewise                                 |
+| :green_heart: | cowin_vaccine_data_statewise      | <http://api.covid19india.org/csv/latest/cowin_vaccine_data_statewise.csv>  | Key data points from CoWin database                                |
+
+
 #### Note
 
 - Use raw data files only if you need to analyze the demographics or notes related at a patient level
