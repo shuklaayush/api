@@ -36,11 +36,11 @@ GOSPEL_DATE = '2020-04-26'
 # India testing data
 ICMR_TEST_DATA = ROOT_DIR / 'data.json'
 # States testing data
-STATE_TEST_DATA = ROOT_DIR / 'state_test_data.json'
+STATE_TEST_DATA = CSV_DIR / 'statewise_tested_numbers_data.csv'
 # District testing data
 DISTRICT_TEST_DATA = CSV_DIR / 'district_testing.csv'
 # State vaccination data
-STATE_VACCINATION_DATA = ROOT_DIR / 'cowin_vaccine_data_statewise.json'
+STATE_VACCINATION_DATA = CSV_DIR / 'cowin_vaccine_data_statewise.csv'
 
 ## For adding metadata
 # For state notes and last updated
@@ -378,46 +378,46 @@ def parse_icmr(icmr_data):
         data[date]['TT']['meta'][statistic]['last_updated'] = date
 
 
-def parse_state_test(raw_data):
-  for j, entry in enumerate(raw_data['states_tested_data']):
-    count_str = entry['totaltested'].strip()
+def parse_state_test(reader):
+  for j, entry in enumerate(reader):
+    count_str = entry['Total Tested'].strip()
     if not count_str:
       continue
 
     try:
-      fdate = datetime.strptime(entry['updatedon'].strip(), '%d/%m/%Y')
+      fdate = datetime.strptime(entry['Updated On'].strip(), '%d/%m/%Y')
       date = datetime.strftime(fdate, '%Y-%m-%d')
       if date < '2020-01-01' or date > INDIA_DATE:
         # Entries from future dates will be ignored and logged
         logging.warning('[L{}] [Future/past date: {}] {}'.format(
-            j + 2, entry['updatedon'], entry['state']))
+            j + 2, entry['Updated On'], entry['State']))
         continue
     except ValueError:
       # Bad date
       logging.warning('[L{}] [Bad date: {}] {}'.format(j + 2,
-                                                       entry['updatedon'],
-                                                       entry['state']))
+                                                       entry['Updated On'],
+                                                       entry['State']))
       continue
 
-    state_name = entry['state'].strip().lower()
+    state_name = entry['State'].strip().lower()
     try:
       state = STATE_CODES[state_name]
     except KeyError:
       # Entries having unrecognized state names are discarded
       logging.warning('[L{}] [{}] [Bad state: {}]'.format(
-          j + 2, entry['updatedon'], entry['state']))
+          j + 2, entry['Updated On'], entry['State']))
       continue
 
     try:
       count = int(count_str)
     except ValueError:
-      logging.warning('[L{}] [{}] [Bad totaltested: {}] {}'.format(
-          j + 2, entry['updatedon'], entry['totaltested'], entry['state']))
+      logging.warning('[L{}] [{}] [Bad Total Tested: {}] {}'.format(
+          j + 2, entry['Updated On'], entry['Total Tested'], entry['State']))
       continue
 
     if count:
       data[date][state]['total']['tested'] = count
-      data[date][state]['meta']['tested']['source'] = entry['source1'].strip()
+      data[date][state]['meta']['tested']['source'] = entry['Source1'].strip()
       data[date][state]['meta']['tested']['last_updated'] = date
       # Add district entry too for single-district states
       if state in SINGLE_DISTRICT_STATES:
@@ -425,7 +425,7 @@ def parse_state_test(raw_data):
         district = SINGLE_DISTRICT_STATES[state] or STATE_NAMES[state]
         data[date][state]['districts'][district]['total']['tested'] = count
         data[date][state]['districts'][district]['meta']['tested'][
-            'source'] = entry['source1'].strip()
+            'source'] = entry['Source1'].strip()
         data[date][state]['districts'][district]['meta']['tested'][
             'last_updated'] = date
 
@@ -507,42 +507,42 @@ def parse_district_test(reader):
             'last_updated'] = date
 
 
-def parse_state_vaccination(raw_data):
-  for j, entry in enumerate(raw_data['states_vaccinated_data']):
-    count_str = entry['totaldosesadministered'].strip()
+def parse_state_vaccination(reader):
+  for j, entry in enumerate(reader):
+    count_str = entry['Total Doses Administered'].strip()
     if not count_str:
       continue
 
     try:
-      fdate = datetime.strptime(entry['updatedon'].strip(), '%d/%m/%Y')
+      fdate = datetime.strptime(entry['Updated On'].strip(), '%d/%m/%Y')
       date = datetime.strftime(fdate, '%Y-%m-%d')
       if date < '2020-01-01' or date > INDIA_DATE:
         # Entries from future dates will be ignored and logged
         logging.warning('[L{}] [Future/past date: {}] {}'.format(
-            j + 2, entry['updatedon'], entry['state']))
+            j + 2, entry['Updated On'], entry['State']))
         continue
     except ValueError:
       # Bad date
       logging.warning('[L{}] [Bad date: {}] {}'.format(j + 2,
-                                                       entry['updatedon'],
-                                                       entry['state']))
+                                                       entry['Updated On'],
+                                                       entry['State']))
       continue
 
-    state_name = entry['state'].strip().lower()
+    state_name = entry['State'].strip().lower()
     try:
       state = STATE_CODES[state_name]
     except KeyError:
       # Entries having unrecognized state names are discarded
       logging.warning('[L{}] [{}] [Bad state: {}]'.format(
-          j + 2, entry['updatedon'], entry['state']))
+          j + 2, entry['Updated On'], entry['State']))
       continue
 
     try:
       count = int(count_str)
     except ValueError:
-      logging.warning('[L{}] [{}] [Bad totaldosesadministered: {}] {}'.format(
-          j + 2, entry['updatedon'], entry['totaldosesadministered'],
-          entry['state']))
+      logging.warning('[L{}] [{}] [Bad Total Doses Administered: {}] {}'.format(
+          j + 2, entry['Updated On'], entry['Total Doses Administered'],
+          entry['State']))
       continue
 
     if count:
@@ -1065,8 +1065,8 @@ if __name__ == '__main__':
   logging.info('Parsing test data for all states...')
   with open(STATE_TEST_DATA, 'r') as f:
     logging.info('File: {}'.format(STATE_TEST_DATA.name))
-    raw_data = json.load(f, object_pairs_hook=OrderedDict)
-    parse_state_test(raw_data)
+    reader = csv.DictReader(f)
+    parse_state_test(reader)
   logging.info('Done!')
 
   logging.info('-' * PRINT_WIDTH)
@@ -1081,8 +1081,8 @@ if __name__ == '__main__':
   logging.info('Parsing vaccination data for states...')
   with open(STATE_VACCINATION_DATA, 'r') as f:
     logging.info('File: {}'.format(STATE_VACCINATION_DATA.name))
-    raw_data = json.load(f, object_pairs_hook=OrderedDict)
-    parse_state_vaccination(raw_data)
+    reader = csv.DictReader(f)
+    parse_state_vaccination(reader)
   logging.info('Done!')
 
   # Fill delta values for tested
